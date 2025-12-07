@@ -1,0 +1,42 @@
+[
+  {
+    "unitTitle": "1. The Nature & Variety of Living Organisms",
+    "chapters": [
+      {
+        "chapterTitle": "Characteristics of Living Organisms",
+        "isDefaultOpen": true,
+        "subchapters": [
+          "Characteristics of Living Organisms",
+          "Common Features: Eukaryotic Organisms",
+          "Common Features: Prokaryotic Organisms",
+          "Pathogens"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. Structure & Function in Living Organisms",
+    "chapters": [
+      {
+        "chapterTitle": "Levels of Organisation",
+        "isDefaultOpen": false
+      },
+      {
+        "chapterTitle": "Cell Structure",
+        "isDefaultOpen": false
+      },
+      {
+        "chapterTitle": "Biological Molecules",
+        "isDefaultOpen": false
+      },
+      {
+        "chapterTitle": "Movement of Substances Into & Out of Cells",
+        "isDefaultOpen": false
+      },
+      {
+        "chapterTitle": "Nutrition",
+        "isDefaultOpen": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+:root {
+  --primary: #6c63ff;
+  --primary-light: #eceaff;
+}
+
+.home-title{
+  text-align: center;
+  font-family: 'JakartaSansBold';
+  font-size: 0.95rem;
+  padding-top: 20px;
+  height: 15px;
+}
+
+.home-desc{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-bottom: 10px
+}
+
+.subjects-table {
+  width: 75%;
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 40px;
+  padding: 10px 20px;
+  font-size: 0.5rem;
+  color: #787878;
+  background: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: 'JakartaSans';
+  font-weight: 100;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 40px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #222;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  transition: 0.2s;
+  font-size: 0.65rem;
+  font-family: 'JakartaSans';
+}
+
+.table-row:hover {
+  background: #f7f7ff;
+  .arrow{
+    color: var(--primary);
+  }
+}
+
+.subject-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'JakartaSans';
+  font-weight: 600;
+}
+
+.icon-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* subject colors */
+.icon-circle.maths { background: #f8453b; padding: 5px; width: 10px; height: 10px; }
+.icon-circle.bio { background: #4caf50; padding: 5px; width: 10px; height: 10px; }
+.icon-circle.chem { background: #3949ab; padding: 5px; width: 10px; height: 10px; }
+.icon-circle.phys { background: #f9a825; padding: 5px; width: 10px; height: 10px; }
+.icon-circle.eng { background: #7c6eff; padding: 5px; width: 10px; height: 10px; }
+.icon-circle.hist { background: #ff8a65; padding: 5px; width: 10px; height: 10px; }
+
+.arrow {
+  font-size: 1rem;
+  text-align: right;
+  color: #afafaf;
+  transition: 0.2s;
+}
+
+.title-row {
+  padding: 18px 20px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #e5e5e5;
+  color: #333;
+  font-weight: 600;
+}
+
+.curriculum{
+  color: #737373;
+  font-size: 0.6rem;
+}
+
+.row-title-row{
+  padding: 15px 20px;
+  font-size: 0.73rem;
+  font-family: 'JakartaSansBold';
+}
+
+.table-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+

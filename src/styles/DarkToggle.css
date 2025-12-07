@@ -1,0 +1,24 @@
+.dark-toggle {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+  transition: background 0.25s ease, color 0.25s ease, transform 0.15s ease;
+  z-index: 3000;
+}
+
+.dark-toggle:hover {
+  transform: scale(1.07);
+  background: var(--border);
+}

@@ -1,0 +1,227 @@
+/* src/styles/Hero.css */
+a{text-decoration: none;}
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+/* basic container (you may already have a global .container) */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero {
+  text-align: center;
+  padding: 5.5rem 1rem 3rem;
+  background: linear-gradient(to bottom, #cad2ff 0%, #ffffff 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-top-badge {
+  background: #fff;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  border: 1px solid #eef2ff;
+  box-shadow: 0 6px 18px rgba(11, 110, 253, 0.04);
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.25rem;
+  display: inline-block;
+}
+
+.star-icon {
+  color: #F8C630;
+  font-size: 1rem;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #2d2d2d;
+  line-height: 1.05;
+  margin: 0 0 0.6rem;
+  max-width: 920px;
+  font-family: 'JakartaSansBold';
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+.hero-title span {
+  display: inline-block;
+  position: relative;
+  color: #0f172a;
+  padding-bottom: 6px;
+}
+
+/* underline accent similar to screenshot */
+.hero-title span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 8px;
+  width: 100%;
+  background: rgba(59,130,246,0.18); /* blue highlight */
+  border-radius: 6px;
+  transform: translateY(6px);
+  z-index: -1;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #475569;
+  max-width: 700px;
+  margin: 0 auto 1.75rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.25rem;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg,#3b82f6,#7c3aed);
+  color: #ffffff;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0 8px 30px rgba(59,130,246,0.14);
+  transition: 0.3s;
+}
+
+.btn-primary:hover { filter: brightness(1.3); }
+.btn-primary:visited {color: #ffffff;}
+
+.btn-secondary {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover { background: #d6e3fe; }
+.btn-secondary:visited{color: #3730a3;}
+
+/* STAT CARDS WRAP (big rounded outer) */
+.stats-wrap {
+  margin-top: -1.25rem; /* overlap with hero bottom similar to screenshot */
+  padding: 1rem 0 3rem;
+}
+
+/* container for the cards with rounded outline */
+.stats-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid #f0f4f8;
+  box-shadow: 0 8px 28px rgba(2,6,23,0.04);
+}
+
+/* single stat card */
+.stat-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  background: linear-gradient(180deg, #fff, #fbfdff);
+  border-radius: 10px;
+  border: 1px solid #f5f7fb;
+  min-height: 84px;
+}
+
+/* content */
+.stat-title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #0f172a;
+  text-align: left;
+}
+
+.stat-sub {
+  font-size: 0.86rem;
+  color: #64748b;
+  margin-top: 6px;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .hero-title { font-size: 2rem; }
+  .stats-inner { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .hero-title { font-size: 1.6rem; }
+  .stats-inner { grid-template-columns: 1fr; }
+  .stat-card { padding: 12px; }
+  .stat-icon { width: 44px; height: 44px; font-size: 1.05rem; }
+}
+
+/* Icon background wrapper */
+.stat-icon-bg {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon colors */
+.icon {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Soft background colors */
+.pink  { background: #FDE4EB; }
+.blue  { background: #EAF3FF; }
+.green { background: #E6F6EA; }
+.yellow { background: #FFF8D9; }
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-title {
+  font-size: 1rem;      /* ← change this freely */
+  color: #222;
+  font-family: "JakartaSansBold";
+  font-weight: 100;
+}
+
+.stat-sub {
+  font-size: 0.6rem;      /* ← change this freely */
+  color: #555;
+  line-height: 1.35;
+}
+
+/* scroll anim */
+
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateX(-20px); /* if you want the “slide right” feel */
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
