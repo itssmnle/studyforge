@@ -87,7 +87,62 @@ export default function Hero() {
 
         </div>
       </div>
+            {/* --- WHY IT WORKS SECTION --- */}
+      <section className="why-it-works container fade-in-on-scroll">
+        <h2 className="why-title">Why it works</h2>
+
+        <div className="why-grid">
+          
+          <div className="why-card">
+            <div className="why-number">1</div>
+            <h3>Revise</h3>
+            <p className="why-sub">only what you need to</p>
+
+            <p>
+              Enjoy the <strong>relief and reassurance</strong> that every revision guide is written 
+              specifically for the syllabus, so you only revise what you need to know.
+            </p>
+
+            <p className="why-quote">“Never felt so relieved in my life”</p>
+            <p className="why-quote">
+              “Quite literally has saved my exams on multiple occasions”
+            </p>
+          </div>
+
+          <div className="why-card">
+            <div className="why-number">2</div>
+            <h3>Test yourself</h3>
+            <p className="why-sub">and check progress</p>
+
+            <p>
+              Feel <strong>empowered and confident</strong> going into exams knowing that 
+              you’ve covered all the topics and have a greater understanding of each subject.
+            </p>
+
+            <p className="why-quote">
+              “The tailored level of questions builds so much confidence within my students”
+            </p>
+          </div>
+
+          <div className="why-card">
+            <div className="why-number">3</div>
+            <h3>Improve</h3>
+            <p className="why-sub">answer by answer</p>
+
+            <p>
+              Gain <strong>certainty</strong> that you're answering questions that get 
+              <strong> maximum marks</strong>, with model answers for every question explained by an expert examiner or teacher.
+            </p>
+
+            <p className="why-quote">
+              “I went from a 6–7–7 in Year 10 to 9–9–9 for my real exams, only because of your superb resources”
+            </p>
+          </div>
+
+        </div>
+      </section>
 
     </section>
+    
   );
 }

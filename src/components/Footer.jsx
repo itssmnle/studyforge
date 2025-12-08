@@ -19,7 +19,7 @@ export default function Footer() {
 
               <div className="footer-col">
                 <h4>Members</h4>
-                <a href="launchpad">Launchpad</a>
+                <a href="/launchpad">Launchpad</a>
                 <a href="#">Account</a>
                 <a href="#">Log out</a>
               </div>

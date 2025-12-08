@@ -1,0 +1,209 @@
+[
+  {
+    "unitTitle": "1. Understanding Business Activity",
+    "chapters": [
+      {
+        "chapterTitle": "Business Activity, Needs, Wants & Specialisation",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Needs, wants, scarcity and opportunity cost",
+          "Purpose of business activity",
+          "Specialisation and division of labour",
+          "Adding value and how added value can be increased"
+        ]
+      },
+      {
+        "chapterTitle": "Classification of Businesses",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Primary, secondary and tertiary sectors",
+          "Private sector vs public sector in a mixed economy",
+          "Examples of businesses in different sectors"
+        ]
+      },
+      {
+        "chapterTitle": "Enterprise, Business Growth & Size",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Characteristics of successful entrepreneurs",
+          "Contents of a business plan",
+          "Why and how governments support start‑ups (grants, training schemes)",
+          "Methods of measuring business size (employees, output, capital employed)",
+          "Limitations of measuring business size"
+        ]
+      },
+      {
+        "chapterTitle": "Business Aims, Objectives & Stakeholders",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Common business objectives (profit, survival, growth, market share, etc.)",
+          "Possible conflicts between objectives",
+          "Stakeholders in business (owners, employees, customers, community, government)",
+          "Stakeholder objectives and influence on business decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. People in Business (Human Resources)",
+    "chapters": [
+      {
+        "chapterTitle": "Organisation & Management Structure",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Organisational structure (hierarchy, chain of command, span of control)",
+          "Types of organisational structures (tall, flat, matrix, etc.)",
+          "Internal & external communication"
+        ]
+      },
+      {
+        "chapterTitle": "Motivation & Workforce Management",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Why people work and what motivation means",
+          "Motivational theories (e.g. Maslow, Herzberg, Taylor)",
+          "Financial methods of motivation (wages, salary, bonuses, commission, profit sharing)",
+          "Non‑financial methods (job enrichment, rotation, training, promotion, teamwork)",
+          "Benefits of a motivated workforce: productivity, turnover, absenteeism"
+        ]
+      },
+      {
+        "chapterTitle": "Recruitment, Selection & Training",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Need for recruitment and selection processes",
+          "Methods of recruitment and selection (job ads, interviews, CVs, selection tests)",
+          "Induction and ongoing training",
+          "Importance of staff development and retention"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "3. Marketing",
+    "chapters": [
+      {
+        "chapterTitle": "Market Research & Segmentation",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Purpose of market research",
+          "Primary vs secondary research",
+          "Qualitative vs quantitative data",
+          "Market segmentation (geographic, demographic, psychographic, behavioural)"
+        ]
+      },
+      {
+        "chapterTitle": "Marketing Mix (4 Ps) and Strategy",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Product decisions (product range, design, quality, branding, packaging)",
+          "Price decisions (pricing methods, elasticity)",
+          "Place (distribution channels, logistics)",
+          "Promotion (advertising, sales promotion, public relations)",
+          "Marketing strategy: niche vs mass marketing, targeting foreign markets, adapting for culture/geography"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "4. Operations Management",
+    "chapters": [
+      {
+        "chapterTitle": "Production Methods & Productivity",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Different production methods (job, batch, mass, flow)",
+          "Factors affecting choice of production method",
+          "How to increase productivity and efficiency",
+          "Use of technology in production"
+        ]
+      },
+      {
+        "chapterTitle": "Cost, Revenue, Scale of Production & Break‑Even Analysis",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Fixed vs variable costs",
+          "Total cost, revenue, profit, loss",
+          "Break-even analysis: break-even point, margin of safety",
+          "Effects of changing costs, price, output"
+        ]
+      },
+      {
+        "chapterTitle": "Quality, Waste, Production Location Decision",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Importance of quality in products/services",
+          "Methods of quality control and assurance",
+          "Waste reduction and sustainable production",
+          "Factors influencing location decisions (cost, markets, labour, infrastructure, transport)"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "5. Financial Information & Decisions",
+    "chapters": [
+      {
+        "chapterTitle": "Sources of Finance",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Internal sources: retained profit, sale of assets",
+          "External: loans, overdrafts, shares, venture capital, crowd funding, grants",
+          "Advantages and disadvantages of different sources"
+        ]
+      },
+      {
+        "chapterTitle": "Financial Documents and Cash Flow Forecasting",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Cash-flow forecast: purpose, preparing forecasts, working capital",
+          "Statement of Financial Position (balance sheet basics)",
+          "Income statement (profit & loss account basics)",
+          "Use and limitations of financial statements"
+        ]
+      },
+      {
+        "chapterTitle": "Costs, Revenue, Profit, Account Analysis",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Break-even revisited in financial context",
+          "Revenue, costs, profit, loss calculations",
+          "Interpreting financial ratios (profitability, liquidity, efficiency) — optional/if in syllabus"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "6. External Influences on Business Activity",
+    "chapters": [
+      {
+        "chapterTitle": "Economic, Legal & Ethical Environment",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Economic influences: inflation, exchange rates, economic growth/contraction, interest rates",
+          "Legal constraints: labour laws, consumer protection, environmental regulations",
+          "Ethical issues and corporate social responsibility"
+        ]
+      },
+      {
+        "chapterTitle": "Globalisation, International Trade & Multinational Companies",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Global markets and trade",
+          "Multinational corporations: advantages/disadvantages",
+          "Exchange rates effect on international trade",
+          "Cultural and legal differences in international business"
+        ]
+      },
+      {
+        "chapterTitle": "Environmental & Social Factors",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Sustainability, environmental impact",
+          "Social responsibility: labour standards, community impact, stakeholder concerns",
+          "Effects of economic/political changes on business (e.g. recession, government policy)"
+        ]
+      }
+    ]
+  }
+]

@@ -1,41 +1,227 @@
 [
   {
-    "unitTitle": "1. The Nature & Variety of Living Organisms",
+    "unitTitle": "1. Characteristics and Classification of Living Organisms",
     "chapters": [
       {
         "chapterTitle": "Characteristics of Living Organisms",
-        "isDefaultOpen": true,
+        "isDefaultOpen": false,
         "subchapters": [
-          "Characteristics of Living Organisms",
-          "Common Features: Eukaryotic Organisms",
-          "Common Features: Prokaryotic Organisms",
-          "Pathogens"
+          "MRS C GREN: Movement, Respiration, Sensitivity, Cells, Growth, Reproduction, Excretion, Nutrition"
+        ]
+      },
+      {
+        "chapterTitle": "Classification of Living Organisms",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Kingdoms: plants, animals, fungi, protoctists, prokaryotes",
+          "Pathogens: fungi, bacteria, protoctists, viruses",
+          "Principles of taxonomy"
         ]
       }
     ]
   },
   {
-    "unitTitle": "2. Structure & Function in Living Organisms",
+    "unitTitle": "2. Organisation of the Organism",
     "chapters": [
       {
         "chapterTitle": "Levels of Organisation",
-        "isDefaultOpen": false
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Cell structure and organelles",
+          "Specialised cells",
+          "Tissues, organs, organ systems",
+          "Cell differentiation"
+        ]
       },
       {
-        "chapterTitle": "Cell Structure",
-        "isDefaultOpen": false
+        "chapterTitle": "Movement Into and Out of Cells",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Diffusion",
+          "Osmosis",
+          "Active transport",
+          "Factors affecting movement",
+          "Practical investigations"
+        ]
       },
       {
         "chapterTitle": "Biological Molecules",
-        "isDefaultOpen": false
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Carbohydrates",
+          "Proteins",
+          "Lipids",
+          "Water",
+          "Enzymes and enzyme activity"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "3. Nutrition, Gas Exchange and Transport",
+    "chapters": [
+      {
+        "chapterTitle": "Plant Nutrition",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Photosynthesis",
+          "Chlorophyll and leaf structure",
+          "Mineral nutrition (nitrate, magnesium)",
+          "Factors affecting photosynthesis",
+          "Practical: testing for starch"
+        ]
       },
       {
-        "chapterTitle": "Movement of Substances Into & Out of Cells",
-        "isDefaultOpen": false
+        "chapterTitle": "Human Nutrition",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Dietary requirements",
+          "Digestive system",
+          "Mechanical and chemical digestion",
+          "Absorption and assimilation"
+        ]
       },
       {
-        "chapterTitle": "Nutrition",
-        "isDefaultOpen": false
+        "chapterTitle": "Transport in Plants",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Xylem structure and function",
+          "Phloem structure and function",
+          "Transpiration",
+          "Factors affecting transpiration"
+        ]
+      },
+      {
+        "chapterTitle": "Transport in Animals",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Blood composition",
+          "Heart and circulation",
+          "Blood vessels",
+          "Pulse and blood pressure"
+        ]
+      },
+      {
+        "chapterTitle": "Gas Exchange in Humans",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Structure of the gas exchange system",
+          "Mechanism of breathing",
+          "Alveoli structure",
+          "Effects of smoking"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "4. Respiration, Excretion, Coordination and Response",
+    "chapters": [
+      {
+        "chapterTitle": "Respiration",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Aerobic respiration",
+          "Anaerobic respiration",
+          "Practical investigations"
+        ]
+      },
+      {
+        "chapterTitle": "Excretion",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Kidney structure",
+          "Formation of urine",
+          "Excretory organs: lungs, skin",
+          "Osmoregulation"
+        ]
+      },
+      {
+        "chapterTitle": "Coordination and Response",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Nervous system",
+          "Reflex actions",
+          "Sense organs",
+          "Hormones and endocrine system",
+          "Homeostasis"
+        ]
+      },
+      {
+        "chapterTitle": "Drugs",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Medicinal drugs",
+          "Misused drugs"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "5. Reproduction and Inheritance",
+    "chapters": [
+      {
+        "chapterTitle": "Reproduction",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Asexual reproduction",
+          "Sexual reproduction",
+          "Reproduction in flowering plants",
+          "Human reproductive system",
+          "Menstrual cycle",
+          "Pregnancy and development"
+        ]
+      },
+      {
+        "chapterTitle": "Inheritance",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Chromosomes and genes",
+          "DNA structure",
+          "Monohybrid inheritance",
+          "Sex-linked characteristics",
+          "Variation",
+          "Natural and artificial selection"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "6. Organisms and Their Environment",
+    "chapters": [
+      {
+        "chapterTitle": "Ecology",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Ecosystems, communities, habitats",
+          "Food chains and food webs",
+          "Trophic levels",
+          "Energy flow",
+          "Nutrient cycles (carbon, nitrogen)"
+        ]
+      },
+      {
+        "chapterTitle": "Human Influences on the Environment",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Pollution (air, water, soil)",
+          "Habitat destruction",
+          "Conservation and sustainability"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "7. Biotechnology and Genetic Engineering",
+    "chapters": [
+      {
+        "chapterTitle": "Biotechnology",
+        "isDefaultOpen": false,
+        "subchapters": [
+          "Use of microorganisms",
+          "Industrial fermentation",
+          "Genetic modification",
+          "Applications of enzymes"
+        ]
       }
     ]
   }

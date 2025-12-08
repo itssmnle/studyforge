@@ -20,12 +20,30 @@ export default function NotePage() {
     observer.observe(title);
   }, []);
 
+    useEffect(() => {
+    const targets = document.querySelectorAll(".fade-in-on-scroll");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0 }
+    );
+
+    targets.forEach(el => observer.observe(el));
+  }, []);
+
   return (
     <>
 
     {/* INTRO SECTION */}
     <section className="notes-intro">
-      <div className="notes-intro-left">
+      <div className="notes-intro-left fade-in-on-scroll">
         <h1 className="notes-intro-title">
           Revision Notes to <br />
           <span>boost your grades</span>
@@ -56,7 +74,7 @@ export default function NotePage() {
               const section = document.getElementById("subjects");
               if (!section) return;
 
-              const yOffset = 45; // ✅ push further DOWN
+              const yOffset = 0; // ✅ push further DOWN
               const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
               window.scrollTo({

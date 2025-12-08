@@ -1,45 +1,52 @@
 [
   {
-    "id": "atomic-structure",
-    "title": "Atomic Structure",
-    "content": "Atoms, elements, isotopes, electron shells.",
-    "sections": [
-      "Structure of the Atom",
-      "Isotopes",
-      "Electron Configuration",
-      "Periodic Table Basics"
+    "unitTitle": "1. The Nature of Matter",
+    "chapters": [
+      {
+        "chapterTitle": "States of Matter",
+        "subchapters": [
+          "Solids, Liquids, Gases",
+          "Particle Theory",
+          "Changes of State"
+        ]
+      },
+      {
+        "chapterTitle": "Atoms, Elements, Compounds",
+        "subchapters": [
+          "Atomic Structure",
+          "Periodic Table",
+          "Ionic and Covalent Bonding"
+        ]
+      }
     ]
   },
   {
-    "id": "bonding",
-    "title": "Bonding & Structure",
-    "content": "Ionic, covalent, metallic bonding and structures.",
-    "sections": [
-      "Ionic Bonding",
-      "Covalent Bonding",
-      "Metallic Bonding",
-      "Giant vs Simple Structures"
-    ]
-  },
-  {
-    "id": "reactivity",
-    "title": "Reactivity & Chemical Change",
-    "content": "Rates, energy changes, acids, bases, salts.",
-    "sections": [
-      "Rates of Reaction",
-      "Energy Changes",
-      "Acids and Bases",
-      "Neutralisation & Salts"
-    ]
-  },
-  {
-    "id": "states",
-    "title": "States of Matter",
-    "content": "Solids, liquids, gases, changes of state.",
-    "sections": [
-      "Particle Model",
-      "Changes of State",
-      "Purity & Separation"
+    "unitTitle": "2. Chemical Reactions",
+    "chapters": [
+      {
+        "chapterTitle": "Types of Reactions",
+        "subchapters": [
+          "Exothermic and Endothermic Reactions",
+          "Acid-Base Reactions",
+          "Oxidation-Reduction"
+        ]
+      },
+      {
+        "chapterTitle": "Rates of Reaction",
+        "subchapters": [
+          "Factors Affecting Rate",
+          "Catalysts",
+          "Collision Theory"
+        ]
+      },
+      {
+        "chapterTitle": "Stoichiometry",
+        "subchapters": [
+          "Moles and Avogadro's Number",
+          "Calculating Masses and Volumes",
+          "Limiting Reactants"
+        ]
+      }
     ]
   }
 ]

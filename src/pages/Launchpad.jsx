@@ -24,7 +24,7 @@ export default function Home() {
           <span></span>
         </div>
 
-        <Link to="/subjects/maths" className="table-row">
+        <Link to="/notes/maths" className="table-row">
           <div className="subject-info">
             <div className="icon-circle maths">
               <BiMath />
@@ -36,7 +36,7 @@ export default function Home() {
           <span className="arrow">→</span>
         </Link>
 
-        <Link to="/subjects/biology" className="table-row">
+        <Link to="/notes/biology" className="table-row">
           <div className="subject-info">
             <div className="icon-circle bio">
               <GiDna1 />
@@ -48,7 +48,7 @@ export default function Home() {
           <span className="arrow">→</span>
         </Link>
 
-        <Link to="/subjects/chemistry" className="table-row">
+        <Link to="/notes/chemistry" className="table-row">
           <div className="subject-info">
             <div className="icon-circle chem">
               <GiChemicalDrop />
@@ -60,7 +60,7 @@ export default function Home() {
           <span className="arrow">→</span>
         </Link>
 
-        <Link to="/subjects/physics" className="table-row">
+        <Link to="/notes/physics" className="table-row">
           <div className="subject-info">
             <div className="icon-circle phys">
               <MdOutlineScience />
@@ -72,7 +72,7 @@ export default function Home() {
           <span className="arrow">→</span>
         </Link>
 
-        <Link to="/subjects/english" className="table-row">
+        <Link to="/notes/english" className="table-row">
           <div className="subject-info">
             <div className="icon-circle eng">
               <MdMenuBook />
@@ -84,7 +84,7 @@ export default function Home() {
           <span className="arrow">→</span>
         </Link>
 
-        <Link to="/subjects/history" className="table-row">
+        <Link to="/notes/history" className="table-row">
           <div className="subject-info">
             <div className="icon-circle hist">
               <GiGreekTemple />

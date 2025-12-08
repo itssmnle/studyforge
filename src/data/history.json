@@ -1,0 +1,44 @@
+[
+  {
+    "unitTitle": "1. The 20th Century World",
+    "chapters": [
+      {
+        "chapterTitle": "World War I",
+        "subchapters": [
+          "Causes of WWI",
+          "Major Battles",
+          "Consequences"
+        ]
+      },
+      {
+        "chapterTitle": "World War II",
+        "subchapters": [
+          "Rise of Fascism",
+          "Key Battles and Events",
+          "Aftermath and Impact"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. International Relations",
+    "chapters": [
+      {
+        "chapterTitle": "Cold War",
+        "subchapters": [
+          "Origins of the Cold War",
+          "Key Conflicts",
+          "End of the Cold War"
+        ]
+      },
+      {
+        "chapterTitle": "Decolonisation & Global Conflicts",
+        "subchapters": [
+          "Independence Movements",
+          "Middle East Conflicts",
+          "United Nations"
+        ]
+      }
+    ]
+  }
+]

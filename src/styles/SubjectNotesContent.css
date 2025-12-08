@@ -1,159 +1,183 @@
-:root {
-  --primary: #6c63ff;
-  --primary-light: #eceaff;
-  --text-primary: #333;
-  --text-secondary: #555;
-  --card-bg: #fff;
-  --header-bg-light: #f8f8f8;
-  --border-light: #ddd;
-}
-
 /* --- Base Styles --- */
 .notes-page-container {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    font-family: "JakartaSans";
-    color: var(--text-primary); 
+max-width: 1200px;
+margin: 40px auto;
+padding: 20px;
+font-family: "JakartaSans";
+color: var(--text); 
 }
 
 /* --- Header Styles --- */
 .notes-page-container h1 {
-    font-size: 32px;
-    font-family: "JakartaSansBold";
-    margin-bottom: 5px;
+font-size: 32px;
+font-family: "JakartaSansBold";
+margin-bottom: 5px;
 }
 
 .exam-code {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--text-secondary);
-    margin-bottom: 15px;
-    padding: 2px 6px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+display: inline-block;
+font-weight: 600;
+font-size: 14px;
+color: var(--text);
+margin-bottom: 10px;
+padding: 4px 10px;
+border: 1px solid var(--border-light);
+border-radius: 6px;
+background-color: white;
 }
 
 .concise-text {
-    color: var(--text-secondary);
-    margin-bottom: 30px;
+color: var(--text);
+margin-bottom: 30px;
 }
 
 .header-separator {
-    border: none;
-    border-top: 1px solid var(--border-light);
-    margin-bottom: 40px;
+border: none;
+border-top: 1px solid var(--border-light);
+margin-bottom: 40px;
 }
 
-/* --- MAIN GRID --- */
 .content-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+padding: 0;
+background: transparent; /* no background behind units */
+border: none; /* no border behind units */
 }
 
-/* --- UNIT COLUMN BOX --- */
 .unit-column {
-    border: 1.5px solid var(--border-light);
-    border-radius: 16px;
-    padding: 24px;
-    background: white;
+padding: 0; /* remove padding around column */
+border: none; /* remove border on column */
+background: transparent; /* remove background */
+display: flex;
+flex-direction: column;
+gap: 40px; /* space between unit cards */
 }
 
-/* --- UNIT TITLE --- */
-.unit-column h2 {
-    font-size: 24px;
-    font-family: "JakartaSansBold";
-    margin-bottom: 24px;
+/* Each unit is its own card */
+.unit-card {
+border: 1.5px solid var(--border-light);
+border-radius: 16px;
+padding: 24px;
+background: var(--card);
+box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* subtle shadow for card */
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
 
-/* --- CARD --- */
+/* The unit title inside the card */
+.unit-card h2 {
+font-size: 20px;
+font-family: "JakartaSansBold";
+margin: 0; /* no margin to avoid spacing line */
+padding-bottom: 16px; /* small padding below title */
+border-bottom: 1px solid var(--border-light); /* no line separating title and content */
+}
+
+/* Accordion cards inside unit card */
 .chapter-card {
-    border: 1.5px solid var(--border-light);
-    border-radius: 14px;
-    margin-bottom: 18px;
-    overflow: hidden;
-    background: #f7f7f7;
+border: 1.5px solid var(--border-light);
+border-radius: 14px;
+margin: 0; /* remove margin to keep block continuous */
+background: var(--card);
+overflow: hidden;
+transition: 0.3s;
 }
 
-/* --- HEADER ROW --- */
+.chapter-card:hover .expand-icon{
+background-color: var(--border-light);
+}
+
+/* Accordion header */
 .card-header {
-    height: 66px;
-    padding: 0 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    font-size: 19px;
-    font-family: "JakartaSansBold";
+height: 66px;
+padding: 0 22px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+font-size: 14px;
+font-family: "JakartaSansBold";
+border-bottom: 1px solid var(--border-light);
+background: var(--bg-alt);
 }
 
-/* --- ICON CIRCLE --- */
+/* Accordion icon */
 .expand-icon {
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    border: 1.5px solid var(--border-light);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+border: 1.5px solid var(--border-light);
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
 }
 
-/* --- SUBCHAPTER ACCORDION --- */
+/* Accordion content */
 .subchapters-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  transition:
+    max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.18s ease-in-out;
 }
 
 .chapter-card.open .subchapters-list {
-    max-height: 400px;
+max-height: 400px;
+opacity: 1;
 }
 
-/* --- SUBCHAPTER ITEMS --- */
 .subchapters-list li {
-    padding: 12px 22px;
-    border-bottom: 1px solid #eee;
-    font-size: 15px;
+padding: 14px 22px;
+font-size: 15px;
 }
 
 .subchapters-list li:last-child {
-    border-bottom: none;
+border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+.content-grid {
+grid-template-columns: 1fr;
+}
 }
 
 /* --- LOADER --- */
 .loading-state {
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: var(--primary-light);
-    color: var(--primary);
-    border-radius: 10px;
+min-height: 700px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: var(--primary-light);
+color: var(--primary);
+border-radius: 10px;
 }
 
 .loading-spinner {
-    border: 4px solid #eee;
-    border-top: 4px solid var(--primary);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
+border: 4px solid var(--border-light);
+border-top: 4px solid var(--primary);
+border-radius: 50%;
+width: 40px;
+height: 40px;
+animation: spin 1s alternate-reverse infinite;
 }
 
 /* --- ANIMATION --- */
 @keyframes spin {
-    to { transform: rotate(360deg); }
+to { transform: rotate(360deg); }
 }
 
 /* --- MOBILE --- */
 @media (max-width: 900px) {
-    .content-grid {
-        grid-template-columns: 1fr;
-    }
+.content-grid {
+grid-template-columns: 1fr;
+}
 }

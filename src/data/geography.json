@@ -1,0 +1,44 @@
+[
+  {
+    "unitTitle": "1. Physical Geography",
+    "chapters": [
+      {
+        "chapterTitle": "Rivers",
+        "subchapters": [
+          "Hydrological Cycle",
+          "River Landforms",
+          "Flooding and Management"
+        ]
+      },
+      {
+        "chapterTitle": "Coasts",
+        "subchapters": [
+          "Processes and Landforms",
+          "Erosion, Transportation, Deposition",
+          "Coastal Management"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. Human Geography",
+    "chapters": [
+      {
+        "chapterTitle": "Population",
+        "subchapters": [
+          "Population Growth",
+          "Migration",
+          "Urbanisation"
+        ]
+      },
+      {
+        "chapterTitle": "Economic Activity",
+        "subchapters": [
+          "Primary, Secondary, Tertiary Sectors",
+          "Globalisation",
+          "Sustainable Development"
+        ]
+      }
+    ]
+  }
+]

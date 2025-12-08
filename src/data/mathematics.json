@@ -1,0 +1,44 @@
+[
+  {
+    "unitTitle": "1. Number & Algebra",
+    "chapters": [
+      {
+        "chapterTitle": "Numbers",
+        "subchapters": [
+          "Integers, Fractions, Decimals",
+          "Powers and Roots",
+          "Indices and Standard Form"
+        ]
+      },
+      {
+        "chapterTitle": "Algebra",
+        "subchapters": [
+          "Expressions and Formulae",
+          "Equations and Inequalities",
+          "Sequences and Graphs"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. Geometry & Probability",
+    "chapters": [
+      {
+        "chapterTitle": "Geometry",
+        "subchapters": [
+          "Angles, Triangles, Circles",
+          "Coordinate Geometry",
+          "Transformations"
+        ]
+      },
+      {
+        "chapterTitle": "Probability & Statistics",
+        "subchapters": [
+          "Probability Rules",
+          "Data Collection and Representation",
+          "Measures of Central Tendency"
+        ]
+      }
+    ]
+  }
+]

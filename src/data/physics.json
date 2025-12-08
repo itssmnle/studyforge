@@ -1,0 +1,44 @@
+[
+  {
+    "unitTitle": "1. Forces & Motion",
+    "chapters": [
+      {
+        "chapterTitle": "Speed, Velocity, Acceleration",
+        "subchapters": [
+          "Distance-Time Graphs",
+          "Velocity-Time Graphs",
+          "Equations of Motion"
+        ]
+      },
+      {
+        "chapterTitle": "Forces",
+        "subchapters": [
+          "Newton’s Laws",
+          "Weight, Mass, Gravity",
+          "Friction, Tension, Drag"
+        ]
+      }
+    ]
+  },
+  {
+    "unitTitle": "2. Energy",
+    "chapters": [
+      {
+        "chapterTitle": "Energy Stores & Transfers",
+        "subchapters": [
+          "Kinetic and Potential Energy",
+          "Conservation of Energy",
+          "Work Done, Power"
+        ]
+      },
+      {
+        "chapterTitle": "Waves",
+        "subchapters": [
+          "Properties of Waves",
+          "Sound Waves",
+          "Light and Refraction"
+        ]
+      }
+    ]
+  }
+]

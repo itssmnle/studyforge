@@ -33,10 +33,10 @@ export default function Navbar() {
 
             <div className={`dropdown-menu ${openMenu === "study" ? "show" : ""}`}>
               <a href="/notes"><FaBookOpen className="dd-icon" /> revision notes</a>
-              <a href="#"><FaQuestionCircle className="dd-icon" /> exam questions</a>
-              <a href="#"><FaRegClone className="dd-icon" /> flashcards</a>
-              <a href="#"><FaFileAlt className="dd-icon" /> past papers</a>
-              <a href="#"><FaClipboardList className="dd-icon" /> mock exams</a>
+              <a href="/examquestions"><FaQuestionCircle className="dd-icon" /> exam questions</a>
+              <a href="/flashcards"><FaRegClone className="dd-icon" /> flashcards</a>
+              <a href="/pastpapers"><FaFileAlt className="dd-icon" /> past papers</a>
+              <a href="/mockexams"><FaClipboardList className="dd-icon" /> mock exams</a>
             </div>
           </div>
         </div>
