@@ -12,6 +12,7 @@ color: var(--text);
 font-size: 32px;
 font-family: "JakartaSansBold";
 margin-bottom: 5px;
+font-weight: 100;
 }
 
 .exam-code {
@@ -20,10 +21,10 @@ font-weight: 600;
 font-size: 14px;
 color: var(--text);
 margin-bottom: 10px;
-padding: 4px 10px;
-border: 1px solid var(--border-light);
+padding: 15px 15px;
+border: 1px solid var(--border);
 border-radius: 6px;
-background-color: white;
+background-color: var(--bg);
 }
 
 .concise-text {
@@ -33,7 +34,7 @@ margin-bottom: 30px;
 
 .header-separator {
 border: none;
-border-top: 1px solid var(--border-light);
+border-top: 1px solid var(--border);
 margin-bottom: 40px;
 }
 
@@ -57,7 +58,7 @@ gap: 40px; /* space between unit cards */
 
 /* Each unit is its own card */
 .unit-card {
-border: 1.5px solid var(--border-light);
+border: 1.5px solid var(--border);
 border-radius: 16px;
 padding: 24px;
 background: var(--card);
@@ -69,25 +70,28 @@ gap: 20px;
 
 /* The unit title inside the card */
 .unit-card h2 {
-font-size: 20px;
+font-size: 16px;
 font-family: "JakartaSansBold";
 margin: 0; /* no margin to avoid spacing line */
 padding-bottom: 16px; /* small padding below title */
-border-bottom: 1px solid var(--border-light); /* no line separating title and content */
+border-bottom: 1px solid var(--border); /* no line separating title and content */
+font-weight: 100;
+padding-top: 5px;
 }
 
 /* Accordion cards inside unit card */
 .chapter-card {
-border: 1.5px solid var(--border-light);
+border: 1px solid var(--border);
 border-radius: 14px;
 margin: 0; /* remove margin to keep block continuous */
 background: var(--card);
 overflow: hidden;
-transition: 0.3s;
+transition: var(--ui);
+font-weight: 100;
 }
 
 .chapter-card:hover .expand-icon{
-background-color: var(--border-light);
+background-color: var(--border);
 }
 
 /* Accordion header */
@@ -99,9 +103,10 @@ justify-content: space-between;
 align-items: center;
 cursor: pointer;
 font-size: 14px;
-font-family: "JakartaSansBold";
-border-bottom: 1px solid var(--border-light);
+font-family: "JakartaSans";
+border-bottom: 1px solid var(--border);
 background: var(--bg-alt);
+font-weight: 100;
 }
 
 /* Accordion icon */
@@ -109,11 +114,11 @@ background: var(--bg-alt);
 width: 38px;
 height: 38px;
 border-radius: 50%;
-border: 1.5px solid var(--border-light);
+border: 1px solid var(--border);
 display: flex;
 justify-content: center;
 align-items: center;
-transition: 0.3s;
+transition: var(--ui);
 }
 
 /* Accordion content */

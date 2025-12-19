@@ -33,7 +33,7 @@
   color: var(--text);
   opacity: 0.7;
   font-size: 0.55rem;
-  transition: 0.2s;
+  transition: var(--ui);
 }
 
 .footer-col a:hover {
@@ -60,7 +60,7 @@
 .socials a {
   color: var(--text);
   opacity: 0.6;
-  transition: 0.2s;
+  transition: var(--ui);
 }
 
 .socials a:hover {

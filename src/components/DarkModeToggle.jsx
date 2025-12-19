@@ -1,24 +1,32 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import "../styles/DarkToggle.css";
 
 export default function DarkModeToggle() {
-  const [dark, setDark] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
-  });
+  const [dark, setDark] = useState(
+    document.documentElement.classList.contains("dark")
+  );
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    const root = document.documentElement;
+
+    root.classList.add("theme-switching");
+
     if (dark) {
-      document.documentElement.classList.add("dark");
+      root.classList.add("dark");
       localStorage.setItem("theme", "dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      root.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
+
+    requestAnimationFrame(() => {
+      root.classList.remove("theme-switching");
+    });
   }, [dark]);
 
   return (
-    <button className="dark-toggle" onClick={() => setDark(!dark)}>
+    <button className="dark-toggle" onClick={() => setDark(d => !d)}>
       {dark ? <FaSun /> : <FaMoon />}
     </button>
   );

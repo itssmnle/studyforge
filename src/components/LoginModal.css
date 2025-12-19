@@ -1,0 +1,185 @@
+.login-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 7, 15, 0.75);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.login-modal {
+  width: 440px;
+  padding: 36px;
+  border-radius: 16px;
+  background: var(--bg-alt);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.65);
+  position: relative;
+  color: var(--bg);
+}
+
+/* Close icon */
+.login-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.login-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Heading */
+.login-modal h2 {
+  font-family: "JakartaSansBold";
+  font-size: 26px;
+  line-height: 1.25;
+  margin-bottom: 22px;
+  color: var(--text);
+}
+
+/* Google button */
+.google-btn {
+  width: 100%;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-family: "JakartaSans";
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+
+  cursor: pointer;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 26px 0 22px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border-light);
+}
+
+.divider span {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.login-modal input{
+  margin-top: 8px;
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-family: "JakartaSans";
+  font-size: 15px;
+}
+
+input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Password field */
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 40px;
+}
+
+.password-field .eye {
+  position: absolute;
+  right: 14px;
+  top: 60%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-field .eye svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Forgot password */
+.forgot {
+  display: block;
+  margin: 8px 0 26px;
+  text-align: right;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* Primary button */
+.login-primary {
+  width: 100%;
+  height: 52px;
+  border-radius: 14px;
+  border: none;
+  background: var(--primary);
+
+  font-family: "JakartaSans";
+  font-size: 16px;
+  color: var(--bg);
+
+  cursor: pointer;
+}
+
+/* Signup text */
+.signup {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.signup a {
+  color: var(--text);
+  font-family: "JakartaSans";
+}
+
+/* Terms */
+.terms {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+}

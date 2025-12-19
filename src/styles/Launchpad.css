@@ -4,6 +4,8 @@
   font-size: 1.5rem;
   padding-top: 40px;
   height: 15px;
+  padding-bottom: 10px;
+  color: var(--text);
 }
 
 .home-desc{
@@ -41,7 +43,7 @@
   color: var(--text);
   border-bottom: 1px solid var(--border);
   align-items: center;
-  transition: 0.2s;
+  transition: var(--ui);
   font-size: 0.9rem;
   font-family: 'JakartaSans';
 }
@@ -62,29 +64,29 @@
 }
 
 .icon-circle {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* subject colors */
-.icon-circle.maths { background: #f8453b; padding: 7px; width: 20px; height: 20px; }
-.icon-circle.bio { background: #4caf50; padding: 7px; width: 20px; height: 20px; }
-.icon-circle.chem { background: #3949ab; padding: 7px; width: 20px; height: 20px; }
-.icon-circle.phys { background: #f9a825; padding: 7px; width: 20px; height: 20px; }
-.icon-circle.eng { background: #7c6eff; padding: 7px; width: 20px; height: 20px; }
-.icon-circle.hist { background: #ff8a65; padding: 7px; width: 20px; height: 20px; }
+.icon-circle.maths { background: #f8453b; }
+.icon-circle.bio { background: #4caf50; }
+.icon-circle.chem { background: #3949ab; }
+.icon-circle.phys { background: #f9a825; }
+.icon-circle.eng { background: #7c6eff; }
+.icon-circle.hist { background: #ff8a65; }
 
 .arrow {
   font-size: 1.5rem;
   text-align: right;
   color: var(--text-secondary, #666);
-  transition: 0.2s;
+  transition: var(--ui);
 }
 
 .title-row {

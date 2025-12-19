@@ -10,8 +10,8 @@ import "../styles/Launchpad.css";
 export default function Home() {
   return (
     <div className="home-container">
-      <p className="home-title">WHAT IS UPPPPP {name} 👋</p>
-      <p className="home-desc">Welcome to your StudyForge account and launchpad to stress-free and effective study!</p>
+      <p className="home-title">hi sam! {name} 👋</p>
+      <p className="home-desc">welcome to your StudyForge account and launchpad to stress-free and effective study!</p>
     <div className="table-center">
       <div className="subjects-table">
         <div className="row-title-row">

@@ -10,10 +10,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 150px 150px 150px;
+  padding: 150px 150px 20px;
   margin: 0 auto;
   gap: 60px;
-  background: linear-gradient(to bottom, var(--secondary) 0%, var(--bg-alt) 60%);
+  background: linear-gradient(to bottom, var(--secondary) 0%, var(--bg-alt) 70%);
+  background-size: 100% 60px;
+  background-repeat: no-repeat;
 }
 
 .notes-intro-left {
@@ -26,10 +28,17 @@ body {
   line-height: 1.1;
   margin-bottom: 20px;
   font-weight: 100;
+  letter-spacing: -2px;
 }
 
 .notes-intro-title span {
   font-family: "JakartaSansBold";
+}
+
+.notepage-title-desc{
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 35px;
 }
 
 .notes-intro-text {
@@ -52,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: var(--bg-alt);
+  background: var(--bg);
   padding: 12px 16px;
   border-radius: 999px;
   font-family: "JakartaSans";
@@ -62,7 +71,7 @@ body {
 
 .notes-intro-point svg {
   color: var(--green);
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .notes-intro-btn {
@@ -86,6 +95,9 @@ body {
   box-shadow: 0 18px 45px rgba(0,0,0,0.15);
 }
 
+.dark .notes-intro-image {
+  box-shadow: 0 18px 45px rgba(255,255,255,0.08);
+}
 
 /* ===== SUBJECTS SECTION (YOUR ORIGINAL STYLES) ===== */
 
@@ -101,7 +113,6 @@ body {
 .notepage-title{
     font-family: "JakartaSansBold";
     font-size: 2rem;
-    margin-bottom: 40px;
     font-weight: 100;
 }
 
@@ -130,7 +141,7 @@ body {
   font-size: 1rem;
   font-weight: 100;
   color: var(--text);
-  transition: 0.2s;
+  transition: var(--ui);
   border: 1px solid var(--border);
 }
 
@@ -186,7 +197,6 @@ body {
   transform: translateX(0);
 }
 
-
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 900px) {
@@ -207,4 +217,72 @@ body {
   .notes-intro-image {
     max-width: 100%;
   }
+}
+
+
+/* ===== WHY STUDENTS LOVE NOTES ===== */
+
+.notes-love-section {
+  margin-top: 90px;                 /* ✅ space from CTA button */
+}
+
+.notes-love-title {
+  text-align: center;
+  font-family: "JakartaSansBold";
+  font-size: 2rem;
+  margin-bottom: 50px;              /* ✅ same as mock exams */
+}
+
+.notes-love-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;                        /* ✅ wider gap */
+  padding: 0px 150px;
+}
+
+.notes-love-card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 32px 30px 34px;          /* ✅ IMPORTANT: real padding */
+  border: 1px solid var(--border);
+  transition: var(--ui);
+}
+
+.notes-love-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.dark .notes-love-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(81, 81, 81, 0.195);
+}
+
+.notes-love-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(136, 107, 255, 0.12); /* subtle blue tint */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;              /* ✅ space to title */
+}
+
+.notes-love-icon svg {
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.notes-love-card h3 {
+  font-family: "JakartaSans";
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.notes-love-card p {
+  font-family: "JakartaSans";
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
 }

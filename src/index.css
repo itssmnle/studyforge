@@ -1,12 +1,23 @@
 @font-face {
   font-family: JakartaSans; /* Choose a name for your font */
   src: url('PlusJakartaSans-Regular.ttf');
+  font-weight: 100;
 }
 
 @font-face {
     font-family: JakartaSansBold;
     src: url('PlusJakartaSans-Bold.ttf');
+    font-weight: 100;
 }
+
+/* Transitions */
+:root{
+  --ui: 0.18s ease;
+}
+
+/* dark hover 
+rgba(81, 81, 81, 0.195)
+*/
 
 /* Default Light Mode */
 :root {
@@ -18,9 +29,11 @@
   --bg-alt: #f7f7f7;
   --secondary: #e7e5ff;
   --blue: #3b82f6;
-  --green: #d1ffd9;
+  --green: #4bb45d;
   --border-light: #ddd;
   --fullblack: #222;
+  --highlight: #cdcaff;
+  --text-secondary: #919191;
 }
 
 /* DARK MODE */
@@ -33,9 +46,59 @@
   --bg-alt: #121212;       /* optional */
   --secondary: #3a3175;    /* <-- YOU FORGOT THIS */
   --blue: #3b82f6;         /* keep if needed */
-  --green: #d1ffd9;
+  --green: #6fef84;
   --border-light: #ddd;
   --fullblack: #222;
+  --highlight: #494686;
+  --text-secondary: #919191;
+}
+
+.theme-switching *,
+.theme-switching *::before,
+.theme-switching *::after {
+  transition: none !important;
+}
+
+.theme-fade {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 180ms ease;
+}
+
+.theme-fade.active {
+  opacity: 1;
+}
+
+.highlight{
+  color: var(--primary);
+}
+
+.bold{
+    font-family: "JakartaSansBold";
+}
+
+h1{
+  font-weight: 100;
+}
+
+h2{
+  font-weight: 100;
+}
+
+h3{
+  font-weight: 100;
+}
+
+p{
+  color: var(--text-secondary);
+}
+
+input {
+  box-sizing: border-box;
 }
 
 input,
@@ -44,6 +107,10 @@ textarea {
   color: var(--text);
   border: 1px solid var(--border);
   transition: background 0.2s, color 0.2s;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 .dark input,

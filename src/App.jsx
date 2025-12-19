@@ -8,33 +8,45 @@ import ExamQuestions from "./pages/ExamQuestions";
 import NotePage from "./pages/NotePage";
 import Flashcards from "./pages/Flashcards";
 import MockExams from "./pages/MockExams";
-import Hero from "./pages/Hero"
-import Teachers from "./pages/Teachers"
+import Hero from "./pages/Hero";
+import Teachers from "./pages/Teachers";
 import PastPapers from "./pages/PastPapers";
-
-// 1. Import the new component
 import SubjectNotesContent from "./pages/SubjectNotesContent";
 import "./index.css";
 
-export default function App(){
+/* 🔹 NEW imports */
+import { AuthModalProvider } from "./context/AuthModalContext";
+import LoginModal from "./components/LoginModal";
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-rose-50/30">
-      <TopNav />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/launchpad" element={<Launchpad />} />
-        <Route path="/examquestions" element={<ExamQuestions />} />
-        <Route path="/notes" element={<NotePage />} />
-        <Route path="/notes/:id" element={<SubjectNotesContent />} /> 
-        <Route path="/flashcards" element={<Flashcards />} />
-        <Route path="/mockexams" element={<MockExams />} />
-        <Route path="/teachers" element={<Teachers />} />
-        <Route path="/pastpapers" element={<PastPapers />} />
-        {/*subject pages*/}
-      </Routes>
-      <DarkModeToggle /> {/* floating button */}
-      <Footer />
-    </div>
-    
-  )
+    /* 🔹 Wrap the entire app */
+    <AuthModalProvider>
+      <>
+        <div id="theme-fade" className="theme-fade" />
+
+        <div className="min-h-screen bg-rose-50/30">
+          <TopNav />
+
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/launchpad" element={<Launchpad />} />
+            <Route path="/examquestions" element={<ExamQuestions />} />
+            <Route path="/notes" element={<NotePage />} />
+            <Route path="/notes/:id" element={<SubjectNotesContent />} />
+            <Route path="/flashcards" element={<Flashcards />} />
+            <Route path="/mockexams" element={<MockExams />} />
+            <Route path="/teachers" element={<Teachers />} />
+            <Route path="/pastpapers" element={<PastPapers />} />
+          </Routes>
+
+          <DarkModeToggle />
+          <Footer />
+        </div>
+
+        {/* 🔹 Global login dialog (renders above everything) */}
+        <LoginModal />
+      </>
+    </AuthModalProvider>
+  );
 }
