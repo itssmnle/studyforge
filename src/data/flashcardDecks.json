@@ -1,25 +1,19 @@
 {
   "Biology": [
-    { "id": "chapter-1-cells-and-organisms", "chapter": 1, "title": "Cells and Organisms", "file": "/flashcards/Biology_Chapter_1_Cells_and_Organisms.csv", "cards": 40 },
-    { "id": "chapter-2-nutrition-and-digestion", "chapter": 2, "title": "Nutrition and Digestion", "file": "/flashcards/Biology_Chapter_2_Nutrition_and_Digestion.csv", "cards": 34 },
-    { "id": "chapter-3-gas-exchange-and-respiration", "chapter": 3, "title": "Gas Exchange and Respiration", "file": "/flashcards/Biology_Chapter_3_Gas_Exchange_and_Respiration.csv", "cards": 29 },
-    { "id": "chapter-4-ecosystems-and-photosynthesis", "chapter": 4, "title": "Ecosystems and Photosynthesis", "file": "/flashcards/Biology_Chapter_4_Ecosystems_and_Photosynthesis.csv", "cards": 31 },
-    { "id": "chapter-5-reproduction", "chapter": 5, "title": "Reproduction", "file": "/flashcards/Biology_Chapter_5_Reproduction.csv", "cards": 39 },
-    { "id": "chapter-6-genetics-evolution-and-variation", "chapter": 6, "title": "Genetics, Evolution and Variation", "file": "/flashcards/Biology_Chapter_6_Genetics_Evolution_and_Variation.csv", "cards": 27 }
+    { "id": "b1-characteristics-of-living-organisms", "chapter": 1, "title": "Characteristics of Living Organisms", "file": "/flashcards/b1-characteristics-of-living-organisms.csv", "cards": 11 },
+    { "id": "b2-cells-and-organisation", "chapter": 2, "title": "Cells and Organisation", "file": "/flashcards/b2-cells-and-organisation.csv", "cards": 10 },
+    { "id": "b3-movement-into-and-out-of-cells", "chapter": 3, "title": "Movement into and out of Cells", "file": "/flashcards/b3-movement-into-and-out-of-cells.csv", "cards": 9 },
+    { "id": "b4-biological-molecules", "chapter": 4, "title": "Biological Molecules", "file": "/flashcards/b4-biological-molecules.csv", "cards": 7 },
+    { "id": "b5-enzymes", "chapter": 5, "title": "Enzymes", "file": "/flashcards/b5-enzymes.csv", "cards": 7 }
   ],
   "Chemistry": [
-    { "id": "chapter-1-the-particle-model", "chapter": 1, "title": "The Particle Model", "file": "/flashcards/Chemistry_Chapter_1_The_Particle_Model.csv", "cards": 3 },
-    { "id": "chapter-2-atoms-elements-and-compounds", "chapter": 2, "title": "Atoms, Elements and Compounds", "file": "/flashcards/Chemistry_Chapter_2_Atoms_Elements_and_Compounds.csv", "cards": 3 },
-    { "id": "chapter-3-pure-and-impure-substances", "chapter": 3, "title": "Pure and Impure Substances", "file": "/flashcards/Chemistry_Chapter_3_Pure_and_Impure_Substances.csv", "cards": 3 },
-    { "id": "chapter-4-chemical-reactions", "chapter": 4, "title": "Chemical Reactions", "file": "/flashcards/Chemistry_Chapter_4_Chemical_Reactions.csv", "cards": 3 },
-    { "id": "chapter-5-earth-and-atmosphere", "chapter": 5, "title": "Earth and Atmosphere", "file": "/flashcards/Chemistry_Chapter_5_Earth_and_Atmosphere.csv", "cards": 3 }
+    { "id": "c1-states-of-matter", "chapter": 1, "title": "States of Matter", "file": "/flashcards/c1-states-of-matter.csv", "cards": 7 },
+    { "id": "c2-atoms-and-isotopes", "chapter": 2, "title": "Atoms and Isotopes", "file": "/flashcards/c2-atoms-and-isotopes.csv", "cards": 10 },
+    { "id": "c2b-chemical-bonding", "chapter": 3, "title": "Chemical Bonding", "file": "/flashcards/c2b-chemical-bonding.csv", "cards": 7 }
   ],
   "Physics": [
-    { "id": "chapter-1-forces-and-motion", "chapter": 1, "title": "Forces and Motion", "file": "/flashcards/Physics_Chapter_1_Forces_and_Motion.csv", "cards": 3 },
-    { "id": "chapter-2-energy", "chapter": 2, "title": "Energy", "file": "/flashcards/Physics_Chapter_2_Energy.csv", "cards": 3 },
-    { "id": "chapter-3-waves", "chapter": 3, "title": "Waves", "file": "/flashcards/Physics_Chapter_3_Waves.csv", "cards": 3 },
-    { "id": "chapter-4-electricity-and-electromagnetism", "chapter": 4, "title": "Electricity and Electromagnetism", "file": "/flashcards/Physics_Chapter_4_Electricity_and_Electromagnetism.csv", "cards": 3 },
-    { "id": "chapter-5-space-physics", "chapter": 5, "title": "Space Physics", "file": "/flashcards/Physics_Chapter_5_Space_Physics.csv", "cards": 3 }
+    { "id": "p1-energy-and-work", "chapter": 1, "title": "Energy and Work", "file": "/flashcards/p1-energy-and-work.csv", "cards": 7 },
+    { "id": "p2-motion-and-forces", "chapter": 2, "title": "Motion and Forces", "file": "/flashcards/p2-motion-and-forces.csv", "cards": 10 }
   ],
   "Maths": [
     { "id": "year-7-number-and-fdp", "chapter": 1, "title": "Year 7: Number and FDP", "file": "/flashcards/Maths_Year_7_Number_and_FDP.csv", "cards": 20 },
