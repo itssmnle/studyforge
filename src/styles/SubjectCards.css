@@ -1,0 +1,61 @@
+.subject-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 30px 0 56px;
+}
+
+.subject-card-grid--single { grid-template-columns: minmax(0, 620px); }
+
+.subject-card {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 15px;
+  min-height: 122px;
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--text);
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+
+a.subject-card:hover {
+  border-color: var(--border-2);
+  background: var(--surface-hover);
+  transform: translateY(-1px);
+}
+
+.subject-card-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--subject-card-color, var(--primary)) 14%, var(--card));
+  color: var(--subject-card-color, var(--primary));
+  font-size: 1rem;
+}
+
+.subject-card-copy { display: grid; min-width: 0; gap: 4px; }
+.subject-card-copy > small { color: var(--subject-card-color, var(--primary)); font: 100 .56rem "JakartaSansBold"; letter-spacing: .08em; text-transform: uppercase; }
+.subject-card-copy > strong { display: flex; align-items: center; gap: 5px; min-width: 0; font: 100 1rem "JakartaSansBold"; }
+.subject-card-copy > span { color: var(--text-secondary); font-size: .64rem; line-height: 1.45; }
+.subject-card-verified { width: 13px; height: 13px; object-fit: contain; }
+.subject-card-arrow { color: var(--subject-card-color, var(--primary)); font-size: 1rem; }
+
+.subject-card--locked {
+  grid-template-rows: auto auto;
+  opacity: .72;
+}
+
+.subject-card--locked .subject-card-arrow { display: none; }
+.subject-card-status { grid-column: 2 / 4; display: flex; align-items: center; gap: 7px; color: var(--text-secondary); font-size: .61rem; }
+.subject-card-status svg { color: var(--subject-card-color, var(--primary)); }
+
+@media (max-width: 720px) {
+  .subject-card-grid { grid-template-columns: 1fr; margin-top: 22px; }
+  .subject-card { min-height: 108px; padding: 18px; }
+  .subject-card-copy > strong { font-size: .94rem; }
+}

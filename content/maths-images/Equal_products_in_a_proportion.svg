@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+
+   Author: Yves Baelde
+
+   Aspect ratio  1/1 = 1188/1188
+
+
+ Autre version sans élément 'use',
+ avec des entités déclarées en DTD,
+ et contenant le commentaire principal :
+ENT_Homothetic_rectangles.svg
+
+
+
+ Élément  g id="rct".
+
+ Même en supprimant les balises de la section 'defs', le petit
+ rectangle de dimensions  20  sur  32  (20/32 = 5/8)  produit
+ par l'élément  g #rct  serait invisible, l'arrière-plan blanc
+ et le cadre jaune  #ef7  le cacheraient. À cause des valeurs des
+ attributs  'transform'  des deux éléments  'use',  le sommet
+ '0 0'  de ce petit rectangle à rayures devient  '775 674',
+ sommet commun T des deux rectangles homothétiques, à rayures.
+
+ Donner à 'viewBox' la valeur  "-9 -3 45 45"  agrandirait
+ ce petit rectangle à rayures, produit par l'élément   g id="rct"
+ qui pourrait sortir de la section 'defs', et se coder après
+ l'élément  path stroke="#ef7"  pour se montrer.
+
+
+
+ viewBox="-27 -21 1188 1188"  "-9 -3 45 45"  "-24 924 376 235"  width="600" height="600"  opacity="0"
+--><svg viewBox="-27 -21 1188 1188" width="600" height="600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" xmlns:xlink="http://www.w3.org/1999/xlink"><title>   Equal products in a proportion  </title><defs><pattern
+ id="qk" patternUnits="userSpaceOnUse" width="3" height="1" patternTransform="matrix(8 -5 5 8 0 0)"><path d="M9 0H0V6" fill="#cae"/><path stroke-width=".52" stroke="#fea"
+ d="M0 .52h9"/></pattern><pattern id="kq" patternUnits="userSpaceOnUse" width="3" height="1" patternTransform="matrix(8 -5 5 8 0 0)"><path fill="#cef" d="M9 0H0V6"/><path stroke="#f93" d="M0 .52h9"
+ stroke-width=".52"/></pattern><g id="rct" stroke-width=".7"><path fill="url(#qk)" d="M0 0H20V32H9"/><path d="M0 0V32H20" fill="url(#kq)"/></g></defs><path fill="#fff" d="M4800-30H-30V4800"/><g
+ fill="none" stroke="#438" stroke-width="4" stroke-linejoin="round"><path stroke="#79b" stroke-width="3" d="M1075 0V674H375m30 352H555V0 194H375 775V0"/><path d="M555 194h520v832H555z"
+ fill="#fad"/><g stroke="#000"><use xlink:href="#rct" transform="matrix(-11 0 0 11 775 674)"/><use xlink:href="#rct" transform="matrix(15 0 0 -15 775 674)"/><g stroke-width="12" stroke="#e01"><g
+ stroke-linecap="round"><path stroke="#aef" stroke-width="111" d="M36 147V39h279V147zm675 951h375"/><path stroke="#ebf" stroke-width="99" d="M24 435v0m63 435v0m27-241v0m105-304v0"/><path
+ opacity=".66" d="m159 383 19-39h-43 43l-112 70h43-43l19-39m6 342 29-32m16 40-16-40-23 130m29-32-29 32-16-40"/></g><path d="m206 1037-96 60m0-60 96 60m474 62h441M612 531l120-75m266 390-120 75"
+ opacity=".6"/></g><path stroke-linejoin="bevel" stroke-width="3" d="m420 194-15 56q15-56 30 0zV674m0 0-15-56q15 56 30 0zm42 0-15 56q15-56 30 0zv352m0 0-15-56q15 56 30 0zM555 71l56-15q-56 15 0
+  30zH775m0 0-56-15q56 15 0 30zm0 36 56-15q-56 15 0 30zh300m0 0-56-15q56 15 0 30z" fill="#000"/><path d="M6 79h99m39 9h57m0-24h-57m96 15h99M-9 1053h99m39 9h57m0-24h-57m96 15h99M876 1122h57m0-24h-57"
+ stroke-width="7"/></g><path d="m1150 74-675 1080m268-500 64 40"/></g><path fill="#b37" d="m78 1017 50 9-20 32m0 18-30 41 50-9m60 0 50 9-30-41m0-18-20-32 50-9"/><g font-family="serif"
+ font-size="8" font-style="italic"><g font-size="93"><text font-family="sans-serif" x="666" y="636">T</text><text x="900" y="79">c<tspan y="54" x="24">a</tspan><tspan x="258">c</tspan><tspan
+ y="176" x="18">b</tspan><tspan x="252">d</tspan><tspan y="1028" x="9">d</tspan><tspan x="243">b</tspan><tspan y="1139" x="3">c</tspan><tspan x="240">a</tspan><tspan y="1131" x="705">a</tspan><tspan
+ x="777">d</tspan><tspan x="969">b</tspan><tspan x="1041">c</tspan><tspan x="636" y="45">a</tspan><tspan x="321" y="447">d</tspan><tspan x="369" y="861">b</tspan></text></g><g
+ transform="matrix(5 -8 8 5 6 861)"><text x="2">a<tspan fill="#a02" x="24">b<tspan y="10" x="1">c</tspan></tspan><tspan x="23">d</tspan><tspan y="-19" x="58">c</tspan><tspan fill="#a02"
+ x="36">d<tspan y="-9" x="57">a</tspan></tspan><tspan x="35">b</tspan></text><path stroke="#000" stroke-width=".6" d="M0 2.4h9m13 0h9m3-19h9m13 0h9M17 3.3h-5m0-2.4h5m35-19h-5m0 2.4h5"/></g><text
+ transform="matrix(8 -5 5 8 612 501)" fill="#030" font-weight="bold">a<tspan x="7">d</tspan><tspan y="50" x="2">b</tspan><tspan x="9">c</tspan></text></g></svg>

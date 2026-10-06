@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="title description">
+  <title id="title">Prime factors of eighteen and twenty-four</title>
+  <desc id="description">Shared factors two and three lie in the overlap. Eighteen-only factor three lies on the left. Twenty-four-only factors two and two lie on the right.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <circle cx="235" cy="185" r="125" fill="#eceaff" fill-opacity=".8" stroke="#5952c9" stroke-width="4"/>
+  <circle cx="365" cy="185" r="125" fill="#ffeedc" fill-opacity=".65" stroke="#cf7831" stroke-width="4"/>
+  <text x="130" y="45" font-family="Arial, sans-serif" font-size="23" fill="#27344a">18 = 2 × 3 × 3</text>
+  <text x="345" y="45" font-family="Arial, sans-serif" font-size="23" fill="#27344a">24 = 2 × 2 × 2 × 3</text>
+  <text x="195" y="190" font-family="Arial, sans-serif" font-size="31" fill="#27344a">3</text>
+  <text x="275" y="175" font-family="Arial, sans-serif" font-size="29" fill="#27344a">2</text>
+  <text x="275" y="215" font-family="Arial, sans-serif" font-size="29" fill="#27344a">3</text>
+  <text x="380" y="175" font-family="Arial, sans-serif" font-size="29" fill="#27344a">2</text>
+  <text x="410" y="215" font-family="Arial, sans-serif" font-size="29" fill="#27344a">2</text>
+  <text x="105" y="340" font-family="Arial, sans-serif" font-size="19" fill="#27344a">HCF = 2 × 3 = 6</text>
+  <text x="335" y="340" font-family="Arial, sans-serif" font-size="16" fill="#27344a">LCM = 2 × 3 × 3 × 2 × 2 = 72</text>
+</svg>

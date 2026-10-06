@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-labelledby="title description">
+  <title id="title">Right triangle for trigonometric ratios</title>
+  <desc id="description">The hypotenuse is opposite the right angle. Opposite and adjacent are labelled relative to angle theta.</desc>
+  <rect width="600" height="380" fill="#fff"/>
+  <path d="M90 310H510L90 65Z" fill="#efeeff" stroke="#5952c9" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M90 285H115V310" fill="none" stroke="#5952c9" stroke-width="3"/>
+  <path d="M475 310A35 35 0 0 0 480 291" fill="none" stroke="#d16a31" stroke-width="3"/>
+  <text x="450" y="285" font-family="Arial, sans-serif" font-size="26" fill="#d16a31">θ</text>
+  <text x="178" y="338" font-family="Arial, sans-serif" font-size="22" fill="#27344a">adjacent</text>
+  <text x="20" y="195" font-family="Arial, sans-serif" font-size="22" fill="#27344a">opposite</text>
+  <text x="250" y="145" font-family="Arial, sans-serif" font-size="22" fill="#27344a" transform="rotate(30 250 145)">hypotenuse</text>
+</svg>

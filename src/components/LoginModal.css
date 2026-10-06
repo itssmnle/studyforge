@@ -1,185 +1,31 @@
-.login-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(5, 7, 15, 0.75);
-  backdrop-filter: blur(10px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.login-modal {
-  width: 440px;
-  padding: 36px;
-  border-radius: 16px;
-  background: var(--bg-alt);
-  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.65);
-  position: relative;
-  color: var(--bg);
-}
-
-/* Close icon */
-.login-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  cursor: pointer;
-}
-
-.login-close svg {
-  width: 20px;
-  height: 20px;
-}
-
-/* Heading */
-.login-modal h2 {
-  font-family: "JakartaSansBold";
-  font-size: 26px;
-  line-height: 1.25;
-  margin-bottom: 22px;
-  color: var(--text);
-}
-
-/* Google button */
-.google-btn {
-  width: 100%;
-  height: 52px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-
-  font-family: "JakartaSans";
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--text);
-
-  cursor: pointer;
-}
-
-/* Divider */
-.divider {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 26px 0 22px;
-}
-
-.divider::before,
-.divider::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--border-light);
-}
-
-.divider span {
-  font-size: 13px;
-  color: var(--text-secondary);
-}
-
-/* Labels */
-label {
-  display: block;
-  margin-bottom: 18px;
-  font-size: 14px;
-  color: var(--text);
-}
-
-.login-modal input{
-  margin-top: 8px;
-  width: 100%;
-  height: 48px;
-  padding: 0 14px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--bg);
-  color: var(--text);
-  font-family: "JakartaSans";
-  font-size: 15px;
-}
-
-input::placeholder {
-  color: var(--text-secondary);
-}
-
-/* Password field */
-.password-field {
-  position: relative;
-}
-
-.password-field input {
-  padding-right: 40px;
-}
-
-.password-field .eye {
-  position: absolute;
-  right: 14px;
-  top: 60%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: var(--text-secondary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.password-field .eye svg {
-  width: 18px;
-  height: 18px;
-}
-
-/* Forgot password */
-.forgot {
-  display: block;
-  margin: 8px 0 26px;
-  text-align: right;
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-
-/* Primary button */
-.login-primary {
-  width: 100%;
-  height: 52px;
-  border-radius: 14px;
-  border: none;
-  background: var(--primary);
-
-  font-family: "JakartaSans";
-  font-size: 16px;
-  color: var(--bg);
-
-  cursor: pointer;
-}
-
-/* Signup text */
-.signup {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 15px;
-  color: var(--text-secondary);
-}
-
-.signup a {
-  color: var(--text);
-  font-family: "JakartaSans";
-}
-
-/* Terms */
-.terms {
-  margin-top: 14px;
-  text-align: center;
-  font-size: 12px;
-  color: var(--text-secondary);
-}
+.login-backdrop { position: fixed; inset: 0; display: grid; place-items: center; padding: 18px; background: rgba(19, 20, 31, .68); z-index: 3000; }
+.academy-login { width: min(440px, 100%); max-height: calc(100vh - 30px); overflow: auto; position: relative; padding: 34px; border-radius: 8px; background: var(--card); box-shadow: 0 24px 70px rgba(0, 0, 0, .28); color: var(--text); }
+.login-close { position: absolute; right: 18px; top: 18px; display: grid; place-items: center; background: none; border: 0; color: var(--text-secondary); cursor: pointer; font-size: 1.2rem; }
+.auth-kicker { color: var(--accent-text); font: 100 .66rem "JakartaSansBold"; text-transform: uppercase; letter-spacing: .1em; }
+.academy-login h2 { margin: 8px 0 6px; font: 100 1.65rem "JakartaSansBold"; letter-spacing: -.02em; }
+.auth-intro { margin: 0 0 22px; font-size: .76rem; }
+.auth-tabs { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.auth-tabs button { padding: 11px; border: 0; border-radius: 0!important; border-bottom: 3px solid transparent; background: none; color: var(--text-secondary); font: 100 .76rem "JakartaSansBold"; cursor: pointer; filter: none!important; transform: none!important; }
+.auth-tabs button:focus-visible { outline: 2px solid color-mix(in srgb, var(--primary) 42%, transparent); outline-offset: -3px; border-radius: 7px!important; }
+.auth-tabs button.active { color: var(--accent-text); border-bottom-color: var(--primary); }
+.academy-login label { display: block; position: relative; margin-bottom: 16px; color: var(--text); font: 100 .7rem "JakartaSansBold"; }
+.academy-login label > input, .auth-input-wrap { width: 100%; height: 46px; margin-top: 7px; border: 1px solid #9b9ea5; border-radius: 4px; background: var(--card); }
+.academy-login label > select { width:100%;height:46px;margin-top:7px;padding:0 12px;border:1px solid #9b9ea5;border-radius:4px;background:var(--card);color:var(--text); }
+.academy-login label > input { padding: 0 12px; font: inherit; }
+.auth-input-wrap { display: flex; align-items: center; gap: 8px; padding: 0 12px; color: var(--text-secondary); }
+.auth-input-wrap input { flex: 1; height: 100%; min-width: 0; border: 0; outline: 0; background: transparent; font: 100 .78rem "JakartaSans"; }
+.academy-login input:focus, .academy-login select:focus, .auth-input-wrap:focus-within { border-color: var(--primary); outline: 2px solid color-mix(in srgb, var(--primary) 20%, transparent); }
+.auth-input-wrap > svg { flex: 0 0 auto; }
+.academy-login .password-toggle { position: static; flex: 0 0 auto; align-self: stretch; display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-width: 62px; padding: 0 4px; margin: 0; border: 0; background: transparent; color: var(--accent-text); font: inherit; cursor: pointer; }
+.academy-login .password-toggle:focus-visible { outline: 2px solid var(--primary); outline-offset: -3px; border-radius: 3px; }
+.forgot-password { display: block; margin: -7px 0 15px auto; padding: 2px 0; border: 0; background: transparent; color: var(--accent-text); font: 100 .66rem "JakartaSansBold"; text-decoration: underline; cursor: pointer; }
+.password-recovery-card { display: grid; grid-template-columns: 38px 1fr; gap: 13px; margin: 20px 0; padding: 16px; border: 1px solid var(--border); background: var(--bg-alt); }
+.password-recovery-card > svg { width: 22px; height: 22px; padding: 8px; border-radius: 50%; background:var(--accent-fill);color:var(--accent-fill-text); }
+.password-recovery-card strong { font: 100 .72rem "JakartaSansBold"; }
+.password-recovery-card p { margin: 6px 0 0; color: var(--text-secondary); font-size: .66rem; line-height: 1.55; }
+.login-secondary { min-height: 42px; display: inline-flex; align-items: center; gap: 7px; padding: 0 14px; border: 1px solid var(--border); background: var(--card); color: var(--accent-text); font: 100 .68rem "JakartaSansBold"; cursor: pointer; }
+.auth-error { display: flex; align-items: flex-start; gap: 7px; padding: 10px; margin-bottom: 13px; background: #fff0ee; color: #9b3328; font-size: .7rem; }
+.login-primary { width: 100%; height: 46px; display: flex; align-items: center; justify-content: center; gap: 9px; border-radius: 4px; font: 100 .76rem "JakartaSansBold"; }
+.login-primary { border: 1px solid var(--primary); background: var(--primary); color: white; cursor: pointer; }
+.login-primary:disabled { opacity: .6; }
+.auth-security-note { margin: 13px 0 0; text-align: center; font-size: .6rem; line-height: 1.5; }

@@ -1,0 +1,37 @@
+:root { --primary:var(--forge-accent,#7c3aed); --primary-dark:var(--forge-accent-strong,#5b21b6); --secondary:#f3efff; --bg:#ffffff; --bg-alt:#f7f7f9; --card:#ffffff; --border:#d8d9de; --text:#24252d; --text-secondary:#6c707a; --green:var(--forge-success,#21a366); }
+:root.dark { --primary:var(--forge-accent,#7c3aed); --primary-dark:var(--forge-accent-strong,#6d28d9); --secondary:#2f1b56; --bg:#141419; --bg-alt:#1b1b22; --card:#141419; --border:#34343d; --text:#f1f1f4; --text-secondary:#b8b8c2; --green:var(--forge-success,#21a366); }
+html { scroll-behavior:auto; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:"JakartaSans",system-ui,sans-serif; font-weight:100; }
+/* Navigation pages keep native scrolling without displaying a browser scrollbar. */
+html:has(.app-navigation), body:has(.app-navigation), .app-navigation-inner { scrollbar-width: none; }
+html:has(.app-navigation)::-webkit-scrollbar, body:has(.app-navigation)::-webkit-scrollbar, .app-navigation-inner::-webkit-scrollbar { display: none; }
+.student-breadcrumbs{border-bottom:1px solid var(--border);background:color-mix(in srgb,var(--card) 97%,var(--primary-light))}
+.student-breadcrumbs ol{box-sizing:border-box;width:min(1120px,calc(100% - 40px));min-height:38px;display:flex;align-items:center;gap:7px;margin:0 auto;padding:0;overflow-x:auto;list-style:none;scrollbar-width:none}
+.student-breadcrumbs ol::-webkit-scrollbar{display:none}
+.student-breadcrumbs li{display:flex;align-items:center;gap:7px;flex:0 0 auto;color:var(--text-secondary);font-size:.58rem}
+.student-breadcrumbs li>svg{opacity:.48;font-size:.66rem}
+.student-breadcrumbs a,.student-breadcrumbs span{display:inline-flex;align-items:center;gap:6px;color:inherit;font-family:"JakartaSansBold"}
+.student-breadcrumbs a:hover{color: var(--accent-text)}
+.student-breadcrumbs span[aria-current=page]{color:var(--text)}
+.student-breadcrumbs a>svg,.student-breadcrumbs span>svg{font-size:.68rem}
+button,input,select,textarea { font-family:inherit; }
+a { text-decoration:none; }
+.min-h-screen { display:flex; flex-direction:column; min-height:100vh; }
+.app-navigation{border-bottom:1px solid var(--border);background:var(--card)}.app-navigation-inner{width:min(1120px,calc(100% - 40px));height:44px;margin:0 auto;display:flex;align-items:stretch;gap:4px}.app-navigation a,.app-navigation-disabled{display:flex;align-items:center;gap:6px;padding:0 14px;border-bottom:3px solid transparent;color:var(--text-secondary);font:100 .66rem "JakartaSansBold";white-space:nowrap}.app-navigation a:hover,.app-navigation a.active{color: var(--accent-text);background:var(--bg-alt);border-bottom-color: var(--primary)}.app-navigation-disabled{opacity:.48;cursor:default}
+.progress-strip { min-height:62px; border-bottom:1px solid var(--border); background:var(--card); }
+.progress-strip-inner { width:min(1120px,calc(100% - 40px)); min-height:62px; margin:0 auto; display:grid; grid-template-columns:1fr auto 340px; align-items:center; gap:25px; }
+.progress-strip p { margin:0; color:var(--text); font:100 .82rem "JakartaSansBold"; }
+.streak-stat { display:flex;align-items:center;gap:7px;padding-right:20px;border-right:1px solid var(--border);color:var(--text-secondary) }.streak-stat strong{color:var(--text);font:100 1.25rem "JakartaSansBold"}.streak-stat span{font-size:.58rem}.level-stat{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;color:var(--text-secondary)}.level-stat>div>span{display:block;margin-bottom:5px;color:var(--text);font:100 .62rem "JakartaSansBold"}.level-stat small{font-size:.57rem}.level-track{height:6px;border-radius:6px;background:var(--bg-alt);overflow:hidden}.level-track i{display:block;height:100%;background:var(--primary)}
+.footer { margin-top:auto!important; background:var(--bg-alt); border-top:1px solid var(--border)!important; }.footer-content{max-width:920px!important;gap:70px!important}.footer-col{width:160px!important}.footer-col h4{font-size:.7rem!important}.footer-col a{font-size:.62rem!important;color:var(--text-secondary)!important}.footer-bottom{font-size:.58rem!important}
+
+/* Bring the older resource pages into the same flatter system. */
+.notes-intro,.mock-intro,.pastpapers-intro { background:var(--bg)!important; padding-top:85px!important; border-bottom:1px solid var(--border); }
+.notes-intro-title,.mock-intro-title,.pastpapers-title { font-family:"JakartaSansBold"!important;font-weight:100!important;letter-spacing:-.04em!important }
+.notes-intro-btn,.mock-intro-btn,.more-btn { border-radius:4px!important;background:var(--primary)!important;color:#fff!important }
+.notes-love-card,.mock-benefit-card,.subject-card,.pastpaper-card { border-radius:4px!important;box-shadow:none!important;border:1px solid var(--border)!important }
+.notes-love-grid,.mock-benefits-grid { gap:1px!important }
+.subjects-page,.flashcards-page,.pastpapers-page { background:var(--bg)!important }
+.subject-card:hover,.notes-love-card:hover,.mock-benefit-card:hover { transform:none!important;background:var(--bg-alt)!important }
+
+@media(max-width:820px){.app-navigation-inner{width:100%;overflow-x:auto;padding:0 10px}.app-navigation a{padding:0 12px}.student-breadcrumbs ol{width:100%;padding:0 14px}.progress-strip-inner{width:calc(100% - 28px);grid-template-columns:1fr auto}.level-stat{display:none}.footer-content{gap:25px!important;flex-wrap:wrap}.footer-col{width:125px!important}}
+@media(max-width:520px){.progress-strip{display:none}}

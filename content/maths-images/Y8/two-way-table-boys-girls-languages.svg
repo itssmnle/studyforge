@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 22.86px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-7 {
+        fill: #7046c7;
+      }
+
+      .cls-8 {
+        fill: #fff9d9;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke: #272331;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        font-size: 22px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #272331;
+      }
+
+      .cls-9 {
+        fill: #fbfaff;
+      }
+
+      .cls-3 {
+        font-size: 22px;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+      }
+
+      .cls-10 {
+        fill: #eee8fa;
+      }
+
+      .cls-11 {
+        fill: #d9c9f3;
+      }
+
+      .cls-15 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-12 {
+        fill: #f5d765;
+      }
+
+      .cls-13, .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-14 {
+        fill: #fff0a8;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-size: 35.89px;
+      }
+
+      .cls-6 {
+        font-size: 24px;
+      }
+
+      .cls-21 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-30 {
+        letter-spacing: 0em;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-36 {
+        letter-spacing: 0em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-38 {
+        letter-spacing: 0em;
+      }
+
+      .cls-39 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-size: 21.54px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-16" width="900" height="620"/>
+  <path class="cls-15" d="M174.56,312.08c12.42-3.98,26.95-2.84,39.88-4.93,27.34-4.42,54.49-11.09,80.08-21.85,31.37-13.18,60.54-32.03,83.24-57.59,45.31-51.01,66.39-130.45,64.27-197.7,3.92-1.33,7.49-1.47,11.61-1.1,3.86,74.02,18.75,158,76.49,210.4,22.04,20,47.15,34.18,74.59,45.34,27.15,11.04,56.43,17.89,85.27,22.78,8.25,1.4,29.37-.97,35.23,4.08.62,3.29,2.29,8.83.51,11.81-65.54-.17-145.09,24.69-192.72,70.74-23.66,22.88-41.78,52.94-53.84,83.32-12.03,30.3-19.43,63.24-23.14,95.59-1.42,12.37,1.08,25.87-1.43,37.92-3.99,1.06-8.13-.27-11.55-2.29-2.83-9.13-1.27-19.56-1.92-29.04-1.06-15.78-3.9-31.64-7.03-47.12-12.98-64.27-42.09-120.11-95.77-159.11-35.52-25.79-80.6-37.96-123.31-45.09-10.82-1.81-21.8-3.15-32.71-4.19-1.45-.14-7.99.64-8.59-1.38-.74-2.51.59-8.03.86-10.59h.01Z"/>
+  <g>
+    <text class="cls-5" transform="translate(330.76 79.52)"><tspan class="cls-28" x="0" y="0">T</tspan><tspan class="cls-35" x="19.84" y="0">w</tspan><tspan class="cls-18" x="47.93" y="0">o</tspan><tspan class="cls-29" x="68.49" y="0">-</tspan><tspan class="cls-21" x="83.3" y="0">W</tspan><tspan class="cls-39" x="115.58" y="0">a</tspan><tspan x="135.14" y="0">y </tspan><tspan class="cls-23" x="161.73" y="0">T</tspan><tspan x="179.03" y="0">able</tspan></text>
+    <text class="cls-7" transform="translate(288.73 119.01)"><tspan x="0" y="0">Language p</tspan><tspan class="cls-25" x="114.63" y="0">r</tspan><tspan x="122.1" y="0">e</tspan><tspan class="cls-27" x="134.05" y="0">f</tspan><tspan class="cls-17" x="141.4" y="0">e</tspan><tspan class="cls-25" x="153.36" y="0">r</tspan><tspan class="cls-20" x="160.82" y="0">ences </tspan><tspan class="cls-33" x="224.23" y="0">b</tspan><tspan x="236.83" y="0">y gender</tspan></text>
+  </g>
+  <rect class="cls-10" x="85" y="158" width="220" height="76"/>
+  <rect class="cls-11" x="305" y="158" width="170" height="76"/>
+  <rect class="cls-11" x="475" y="158" width="170" height="76"/>
+  <rect class="cls-14" x="645" y="158" width="170" height="76"/>
+  <text class="cls-2" transform="translate(115.63 205)"><tspan x="0" y="0">Student gender</tspan></text>
+  <text class="cls-3" transform="translate(347.21 205)"><tspan x="0" y="0">Spanish</tspan></text>
+  <text class="cls-3" transform="translate(523.33 205)"><tspan x="0" y="0">F</tspan><tspan class="cls-26" x="12.06" y="0">r</tspan><tspan x="19.69" y="0">ench</tspan></text>
+  <text class="cls-3" transform="translate(704.54 205)"><tspan class="cls-22" x="0" y="0">T</tspan><tspan x="10.71" y="0">o</tspan><tspan class="cls-31" x="23.31" y="0">t</tspan><tspan x="31.02" y="0">al</tspan></text>
+  <rect class="cls-9" x="85" y="234" width="220" height="86"/>
+  <rect class="cls-13" x="305" y="234" width="170" height="86"/>
+  <rect class="cls-13" x="475" y="234" width="170" height="86"/>
+  <rect class="cls-8" x="645" y="234" width="170" height="86"/>
+  <text class="cls-6" transform="translate(165.66 287)"><tspan x="0" y="0">B</tspan><tspan class="cls-32" x="15.35" y="0">o</tspan><tspan class="cls-38" x="28.8" y="0">y</tspan><tspan x="41.78" y="0">s</tspan></text>
+  <text class="cls-4" transform="translate(372.17 288)"><tspan x="0" y="0">12</tspan></text>
+  <text class="cls-4" transform="translate(551.09 288)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-4" transform="translate(713.32 288)"><tspan class="cls-38" x="0" y="0">2</tspan><tspan x="18.02" y="0">0</tspan></text>
+  <rect class="cls-9" x="85" y="320" width="220" height="86"/>
+  <rect class="cls-13" x="305" y="320" width="170" height="86"/>
+  <rect class="cls-13" x="475" y="320" width="170" height="86"/>
+  <rect class="cls-8" x="645" y="320" width="170" height="86"/>
+  <text class="cls-6" transform="translate(167.65 373)"><tspan x="0" y="0">Girls</tspan></text>
+  <text class="cls-4" transform="translate(372.17 374)"><tspan x="0" y="0">15</tspan></text>
+  <text class="cls-4" transform="translate(542.17 374)"><tspan x="0" y="0">10</tspan></text>
+  <text class="cls-4" transform="translate(713.32 374)"><tspan x="0" y="0">25</tspan></text>
+  <rect class="cls-14" x="85" y="406" width="220" height="86"/>
+  <rect class="cls-8" x="305" y="406" width="170" height="86"/>
+  <rect class="cls-8" x="475" y="406" width="170" height="86"/>
+  <rect class="cls-12" x="645" y="406" width="170" height="86"/>
+  <text class="cls-6" transform="translate(167.22 459)"><tspan class="cls-22" x="0" y="0">T</tspan><tspan x="11.68" y="0">o</tspan><tspan class="cls-31" x="25.43" y="0">t</tspan><tspan x="33.84" y="0">al</tspan></text>
+  <text class="cls-4" transform="translate(373.32 460)"><tspan x="0" y="0">27</tspan></text>
+  <text class="cls-4" transform="translate(543.32 460)"><tspan x="0" y="0">18</tspan></text>
+  <text class="cls-4" transform="translate(713.32 460)"><tspan x="0" y="0">45</tspan></text>
+  <text class="cls-1" transform="translate(193.55 547.44)"><tspan class="cls-30" x="0" y="0">Ro</tspan><tspan class="cls-37" x="27.51" y="0">w</tspan><tspan x="45.52" y="0">s and columns o</tspan><tspan class="cls-24" x="212.22" y="0">r</tspan><tspan x="220.15" y="0">ganise t</tspan><tspan class="cls-36" x="302" y="0">w</tspan><tspan class="cls-19" x="319.9" y="0">o </tspan><tspan class="cls-34" x="337.52" y="0">v</tspan><tspan x="349.31" y="0">ariables at once</tspan></text>
+</svg>

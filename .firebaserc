@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "revision-hub-ee911"
+  },
+  "targets": {
+    "revision-hub-ee911": {
+      "hosting": {
+        "studyforge": [
+          "studyforge"
+        ]
+      }
+    }
+  }
+}

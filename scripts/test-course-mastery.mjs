@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import { build } from 'esbuild';
+const result = await build({ entryPoints: ['src/utils/courseMastery.js'], bundle: true, write: false, format: 'esm', platform: 'node', plugins: [{ name: 'mock', setup(builder) {
+  builder.onResolve({ filter: /^(react|firebase\/firestore|\.\/firebase|\.\/scoring)$/ }, () => ({ path: 'mock', namespace: 'mock' }));
+  builder.onLoad({ filter: /.*/, namespace: 'mock' }, () => ({ contents: `export const callScoring=async()=>({saved:true}); export const useState=()=>{}; export const useEffect=()=>{}; export const firestore={}; export const setDoc=async()=>{}; export const serverTimestamp=()=>0; export const collection=()=>{}; export const onSnapshot=()=>{}; const store=new Map(); export const doc=(...parts)=>parts.slice(1).join('/'); export const runTransaction=async(_,fn)=>fn({get:async key=>({data:()=>store.get(key)}),set:(key,data)=>store.set(key,data)});`, loader: 'js' }));
+} }] });
+const m = await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString('base64')}`);
+const topics = [{ id: 'one' }, { id: 'two' }, { id: 'three' }];
+assert.equal(m.unitUnlocked(topics, 0, {}, 'biology'), true);
+assert.equal(m.unitUnlocked(topics, 1, {}, 'biology'), false);
+assert.equal(m.unitUnlocked(topics, 1, { biology__one: { bestScore: 79 } }, 'biology'), false);
+assert.equal(m.unitUnlocked(topics, 1, { biology__one: { bestScore: 80, gradingVersion: 1 } }, 'biology'), true);
+assert.equal(m.unitUnlocked(topics, 2, { biology__two: { bestScore: 100 } }, 'biology'), false);
+assert.equal(m.masteryLabel({ notesRead: true }), 'Familiar');
+assert.equal(m.masteryLabel({ bestScore: 80, gradingVersion: 1 }), 'Proficient');
+assert.equal(m.masteryLabel({ bestScore: 100 }), 'Mastered');
+await m.saveCourseMastery('qa', 'biology', 'one');
+assert.equal(m.verifiedMastery({ bestScore: 100 }).bestScore, 0);
+assert.equal(m.unitUnlocked(topics, 1, { biology__one: { bestScore: 100 } }, 'biology'), false);
+console.log('Passed: prerequisite boundaries, direct-route gating, mastery labels, and save operations.');

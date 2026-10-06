@@ -1,0 +1,35 @@
+{
+  "Biology": [
+    { "id": "chapter-1-cells-and-organisms", "chapter": 1, "title": "Cells and Organisms", "file": "/flashcards/Biology_Chapter_1_Cells_and_Organisms.csv", "cards": 40 },
+    { "id": "chapter-2-nutrition-and-digestion", "chapter": 2, "title": "Nutrition and Digestion", "file": "/flashcards/Biology_Chapter_2_Nutrition_and_Digestion.csv", "cards": 34 },
+    { "id": "chapter-3-gas-exchange-and-respiration", "chapter": 3, "title": "Gas Exchange and Respiration", "file": "/flashcards/Biology_Chapter_3_Gas_Exchange_and_Respiration.csv", "cards": 29 },
+    { "id": "chapter-4-ecosystems-and-photosynthesis", "chapter": 4, "title": "Ecosystems and Photosynthesis", "file": "/flashcards/Biology_Chapter_4_Ecosystems_and_Photosynthesis.csv", "cards": 31 },
+    { "id": "chapter-5-reproduction", "chapter": 5, "title": "Reproduction", "file": "/flashcards/Biology_Chapter_5_Reproduction.csv", "cards": 39 },
+    { "id": "chapter-6-genetics-evolution-and-variation", "chapter": 6, "title": "Genetics, Evolution and Variation", "file": "/flashcards/Biology_Chapter_6_Genetics_Evolution_and_Variation.csv", "cards": 27 }
+  ],
+  "Chemistry": [
+    { "id": "chapter-1-the-particle-model", "chapter": 1, "title": "The Particle Model", "file": "/flashcards/Chemistry_Chapter_1_The_Particle_Model.csv", "cards": 3 },
+    { "id": "chapter-2-atoms-elements-and-compounds", "chapter": 2, "title": "Atoms, Elements and Compounds", "file": "/flashcards/Chemistry_Chapter_2_Atoms_Elements_and_Compounds.csv", "cards": 3 },
+    { "id": "chapter-3-pure-and-impure-substances", "chapter": 3, "title": "Pure and Impure Substances", "file": "/flashcards/Chemistry_Chapter_3_Pure_and_Impure_Substances.csv", "cards": 3 },
+    { "id": "chapter-4-chemical-reactions", "chapter": 4, "title": "Chemical Reactions", "file": "/flashcards/Chemistry_Chapter_4_Chemical_Reactions.csv", "cards": 3 },
+    { "id": "chapter-5-earth-and-atmosphere", "chapter": 5, "title": "Earth and Atmosphere", "file": "/flashcards/Chemistry_Chapter_5_Earth_and_Atmosphere.csv", "cards": 3 }
+  ],
+  "Physics": [
+    { "id": "chapter-1-forces-and-motion", "chapter": 1, "title": "Forces and Motion", "file": "/flashcards/Physics_Chapter_1_Forces_and_Motion.csv", "cards": 3 },
+    { "id": "chapter-2-energy", "chapter": 2, "title": "Energy", "file": "/flashcards/Physics_Chapter_2_Energy.csv", "cards": 3 },
+    { "id": "chapter-3-waves", "chapter": 3, "title": "Waves", "file": "/flashcards/Physics_Chapter_3_Waves.csv", "cards": 3 },
+    { "id": "chapter-4-electricity-and-electromagnetism", "chapter": 4, "title": "Electricity and Electromagnetism", "file": "/flashcards/Physics_Chapter_4_Electricity_and_Electromagnetism.csv", "cards": 3 },
+    { "id": "chapter-5-space-physics", "chapter": 5, "title": "Space Physics", "file": "/flashcards/Physics_Chapter_5_Space_Physics.csv", "cards": 3 }
+  ],
+  "Maths": [
+    { "id": "year-7-number-and-fdp", "chapter": 1, "title": "Year 7: Number and FDP", "file": "/flashcards/Maths_Year_7_Number_and_FDP.csv", "cards": 20 },
+    { "id": "year-7-algebra-and-graphs", "chapter": 2, "title": "Year 7: Algebra and Graphs", "file": "/flashcards/Maths_Year_7_Algebra_and_Graphs.csv", "cards": 19 },
+    { "id": "year-7-geometry-data-and-probability", "chapter": 3, "title": "Year 7: Geometry Data and Probability", "file": "/flashcards/Maths_Year_7_Geometry_Data_and_Probability.csv", "cards": 20 },
+    { "id": "year-8-ratio-coordinates-and-probability", "chapter": 4, "title": "Year 8: Ratio Coordinates and Probability", "file": "/flashcards/Maths_Year_8_Ratio_Coordinates_and_Probability.csv", "cards": 18 },
+    { "id": "year-8-algebra-fdp-and-indices", "chapter": 5, "title": "Year 8: Algebra FDP and Indices", "file": "/flashcards/Maths_Year_8_Algebra_FDP_and_Indices.csv", "cards": 20 },
+    { "id": "year-8-geometry-measure-and-data", "chapter": 6, "title": "Year 8: Geometry Measure and Data", "file": "/flashcards/Maths_Year_8_Geometry_Measure_and_Data.csv", "cards": 21 },
+    { "id": "year-9-number-and-algebra", "chapter": 7, "title": "Year 9: Number and Algebra", "file": "/flashcards/Maths_Year_9_Number_and_Algebra.csv", "cards": 18 },
+    { "id": "year-9-graphs-geometry-and-percentages", "chapter": 8, "title": "Year 9: Graphs Geometry and Percentages", "file": "/flashcards/Maths_Year_9_Graphs_Geometry_and_Percentages.csv", "cards": 18 },
+    { "id": "year-9-transformations-trig-and-3d", "chapter": 9, "title": "Year 9: Transformations Trig and 3D", "file": "/flashcards/Maths_Year_9_Transformations_Trig_and_3D.csv", "cards": 20 }
+  ]
+}

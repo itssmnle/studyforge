@@ -25,31 +25,31 @@ rgba(81, 81, 81, 0.195)
   --text: #222;
   --card: #ffffff;
   --border: #dddddd;
-  --primary: #6c63ff;
+  --primary: var(--forge-accent, #7c3aed);
   --bg-alt: #f7f7f7;
-  --secondary: #e7e5ff;
+  --secondary: #e8e8ed;
   --blue: #3b82f6;
   --green: #4bb45d;
   --border-light: #ddd;
   --fullblack: #222;
-  --highlight: #cdcaff;
+  --highlight: var(--forge-accent-highlight, #6d28d9);
   --text-secondary: #919191;
 }
 
 /* DARK MODE */
 :root.dark {
-  --bg: #181818;
+  --bg: #151516;
   --text: #f5f5f5;
-  --card: #202020;
-  --border: #333;
-  --primary: #8f87ff;      /* optional */
-  --bg-alt: #121212;       /* optional */
-  --secondary: #3a3175;    /* <-- YOU FORGOT THIS */
+  --card: #1d1d1f;
+  --border: #373739;
+  --primary: var(--forge-accent, #7c3aed);
+  --bg-alt: #272729;
+  --secondary: #333337;
   --blue: #3b82f6;         /* keep if needed */
   --green: #6fef84;
   --border-light: #ddd;
   --fullblack: #222;
-  --highlight: #494686;
+  --highlight: var(--forge-accent-highlight, #7c3aed);
   --text-secondary: #919191;
 }
 
@@ -74,7 +74,7 @@ rgba(81, 81, 81, 0.195)
 }
 
 .highlight{
-  color: var(--primary);
+  color: var(--accent-text);
 }
 
 .bold{
@@ -125,72 +125,4 @@ body {
   transition: background 0.25s ease, color 0.25s ease;
   font-family: 'JakartaSans';
   font-weight: 100;
-}
-
-.footer {
-  width: 100%;
-  padding: 40px 0px;
-  margin-top: 80px;
-  border-top: 1px solid var(--border);
-}
-
-.footer-content {
-  max-width: 110px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-.footer-col {
-  display: flex;
-  flex-direction: column;
-  width: 150px;
-}
-
-.footer-col h4 {
-  font-size: 0.75rem;
-  margin-bottom: 15px;
-  color: var(--text);
-  font-family: 'JakartaSansBold';
-  font-weight: 100;
-}
-
-.footer-col a {
-  margin: 5px 0;
-  text-decoration: none;
-  color: var(--text);
-  opacity: 0.8;
-  font-size: 0.55rem;
-  transition: 0.2s;
-}
-
-.footer-col a:hover {
-  color: var(--primary);
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  color: var(--text);
-  opacity: 0.6;
-  font-size: 0.5rem;
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin-bottom: 10px;
-  font-size: 1.6rem;
-}
-
-.socials a {
-  color: var(--text);
-  opacity: 0.6;
-  transition: 0.2s;
-}
-
-.socials a:hover {
-  color: var(--primary);
 }

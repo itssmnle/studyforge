@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 190" role="img" aria-labelledby="title desc">
+<title id="title">Growing matchstick square pattern</title>
+<desc id="desc">Stage one has one square and four sticks, stage two has two joined squares and seven sticks, stage three has three joined squares and ten sticks.</desc>
+<rect width="620" height="190" fill="#fff"/>
+<g stroke="#b66d35" stroke-width="7" stroke-linecap="round" fill="none">
+<path d="M42 45H92V95H42Z"/>
+<path d="M195 45H295 M195 95H295 M195 45V95 M245 45V95 M295 45V95"/>
+<path d="M385 45H535 M385 95H535 M385 45V95 M435 45V95 M485 45V95 M535 45V95"/>
+</g>
+<g fill="#252936" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">
+<text x="67" y="133">Stage 1: 4</text><text x="245" y="133">Stage 2: 7</text><text x="460" y="133">Stage 3: 10</text>
+<text x="310" y="172">Each new square shares one side, adding 3 sticks</text>
+</g>
+</svg>

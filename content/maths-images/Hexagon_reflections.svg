@@ -1,0 +1,7 @@
+<svg viewBox='-110 -110 220 220' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<title>Reflection symmetries of a regular hexagon</title>
+<path stroke="black" fill="olive" fill-opacity=".3" d="M100,0 l-50,-86.6 h-100 l-50,86.6 l50,86.6 h100 z"/>
+<path id="m" d="M-110,0H110 M0,-110V110" stroke="brown" stroke-width=".75"/>
+<use xlink:href="#m" transform="rotate(30)"/>
+<use xlink:href="#m" transform="rotate(60)"/>
+</svg>

@@ -1,67 +1,53 @@
 import "../styles/Footer.css";
+import { Link } from "react-router-dom";
+import { useAuthModal } from "../context/AuthModalContext";
+import logoLight from "../logo-light.svg";
+import logoDark from "../logo-dark.svg";
 
 export default function Footer() {
+  const { user } = useAuthModal();
+  const isTeacher = user?.role === "teacher";
+
   return (
-    <div>
-      <footer className="footer">
-            <div className="footer-content">
-              
-              <div className="footer-col">
-                <h4>Resources</h4>
-                <a href="#">Learning Hub</a>
-                <a href="#">Ambassadors</a>
-                <a href="#">Scholarship</a>
-                <a href="#">Join</a>
-                <a href="#">Past Papers</a>
-                <a href="#">Solution Banks</a>
-                <a href="#">Sitemap</a>
-              </div>
-
-              <div className="footer-col">
-                <h4>Members</h4>
-                <a href="/launchpad">Launchpad</a>
-                <a href="#">Account</a>
-                <a href="#">Log out</a>
-              </div>
-
-              <div className="footer-col">
-                <h4>Company</h4>
-                <a href="#">About us</a>
-                <a href="#">Exam Specificity</a>
-                <a href="#">Content Quality</a>
-                <a href="#">Promotions</a>
-                <a href="#">Jobs</a>
-                <a href="#">Terms</a>
-                <a href="#">Privacy</a>
-                <a href="#">Cookie Policy</a>
-                <a href="#">Help and Support</a>
-              </div>
-
-              <div className="footer-col">
-                <h4>Subjects</h4>
-                <a href="#">Biology</a>
-                <a href="#">Chemistry</a>
-                <a href="#">Physics</a>
-                <a href="#">Maths</a>
-                <a href="#">Geography</a>
-                <a href="#">English Literature</a>
-                <a href="#">Psychology</a>
-                <a href="#">All Subjects</a>
-              </div>
-
-            </div>
-
-            <div className="footer-bottom">
-              <p>© 2025 Revision Hub. All rights reserved.</p>
-              <div className="socials">
-              <a href="#"><i className="fa-brands fa-tiktok"></i></a>
-              <a href="#"><i className="fa-brands fa-instagram"></i></a>
-              <a href="#"><i className="fa-brands fa-facebook"></i></a>
-              <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
-            </div>
-
-            </div>
-          </footer>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-brand-column">
+          <Link className="footer-brand" to="/" aria-label="StudyForge home">
+            <img className="footer-brand-light" src={logoLight} alt="StudyForge" />
+            <img className="footer-brand-dark" src={logoDark} alt="StudyForge" />
+          </Link>
+          <p>Clear revision notes, flashcards, and short practice sets for focused study.</p>
         </div>
+
+        {!isTeacher && <div className="footer-col">
+          <h4>Resources</h4>
+          <Link to="/notes">Revision notes</Link>
+          <Link to="/flashcards">Flashcards</Link>
+          <Link to="/examquestions">Practice</Link>
+        </div>}
+
+        {!isTeacher && <div className="footer-col">
+          <h4>Subjects</h4>
+          <Link to="/subjects/maths">Maths</Link>
+          <Link to="/subjects/biology">Biology</Link>
+          <Link to="/subjects/chemistry">Chemistry</Link>
+          <Link to="/subjects/physics">Physics</Link>
+        </div>}
+
+        <div className="footer-col">
+          <h4>StudyForge</h4>
+          <Link to="/about">About us</Link>
+          <Link to="/join">Join the team</Link>
+          {!user && <Link to="/teacher-tools">For teachers</Link>}
+          {user && <Link to={isTeacher ? "/teachers" : "/launchpad"}>{isTeacher ? "Teacher dashboard" : "My courses"}</Link>}
+          {user && <Link to="/settings">Account settings</Link>}
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>© {new Date().getFullYear()} StudyForge. All rights reserved.</p>
+        <p>Designed for calm, focused revision.</p>
+      </div>
+    </footer>
   );
 }

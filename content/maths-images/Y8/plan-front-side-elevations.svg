@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #d89f00;
+      }
+
+      .cls-1, .cls-6, .cls-7, .cls-8 {
+        fill: #f0d56d;
+      }
+
+      .cls-1, .cls-7, .cls-3, .cls-9, .cls-10, .cls-11, .cls-8, .cls-12, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-13 {
+        fill: #9e7bd7;
+      }
+
+      .cls-13, .cls-14, .cls-2, .cls-15, .cls-16, .cls-17, .cls-6, .cls-18, .cls-19, .cls-4, .cls-20 {
+        stroke-width: 3px;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-17, .cls-6, .cls-20 {
+        stroke: #272331;
+        stroke-linejoin: round;
+      }
+
+      .cls-21 {
+        font-size: 19px;
+      }
+
+      .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29 {
+        isolation: isolate;
+      }
+
+      .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-27, .cls-28, .cls-29 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-21, .cls-15, .cls-24 {
+        fill: #7046c7;
+      }
+
+      .cls-22, .cls-23, .cls-26, .cls-27, .cls-28 {
+        fill: #272331;
+      }
+
+      .cls-22, .cls-26 {
+        font-size: 18px;
+      }
+
+      .cls-14, .cls-10, .cls-12, .cls-5 {
+        fill: #d9c9f3;
+      }
+
+      .cls-2, .cls-16, .cls-19 {
+        fill: #fbfaff;
+      }
+
+      .cls-23 {
+        font-size: 31px;
+      }
+
+      .cls-24, .cls-25, .cls-29 {
+        font-size: 16px;
+      }
+
+      .cls-16, .cls-7, .cls-9, .cls-10 {
+        stroke: #2b9f9a;
+      }
+
+      .cls-17 {
+        fill: #d89f00;
+      }
+
+      .cls-25 {
+        fill: #2b9f9a;
+      }
+
+      .cls-18 {
+        fill: #eee8fa;
+      }
+
+      .cls-18, .cls-19, .cls-11, .cls-8, .cls-12 {
+        stroke: #7046c7;
+      }
+
+      .cls-30 {
+        fill: #fff;
+      }
+
+      .cls-26 {
+        font-family: SFProRounded-Medium, 'SF Pro Rounded';
+        font-weight: 500;
+      }
+
+      .cls-27 {
+        font-size: 25px;
+      }
+
+      .cls-31 {
+        fill: #fbfafb;
+        fill-rule: evenodd;
+      }
+
+      .cls-28 {
+        font-size: 23px;
+      }
+
+      .cls-4, .cls-20 {
+        fill: #fff4c7;
+      }
+
+      .cls-32 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-38 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-39 {
+        letter-spacing: 0em;
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        letter-spacing: 0em;
+      }
+
+      .cls-29 {
+        fill: #a77700;
+      }
+    </style>
+  </defs>
+  <rect class="cls-30" width="1100" height="720"/>
+  <path class="cls-31" d="M260.3,351.67c13.07-4.19,28.35-2.99,41.95-5.18,28.75-4.65,57.32-11.67,84.23-22.98,33-13.86,63.67-33.68,87.55-60.58,47.65-53.65,69.82-137.21,67.59-207.94,4.13-1.4,7.87-1.54,12.21-1.16,4.05,77.85,19.72,166.18,80.45,221.29,23.18,21.03,49.6,35.95,78.46,47.69,28.55,11.61,59.35,18.82,89.68,23.96,8.68,1.47,30.89-1.02,37.05,4.29.65,3.46,2.41,9.28.53,12.43-68.93-.18-152.61,25.97-202.7,74.4-24.89,24.07-43.94,55.68-56.63,87.63-12.65,31.87-20.44,66.52-24.34,100.54-1.49,13.01,1.14,27.21-1.51,39.89-4.2,1.11-8.55-.28-12.15-2.41-2.98-9.6-1.34-20.57-2.02-30.54-1.11-16.6-4.1-33.28-7.4-49.56-13.65-67.59-44.27-126.33-100.73-167.34-37.36-27.13-84.78-39.92-129.7-47.43-11.38-1.91-22.93-3.31-34.41-4.41-1.53-.14-8.41.68-9.03-1.45-.78-2.64.62-8.44.9-11.13h.01Z"/>
+  <g>
+    <text class="cls-23" transform="translate(320.96 67)"><tspan x="0" y="0">Plan and El</tspan><tspan class="cls-39" x="152.32" y="0">e</tspan><tspan class="cls-38" x="169.3" y="0">v</tspan><tspan x="185.29" y="0">ation of a 3D Shape</tspan></text>
+    <text class="cls-21" transform="translate(395.61 102)"><tspan x="0" y="0">One model</tspan><tspan class="cls-32" x="93.3" y="0">,</tspan><tspan x="97.47" y="0" xml:space="preserve"> th</tspan><tspan class="cls-34" x="119.08" y="0">r</tspan><tspan x="125.67" y="0">ee dif</tspan><tspan class="cls-36" x="173.16" y="0">f</tspan><tspan x="179.65" y="0">e</tspan><tspan class="cls-34" x="190.19" y="0">r</tspan><tspan x="196.78" y="0">ent vi</tspan><tspan class="cls-40" x="243.37" y="0">e</tspan><tspan x="253.87" y="0">wpoints</tspan></text>
+  </g>
+  <rect class="cls-18" x="45" y="135" width="430" height="485" rx="18" ry="18"/>
+  <text class="cls-27" transform="translate(179.62 181)"><tspan x="0" y="0">3D block model</tspan></text>
+  <g>
+    <path class="cls-14" d="M195,340l55-31,55,31-55,32-55-32Z"/>
+    <path class="cls-13" d="M195,340v65l55,32v-65l-55-32Z"/>
+    <path class="cls-15" d="M250,372v65l55-32v-65l-55,32Z"/>
+    <path class="cls-14" d="M140,372l55-31,55,31-55,33-55-33Z"/>
+    <path class="cls-13" d="M140,372v65l55,32v-64l-55-33Z"/>
+    <path class="cls-15" d="M195,405v64l55-32v-65l-55,33Z"/>
+    <path class="cls-14" d="M250,372l55-31,55,31-55,33-55-33Z"/>
+    <path class="cls-13" d="M250,372v65l55,32v-64l-55-33Z"/>
+    <path class="cls-15" d="M305,405v64l55-32v-65l-55,33Z"/>
+    <path class="cls-20" d="M195,276l55-31,55,31-55,32-55-32Z"/>
+    <path class="cls-6" d="M195,276v65l55,32v-65l-55-32Z"/>
+    <path class="cls-17" d="M250,308v65l55-32v-65l-55,32Z"/>
+  </g>
+  <text class="cls-22" transform="translate(86.92 537)"><tspan class="cls-39" x="0" y="0">V</tspan><tspan x="12.08" y="0">i</tspan><tspan class="cls-40" x="16.39" y="0">e</tspan><tspan x="26.34" y="0">w the object f</tspan><tspan class="cls-34" x="136.13" y="0">r</tspan><tspan x="142.37" y="0">om ab</tspan><tspan class="cls-38" x="192.38" y="0">o</tspan><tspan class="cls-36" x="202.47" y="0">v</tspan><tspan x="211.71" y="0">e</tspan><tspan class="cls-32" x="221.7" y="0">,</tspan><tspan x="225.65" y="0" xml:space="preserve"> f</tspan><tspan class="cls-34" x="235.62" y="0">r</tspan><tspan x="241.86" y="0">ont</tspan><tspan class="cls-32" x="268.94" y="0">,</tspan><tspan x="272.88" y="0" xml:space="preserve"> and side</tspan></text>
+  <rect class="cls-19" x="525" y="135" width="250" height="237" rx="15" ry="15"/>
+  <text class="cls-28" transform="translate(601.59 170)"><tspan x="0" y="0">Plan vi</tspan><tspan class="cls-40" x="67.82" y="0">e</tspan><tspan x="80.53" y="0">w</tspan></text>
+  <text class="cls-24" transform="translate(609.87 196)"><tspan x="0" y="0">f</tspan><tspan class="cls-34" x="5.7" y="0">r</tspan><tspan x="11.24" y="0">om ab</tspan><tspan class="cls-38" x="55.7" y="0">o</tspan><tspan class="cls-36" x="64.66" y="0">v</tspan><tspan x="72.88" y="0">e</tspan></text>
+  <line class="cls-11" x1="575" y1="218" x2="725" y2="218"/>
+  <line class="cls-11" x1="575" y1="263" x2="725" y2="263"/>
+  <line class="cls-11" x1="575" y1="308" x2="725" y2="308"/>
+  <line class="cls-11" x1="575" y1="353" x2="725" y2="353"/>
+  <line class="cls-11" x1="575" y1="218" x2="575" y2="353"/>
+  <line class="cls-11" x1="625" y1="218" x2="625" y2="351.03"/>
+  <line class="cls-11" x1="675" y1="218" x2="675" y2="351.03"/>
+  <line class="cls-11" x1="725" y1="218" x2="725" y2="353"/>
+  <rect class="cls-8" x="625" y="263" width="50" height="45"/>
+  <rect class="cls-12" x="575" y="263" width="50" height="45"/>
+  <rect class="cls-12" x="625" y="308" width="50" height="45"/>
+  <rect class="cls-16" x="810" y="135" width="250" height="237" rx="15" ry="15"/>
+  <text class="cls-28" transform="translate(856.57 170)"><tspan x="0" y="0">F</tspan><tspan class="cls-34" x="12.61" y="0">r</tspan><tspan x="20.59" y="0">ont el</tspan><tspan class="cls-39" x="78.07" y="0">e</tspan><tspan class="cls-38" x="90.67" y="0">v</tspan><tspan x="102.53" y="0">ation</tspan></text>
+  <text class="cls-25" transform="translate(885.45 196)"><tspan x="0" y="0">f</tspan><tspan class="cls-34" x="5.7" y="0">r</tspan><tspan x="11.24" y="0">om the f</tspan><tspan class="cls-34" x="70.16" y="0">r</tspan><tspan x="75.71" y="0">ont</tspan></text>
+  <line class="cls-9" x1="860" y1="218" x2="1010" y2="218"/>
+  <line class="cls-9" x1="860" y1="263" x2="1010" y2="263"/>
+  <line class="cls-9" x1="860" y1="308" x2="1010" y2="308"/>
+  <line class="cls-9" x1="860" y1="353" x2="1010" y2="353"/>
+  <line class="cls-9" x1="860" y1="398" x2="1010" y2="398"/>
+  <path class="cls-9" d="M860,218v135M910,218v135M960,218v135M1010,218v135"/>
+  <rect class="cls-7" x="910" y="218" width="50" height="45"/>
+  <rect class="cls-10" x="860" y="263" width="50" height="45"/>
+  <rect class="cls-10" x="910" y="263" width="50" height="45"/>
+  <rect class="cls-2" x="525" y="390" width="250" height="230" rx="15" ry="15"/>
+  <text class="cls-28" transform="translate(576.67 425)"><tspan x="0" y="0">Side el</tspan><tspan class="cls-39" x="69.39" y="0">e</tspan><tspan class="cls-38" x="81.99" y="0">v</tspan><tspan x="93.85" y="0">ation</tspan></text>
+  <text class="cls-29" transform="translate(602.55 451)"><tspan x="0" y="0">f</tspan><tspan class="cls-34" x="5.7" y="0">r</tspan><tspan x="11.24" y="0">om the side</tspan></text>
+  <line class="cls-3" x1="575" y1="473" x2="725" y2="473"/>
+  <line class="cls-3" x1="575" y1="518" x2="725" y2="518"/>
+  <line class="cls-3" x1="575" y1="563" x2="725" y2="563"/>
+  <line class="cls-3" x1="575" y1="608" x2="725" y2="608"/>
+  <path class="cls-3" d="M575,473v135M625,473v135M675,473v135M725,473v135"/>
+  <rect class="cls-1" x="625" y="473" width="50" height="45"/>
+  <rect class="cls-5" x="625" y="518" width="50" height="45"/>
+  <rect class="cls-4" x="810" y="390" width="250" height="230" rx="15" ry="15"/>
+  <text class="cls-28" transform="translate(854.02 429)"><tspan x="0" y="0">What changes?</tspan></text>
+  <text class="cls-26" transform="translate(835 475)"><tspan x="0" y="0">Plan: loo</tspan><tspan class="cls-35" x="65.65" y="0">k</tspan><tspan x="74.43" y="0">s d</tspan><tspan class="cls-41" x="97.02" y="0">o</tspan><tspan x="106.81" y="0">wn</tspan></text>
+  <text class="cls-26" transform="translate(835 515)"><tspan x="0" y="0">F</tspan><tspan class="cls-33" x="9.63" y="0">r</tspan><tspan x="15.14" y="0">ont: loo</tspan><tspan class="cls-35" x="72.49" y="0">k</tspan><tspan x="81.28" y="0">s ac</tspan><tspan class="cls-33" x="112.25" y="0">r</tspan><tspan x="117.76" y="0">oss</tspan></text>
+  <text class="cls-26" transform="translate(835 555)"><tspan x="0" y="0">Side: loo</tspan><tspan class="cls-35" x="66.52" y="0">k</tspan><tspan x="75.31" y="0">s f</tspan><tspan class="cls-33" x="93.46" y="0">r</tspan><tspan x="98.97" y="0">om the side</tspan></text>
+  <text class="cls-21" transform="translate(320.4 675)"><tspan x="0" y="0">The vi</tspan><tspan class="cls-40" x="51.42" y="0">e</tspan><tspan x="61.93" y="0">wpoint changes</tspan><tspan class="cls-32" x="199.52" y="0">,</tspan><tspan x="203.68" y="0" xml:space="preserve"> but the shape s</tspan><tspan class="cls-37" x="339.07" y="0">t</tspan><tspan class="cls-40" x="345.73" y="0">ay</tspan><tspan x="366.35" y="0">s the same</tspan></text>
+  <rect class="cls-5" x="674.75" y="518" width="50" height="45"/>
+  <path class="cls-31" d="M1045.08,683.72c.9-.29,1.96-.21,2.91-.36,1.99-.32,3.97-.81,5.83-1.59,2.29-.96,4.41-2.33,6.06-4.2,3.3-3.72,4.84-9.5,4.68-14.4.29-.1.55-.11.85-.08.28,5.39,1.37,11.51,5.57,15.33,1.61,1.46,3.43,2.49,5.43,3.3,1.98.8,4.11,1.3,6.21,1.66.6.1,2.14-.07,2.57.3.05.24.17.64.04.86-4.77-.01-10.57,1.8-14.04,5.15-1.72,1.67-3.04,3.86-3.92,6.07-.88,2.21-1.42,4.61-1.69,6.96-.1.9.08,1.88-.1,2.76-.29.08-.59-.02-.84-.17-.21-.67-.09-1.42-.14-2.12-.08-1.15-.28-2.31-.51-3.43-.95-4.68-3.07-8.75-6.98-11.59-2.59-1.88-5.87-2.76-8.98-3.28-.79-.13-1.59-.23-2.38-.31-.11,0-.58.05-.63-.1-.05-.18.04-.58.06-.77h0Z"/>
+</svg>

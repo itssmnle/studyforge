@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 52px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+      }
+
+      .cls-1, .cls-4, .cls-6, .cls-7, .cls-10 {
+        fill: #272331;
+      }
+
+      .cls-2, .cls-14, .cls-3, .cls-12 {
+        fill: #7048c8;
+      }
+
+      .cls-2, .cls-8, .cls-9, .cls-13 {
+        font-size: 23px;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        stroke: #272331;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-20 {
+        fill: #d9f1ef;
+        stroke: #2aa6a3;
+      }
+
+      .cls-20, .cls-21, .cls-22 {
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 31px;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 22px;
+      }
+
+      .cls-5, .cls-23 {
+        fill: #fff;
+      }
+
+      .cls-15 {
+        fill: #a990dc;
+      }
+
+      .cls-16 {
+        fill: #c9b8ee;
+      }
+
+      .cls-24 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        font-size: 21px;
+      }
+
+      .cls-17, .cls-13 {
+        fill: #2aa6a3;
+      }
+
+      .cls-8 {
+        fill: #d94857;
+      }
+
+      .cls-25 {
+        fill: #e0a800;
+      }
+
+      .cls-9, .cls-11 {
+        fill: #a87500;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 25px;
+      }
+
+      .cls-21, .cls-26 {
+        fill: #e7ddfb;
+      }
+
+      .cls-21, .cls-22 {
+        stroke: #7048c8;
+      }
+
+      .cls-18 {
+        fill: #b6e4df;
+      }
+
+      .cls-19 {
+        fill: #80c9c2;
+      }
+
+      .cls-27 {
+        fill: #fff0b8;
+      }
+
+      .cls-12 {
+        font-size: 29px;
+      }
+
+      .cls-28 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-30 {
+        fill: none;
+        stroke: #e0a800;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-31 {
+        fill: #ffe1e2;
+      }
+
+      .cls-32 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-36 {
+        letter-spacing: 0em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        fill: #eee8fb;
+      }
+    </style>
+  </defs>
+  <rect class="cls-23" width="1600" height="1000"/>
+  <path class="cls-24" d="M394.91,488.35c18.28-5.85,39.64-4.17,58.66-7.25,40.2-6.5,80.15-16.31,117.78-32.13,46.14-19.39,89.03-47.1,122.43-84.71,66.63-75.03,97.64-191.86,94.52-290.78,5.77-1.96,11-2.16,17.07-1.62,5.67,108.86,27.58,232.38,112.5,309.45,32.42,29.41,69.35,50.28,109.71,66.68,39.93,16.23,83,26.31,125.41,33.51,12.14,2.05,43.19-1.43,51.81,6,.91,4.84,3.36,12.98.75,17.37-96.39-.25-213.39,36.31-283.45,104.04-34.8,33.66-61.45,77.86-79.19,122.55-17.69,44.56-28.59,93.02-34.04,140.6-2.09,18.19,1.59,38.05-2.11,55.77-5.87,1.56-11.96-.39-16.99-3.36-4.16-13.42-1.87-28.77-2.81-42.7-1.56-23.21-5.73-46.54-10.35-69.3-19.09-94.52-61.91-176.66-140.86-234-52.24-37.94-118.54-55.82-181.37-66.32-15.92-2.67-32.07-4.63-48.12-6.16-2.13-.2-11.76.94-12.64-2.03-1.1-3.7.86-11.8,1.26-15.57h.01v-.02Z"/>
+  <g>
+    <text class="cls-1" transform="translate(389.78 101)"><tspan x="0" y="0">Scale </tspan><tspan class="cls-32" x="141.38" y="0">F</tspan><tspan x="168.75" y="0">ac</tspan><tspan class="cls-37" x="225.54" y="0">t</tspan><tspan x="243.65" y="0">ors </tspan><tspan class="cls-35" x="329.42" y="0">f</tspan><tspan x="347.17" y="0">or Similar 3D Prisms</tspan></text>
+    <text class="cls-12" transform="translate(456.81 151)"><tspan x="0" y="0">E</tspan><tspan class="cls-35" x="16.62" y="0">v</tspan><tspan x="31.51" y="0">ery length doubles</tspan><tspan class="cls-29" x="275.64" y="0">,</tspan><tspan x="282" y="0" xml:space="preserve"> so a</tspan><tspan class="cls-34" x="340.89" y="0">r</tspan><tspan x="350.95" y="0">ea and </tspan><tspan class="cls-35" x="444.25" y="0">v</tspan><tspan x="459.13" y="0">olume g</tspan><tspan class="cls-34" x="563.55" y="0">r</tspan><tspan class="cls-36" x="573.6" y="0">o</tspan><tspan x="590.07" y="0">w </tspan><tspan class="cls-33" x="618.71" y="0">f</tspan><tspan x="628.26" y="0">as</tspan><tspan class="cls-37" x="659.07" y="0">t</tspan><tspan x="669.17" y="0">er</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-22" x="100" y="207" width="1400" height="94" rx="25" ry="25"/>
+    <text class="cls-10" transform="translate(695.86 247)"><tspan x="0" y="0">Linear scale </tspan><tspan class="cls-33" x="140.64" y="0">f</tspan><tspan x="148.86" y="0">ac</tspan><tspan class="cls-37" x="176.17" y="0">t</tspan><tspan x="184.88" y="0">or</tspan></text>
+    <text class="cls-3" transform="translate(766.15 284)"><tspan x="0" y="0">k = 2</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-21" x="101.93" y="353" width="580" height="455" rx="28" ry="28"/>
+    <text class="cls-4" transform="translate(293.86 405)"><tspan x="0" y="0">Original prism</tspan></text>
+    <text class="cls-2" transform="translate(319.96 441)"><tspan x="0" y="0">1 × 2 × 3 units</tspan></text>
+    <g>
+      <g>
+        <polygon class="cls-16" points="256.93 544 396.93 479 526.93 544 386.93 609 256.93 544"/>
+        <polygon class="cls-15" points="256.93 544 386.93 609 386.93 724 256.93 659 256.93 544"/>
+        <polygon class="cls-14" points="386.93 609 526.93 544 526.93 659 386.93 724 386.93 609"/>
+      </g>
+      <text class="cls-7" transform="translate(386.93 548.92)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-7" transform="translate(310.39 644.79)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-5" transform="translate(456.93 644.5)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <text class="cls-6" transform="translate(287.51 781)"><tspan class="cls-28" x="0" y="0">V</tspan><tspan x="12.81" y="0">olume = 1 × 2 × 3 = 6</tspan></text>
+  </g>
+  <g>
+    <line class="cls-30" x1="700" y1="611" x2="900" y2="611"/>
+    <path class="cls-25" d="M910,611l-28-20v40l28-20Z"/>
+  </g>
+  <g>
+    <rect class="cls-27" x="716" y="504" width="168" height="62" rx="19" ry="19"/>
+    <text class="cls-11" transform="translate(730.43 544)"><tspan x="0" y="0">× 2 in length</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-20" x="918.98" y="353" width="580" height="455" rx="28" ry="28"/>
+    <text class="cls-4" transform="translate(1103.54 405)"><tspan x="0" y="0">Enla</tspan><tspan class="cls-34" x="60.11" y="0">r</tspan><tspan x="70.85" y="0">ged prism</tspan></text>
+    <text class="cls-13" transform="translate(1134.93 441)"><tspan x="0" y="0">2 × 4 × 6 units</tspan></text>
+    <g>
+      <g>
+        <polygon class="cls-18" points="1028.98 542 1208.98 457 1388.98 542 1208.98 627 1028.98 542"/>
+        <polygon class="cls-19" points="1028.98 542 1208.98 627 1208.98 747 1028.98 662 1028.98 542"/>
+        <polygon class="cls-17" points="1208.98 627 1388.98 542 1388.98 662 1208.98 747 1208.98 627"/>
+      </g>
+      <text class="cls-7" transform="translate(1203.28 548.92)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-7" transform="translate(1108.41 656.55)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-5" transform="translate(1298.98 656.55)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <text class="cls-6" transform="translate(1095.76 781)"><tspan class="cls-28" x="0" y="0">V</tspan><tspan x="12.81" y="0">olume = 2 × 4 × 6 = 48</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-26" x="169.14" y="855" width="370" height="90" rx="24" ry="24"/>
+    <text class="cls-2" transform="translate(317.34 890)"><tspan class="cls-37" x="0" y="0">L</tspan><tspan x="12.32" y="0">ength</tspan></text>
+    <text class="cls-4" transform="translate(320.29 927)"><tspan x="0" y="0">k = 2</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-27" x="614.4" y="855" width="370" height="90" rx="24" ry="24"/>
+    <text class="cls-9" transform="translate(774.8 890)"><tspan x="0" y="0">A</tspan><tspan class="cls-34" x="15.87" y="0">r</tspan><tspan x="23.84" y="0">ea</tspan></text>
+    <text class="cls-4" transform="translate(728.72 927)"><tspan x="0" y="0">k² = 2² = 4</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-31" x="1059.44" y="855" width="370" height="90" rx="24" ry="24"/>
+    <text class="cls-8" transform="translate(1205.11 890)"><tspan class="cls-28" x="0" y="0">V</tspan><tspan x="14.03" y="0">olume</tspan></text>
+    <text class="cls-4" transform="translate(1173.26 927)"><tspan x="0" y="0">k³ = 2³ = 8</tspan></text>
+  </g>
+</svg>

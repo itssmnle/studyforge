@@ -162,7 +162,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: var(--primary-light);
-color: var(--primary);
+color: var(--accent-text);
 border-radius: 10px;
 }
 

@@ -1,0 +1,176 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null
+        && !exists(/databases/$(database)/documents/blockedAccounts/$(request.auth.uid))
+        && (!exists(/databases/$(database)/documents/accountSecurity/$(request.auth.uid))
+          || request.auth.token.auth_time > get(/databases/$(database)/documents/accountSecurity/$(request.auth.uid)).data.validAfter);
+    }
+
+    function profile() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isTeacher() {
+      return signedIn() && profile().role == "teacher";
+    }
+
+    function username() {
+      return profile().username;
+    }
+
+    function isClassMember(classData) {
+      return signedIn() && (
+        classData.ownerUid == request.auth.uid ||
+        request.auth.uid in classData.teacherUids ||
+        username() in classData.studentUsernames
+      );
+    }
+
+    function classData(classId) {
+      return get(/databases/$(database)/documents/classes/$(classId)).data;
+    }
+
+    function canAccessClass(classId) {
+      return isClassMember(classData(classId));
+    }
+
+    match /users/{userId} {
+      allow read: if signedIn() && (request.auth.uid == userId || isTeacher());
+      allow create: if signedIn() && request.auth.uid == userId && request.resource.data.role == "student"
+        && request.auth.token.email == request.resource.data.username + "@users.studyforge.local";
+      allow update: if signedIn() && request.auth.uid == userId
+        && request.resource.data.role == resource.data.role
+        && request.resource.data.username == resource.data.username;
+      allow delete: if false;
+    }
+
+    match /classes/{classId} {
+      allow read: if isClassMember(resource.data);
+      allow create: if isTeacher() && request.resource.data.ownerUid == request.auth.uid;
+      allow update, delete: if isTeacher() && resource.data.ownerUid == request.auth.uid;
+    }
+
+    match /assignments/{assignmentId} {
+      allow read: if signedIn() && (
+        resource.data.createdByUid == request.auth.uid || canAccessClass(resource.data.classId)
+      );
+      allow create: if isTeacher()
+        && request.resource.data.createdByUid == request.auth.uid
+        && canAccessClass(request.resource.data.classId);
+      allow update, delete: if isTeacher() && resource.data.createdByUid == request.auth.uid;
+    }
+
+    match /submissions/{submissionId} {
+      allow get: if signedIn()
+        && !exists(/databases/$(database)/documents/submissions/$(submissionId))
+        && submissionId.matches('.*__' + request.auth.uid);
+      allow read: if signedIn() && (
+        resource.data.studentUid == request.auth.uid ||
+        (isTeacher() && resource.data.teacherUid == request.auth.uid)
+      );
+      allow create: if signedIn() && profile().role == "student"
+        && request.resource.data.keys().hasOnly(['assignmentId', 'classId', 'teacherUid', 'studentUid', 'username', 'answers', 'selfMarks', 'submittedAt', 'schemaVersion'])
+        && request.resource.data.schemaVersion == 2
+        && request.resource.data.studentUid == request.auth.uid
+        && request.resource.data.username == username()
+        && submissionId == request.resource.data.assignmentId + "__" + request.auth.uid
+        && request.resource.data.assignmentId is string
+        && request.resource.data.answers is map && request.resource.data.answers.size() <= 300
+        && request.resource.data.get('selfMarks', {}) is map && request.resource.data.get('selfMarks', {}).size() <= 300
+        && request.resource.data.submittedAt == request.time
+        && request.resource.data.classId == get(/databases/$(database)/documents/assignments/$(request.resource.data.assignmentId)).data.classId
+        && request.resource.data.teacherUid == get(/databases/$(database)/documents/assignments/$(request.resource.data.assignmentId)).data.createdByUid
+        && username() in classData(request.resource.data.classId).studentUsernames
+        && username() in get(/databases/$(database)/documents/assignments/$(request.resource.data.assignmentId)).data.get('assignedStudentUsernames', classData(request.resource.data.classId).studentUsernames);
+      allow update, delete: if false;
+    }
+
+    match /practice/{practiceId} {
+      allow read, create, update, delete: if signedIn()
+        && resource.data.studentUid == request.auth.uid;
+      allow create: if signedIn() && request.resource.data.studentUid == request.auth.uid;
+    }
+
+    match /users/{userId}/flashcards/{deckId} {
+      allow read, write: if signedIn() && request.auth.uid == userId;
+    }
+
+    match /users/{userId}/notes/{noteId} {
+      allow read, delete: if signedIn() && request.auth.uid == userId && profile().role == "student";
+      allow create, update: if signedIn() && request.auth.uid == userId && profile().role == "student"
+        && request.resource.data.keys().hasOnly(['title', 'content', 'createdAt', 'updatedAt'])
+        && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 120
+        && request.resource.data.content is string && request.resource.data.content.size() <= 300000
+        && request.resource.data.createdAt is string
+        && request.resource.data.updatedAt is string;
+    }
+
+    match /users/{userId}/mastery/{unitId} {
+      allow read: if signedIn() && request.auth.uid == userId;
+      allow create, update: if signedIn() && request.auth.uid == userId
+        && request.resource.data.keys().hasOnly(['subject', 'topic', 'notesRead', 'updatedAt'])
+        && request.resource.data.subject is string && request.resource.data.subject.size() <= 40
+        && request.resource.data.topic is string && request.resource.data.topic.size() <= 100
+        && unitId == request.resource.data.subject + "__" + request.resource.data.topic
+        && request.resource.data.notesRead == true && request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+
+    match /flashcardDecks/{deckId} {
+      allow read: if true;
+      allow create, update, delete: if isTeacher();
+    }
+
+    match /studyPacks/{packId} {
+      allow read, delete: if isTeacher() && resource.data.ownerUid == request.auth.uid;
+      allow create: if isTeacher() && request.resource.data.ownerUid == request.auth.uid;
+      allow update: if isTeacher() && resource.data.ownerUid == request.auth.uid && request.resource.data.ownerUid == resource.data.ownerUid;
+    }
+
+    match /questions/{questionId} {
+      allow read: if signedIn();
+      allow create, update, delete: if isTeacher();
+    }
+
+    match /analyticsEvents/{eventId} {
+      allow create: if request.resource.data.keys().hasOnly([
+          'event', 'path', 'occurredAt', 'visitorId', 'sessionId', 'metadata', 'recordedAt'
+        ])
+        && request.resource.data.event in [
+          'landing_page_view', 'topic_start', 'lesson_completion', 'practice_start',
+          'practice_completion', 'account_creation', 'return_visit', 'flow_abandon'
+        ]
+        && request.resource.data.path is string && request.resource.data.path.size() <= 300
+        && request.resource.data.occurredAt is string && request.resource.data.occurredAt.size() <= 40
+        && request.resource.data.visitorId is string && request.resource.data.visitorId.size() <= 80
+        && request.resource.data.sessionId is string && request.resource.data.sessionId.size() <= 80
+        && request.resource.data.metadata is map && request.resource.data.metadata.size() <= 8
+        && request.resource.data.metadata.keys().hasOnly(['flow', 'step', 'subject', 'topic', 'lesson', 'questions', 'score', 'source'])
+        && request.resource.data.recordedAt == request.time;
+      allow read, update, delete: if false;
+    }
+
+    match /teacherNotes/{noteId} {
+      allow read: if true;
+      allow create, update: if isTeacher()
+        && request.resource.data.keys().hasOnly(['subject', 'topic', 'source', 'year', 'updatedBy', 'updatedAt'])
+        && request.resource.data.subject in ['biology', 'chemistry', 'physics', 'history', 'geography', 'maths']
+        && request.resource.data.topic is string && request.resource.data.topic.size() >= 2 && request.resource.data.topic.size() <= 100
+        && request.resource.data.source is string && request.resource.data.source.size() > 0 && request.resource.data.source.size() <= 100000
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt is string
+        && (
+          (request.resource.data.subject == 'maths'
+            && request.resource.data.year in ['year-7', 'year-8', 'year-9']
+            && noteId == 'maths--' + request.resource.data.year + '--' + request.resource.data.topic)
+          || (request.resource.data.subject != 'maths'
+            && !('year' in request.resource.data)
+            && noteId == request.resource.data.subject + '--' + request.resource.data.topic)
+        );
+      allow delete: if isTeacher();
+    }
+  }
+}

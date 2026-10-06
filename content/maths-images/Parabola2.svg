@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title description">
+  <title id="title">Quadratic graph with two roots</title>
+  <desc id="description">A parabola crosses the x-axis at negative one and three and has a minimum at x equals one.</desc>
+  <rect width="560" height="360" fill="#ffffff"/>
+  <path d="M40 240H520M280 25V330" stroke="#27344a" stroke-width="2"/>
+  <path d="M135 68 Q280 520 425 68" fill="none" stroke="#5952c9" stroke-width="5"/>
+  <circle cx="207" cy="240" r="5" fill="#d16a31"/>
+  <circle cx="353" cy="240" r="5" fill="#d16a31"/>
+  <text x="196" y="267" font-family="Arial, sans-serif" font-size="19" fill="#27344a">-1</text>
+  <text x="347" y="267" font-family="Arial, sans-serif" font-size="19" fill="#27344a">3</text>
+  <text x="498" y="229" font-family="Arial, sans-serif" font-size="19" fill="#27344a">x</text>
+  <text x="291" y="42" font-family="Arial, sans-serif" font-size="19" fill="#27344a">y</text>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="18" fill="#27344a">y = (x + 1)(x - 3)</text>
+</svg>

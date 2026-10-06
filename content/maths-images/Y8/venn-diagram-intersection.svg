@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(188, 231, 226, .65);
+      }
+
+      .cls-2 {
+        stroke: #7046c7;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        fill: #fbfaff;
+        stroke: #272331;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        font-size: 30px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-10, .cls-9, .cls-11, .cls-12, .cls-13 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-10, .cls-9, .cls-11, .cls-13 {
+        fill: #272331;
+      }
+
+      .cls-6, .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        stroke: #2b9f9a;
+      }
+
+      .cls-10 {
+        font-size: 15px;
+      }
+
+      .cls-10, .cls-15, .cls-13 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-weight: 600;
+      }
+
+      .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-17 {
+        fill: rgba(240, 189, 47, .9);
+      }
+
+      .cls-9 {
+        font-size: 26px;
+      }
+
+      .cls-18 {
+        fill: #fbfafb;
+      }
+
+      .cls-18, .cls-19 {
+        fill-rule: evenodd;
+      }
+
+      .cls-20 {
+        fill: rgba(205, 183, 239, .65);
+      }
+
+      .cls-11 {
+        font-size: 19px;
+      }
+
+      .cls-19 {
+        fill: #f6f0ff;
+      }
+
+      .cls-12 {
+        fill: #7046c7;
+        font-size: 20px;
+      }
+
+      .cls-13 {
+        font-size: 22px;
+      }
+
+      .cls-21 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-23 {
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <rect class="cls-16" width="900" height="620"/>
+  <path class="cls-18" d="M192.56,302.6c11.61-3.72,25.19-2.66,37.28-4.6,25.55-4.13,50.93-10.37,74.85-20.42,29.32-12.32,56.58-29.93,77.8-53.83,42.35-47.68,62.05-121.93,60.07-184.79,3.67-1.24,7-1.37,10.85-1.03,3.6,69.18,17.52,147.68,71.49,196.65,20.6,18.69,44.07,31.95,69.72,42.38,25.37,10.32,52.75,16.72,79.7,21.29,7.71,1.31,27.45-.91,32.93,3.81.58,3.08,2.14,8.25.47,11.04-61.26-.16-135.61,23.07-180.13,66.12-22.12,21.39-39.05,49.48-50.32,77.87-11.24,28.32-18.16,59.11-21.63,89.35-1.33,11.56,1.01,24.18-1.34,35.44-3.73.99-7.6-.25-10.8-2.14-2.64-8.53-1.19-18.28-1.79-27.14-.99-14.75-3.65-29.58-6.57-44.04-12.13-60.07-39.34-112.27-89.52-148.71-33.2-24.11-75.34-35.48-115.26-42.15-10.12-1.7-20.38-2.94-30.58-3.92-1.36-.13-7.47.6-8.03-1.29-.7-2.35.55-7.5.8-9.89h.01Z"/>
+  <text class="cls-5" transform="translate(244.27 82.64)"><tspan x="0" y="0">In</tspan><tspan class="cls-14" x="25.22" y="0">t</tspan><tspan x="35.67" y="0">ersection of Set A and Set B</tspan></text>
+  <rect class="cls-4" x="150" y="122" width="600" height="390" rx="12" ry="12"/>
+  <text class="cls-13" transform="translate(172 160)"><tspan x="0" y="0">Uni</tspan><tspan class="cls-21" x="32.74" y="0">v</tspan><tspan x="43.67" y="0">ersal set (ξ)</tspan></text>
+  <circle class="cls-20" cx="395" cy="317" r="145"/>
+  <circle class="cls-1" cx="505" cy="317" r="145"/>
+  <path class="cls-17" d="M450,204.8c61.97,50.73,71.08,142.08,20.35,204.05-6.09,7.44-12.91,14.26-20.35,20.35-61.97-50.73-71.08-142.08-20.35-204.05,6.09-7.44,12.91-14.26,20.35-20.35Z"/>
+  <circle class="cls-2" cx="395" cy="317" r="145"/>
+  <circle class="cls-3" cx="505" cy="317" r="145"/>
+  <text class="cls-9" transform="translate(282.25 324)"><tspan x="0" y="0">Set A</tspan></text>
+  <text class="cls-9" transform="translate(551.77 324)"><tspan x="0" y="0">Set B</tspan></text>
+  <text class="cls-11" transform="translate(427.06 304)"><tspan class="cls-15" x="0" y="0">A </tspan><tspan class="cls-23" x="16.5" y="0">∩</tspan><tspan class="cls-15" x="30.16" y="0" xml:space="preserve"> B</tspan></text>
+  <text class="cls-10" transform="translate(410.72 322)"><tspan x="0" y="0">in</tspan><tspan class="cls-22" x="11.77" y="0">t</tspan><tspan x="16.66" y="0">ersection</tspan></text>
+  <text class="cls-12" transform="translate(302.56 559)"><tspan class="cls-7" x="0" y="0">A </tspan><tspan class="cls-23" x="17.75" y="0">∩</tspan><tspan class="cls-7" x="32.13" y="0" xml:space="preserve"> B con</tspan><tspan class="cls-8" x="86.71" y="0">t</tspan><tspan class="cls-7" x="93.72" y="0">ains i</tspan><tspan class="cls-6" x="140.04" y="0">t</tspan><tspan class="cls-7" x="147" y="0">ems in both sets</tspan></text>
+  <path class="cls-19" d="M699.72,482.15c.75-.24,1.63-.17,2.41-.3,1.65-.27,3.29-.67,4.84-1.32,1.9-.8,3.66-1.94,5.03-3.48,2.74-3.08,4.01-7.89,3.88-11.95.24-.08.45-.09.7-.07.23,4.47,1.13,9.55,4.62,12.72,1.33,1.21,2.85,2.07,4.51,2.74,1.64.67,3.41,1.08,5.15,1.38.5.08,1.78-.06,2.13.25.04.2.14.53.03.71-3.96-.01-8.77,1.49-11.65,4.28-1.43,1.38-2.53,3.2-3.25,5.04-.73,1.83-1.17,3.82-1.4,5.78-.09.75.07,1.56-.09,2.29-.24.06-.49-.02-.7-.14-.17-.55-.08-1.18-.12-1.76-.06-.95-.24-1.91-.43-2.85-.78-3.88-2.54-7.26-5.79-9.62-2.15-1.56-4.87-2.29-7.45-2.73-.65-.11-1.32-.19-1.98-.25-.09,0-.48.04-.52-.08-.04-.15.04-.49.05-.64h0Z"/>
+</svg>

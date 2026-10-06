@@ -1,0 +1,33 @@
+.my-courses-heading{align-items:flex-end;margin-bottom:22px}
+.my-courses-heading h2{font-size:2rem}
+.course-edit-toggle{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--border);border-radius:50%;background:var(--card);color:var(--text);cursor:pointer;font-size:1rem}
+.course-edit-toggle:hover,.course-edit-toggle.active{border-color: var(--primary);background:var(--bg-alt);color: var(--accent-text)}
+.my-courses-error{margin:0 0 14px;padding:10px 13px;border:1px solid color-mix(in srgb,#bd2424 30%,var(--border));border-radius:8px;background:color-mix(in srgb,#bd2424 7%,var(--card));color:#a51f1f;font-size:.63rem}
+.my-courses-list{display:grid;gap:18px}
+.my-course-card{position:relative;overflow:hidden;border:1px solid var(--border);border-radius:16px;background:var(--card);box-shadow:0 10px 26px color-mix(in srgb,#111 5%,transparent)}
+.my-course-card.editing{border-color:color-mix(in srgb,var(--subject-color) 35%,var(--border))}
+.my-course-summary{display:grid;grid-template-columns:70px minmax(0,1fr) auto;align-items:center;gap:20px;padding:24px 28px;color:var(--text)}
+.my-course-summary:hover{background:var(--bg-alt)}
+.my-course-icon{width:64px;height:76px;display:grid;place-items:center;border-radius:10px;background:color-mix(in srgb,var(--subject-color) 13%,var(--card));color:var(--subject-color);font-size:1.45rem;box-shadow:inset 4px 0 0 var(--subject-color)}
+.my-course-copy{display:flex;min-width:0;flex-direction:column;gap:5px}
+.my-course-copy small{color:var(--subject-color);font:100 .56rem "JakartaSansBold";text-transform:uppercase;letter-spacing:.08em}
+.my-course-copy strong{font:100 1.15rem "JakartaSansBold"}
+.my-course-copy>span{color:var(--text-secondary);font-size:.63rem}
+.my-course-open{padding:10px 14px;border:1px solid var(--border);border-radius:8px;color:var(--subject-color);font:100 .62rem "JakartaSansBold"}
+.my-course-summary:hover .my-course-open{border-color:var(--subject-color);background:var(--card)}
+.course-revision-progress{display:grid;gap:10px;padding:20px 28px 24px;border-top:1px solid var(--border);color:var(--text)}
+.course-revision-progress:hover{background:var(--bg-alt)}
+.course-progress-label{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.course-progress-label>span{display:flex;align-items:center;gap:8px;font:100 .72rem "JakartaSansBold"}
+.course-progress-label svg{color:var(--subject-color)}
+.course-progress-label strong{font-size:.72rem}
+.course-progress-track{height:8px;overflow:hidden;border-radius:999px;background:var(--bg-alt)}
+.course-progress-track>span{display:block;height:100%;min-width:0;border-radius:inherit;background:var(--subject-color);transition:width .2s ease}
+.course-revision-progress>small{color:var(--text-secondary);font-size:.56rem}
+.course-remove-button{position:absolute;z-index:2;top:14px;right:14px;width:38px;height:38px;display:grid;place-items:center;border:1px solid color-mix(in srgb,#bd2424 30%,var(--border));border-radius:50%;background:var(--card);color:#bd2424;cursor:pointer;font-size:1rem}
+.course-remove-button:hover{background:#bd2424;color:#fff}
+.course-remove-button:disabled{opacity:.55;cursor:wait}
+.my-course-card.editing .my-course-summary{padding-right:68px}
+:root.dark .my-course-card,:root.dark .course-edit-toggle,:root.dark .course-remove-button{background:var(--card)}
+@media(max-width:680px){.my-courses-heading{align-items:flex-start}.my-courses-heading .workspace-actions{width:100%;flex-direction:row}.my-courses-heading .blue-action{flex:1}.my-course-summary{grid-template-columns:54px minmax(0,1fr);gap:15px;padding:20px}.my-course-icon{width:50px;height:62px}.my-course-open{grid-column:2;justify-self:start}.course-revision-progress{padding:18px 20px 22px}.my-course-card.editing .my-course-summary{padding-right:62px}}
+@media(prefers-reduced-motion:reduce){.course-progress-track>span{transition:none}}

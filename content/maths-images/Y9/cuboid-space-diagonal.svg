@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-7, .cls-11 {
+        font-size: 31.18px;
+      }
+
+      .cls-1, .cls-13, .cls-9 {
+        fill: #7048c8;
+      }
+
+      .cls-14 {
+        fill: #f3edfd;
+      }
+
+      .cls-14, .cls-2, .cls-15, .cls-16 {
+        stroke: #272331;
+      }
+
+      .cls-14, .cls-17, .cls-18, .cls-15, .cls-16, .cls-19, .cls-20 {
+        stroke-width: 7px;
+      }
+
+      .cls-14, .cls-15, .cls-16 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        opacity: .6;
+        stroke-dasharray: 12 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2, .cls-17, .cls-18, .cls-20, .cls-21 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-size: 45.98px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #272331;
+      }
+
+      .cls-4 {
+        font-size: 32px;
+      }
+
+      .cls-5 {
+        fill: #7046c7;
+        font-size: 28.74px;
+      }
+
+      .cls-6 {
+        font-size: 30px;
+      }
+
+      .cls-6, .cls-8 {
+        fill: #d94857;
+      }
+
+      .cls-7, .cls-22 {
+        fill: #2aa6a3;
+      }
+
+      .cls-23 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-24 {
+        fill: #f4f1fa;
+        stroke: #d8ccef;
+        stroke-width: 4px;
+      }
+
+      .cls-17 {
+        stroke: #2aa6a3;
+      }
+
+      .cls-17, .cls-18, .cls-20, .cls-21 {
+        stroke-linecap: round;
+      }
+
+      .cls-25 {
+        fill: #fff;
+      }
+
+      .cls-18 {
+        stroke: #7048c8;
+      }
+
+      .cls-15 {
+        fill: #b59de5;
+      }
+
+      .cls-26 {
+        fill: #e0a800;
+      }
+
+      .cls-8, .cls-9, .cls-12 {
+        font-size: 22.68px;
+      }
+
+      .cls-16, .cls-27 {
+        fill: #e7ddfb;
+      }
+
+      .cls-28 {
+        fill: #fff0b8;
+      }
+
+      .cls-10 {
+        font-size: 26px;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #d89f00;
+      }
+
+      .cls-19 {
+        fill: #f2c342;
+        stroke: #fff;
+      }
+
+      .cls-20 {
+        stroke: #e0a800;
+      }
+
+      .cls-29 {
+        fill: #ffe1e2;
+      }
+
+      .cls-30 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        stroke: #ef5b67;
+        stroke-width: 10px;
+      }
+
+      .cls-36 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: #a87500;
+      }
+    </style>
+  </defs>
+  <rect class="cls-25" width="1600" height="1000"/>
+  <path class="cls-23" d="M368.31,469.26c19.51-6.25,42.31-4.45,62.61-7.74,42.91-6.94,85.56-17.41,125.72-34.3,49.25-20.69,95.04-50.28,130.69-90.42,71.13-80.09,104.23-204.8,100.89-310.39,6.16-2.09,11.75-2.3,18.22-1.73,6.06,116.2,29.44,248.06,120.09,330.32,34.6,31.4,74.03,53.67,117.11,71.18,42.62,17.32,88.6,28.09,133.87,35.77,12.96,2.19,46.11-1.53,55.31,6.4.97,5.17,3.59,13.86.8,18.54-102.89-.27-227.79,38.76-302.57,111.06-37.15,35.93-65.59,83.12-84.53,130.81-18.89,47.57-30.52,99.29-36.33,150.08-2.23,19.42,1.69,40.62-2.25,59.53-6.26,1.67-12.76-.42-18.13-3.59-4.44-14.33-2-30.71-3-45.59-1.67-24.78-6.12-49.68-11.05-73.98-20.37-100.89-66.09-188.58-150.36-249.79-55.77-40.5-126.54-59.58-193.61-70.8-16.99-2.85-34.23-4.94-51.36-6.58-2.28-.22-12.55,1.01-13.49-2.16-1.17-3.95.92-12.6,1.35-16.62h.01v-.03Z"/>
+  <g>
+    <rect class="cls-24" x="87.88" y="219" width="1424.24" height="94" rx="25" ry="25"/>
+    <text class="cls-4" transform="translate(534.8 279) scale(1.05 1)"><tspan x="0" y="0">d² = x² + y² + z² → d = √(x² + y² + z²)</tspan></text>
+  </g>
+  <g>
+    <polygon class="cls-14" points="589.62 500 749.62 405 1229.62 405 1069.62 500 589.62 500"/>
+    <polygon class="cls-15" points="1069.62 500 1229.62 405 1229.62 625 1069.62 720 1069.62 500"/>
+    <polygon class="cls-16" points="589.62 720 1069.62 720 1069.62 500 589.62 500 589.62 720"/>
+    <line class="cls-2" x1="749.62" y1="405" x2="749.62" y2="625"/>
+    <line class="cls-2" x1="749.62" y1="625" x2="1229.62" y2="625"/>
+    <line class="cls-2" x1="589.62" y1="720" x2="749.62" y2="625"/>
+    <line class="cls-21" x1="589.62" y1="720" x2="1229.62" y2="405"/>
+    <circle class="cls-19" cx="909.62" cy="562.5" r="16"/>
+    <text class="cls-10" transform="translate(793.35 562.5)"><tspan x="0" y="0">cent</tspan><tspan class="cls-32" x="52.83" y="0">r</tspan><tspan x="61.84" y="0">e</tspan></text>
+    <text class="cls-6" transform="translate(984.39 589.98)"><tspan x="0" y="0">d</tspan></text>
+    <g>
+      <line class="cls-18" x1="599.62" y1="753.98" x2="1059.62" y2="753.98"/>
+      <path class="cls-13" d="M589.62,753.98l20-11v22l-20-11ZM1069.62,753.98l-20-11v22l20-11Z"/>
+    </g>
+    <text class="cls-1" transform="translate(768.29 812)"><tspan x="0" y="0">length x</tspan></text>
+    <g>
+      <line class="cls-17" x1="593.26" y1="474.98" x2="731.26" y2="393.04"/>
+      <path class="cls-22" d="M582.26,481.51l22-2-11-19-11,21ZM742.26,386.51l-22,2,11,19,11-21Z"/>
+    </g>
+    <text class="cls-7" transform="translate(534.62 405)"><tspan x="0" y="0">width y</tspan></text>
+    <g>
+      <line class="cls-20" x1="534.62" y1="710" x2="534.62" y2="510"/>
+      <path class="cls-26" d="M534.62,720l-11-20h22l-11,20ZM534.62,500l-11,20h22l-11-20Z"/>
+    </g>
+    <text class="cls-11" transform="translate(370.38 620)"><tspan x="0" y="0">height z</tspan></text>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-27" x="87.88" y="865" width="420" height="76" rx="22" ry="22"/>
+      <text class="cls-9" transform="translate(178.2 912)"><tspan x="0" y="0">Base diagonal² = x² + y²</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-28" x="528.43" y="865" width="478.62" height="76" rx="22" ry="22"/>
+      <text class="cls-12" transform="translate(575.76 912)"><tspan x="0" y="0">Space diagonal² = base diagonal² + z²</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-29" x="1027.61" y="865" width="484.51" height="76" rx="22" ry="22"/>
+      <text class="cls-8" transform="translate(1066.59 910.16)"><tspan x="0" y="0">The diagonal passes th</tspan><tspan class="cls-33" x="236.53" y="0">r</tspan><tspan x="244.39" y="0">ough the cent</tspan><tspan class="cls-31" x="386.1" y="0">r</tspan><tspan x="393.96" y="0">e</tspan></text>
+    </g>
+  </g>
+  <g>
+    <text class="cls-3" transform="translate(516.7 108.74)"><tspan x="0" y="0">Space Diagonal of a Cuboid</tspan></text>
+    <text class="cls-5" transform="translate(451.62 161.91)"><tspan x="0" y="0">Ex</tspan><tspan class="cls-35" x="31.64" y="0">t</tspan><tspan x="41.65" y="0">ending Pythago</tspan><tspan class="cls-34" x="247.06" y="0">r</tspan><tspan x="257.16" y="0">as&apos; theo</tspan><tspan class="cls-30" x="359.34" y="0">r</tspan><tspan x="369.31" y="0">em in</tspan><tspan class="cls-36" x="439.2" y="0">t</tspan><tspan x="449.2" y="0">o th</tspan><tspan class="cls-30" x="498.36" y="0">r</tspan><tspan x="508.32" y="0">ee dimensions</tspan></text>
+  </g>
+</svg>

@@ -1,102 +1,30 @@
-import { Link } from "react-router-dom";
-import {
-  BiMath,
-} from "react-icons/bi";
-import { GiDna1, GiChemicalDrop, GiGreekTemple } from "react-icons/gi";
-import { MdOutlineScience, MdMenuBook } from "react-icons/md";
+import SubjectCard from "../components/SubjectCard";
+import { scienceSubjects } from "../data/scienceCurriculum";
 import "../styles/Launchpad.css";
 
+const maths = {
+  id: "maths",
+  name: "Maths",
+  qualification: "KS3",
+  description: "Complete Years 7 to 9 revision notes and maths flashcards.",
+  color: "#6f42c1",
+  secondaryColor: "#eee8fb",
+  to: "/subjects/maths",
+};
 
-export default function Home() {
+export default function Launchpad() {
+  const courses = [maths, ...scienceSubjects.map((subject) => ({ ...subject, to: `/subjects/${subject.id}` }))];
+
   return (
-    <div className="home-container">
-      <p className="home-title">hi sam! {name} 👋</p>
-      <p className="home-desc">welcome to your StudyForge account and launchpad to stress-free and effective study!</p>
-    <div className="table-center">
-      <div className="subjects-table">
-        <div className="row-title-row">
-          <span>Available courses</span>
-        </div>
-        <div className="table-header">
-          <span>SUBJECT</span>
-          <span>LEVEL</span>
-          <span>BOARD</span>
-          <span></span>
-        </div>
-
-        <Link to="/notes/maths" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle maths">
-              <BiMath />
-            </div>
-            <span>Maths</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-
-        <Link to="/notes/biology" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle bio">
-              <GiDna1 />
-            </div>
-            <span>Biology</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-
-        <Link to="/notes/chemistry" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle chem">
-              <GiChemicalDrop />
-            </div>
-            <span>Chemistry</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-
-        <Link to="/notes/physics" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle phys">
-              <MdOutlineScience />
-            </div>
-            <span>Physics</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-
-        <Link to="/notes/english" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle eng">
-              <MdMenuBook />
-            </div>
-            <span>English</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-
-        <Link to="/notes/history" className="table-row">
-          <div className="subject-info">
-            <div className="icon-circle hist">
-              <GiGreekTemple />
-            </div>
-            <span>History</span>
-          </div>
-          <span className="curriculum">GCSE</span>
-          <span className="curriculum">Edexcel</span>
-          <span className="arrow">→</span>
-        </Link>
-      </div>
-    </div>
-    </div>
+    <main className="platform-shell course-catalogue">
+      <header>
+        <span className="eyebrow">Learn without an account</span>
+        <h1>Choose a subject</h1>
+        <p>Open a topic, read the lesson, and try a short practice set. Create an account only when you want to save progress.</p>
+      </header>
+      <section className="subject-card-grid" aria-label="Available subjects">
+        {courses.map((course) => <SubjectCard subject={course} to={course.to} metadata={course.id === "maths" ? "Revision notes and flashcards" : `${course.topics.length} topics`} key={course.id} />)}
+      </section>
+    </main>
   );
 }

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #272331;
+      }
+
+      .cls-1, .cls-6 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        fill: #7046c7;
+        font-size: 19px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 32px;
+      }
+
+      .cls-9 {
+        fill: #fbfaff;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18 {
+        stroke: #272331;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        font-size: 22px;
+      }
+
+      .cls-10 {
+        fill: #f7fffe;
+      }
+
+      .cls-11 {
+        fill: #d9c9f3;
+      }
+
+      .cls-12 {
+        fill: #ffe4e5;
+      }
+
+      .cls-13 {
+        fill: #f5d765;
+      }
+
+      .cls-14 {
+        fill: #fffdf1;
+      }
+
+      .cls-15 {
+        fill: snow;
+      }
+
+      .cls-16 {
+        fill: #fff0a8;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-6 {
+        font-size: 23px;
+      }
+
+      .cls-21 {
+        fill: #fbfafb;
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-22 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-17 {
+        fill: #dff4f1;
+      }
+
+      .cls-29 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-30 {
+        letter-spacing: 0em;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-33 {
+        letter-spacing: 0em;
+      }
+
+      .cls-34 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        fill: #fff4c7;
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        font-size: 27px;
+      }
+
+      .cls-36 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-20" width="1000" height="680"/>
+  <g>
+    <text class="cls-3" transform="translate(263.45 73.5)"><tspan class="cls-29" x="0" y="0">A</tspan><tspan class="cls-28" x="20.59" y="0">v</tspan><tspan x="37.02" y="0">e</tspan><tspan class="cls-32" x="54.78" y="0">r</tspan><tspan x="66.03" y="0">ages f</tspan><tspan class="cls-26" x="154.5" y="0">r</tspan><tspan x="165.59" y="0">om F</tspan><tspan class="cls-26" x="235.42" y="0">r</tspan><tspan x="246.52" y="0">equency </tspan><tspan class="cls-23" x="379.05" y="0">T</tspan><tspan x="394.47" y="0">ables</tspan></text>
+    <text class="cls-2" transform="translate(401.79 110.5)"><tspan x="0" y="0">G</tspan><tspan class="cls-26" x="13.81" y="0">r</tspan><tspan x="20.4" y="0">ouped f</tspan><tspan class="cls-26" x="85.89" y="0">r</tspan><tspan x="92.48" y="0">equency </tspan><tspan class="cls-31" x="171.17" y="0">t</tspan><tspan x="177.83" y="0">able</tspan></text>
+  </g>
+  <rect class="cls-11" x="70" y="148" width="300" height="78"/>
+  <rect class="cls-17" x="370" y="148" width="160" height="78"/>
+  <rect class="cls-18" x="530" y="148" width="180" height="78"/>
+  <rect class="cls-12" x="710" y="148" width="220" height="78"/>
+  <text class="cls-4" transform="translate(150.46 195)"><tspan x="0" y="0">Class In</tspan><tspan class="cls-33" x="78.56" y="0">t</tspan><tspan x="86.22" y="0">er</tspan><tspan class="cls-32" x="106.43" y="0">v</tspan><tspan x="117.78" y="0">al</tspan></text>
+  <text class="cls-4" transform="translate(396.37 195)"><tspan x="0" y="0">F</tspan><tspan class="cls-26" x="12.06" y="0">r</tspan><tspan x="19.69" y="0">equency</tspan></text>
+  <text class="cls-4" transform="translate(559.68 195)"><tspan x="0" y="0">Midpoint (x)</tspan></text>
+  <text class="cls-5" transform="translate(762.81 182)"><tspan x="0" y="0">F</tspan><tspan class="cls-26" x="10.97" y="0">r</tspan><tspan x="17.9" y="0">equency ×</tspan></text>
+  <text class="cls-5" transform="translate(762.02 207)"><tspan x="0" y="0">Midpoint (fx)</tspan></text>
+  <rect class="cls-9" x="70" y="226" width="300" height="72"/>
+  <rect class="cls-10" x="370" y="226" width="160" height="72"/>
+  <rect class="cls-14" x="530" y="226" width="180" height="72"/>
+  <rect class="cls-15" x="710" y="226" width="220" height="72"/>
+  <rect class="cls-9" x="70" y="298" width="300" height="72"/>
+  <rect class="cls-10" x="370" y="298" width="160" height="72"/>
+  <rect class="cls-14" x="530" y="298" width="180" height="72"/>
+  <rect class="cls-15" x="710" y="298" width="220" height="72"/>
+  <rect class="cls-9" x="70" y="370" width="300" height="72"/>
+  <rect class="cls-10" x="370" y="370" width="160" height="72"/>
+  <rect class="cls-14" x="530" y="370" width="180" height="72"/>
+  <rect class="cls-15" x="710" y="370" width="220" height="72"/>
+  <rect class="cls-9" x="70" y="442" width="300" height="72"/>
+  <rect class="cls-10" x="370" y="442" width="160" height="72"/>
+  <rect class="cls-14" x="530" y="442" width="180" height="72"/>
+  <rect class="cls-15" x="710" y="442" width="220" height="72"/>
+  <g>
+    <text class="cls-6" transform="translate(200.58 271)"><tspan x="0" y="0">0–9</tspan></text>
+    <text class="cls-1" transform="translate(442.57 271)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-1" transform="translate(601.23 271)"><tspan x="0" y="0">4</tspan><tspan class="cls-19" x="15.8" y="0">.</tspan><tspan x="22.56" y="0">5</tspan></text>
+    <text class="cls-1" transform="translate(793.8 271)"><tspan x="0" y="0">1</tspan><tspan class="cls-34" x="11.67" y="0">3</tspan><tspan class="cls-19" x="26.82" y="0">.</tspan><tspan x="33.58" y="0">5</tspan></text>
+    <text class="cls-6" transform="translate(186.92 343)"><tspan x="0" y="0">10–</tspan><tspan class="cls-35" x="36.9" y="0">1</tspan><tspan x="47.61" y="0">9</tspan></text>
+    <text class="cls-1" transform="translate(442.57 343)"><tspan x="0" y="0">7</tspan></text>
+    <text class="cls-1" transform="translate(593.8 343)"><tspan x="0" y="0">14</tspan><tspan class="cls-19" x="27.47" y="0">.</tspan><tspan x="34.23" y="0">5</tspan></text>
+    <text class="cls-1" transform="translate(786.38 343)"><tspan x="0" y="0">1</tspan><tspan class="cls-30" x="11.67" y="0">0</tspan><tspan class="cls-27" x="27.44" y="0">1</tspan><tspan class="cls-19" x="38.7" y="0">.</tspan><tspan x="45.46" y="0">5</tspan></text>
+    <text class="cls-6" transform="translate(186.92 415)"><tspan class="cls-35" x="0" y="0">2</tspan><tspan x="13.52" y="0">0–29</tspan></text>
+    <text class="cls-1" transform="translate(442.57 415)"><tspan x="0" y="0">9</tspan></text>
+    <text class="cls-1" transform="translate(593.8 415)"><tspan class="cls-27" x="0" y="0">2</tspan><tspan x="14.32" y="0">4</tspan><tspan class="cls-19" x="30.11" y="0">.</tspan><tspan x="36.88" y="0">5</tspan></text>
+    <text class="cls-1" transform="translate(786.38 415)"><tspan x="0" y="0">2</tspan><tspan class="cls-35" x="14.73" y="0">2</tspan><tspan class="cls-25" x="29.43" y="0">0</tspan><tspan class="cls-19" x="44.81" y="0">.</tspan><tspan x="51.57" y="0">5</tspan></text>
+    <text class="cls-6" transform="translate(186.92 487)"><tspan class="cls-35" x="0" y="0">3</tspan><tspan x="14.13" y="0">0–39</tspan></text>
+    <text class="cls-1" transform="translate(442.57 487)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-1" transform="translate(593.8 487)"><tspan x="0" y="0">34</tspan><tspan class="cls-19" x="31.19" y="0">.</tspan><tspan x="37.95" y="0">5</tspan></text>
+    <text class="cls-1" transform="translate(797.72 487)"><tspan class="cls-35" x="0" y="0">2</tspan><tspan class="cls-24" x="14.7" y="0">0</tspan><tspan x="30.19" y="0">7</tspan></text>
+  </g>
+  <rect class="cls-16" x="70" y="514" width="300" height="78"/>
+  <rect class="cls-13" x="370" y="514" width="160" height="78"/>
+  <rect class="cls-13" x="530" y="514" width="180" height="78"/>
+  <rect class="cls-13" x="710" y="514" width="220" height="78"/>
+  <text class="cls-7" transform="translate(192.22 564)"><tspan class="cls-22" x="0" y="0">T</tspan><tspan x="11.68" y="0">o</tspan><tspan class="cls-31" x="25.43" y="0">t</tspan><tspan x="33.84" y="0">al</tspan></text>
+  <text class="cls-8" transform="translate(434.98 564)"><tspan x="0" y="0">25</tspan></text>
+  <text class="cls-8" transform="translate(606.5 564)"><tspan x="0" y="0">—</tspan></text>
+  <text class="cls-8" transform="translate(786.22 564)"><tspan x="0" y="0">542</tspan><tspan class="cls-36" x="50.64" y="0">.</tspan><tspan x="58.05" y="0">5</tspan></text>
+  <text class="cls-2" transform="translate(294.46 640)"><tspan class="cls-28" x="0" y="0">F</tspan><tspan x="10.14" y="0">or g</tspan><tspan class="cls-26" x="42.96" y="0">r</tspan><tspan x="49.55" y="0">ouped da</tspan><tspan class="cls-31" x="129.99" y="0">t</tspan><tspan x="136.66" y="0">a: midpoint × f</tspan><tspan class="cls-26" x="259.35" y="0">r</tspan><tspan x="265.94" y="0">equency gi</tspan><tspan class="cls-28" x="360.45" y="0">v</tspan><tspan x="370.2" y="0">es fx</tspan></text>
+  <path class="cls-21" d="M950.94,650.39c.9-.29,1.96-.21,2.91-.36,1.99-.32,3.97-.81,5.83-1.59,2.29-.96,4.41-2.33,6.06-4.2,3.3-3.72,4.84-9.5,4.68-14.4.29-.1.55-.11.85-.08.28,5.39,1.37,11.51,5.57,15.33,1.61,1.46,3.43,2.49,5.43,3.3,1.98.8,4.11,1.3,6.21,1.66.6.1,2.14-.07,2.57.3.05.24.17.64.04.86-4.77-.01-10.57,1.8-14.04,5.15-1.72,1.67-3.04,3.86-3.92,6.07-.88,2.21-1.42,4.61-1.69,6.96-.1.9.08,1.88-.1,2.76-.29.08-.59-.02-.84-.17-.21-.67-.09-1.42-.14-2.12-.08-1.15-.28-2.31-.51-3.43-.95-4.68-3.07-8.75-6.98-11.59-2.59-1.88-5.87-2.76-8.98-3.28-.79-.13-1.59-.23-2.38-.31-.11,0-.58.05-.63-.1-.05-.18.04-.58.06-.77h0Z"/>
+</svg>

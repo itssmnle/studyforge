@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360" role="img" aria-labelledby="title description">
+  <title id="title">Inverse proportion graph</title>
+  <desc id="description">As x increases, y decreases for y equals twelve divided by x in the first quadrant.</desc>
+  <rect width="540" height="360" fill="#fff"/>
+  <path d="M65 300H480M65 300V35" stroke="#27344a" stroke-width="3"/>
+  <path d="M85 55 C105 150 145 235 235 265 S410 285 470 290" fill="none" stroke="#5952c9" stroke-width="5"/>
+  <text x="390" y="225" font-family="Arial, sans-serif" font-size="22" fill="#5952c9">y = 12/x</text>
+  <text x="485" y="305" font-family="Arial, sans-serif" font-size="19" fill="#27344a">x</text>
+  <text x="45" y="44" font-family="Arial, sans-serif" font-size="19" fill="#27344a">y</text>
+</svg>

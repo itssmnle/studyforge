@@ -1,0 +1,19 @@
+Question,Answer
+What does the gradient represent in \(y=mx+c\)?,The rate of change of \(y\) for every 1 increase in \(x\).
+What does the y-intercept represent in \(y=mx+c\)?,The value of \(y\) when \(x=0\).
+What equation has gradient 3 and y-intercept -2?,\(y=3x-2\).
+What is the gradient formula between two points?,\(m=\frac{y_2-y_1}{x_2-x_1}\).
+"What point-gradient equation passes through \((x_1,y_1)\) with gradient \(m\)?",\(y-y_1=m(x-x_1)\).
+What is true about parallel lines?,They have equal gradients.
+What is true about perpendicular lines?,Their gradients multiply to \(-1\) when both gradients are defined.
+What does inverse proportion mean?,As one quantity increases the other decreases so their product stays constant.
+What is a congruent shape?,A shape with exactly the same size and shape as another.
+What are similar shapes?,Shapes with equal corresponding angles and proportional corresponding lengths.
+If a length scale factor is 3 what is the area scale factor?,\(3^2=9\).
+If a length scale factor is 3 what is the volume scale factor?,\(3^3=27\).
+What multiplier represents a 20% increase?,1.2.
+What multiplier represents a 20% decrease?,0.8.
+How do you solve a reverse percentage problem?,Divide the final amount by the multiplier.
+What is simple interest?,Interest calculated only on the original amount.
+What is compound change?,Repeated percentage change where each new amount becomes the next starting amount.
+How do you convert currencies using an exchange rate?,Multiply or divide as directed by the stated rate and label the currency.

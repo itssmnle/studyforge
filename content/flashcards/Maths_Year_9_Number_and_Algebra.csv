@@ -1,0 +1,19 @@
+Question,Answer
+What is a rational number?,A number that can be written as a fraction of two integers with a non-zero denominator.
+What is an irrational number?,A number that cannot be written as a fraction of two integers such as \(\sqrt2\) or \(\pi\).
+What is a surd?,An exact root that cannot be simplified to a rational number.
+Simplify \(\sqrt{50}\).,\(5\sqrt2\).
+What is an error interval?,A range of possible actual values caused by rounding.
+If \(x=4.2\) correct to 1 decimal place what is its error interval?,\(4.15 \leq x < 4.25\).
+What is an upper bound?,The greatest possible value in an error interval.
+What is a lower bound?,The smallest possible value in an error interval.
+How do you expand \((x+2)(x+5)\)?,\(x^2+7x+10\).
+How do you factorise \(x^2+7x+10\)?,\((x+2)(x+5)\).
+How do you solve \(x^2-9=0\) by factorisation?,\((x-3)(x+3)=0\) so \(x=3\) or \(x=-3\).
+What is an algebraic fraction?,A fraction containing algebraic expressions.
+What must you do before cancelling terms in an algebraic fraction?,Factorise the numerator and denominator so you only cancel factors.
+What does it mean to rearrange a formula?,Make a different variable the subject.
+Make \(x\) the subject of \(y=3x+7\).,\(x=\frac{y-7}{3}\).
+What does it mean if \(a<b\)?,\(a\) is less than \(b\).
+What happens when you multiply or divide an inequality by a negative?,Reverse the inequality sign.
+How do you solve \(-2x>8\)?,Divide by \(-2\) and reverse the sign: \(x<-4\).

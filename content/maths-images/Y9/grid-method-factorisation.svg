@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 680">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 26px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-6 {
+        fill: #7046c7;
+      }
+
+      .cls-2 {
+        font-size: 19px;
+      }
+
+      .cls-3 {
+        font-size: 32px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #272331;
+      }
+
+      .cls-7 {
+        fill: #eee8fa;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke: #272331;
+        stroke-width: 3px;
+      }
+
+      .cls-8 {
+        fill: #d9c9f3;
+      }
+
+      .cls-13 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-9 {
+        fill: #ffe4e5;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 21px;
+      }
+
+      .cls-5 {
+        font-size: 34.02px;
+      }
+
+      .cls-10 {
+        fill: #fff0a8;
+      }
+
+      .cls-14 {
+        fill: #fff;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-11 {
+        fill: #dff4f1;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: #fff4c7;
+      }
+
+      .cls-21 {
+        fill: #fbfaff;
+        stroke: #d9d1ea;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-14" width="1050" height="680"/>
+  <path class="cls-13" d="M241.94,331.86c12.77-4.09,27.7-2.92,40.99-5.07,28.09-4.54,56.01-11.4,82.3-22.45,32.24-13.55,62.21-32.91,85.55-59.19,46.56-52.42,68.23-134.06,66.04-203.18,4.03-1.37,7.69-1.51,11.93-1.13,3.97,76.07,19.27,162.38,78.61,216.23,22.65,20.55,48.46,35.13,76.66,46.59,27.9,11.34,58,18.39,87.63,23.42,8.48,1.43,30.18-1,36.2,4.19.63,3.38,2.35,9.07.52,12.14-67.35-.17-149.11,25.38-198.06,72.7-24.32,23.52-42.94,54.41-55.33,85.63-12.36,31.14-19.98,65-23.78,98.24-1.46,12.71,1.11,26.59-1.47,38.97-4.1,1.09-8.36-.27-11.87-2.35-2.91-9.38-1.31-20.1-1.97-29.84-1.09-16.22-4.01-32.52-7.23-48.43-13.34-66.04-43.26-123.44-98.43-163.51-36.5-26.51-82.83-39-126.73-46.34-11.12-1.87-22.41-3.23-33.62-4.31-1.49-.14-8.21.66-8.83-1.42-.77-2.58.6-8.25.88-10.88h0v-.02Z"/>
+  <g>
+    <text class="cls-3" transform="translate(302.05 70)"><tspan class="cls-15" x="0" y="0">F</tspan><tspan x="16.84" y="0">ac</tspan><tspan class="cls-20" x="51.8" y="0">t</tspan><tspan x="62.94" y="0">orising </tspan><tspan class="cls-19" x="168.48" y="0">b</tspan><tspan x="187.2" y="0">y the Grid Method</tspan></text>
+    <text class="cls-6" transform="translate(481.87 107)"><tspan x="0" y="0">2x² + </tspan><tspan class="cls-18" x="52.85" y="0">7</tspan><tspan x="64.76" y="0">x + 3</tspan></text>
+  </g>
+  <rect class="cls-7" x="245" y="145" width="180" height="75"/>
+  <text class="cls-2" transform="translate(300.68 191)"><tspan class="cls-15" x="0" y="0">F</tspan><tspan x="10" y="0">ac</tspan><tspan class="cls-20" x="30.75" y="0">t</tspan><tspan x="37.37" y="0">ors</tspan></text>
+  <rect class="cls-8" x="425" y="145" width="220" height="75"/>
+  <rect class="cls-12" x="645" y="145" width="220" height="75"/>
+  <text class="cls-5" transform="translate(526.94 193)"><tspan x="0" y="0">x</tspan></text>
+  <text class="cls-5" transform="translate(746.94 193)"><tspan x="0" y="0">3</tspan></text>
+  <rect class="cls-11" x="245" y="220" width="180" height="145"/>
+  <rect class="cls-9" x="245" y="365" width="180" height="145"/>
+  <text class="cls-5" transform="translate(313.87 306)"><tspan x="0" y="0">2x</tspan></text>
+  <text class="cls-5" transform="translate(326.94 451)"><tspan x="0" y="0">1</tspan></text>
+  <rect class="cls-7" x="425" y="220" width="220" height="145"/>
+  <rect class="cls-10" x="645" y="220" width="220" height="145"/>
+  <rect class="cls-11" x="425" y="365" width="220" height="145"/>
+  <rect class="cls-9" x="645" y="365" width="220" height="145"/>
+  <text class="cls-5" transform="translate(509.71 308)"><tspan x="0" y="0">2x²</tspan></text>
+  <text class="cls-5" transform="translate(735.53 308)"><tspan x="0" y="0">6x</tspan></text>
+  <text class="cls-5" transform="translate(525.27 453)"><tspan x="0" y="0">x</tspan></text>
+  <text class="cls-5" transform="translate(745.27 453)"><tspan x="0" y="0">3</tspan></text>
+  <g>
+    <rect class="cls-21" x="215" y="555" width="620" height="54" rx="17" ry="17"/>
+    <text class="cls-4" transform="translate(385.8 591)"><tspan x="0" y="0">2x² + 6x + x + 3 = 2x² + </tspan><tspan class="cls-18" x="220.27" y="0">7</tspan><tspan x="232.19" y="0">x + 3</tspan></text>
+  </g>
+  <text class="cls-1" transform="translate(377.9 655)"><tspan x="0" y="0">The</tspan><tspan class="cls-16" x="45.27" y="0">r</tspan><tspan x="54.29" y="0">e</tspan><tspan class="cls-17" x="68.72" y="0">f</tspan><tspan x="77.59" y="0">o</tspan><tspan class="cls-16" x="92.49" y="0">r</tspan><tspan x="101.5" y="0">e: (2x + 1)(x + 3)</tspan></text>
+</svg>

@@ -4,13 +4,25 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run questions:build",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run questions:build && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "questions:validate": "node scripts/buildQuestionBank.mjs",
+    "questions:build": "node scripts/buildQuestionBank.mjs",
+    "questions:publish:dry-run": "node scripts/publishQuestionBank.mjs --dry-run",
+    "questions:publish": "node scripts/publishQuestionBank.mjs",
+    "questions:publish:sync": "node scripts/publishQuestionBank.mjs --prune",
+    "questions:verify-remote": "node scripts/verifyPublishedQuestionBank.mjs",
+    "functions:prepare": "node scripts/prepareFunctions.mjs",
+    "test:core": "node scripts/test-core-flow.mjs && node --test functions/grading.test.js",
+    "test:security": "node --test functions/grading.test.js && node scripts/test-security-backend.mjs && node scripts/test-course-mastery.mjs && node scripts/test-spark-grading.mjs && node scripts/test-auth-performance.mjs",
+    "deploy:spark": "npm run build && firebase deploy --only firestore:rules,hosting --project revision-hub-ee911"
   },
   "dependencies": {
     "firebase": "^12.6.0",
+    "katex": "^0.16.47",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",

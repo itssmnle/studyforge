@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "Biology_Chapter_1_Cells_and_Organisms.csv",
+    "rows": 40
+  },
+  {
+    "filename": "Biology_Chapter_2_Nutrition_and_Digestion.csv",
+    "rows": 34
+  },
+  {
+    "filename": "Biology_Chapter_3_Gas_Exchange_and_Respiration.csv",
+    "rows": 29
+  },
+  {
+    "filename": "Biology_Chapter_4_Ecosystems_and_Photosynthesis.csv",
+    "rows": 31
+  },
+  {
+    "filename": "Biology_Chapter_5_Reproduction.csv",
+    "rows": 39
+  },
+  {
+    "filename": "Biology_Chapter_6_Genetics_Evolution_and_Variation.csv",
+    "rows": 27
+  },
+  {
+    "filename": "Chemistry_Chapter_1_The_Particle_Model.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Chemistry_Chapter_2_Atoms_Elements_and_Compounds.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Chemistry_Chapter_3_Pure_and_Impure_Substances.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Chemistry_Chapter_4_Chemical_Reactions.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Chemistry_Chapter_5_Earth_and_Atmosphere.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Physics_Chapter_1_Forces_and_Motion.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Physics_Chapter_2_Energy.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Physics_Chapter_3_Waves.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Physics_Chapter_4_Electricity_and_Electromagnetism.csv",
+    "rows": 3
+  },
+  {
+    "filename": "Physics_Chapter_5_Space_Physics.csv",
+    "rows": 3
+  }
+]

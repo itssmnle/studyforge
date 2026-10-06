@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 799.2">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 19px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        fill: #7046c7;
+      }
+
+      .cls-2 {
+        font-size: 32px;
+      }
+
+      .cls-2, .cls-8 {
+        fill: #272331;
+      }
+
+      .cls-10 {
+        fill: #fff0a8;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke: #272331;
+        stroke-linejoin: round;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17 {
+        stroke-width: 3px;
+      }
+
+      .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24 {
+        stroke-width: 4px;
+      }
+
+      .cls-18, .cls-19, .cls-22, .cls-24 {
+        stroke-linecap: round;
+      }
+
+      .cls-18, .cls-20, .cls-21, .cls-23 {
+        fill: none;
+      }
+
+      .cls-18, .cls-14 {
+        stroke: #7046c7;
+      }
+
+      .cls-11 {
+        fill: #d9c9f3;
+      }
+
+      .cls-3 {
+        fill: #2b9f9a;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-size: 17px;
+      }
+
+      .cls-19, .cls-21, .cls-17 {
+        stroke: #2b9f9a;
+      }
+
+      .cls-20, .cls-15, .cls-24 {
+        stroke: #ef5b62;
+      }
+
+      .cls-12 {
+        fill: #ffd4d7;
+      }
+
+      .cls-25 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-13 {
+        fill: #bce7e2;
+      }
+
+      .cls-14 {
+        fill: #eee8fa;
+      }
+
+      .cls-15 {
+        fill: #ffe4e5;
+      }
+
+      .cls-26 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-6 {
+        fill: #d7444d;
+      }
+
+      .cls-22, .cls-16, .cls-23 {
+        stroke: #d89f00;
+      }
+
+      .cls-7 {
+        fill: #a77700;
+      }
+
+      .cls-8 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-weight: 600;
+      }
+
+      .cls-16 {
+        fill: #fff4c7;
+      }
+
+      .cls-27 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-17 {
+        fill: #dff4f1;
+      }
+
+      .cls-30 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-34 {
+        letter-spacing: 0em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-38 {
+        letter-spacing: 0em;
+      }
+
+      .cls-39 {
+        letter-spacing: 0em;
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        font-size: 25px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-26" width="1100" height="799.2"/>
+  <path class="cls-25" d="M210.22,393.04c15.33-4.91,33.25-3.5,49.2-6.08,33.72-5.45,67.23-13.68,98.79-26.95,38.7-16.26,74.68-39.51,102.69-71.05,55.89-62.93,81.9-160.93,79.28-243.9,4.84-1.64,9.23-1.81,14.32-1.36,4.76,91.31,23.13,194.92,94.36,259.56,27.19,24.67,58.17,42.17,92.02,55.93,33.49,13.61,69.62,22.07,105.19,28.11,10.18,1.72,36.23-1.2,43.46,5.03.76,4.06,2.82,10.89.63,14.57-80.85-.21-178.99,30.46-237.75,87.27-29.19,28.23-51.54,65.31-66.42,102.79-14.84,37.38-23.98,78.02-28.55,117.93-1.75,15.26,1.33,31.92-1.77,46.78-4.92,1.31-10.03-.33-14.25-2.82-3.49-11.26-1.57-24.13-2.36-35.82-1.31-19.47-4.81-39.04-8.68-58.13-16.01-79.28-51.93-148.18-118.15-196.28-43.82-31.82-99.43-46.82-152.13-55.63-13.35-2.24-26.9-3.88-40.36-5.17-1.79-.17-9.86.79-10.6-1.7-.92-3.1.72-9.9,1.06-13.06h.01v-.02Z"/>
+  <g>
+    <text class="cls-2" transform="translate(342.84 70.8)"><tspan class="cls-27" x="0" y="0">T</tspan><tspan x="17.14" y="0">riangle Congruence Rules</tspan></text>
+    <text class="cls-4" transform="translate(267.14 106.8)"><tspan class="cls-32" x="0" y="0">F</tspan><tspan x="10.67" y="0">our </tspan><tspan class="cls-37" x="44.88" y="0">w</tspan><tspan class="cls-40" x="60.54" y="0">ay</tspan><tspan x="82.25" y="0">s </tspan><tspan class="cls-37" x="96.5" y="0">t</tspan><tspan x="103.47" y="0">o p</tspan><tspan class="cls-30" x="130.74" y="0">r</tspan><tspan class="cls-35" x="137.68" y="0">o</tspan><tspan class="cls-32" x="148.89" y="0">v</tspan><tspan x="159.15" y="0">e triangles a</tspan><tspan class="cls-30" x="268.88" y="0">r</tspan><tspan x="275.81" y="0">e identical in shape and si</tspan><tspan class="cls-38" x="506.33" y="0">z</tspan><tspan x="516.24" y="0">e</tspan></text>
+  </g>
+  <text class="cls-1" transform="translate(305.86 770.8)"><tspan class="cls-36" x="0" y="0">M</tspan><tspan x="16.2" y="0">a</tspan><tspan class="cls-37" x="26.6" y="0">t</tspan><tspan x="33.21" y="0">ching markings sh</tspan><tspan class="cls-34" x="190.35" y="0">o</tspan><tspan x="201.14" y="0">w which measu</tspan><tspan class="cls-30" x="333.88" y="0">r</tspan><tspan x="340.47" y="0">ements a</tspan><tspan class="cls-30" x="419.61" y="0">r</tspan><tspan x="426.2" y="0">e equal</tspan></text>
+  <g>
+    <rect class="cls-14" x="40.21" y="147.8" width="490" height="270" rx="18" ry="18"/>
+    <text class="cls-9" transform="translate(261.54 187.8)"><tspan x="0" y="0">SSS</tspan></text>
+    <text class="cls-5" transform="translate(226.56 215.8)"><tspan x="0" y="0">Side</tspan><tspan class="cls-29" x="34.37" y="0">,</tspan><tspan x="38.1" y="0" xml:space="preserve"> Side</tspan><tspan class="cls-29" x="75.84" y="0">,</tspan><tspan x="79.56" y="0" xml:space="preserve"> Side</tspan></text>
+    <text class="cls-8" transform="translate(140.48 392.8)"><tspan x="0" y="0">All th</tspan><tspan class="cls-31" x="37.89" y="0">r</tspan><tspan x="43.4" y="0">ee cor</tspan><tspan class="cls-31" x="89.47" y="0">r</tspan><tspan x="94.98" y="0">esponding sides a</tspan><tspan class="cls-31" x="230.01" y="0">r</tspan><tspan x="235.52" y="0">e equal</tspan></text>
+    <g>
+      <g>
+        <path class="cls-11" d="M105.21,357.8l60-105,70,105H105.21Z"/>
+        <line class="cls-18" x1="138.21" y1="308.3" x2="128.54" y2="302.78"/>
+        <line class="cls-18" x1="170.21" y1="353.8" x2="170.21" y2="363.1"/>
+        <line class="cls-18" x1="197.21" y1="308.3" x2="205.5" y2="302.78"/>
+      </g>
+      <g>
+        <path class="cls-11" d="M335.21,357.8l70-105,60,105h-130Z"/>
+        <line class="cls-18" x1="432.21" y1="308.3" x2="441.88" y2="302.78"/>
+        <line class="cls-18" x1="400.21" y1="353.8" x2="400.21" y2="363.1"/>
+        <line class="cls-18" x1="373.21" y1="308.3" x2="364.92" y2="302.78"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-17" x="560.1" y="147.8" width="490" height="270" rx="18" ry="18"/>
+    <text class="cls-9" transform="translate(781.05 187.8)"><tspan class="cls-32" x="0" y="0">SA</tspan><tspan x="32.3" y="0">S</tspan></text>
+    <text class="cls-3" transform="translate(741.05 215.8)"><tspan x="0" y="0">Side</tspan><tspan class="cls-29" x="34.37" y="0">,</tspan><tspan x="38.1" y="0" xml:space="preserve"> Angle</tspan><tspan class="cls-29" x="86.63" y="0">,</tspan><tspan x="90.35" y="0" xml:space="preserve"> Side</tspan></text>
+    <text class="cls-8" transform="translate(645.64 392.8)"><tspan class="cls-28" x="0" y="0">T</tspan><tspan class="cls-34" x="8.97" y="0">w</tspan><tspan x="21.86" y="0">o sides and the included angle a</tspan><tspan class="cls-31" x="259.44" y="0">r</tspan><tspan x="264.95" y="0">e equal</tspan></text>
+    <g>
+      <g>
+        <path class="cls-13" d="M625.1,357.8l60-105,70,105h-130Z"/>
+        <path class="cls-13" d="M855.1,357.8l60-105,70,105h-130Z"/>
+      </g>
+      <line class="cls-19" x1="955.84" y1="304.81" x2="946.5" y2="311.79"/>
+      <line class="cls-19" x1="879.1" y1="305.3" x2="889.1" y2="311.3"/>
+      <path class="cls-21" d="M864.65,343.23c4.49,1.96,6.55,7.19,4.59,11.69-.47,1.09-1.16,2.07-2.02,2.89"/>
+      <path class="cls-21" d="M634.46,343.23c4.49,1.96,6.55,7.19,4.59,11.69-.47,1.09-1.16,2.07-2.02,2.89"/>
+      <line class="cls-19" x1="725.94" y1="303.87" x2="716.6" y2="310.85"/>
+      <line class="cls-19" x1="649.19" y1="304.36" x2="659.19" y2="310.36"/>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-16" x="40.09" y="457.8" width="490" height="270" rx="18" ry="18"/>
+    <text class="cls-9" transform="translate(260.32 497.8)"><tspan class="cls-32" x="0" y="0">AS</tspan><tspan x="32.3" y="0">A</tspan></text>
+    <text class="cls-7" transform="translate(215.65 525.8)"><tspan x="0" y="0">Angle</tspan><tspan class="cls-29" x="45.16" y="0">,</tspan><tspan x="48.89" y="0" xml:space="preserve"> Side</tspan><tspan class="cls-29" x="86.63" y="0">,</tspan><tspan x="90.35" y="0" xml:space="preserve"> Angle</tspan></text>
+    <text class="cls-8" transform="translate(125.64 702.8)"><tspan class="cls-28" x="0" y="0">T</tspan><tspan class="cls-34" x="8.97" y="0">w</tspan><tspan x="21.86" y="0">o angles and the included side a</tspan><tspan class="cls-31" x="259.44" y="0">r</tspan><tspan x="264.95" y="0">e equal</tspan></text>
+    <g>
+      <g>
+        <path class="cls-10" d="M105.09,667.8l60-105,70,105H105.09Z"/>
+        <path class="cls-10" d="M335.09,667.8l60-105,70,105h-130Z"/>
+      </g>
+      <path class="cls-23" d="M443.57,666.32c-.72-6.46,2.95-12.6,8.98-15.04"/>
+      <line class="cls-22" x1="166.09" y1="660.8" x2="166.09" y2="673.3"/>
+      <line class="cls-22" x1="398.09" y1="660.8" x2="398.09" y2="673.3"/>
+      <path class="cls-23" d="M346.67,651.28c6.04,2.41,9.73,8.54,9.04,15"/>
+      <path class="cls-23" d="M213.05,666.33c-.72-6.46,2.95-12.6,8.98-15.04"/>
+      <path class="cls-23" d="M116.15,651.28c6.04,2.41,9.73,8.54,9.04,15"/>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-15" x="559.63" y="457.8" width="490" height="270" rx="18" ry="18"/>
+    <text class="cls-9" transform="translate(779.62 497.8)"><tspan x="0" y="0">RHS</tspan></text>
+    <text class="cls-6" transform="translate(689.5 525.8)"><tspan x="0" y="0">Right angle</tspan><tspan class="cls-29" x="87.12" y="0">,</tspan><tspan x="90.85" y="0" xml:space="preserve"> Hypo</tspan><tspan class="cls-37" x="135.67" y="0">t</tspan><tspan x="141.59" y="0">enuse</tspan><tspan class="cls-29" x="188.81" y="0">,</tspan><tspan x="192.54" y="0" xml:space="preserve"> Side</tspan></text>
+    <text class="cls-8" transform="translate(627.56 702.8)"><tspan x="0" y="0">Right angle</tspan><tspan class="cls-33" x="84.43" y="0">,</tspan><tspan x="88.06" y="0"> </tspan><tspan class="cls-39" x="91.47" y="0">h</tspan><tspan x="101.1" y="0">ypo</tspan><tspan class="cls-38" x="129.26" y="0">t</tspan><tspan x="134.8" y="0">enuse</tspan><tspan class="cls-33" x="180.57" y="0">,</tspan><tspan x="184.2" y="0" xml:space="preserve"> and one side a</tspan><tspan class="cls-31" x="294.69" y="0">r</tspan><tspan x="300.2" y="0">e equal</tspan></text>
+    <g>
+      <g>
+        <path class="cls-12" d="M627.13,667.8v-105l125,105h-125Z"/>
+        <path class="cls-12" d="M857.13,667.8v-105l125,105h-125Z"/>
+      </g>
+      <g>
+        <path class="cls-20" d="M627.13,642.8h25v25"/>
+        <path class="cls-20" d="M857.13,642.8h25v25"/>
+      </g>
+      <line class="cls-24" x1="684.51" y1="617.44" x2="690.78" y2="611.62"/>
+      <line class="cls-24" x1="914.59" y1="661.88" x2="914.68" y2="671.69"/>
+      <line class="cls-24" x1="684.76" y1="661.88" x2="684.51" y2="671.69"/>
+      <line class="cls-24" x1="916.5" y1="618.22" x2="922.77" y2="612.39"/>
+    </g>
+  </g>
+</svg>

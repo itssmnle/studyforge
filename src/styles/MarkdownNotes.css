@@ -1,0 +1,154 @@
+.notes-library-header{max-width:720px;padding:22px 0 34px}.notes-library-header h1,.subject-notes-page>header h1{margin:7px 0;font:100 2.8rem "JakartaSansBold";letter-spacing:-.04em}.notes-library-header p,.subject-notes-page>header p{font-size:.8rem}.notes-workflow{display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:14px;padding:17px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.notes-workflow>span{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--accent-fill);color:var(--accent-fill-text)}.notes-workflow strong{font:100 .76rem "JakartaSansBold"}.notes-workflow p{margin:3px 0;font-size:.63rem}.notes-workflow code{padding:8px 10px;background:var(--bg-alt);color: var(--accent-text);font-size:.62rem}.notes-subject-grid{display:grid;grid-template-columns:repeat(3,1fr);margin:35px 0 55px;border-top:1px solid var(--border);border-left:1px solid var(--border)}.notes-subject{display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:12px;padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);color:var(--text)}.notes-subject:hover{background:var(--bg-alt)}.notes-subject-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:color-mix(in srgb,var(--subject-color) 14%,var(--card));color:var(--subject-color)}.notes-subject div>span{color:var(--text-secondary);font-size:.56rem;text-transform:uppercase}.notes-subject h2{margin:4px 0;font:100 .9rem "JakartaSansBold"}.notes-subject p{margin:0;font-size:.6rem}.notes-subject>svg{color: var(--accent-text)}.notes-section-heading{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:10px;border-bottom:1px solid var(--border)}.notes-section-heading h2{margin:5px 0 0;font:100 1.25rem "JakartaSansBold"}.notes-section-heading small{color:var(--text-secondary);font-size:.62rem}.latest-notes>a{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:12px;padding:16px 6px;border-bottom:1px solid var(--border);color:var(--text)}.latest-notes>a>svg{color: var(--accent-text)}.latest-notes>a div{display:flex;flex-direction:column;gap:4px}.latest-notes strong{font:100 .75rem "JakartaSansBold"}.latest-notes span{color:var(--text-secondary);font-size:.61rem;text-transform:capitalize}.subject-notes-page>header{padding:20px 0 28px;border-bottom:4px solid var(--subject-color);margin-bottom:20px}.subject-note-list>a,.unpublished-note{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:20px;padding:25px 12px;border-bottom:1px solid var(--border);color:var(--text)}.subject-note-list>a:hover{background:var(--bg-alt)}.note-status{width:56px;height:56px;display:grid;place-items:center;border-radius:50%;background:var(--bg-alt);color:var(--text-secondary);font-size:1.2rem}.note-status.published{background:var(--accent-fill);color:var(--accent-fill-text)}.note-list-copy{min-width:0}.note-title-line{display:flex;align-items:baseline;gap:10px;min-width:0}.note-title-line>span{flex:0 0 auto;color:var(--text-secondary);font-size:.68rem}.note-title-line strong{font:100 .92rem "JakartaSansBold";line-height:1.35}.subject-note-list p{margin:7px 0 10px;color:var(--text-secondary);font-size:.7rem;line-height:1.5}.subject-note-list small,.unpublished-note>span{color:var(--text-secondary);font-size:.62rem}.unpublished-note{opacity:.62}.unpublished-note code{color: var(--accent-text)}
+.note-reader-shell{width:min(1120px,calc(100% - 40px));margin:0 auto;display:grid;grid-template-columns:220px minmax(0,760px);gap:48px;padding:48px 0 80px}.note-reader-aside{position:sticky;top:20px;align-self:start;display:flex;flex-direction:column;padding-right:24px;border-right:1px solid var(--border)}.note-reader-aside>a:first-child{display:flex;align-items:center;gap:6px;margin-bottom:27px;color: var(--accent-text);font:100 .68rem "JakartaSansBold"}.note-reader-aside>span{color:var(--text-secondary);font-size:.58rem;text-transform:uppercase;letter-spacing:.09em}.note-reader-aside h2{margin:8px 0 10px;font:100 .78rem "JakartaSansBold"}.note-reader-aside>a:not(:first-child){padding:7px 0;color:var(--text-secondary);font-size:.64rem}.note-reader-aside>a:hover{color: var(--accent-text)}.note-reader>header{padding-bottom:25px;border-bottom:1px solid var(--border)}.note-reader>header h1{margin:8px 0;font:100 2.8rem "JakartaSansBold";letter-spacing:-.04em}.note-reader>header>p{font-size:.82rem}.note-metadata{display:flex;gap:16px;margin-top:16px}.note-metadata span{display:flex;align-items:center;gap:6px;color:var(--text-secondary);font-size:.6rem}.markdown-content{padding-top:22px;color:var(--text);font-size:.82rem;line-height:1.75}.markdown-content h2{scroll-margin-top:20px;margin:38px 0 10px;font:100 1.45rem "JakartaSansBold"}.markdown-content h3{scroll-margin-top:20px;margin:28px 0 8px;font:100 1.05rem "JakartaSansBold"}.markdown-content p{color:var(--text);margin:10px 0 16px}.markdown-content strong{font-family:"JakartaSansBold"}.markdown-content code{padding:2px 5px;background:var(--bg-alt);color: var(--accent-text);border-radius:3px}.markdown-content pre{overflow:auto;padding:16px;background:var(--bg-alt);border-left:3px solid var(--primary)}.markdown-content pre code{padding:0;background:none;color:var(--text)}.markdown-content ul,.markdown-content ol{padding-left:24px}.markdown-content li{margin:6px 0}.markdown-content blockquote{margin:20px 0;padding:14px 18px;border-left:4px solid var(--primary);background:var(--secondary);color:var(--text)}.markdown-content hr{border:0;border-top:1px solid var(--border);margin:30px 0}.markdown-table-wrap{overflow-x:auto;margin:20px 0}.markdown-content table{width:100%;border-collapse:collapse;font-size:.72rem}.markdown-content th,.markdown-content td{padding:10px;text-align:left;border:1px solid var(--border)}.markdown-content th{background:var(--bg-alt);font-family:"JakartaSansBold"}.markdown-content a{color: var(--accent-text);text-decoration:underline}.missing-note{text-align:center;min-height:55vh;display:flex;flex-direction:column;align-items:center;justify-content:center}.missing-note>svg{font-size:2rem;color: var(--accent-text)}.missing-note h1{margin:12px 0}.missing-note code{color: var(--accent-text)}
+@media(max-width:800px){.notes-subject-grid{grid-template-columns:1fr}.notes-workflow{grid-template-columns:42px 1fr}.notes-workflow code{grid-column:2}.note-reader-shell{grid-template-columns:1fr;width:min(720px,calc(100% - 28px));padding-top:30px}.note-reader-aside{position:static;border-right:0;border-bottom:1px solid var(--border);padding:0 0 18px}.note-reader-aside>a:not(:first-child),.note-reader-aside h2,.note-reader-aside>span{display:none}}@media(max-width:520px){.notes-workflow code{font-size:.52rem}.note-reader>header h1{font-size:2.2rem}.subject-note-list>a,.unpublished-note{grid-template-columns:56px minmax(0,1fr);gap:14px;padding:20px 4px}.subject-note-list>a>svg,.unpublished-note>span{display:none}.note-title-line{align-items:flex-start;flex-direction:column;gap:3px}}
+
+.note-reader-aside>.note-reader-back{display:flex;align-items:center;gap:6px;margin-bottom:27px;color: var(--accent-text);font:100 .68rem "JakartaSansBold"}
+
+.notes-search{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:3px 11px;margin-bottom:22px;padding:11px 14px;border:1px solid var(--border);background:var(--card)}
+.notes-search>svg{grid-row:1/3;color: var(--accent-text);font-size:1rem}
+.notes-search label{font:100 .6rem "JakartaSansBold";color:var(--text-secondary)}
+.notes-search input{width:100%;padding:0;border:0;outline:0;background:transparent;color:var(--text);font:inherit;font-size:.72rem}
+.notes-search input::placeholder{color:var(--text-secondary)}
+.notes-search-empty{margin:0;padding:28px 6px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-size:.68rem}
+.markdown-figure{margin:26px 0;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--card)}
+.markdown-figure img{display:block;width:100%;max-height:560px;object-fit:contain;border-radius:5px;background:#fff}
+.markdown-figure figcaption{padding:9px 4px 2px;color:var(--text-secondary);font-size:.66rem;line-height:1.45;text-align:center}
+.markdown-image-gallery-stage{position:relative;display:grid;place-items:center;aspect-ratio:16/10;overflow:hidden;border-radius:5px;background:#fff}
+.markdown-image-gallery-stage>a{display:block;width:100%;height:100%}
+.markdown-image-gallery-stage img{width:100%;height:100%;max-height:none;object-fit:contain}
+.markdown-image-gallery-stage>button{position:absolute;top:50%;width:44px;height:44px;display:grid;place-items:center;padding:0;border:1px solid color-mix(in srgb,var(--text) 14%,transparent);border-radius:50%;background:color-mix(in srgb,var(--card) 90%,transparent);color:var(--text);box-shadow:0 5px 18px rgba(24,22,36,.15);cursor:pointer;transform:translateY(-50%)}
+.markdown-image-gallery-stage>button:hover{border-color:var(--subject-color,var(--primary));color:var(--subject-color,var(--primary))}
+.markdown-image-gallery-stage>button.previous{left:12px}
+.markdown-image-gallery-stage>button.next{right:12px}
+.markdown-image-gallery figcaption{display:flex;justify-content:space-between;gap:16px;text-align:left}
+.markdown-image-gallery figcaption>span:last-child{white-space:nowrap;font-family:"JakartaSansBold"}
+
+.note-chapter-card{border-bottom:1px solid var(--border)}
+.note-chapter-main{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:20px;padding:25px 12px;color:var(--text)}
+.note-chapter-main:hover{background:var(--bg-alt)}
+.note-subchapter-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;padding:0 12px 22px 104px}
+.note-subchapter-links a{display:grid;grid-template-columns:24px 1fr auto;align-items:center;gap:9px;min-height:42px;padding:7px 11px;background:var(--bg-alt);color:var(--text);font-size:.62rem}
+.note-subchapter-links a:hover{color: var(--accent-text)}
+.note-subchapter-links a span{width:22px;height:22px;display:grid;place-items:center;border:1px solid var(--border);border-radius:50%;color:var(--text-secondary);font-size:.54rem}
+.note-subchapter-links a>svg{color: var(--accent-text)}
+.note-reader-aside>a:not(:first-child){display:grid;grid-template-columns:20px 1fr;align-items:start;gap:7px}
+.note-reader-aside>a:not(:first-child) b{width:18px;height:18px;display:grid;place-items:center;border:1px solid var(--border);border-radius:50%;font-size:.48rem}
+.note-reader-aside>a[aria-current=page]{color: var(--accent-text);font-family:"JakartaSansBold"}
+.note-reader-aside>a[aria-current=page] b{border-color: var(--primary);background:var(--primary);color:white}
+.note-chapter-name{margin:13px 0 2px!important;color: var(--accent-text)!important;font:100 .68rem "JakartaSansBold";text-transform:uppercase;letter-spacing:.04em}
+
+.math-expression{font-family:KaTeX_Main,serif}
+.math-display{max-width:100%;overflow-x:auto;margin:22px 0;padding:20px 16px;border-left:4px solid var(--primary);background:var(--bg-alt);font-size:1.08rem;text-align:center}
+.math-display .katex-display{margin:0}
+.glossary-term{position:relative;display:inline-flex;align-items:baseline;gap:3px;border-bottom:1px dotted var(--primary);outline:none;cursor:help}
+.glossary-question{width:14px;height:14px;display:inline-grid;place-items:center;border-radius:50%;background:var(--accent-fill);color:var(--accent-fill-text);font:100 .48rem "JakartaSansBold";transform:translateY(-1px)}
+.glossary-tooltip{position:absolute;left:0;bottom:calc(100% + 9px);z-index:20;width:min(270px,75vw);display:none;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:var(--card);box-shadow:0 12px 30px rgba(17,22,38,.17);color:var(--text);font:100 .62rem/1.5 "JakartaSans"}
+.glossary-tooltip-title{display:block;margin-bottom:4px;font-family:"JakartaSansBold";text-transform:capitalize}
+.glossary-term:hover .glossary-tooltip,.glossary-term:focus .glossary-tooltip,.glossary-term:focus-within .glossary-tooltip{display:block}
+
+.note-study-footer{margin-top:48px;border-top:1px solid var(--border)}
+.note-reader>.markdown-content>hr:last-child{display:none}
+.note-feedback{display:flex;align-items:center;gap:8px;width:max-content;max-width:100%;margin:28px 0 45px;padding:11px 13px;border:1px solid var(--border);border-radius:7px;background:var(--card);font-size:.6rem}
+.note-feedback>span{margin-right:4px;color:var(--text-secondary)}
+.note-feedback button{display:inline-flex;align-items:center;gap:5px;padding:6px 8px;border:0;border-radius:4px;background:transparent;color:var(--text);font:100 .6rem "JakartaSansBold";cursor:pointer}
+.note-feedback button:hover,.note-feedback button.selected{background:var(--accent-fill);color:var(--accent-fill-text)}
+.note-build-section{padding:28px 0;border-top:1px solid var(--border)}
+.note-build-section h2{margin:0 0 15px;font:100 1rem "JakartaSansBold"}
+.note-build-links{display:grid;gap:12px}
+.note-build-links>a{display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:12px;padding:14px;border:1px solid var(--border);border-radius:8px;color:var(--text)}
+.note-build-links>a:hover{border-color: var(--primary);background:var(--bg-alt)}
+.note-build-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:7px;background:var(--accent-fill);color:var(--accent-fill-text);font-size:1.05rem}
+.note-build-links>a>span:nth-child(2){display:grid;gap:2px}
+.note-build-links strong{font:100 .69rem "JakartaSansBold"}
+.note-build-links small{color:var(--text-secondary);font-size:.61rem}
+.note-build-links>a>svg{color: var(--accent-text)}
+.note-page-navigation{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:24px 0}
+.note-page-navigation>a{display:flex;align-items:center;gap:10px;color:var(--text)}
+.note-page-navigation>a.next{justify-content:flex-end;text-align:right}
+.note-page-navigation>a>svg{flex:0 0 auto;width:32px;height:32px;padding:7px;border:1px solid var(--border);border-radius:50%;color: var(--accent-text)}
+.note-page-navigation span{display:grid;gap:2px}
+.note-page-navigation small{color:var(--text-secondary);font-size:.56rem}
+.note-page-navigation strong{font:100 .65rem "JakartaSansBold"}
+.note-page-navigation a:hover strong{color: var(--accent-text)}
+
+@media(max-width:800px){.note-subchapter-links{padding-left:12px}.note-reader-aside>a:not(:first-child){display:none}}
+@media(max-width:600px){.note-subchapter-links{grid-template-columns:1fr}.note-chapter-main{grid-template-columns:54px minmax(0,1fr);gap:12px}.note-chapter-main>svg{display:none}.note-feedback{align-items:flex-start;flex-wrap:wrap}.note-feedback>span{width:100%}.note-page-navigation{gap:8px}.note-page-navigation strong{font-size:.57rem}.math-display{padding:16px 8px;font-size:.9rem}}
+@media(max-width:600px){.markdown-image-gallery-stage>button{width:40px;height:40px}.markdown-image-gallery-stage>button.previous{left:8px}.markdown-image-gallery-stage>button.next{right:8px}}
+
+/* Full-height note divider and subchapter stepper. */
+.note-reader-aside{position:relative;align-self:stretch;display:block;padding-right:0;border-right:1px solid var(--border);box-shadow:none}
+.note-reader-aside-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 24px 14px 0}.note-reader-aside-heading>strong{font:100 .86rem/1.3 "JakartaSansBold";color:var(--text)}
+.note-reader-aside-content{position:sticky;top:20px;display:flex;flex-direction:column;box-sizing:border-box;width:var(--topic-rail-width);padding-right:24px;transition:opacity .14s ease,transform .24s ease}
+.note-topics-toggle{position:static;z-index:5;width:32px;height:32px;display:grid;flex:0 0 32px;place-items:center;padding:0;border:1px solid var(--border);border-radius:50%;background:#fff;color:var(--forge-neutral-900);box-shadow:none;cursor:pointer}
+.note-topics-toggle:hover,.note-topics-toggle:focus-visible{border-color:var(--subject-color);color:var(--subject-color);outline:0}
+.note-topics-toggle svg{font-size:.88rem}
+.note-reader-shell.topics-hidden{width:100%;grid-template-columns:44px minmax(0,1fr);gap:24px}
+.note-reader-shell.topics-hidden .note-reader-aside-content{visibility:hidden;opacity:0;transform:translateX(-18px);pointer-events:none}
+.note-reader-shell.topics-hidden .note-reader-aside{min-height:100%}
+.note-reader-shell.topics-hidden .note-reader-aside-heading{position:relative;justify-content:center;min-height:44px;margin-right:0}.note-reader-shell.topics-hidden .note-reader-aside-heading>strong{display:none}
+.note-reader-shell.topics-hidden .note-topics-toggle{position:absolute;top:0;right:0;width:44px;height:44px;transform:translateX(50%)}
+.note-reader-aside-content>.note-reader-back{display:flex;align-items:center;gap:6px;margin-bottom:27px;color: var(--accent-text);font:100 .68rem "JakartaSansBold"}
+.note-reader-aside-content>span{color:var(--text-secondary);font-size:.58rem;text-transform:uppercase;letter-spacing:.09em}
+.note-reader-aside-content h2{margin:8px 0 10px;font:100 .78rem "JakartaSansBold"}
+.note-reader-section-list{position:relative;display:grid;gap:0}
+.note-reader-section-list::before{content:"";position:absolute;z-index:0;left:10px;top:10px;bottom:10px;width:1px;background:var(--border)}
+.note-reader-section-list>a{position:relative;z-index:1;display:grid;grid-template-columns:22px minmax(0,1fr);align-items:center;gap:9px;min-height:40px;padding:4px 0;color:var(--text-secondary);font-size:.64rem}
+.note-reader-section-list>a:hover{color: var(--accent-text)}
+.note-reader-section-list>a b{box-sizing:border-box;width:20px;height:20px;display:grid;place-items:center;border:1px solid var(--border);border-radius:50%;background:var(--card);color:var(--text-secondary);font-size:.52rem;line-height:1;font-variant-numeric:tabular-nums}
+.note-reader-section-list>a[aria-current=page]{color: var(--accent-text);font-family:"JakartaSansBold"}
+.note-reader-section-list>a[aria-current=page] b{border-color: var(--primary);background:var(--primary);color:white}
+
+@media(max-width:800px){.note-reader-aside{border-right:0;border-bottom:1px solid var(--border)}.note-reader-aside-heading{display:none}.note-reader-aside-content{position:static;padding:0 0 18px}.note-reader-aside-content>span,.note-reader-aside-content h2,.note-reader-section-list{display:none}}
+
+.ks3-note-reader .note-reader>header{position:relative;overflow:hidden;padding:34px 36px 30px;border:1px solid var(--border);border-radius:var(--radius-lg);background:linear-gradient(135deg,color-mix(in srgb,var(--primary) 10%,#fff),#fff 62%);box-shadow:none}
+.ks3-note-reader .note-reader>header h1{max-width:780px;color:var(--text);font-size:var(--type-page-title);line-height:1.2}
+.ks3-note-reader .note-reader>header:after{content:"";position:absolute;width:220px;height:220px;right:-85px;bottom:-140px;border-radius:50%;background:var(--subject-secondary,#f3efff);opacity:.85}
+.topic-image{margin:28px 0;padding:10px;border:1px solid var(--border);border-radius:14px;background:var(--card);box-shadow:0 16px 32px rgba(45,37,102,.08)}
+.topic-image a{display:block}
+.topic-image img{display:block;width:100%;max-height:440px;object-fit:cover;border-radius:8px;background:var(--bg-alt)}
+.topic-image figcaption{padding:10px 4px 2px;color:var(--text-secondary);font-size:.66rem;text-align:right}
+.topic-image-loading{height:250px;margin:28px 0;border-radius:14px;background:linear-gradient(110deg,var(--bg-alt) 20%,#f4f2ff 38%,var(--bg-alt) 55%);background-size:200% 100%;animation:note-image-loading 1.4s ease-in-out infinite}
+@keyframes note-image-loading{to{background-position:-200% 0}}
+
+/* Shared note hero, tinted by the current subject in both colour themes. */
+.ks3-note-reader .note-reader>header{background:linear-gradient(135deg,color-mix(in srgb,var(--subject-color) 9%,var(--card)),var(--card) 68%);isolation:isolate}
+.ks3-note-reader .note-reader>header h1{background:none;line-height:1.2;overflow-wrap:anywhere}
+.math-lesson-title{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:.18em;row-gap:0}
+.math-lesson-title>span{color:var(--text)}
+.math-lesson-title-formula{display:inline-block;flex:0 0 100%;max-width:100%;font-size:.78em;line-height:1;white-space:nowrap}
+.math-lesson-title-formula .katex,.math-lesson-title-formula .katex *{color:var(--text)!important}
+.math-lesson-title-formula .katex-html{background:none}
+.ks3-note-reader .note-reader>header:after{z-index:-1;pointer-events:none;background:var(--subject-secondary)}
+.ks3-note-reader .note-reader>header .eyebrow,.ks3-note-reader .note-chapter-name{color:var(--subject-color)!important}
+.ks3-note-reader .markdown-content h3{color:var(--subject-color);padding-top:16px;border-top:1px solid var(--border)}
+.markdown-checklist{list-style:none;padding-left:0}.markdown-checklist li{display:flex;align-items:flex-start;gap:10px;padding:5px 0}.markdown-checklist input{width:16px;height:16px;margin:4px 0 0;accent-color:var(--subject-color,var(--primary));flex:0 0 auto}
+.topic-image img{object-fit:contain}
+@media(max-width:600px){.ks3-note-reader .note-reader>header{padding:24px 20px}.ks3-note-reader .note-reader>header h1{font-size:clamp(1.8rem,8vw,3rem)}}
+@media(prefers-reduced-motion:reduce){.topic-image-loading{animation:none}}
+/* SaveMyExams-style examiner guidance, using the active StudyForge subject colour. */
+.markdown-callout{display:grid;grid-template-columns:34px 1fr;gap:14px;margin:28px 0;padding:24px 26px;border:1px solid color-mix(in srgb,var(--subject-color,var(--primary)) 28%,var(--border));border-left:4px solid var(--subject-color,var(--primary));border-radius:14px;background:var(--card);color:var(--text)}
+.markdown-callout-icon{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:var(--subject-color,var(--primary));color:var(--card);font-size:.65rem}
+.markdown-callout h3{margin:1px 0 12px!important;padding:0!important;border:0!important;color:var(--text)!important;font-size:1rem!important}
+.markdown-callout p{margin:0;line-height:1.7}
+.markdown-image-pending{display:inline-block;margin:18px 0!important;padding:4px 7px;border-radius:3px;background:#fff0a8;color:var(--text)!important;font:inherit;line-height:1.6}
+
+/* Keep the note workspace fixed while the article itself scrolls. */
+.note-reader-layout{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.note-reader-layout>.academy-nav,.note-reader-layout>.app-navigation,.note-reader-layout>.progress-strip,.note-reader-layout>.student-breadcrumbs{flex:0 0 auto}
+.notes-library .notes-subject-grid{grid-template-columns:minmax(0,1fr);max-width:620px}
+.resource-library-title{padding:30px 0 0}.resource-library-title h1{margin:0;font:100 2.7rem "JakartaSansBold";letter-spacing:-.04em}
+.note-reader-layout>.app-route-stage{box-sizing:border-box;flex:1 1 auto;min-height:0;overflow:hidden;padding-top:0}
+.note-reader-layout>.app-route-stage>.note-reader-shell{box-sizing:border-box;height:100%;min-height:0;overflow:hidden;padding-top:0;padding-bottom:0}
+.note-reader-layout .note-reader-aside{top:0;min-height:0;overflow:visible}
+.note-reader-layout .note-reader-aside-content{position:static;height:calc(100dvh - 160px);max-height:calc(100dvh - 160px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.note-reader-layout .note-reader-aside-content::-webkit-scrollbar{display:none}
+.note-reader-layout .note-reader{box-sizing:border-box;height:100%;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:0 12px 80px 0;scrollbar-width:none}
+.note-reader-layout .note-reader::-webkit-scrollbar{display:none}
+
+@media(max-width:800px){.note-reader-layout>.app-route-stage{padding-top:0}.note-reader-layout>.app-route-stage>.note-reader-shell{display:flex;flex-direction:column}.note-reader-layout .note-reader-aside{flex:0 0 auto;overflow:visible}.note-reader-layout .note-reader-aside-content{height:auto;overflow:visible}.note-reader-layout .note-reader{flex:1 1 auto;height:auto;padding-right:0;padding-bottom:60px}}
+@media(max-width:800px){.note-topics-toggle{display:none}.note-reader-aside{box-shadow:none}}
+
+/* Shared reader geometry. Notes and flashcards deliberately use the same rail. */
+.note-reader-shell{width:min(var(--layout-max),calc(100% - 40px));grid-template-columns:var(--topic-rail-width) minmax(0,var(--reading-width));gap:40px;padding:26px 0 80px;transition:grid-template-columns .24s ease,gap .24s ease}
+.note-topics-toggle:hover,.note-topics-toggle:focus-visible{border-color:var(--forge-accent);color:var(--forge-accent)}
+@media(max-width:800px){.note-reader-shell{width:min(720px,calc(100% - 28px));padding-top:20px}}

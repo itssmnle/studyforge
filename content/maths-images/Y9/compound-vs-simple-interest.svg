@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eee8fa;
+      }
+
+      .cls-2 {
+        font-size: 19px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #7046c7;
+      }
+
+      .cls-3 {
+        font-size: 32px;
+      }
+
+      .cls-3, .cls-10, .cls-5, .cls-7, .cls-8, .cls-9, .cls-11 {
+        fill: #272331;
+      }
+
+      .cls-12 {
+        stroke: #7046c7;
+      }
+
+      .cls-12, .cls-13 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 7px;
+      }
+
+      .cls-14 {
+        fill: #fff4c7;
+      }
+
+      .cls-13 {
+        stroke: #2b9f9a;
+      }
+
+      .cls-15 {
+        stroke: #272331;
+      }
+
+      .cls-15, .cls-11 {
+        stroke-width: 3px;
+      }
+
+      .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-9 {
+        font-size: 20px;
+      }
+
+      .cls-17 {
+        stroke: #e6e0f0;
+      }
+
+      .cls-6 {
+        fill: #2b9f9a;
+      }
+
+      .cls-7 {
+        font-size: 17px;
+      }
+
+      .cls-7, .cls-9 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-weight: 600;
+      }
+
+      .cls-18 {
+        fill: #f6f0ff;
+        fill-rule: evenodd;
+      }
+
+      .cls-19 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 16px;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+
+      .cls-27 {
+        fill: #dff4f1;
+      }
+
+      .cls-28 {
+        fill: #fbfaff;
+        stroke: #d9d1ea;
+        stroke-width: 2px;
+      }
+
+      .cls-11 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-16" width="1100" height="680"/>
+  <g>
+    <text class="cls-3" transform="translate(277.16 76)"><tspan x="0" y="0">Compound In</tspan><tspan class="cls-25" x="195.23" y="0">t</tspan><tspan x="206.38" y="0">e</tspan><tspan class="cls-21" x="224.14" y="0">r</tspan><tspan x="235.23" y="0">est </tspan><tspan class="cls-26" x="287.19" y="0">v</tspan><tspan x="304" y="0">s Simple In</tspan><tspan class="cls-25" x="460.05" y="0">t</tspan><tspan x="471.19" y="0">e</tspan><tspan class="cls-21" x="488.95" y="0">r</tspan><tspan x="500.05" y="0">est</tspan></text>
+    <text class="cls-2" transform="translate(424.82 112)"><tspan x="0" y="0">G</tspan><tspan class="cls-21" x="13.81" y="0">r</tspan><tspan class="cls-23" x="20.4" y="0">o</tspan><tspan x="31.19" y="0">wth of an amount </tspan><tspan class="cls-24" x="184.42" y="0">o</tspan><tspan class="cls-22" x="195.07" y="0">v</tspan><tspan x="204.82" y="0">er time</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-28" x="140.22" y="144.45" width="819.57" height="423.1" rx="15" ry="15"/>
+    <path class="cls-18" d="M407.11,317.9c6.44-2.06,13.98-1.48,20.69-2.56,14.18-2.29,28.27-5.76,41.54-11.34,16.28-6.84,31.41-16.61,43.18-29.88,23.5-26.47,34.44-67.67,33.34-102.56,2.04-.69,3.89-.76,6.02-.57,2,38.4,9.72,81.97,39.68,109.15,11.43,10.37,24.46,17.73,38.7,23.52,14.08,5.72,29.28,9.28,44.24,11.82,4.28.72,15.24-.5,18.28,2.11.32,1.71,1.19,4.58.26,6.13-34-.09-75.27,12.8-99.98,36.7-12.28,11.87-21.67,27.46-27.93,43.22-6.24,15.72-10.08,32.81-12.01,49.59-.74,6.42.56,13.42-.74,19.68-2.07.55-4.22-.14-5.99-1.19-1.47-4.74-.66-10.14-.99-15.06-.55-8.19-2.02-16.41-3.65-24.44-6.73-33.34-21.84-62.31-49.68-82.54-18.43-13.38-41.81-19.69-63.97-23.39-5.61-.94-11.31-1.63-16.97-2.17-.76-.07-4.14.34-4.46-.71-.39-1.3.3-4.16.44-5.49h.01Z"/>
+    <line class="cls-17" x1="284.78" y1="144.45" x2="284.78" y2="494.45"/>
+    <line class="cls-17" x1="374.78" y1="144.45" x2="374.78" y2="494.45"/>
+    <line class="cls-17" x1="464.78" y1="144.45" x2="464.78" y2="494.45"/>
+    <line class="cls-17" x1="554.78" y1="144.45" x2="554.78" y2="494.45"/>
+    <line class="cls-17" x1="644.78" y1="144.45" x2="644.78" y2="494.45"/>
+    <line class="cls-17" x1="734.78" y1="144.45" x2="734.78" y2="494.45"/>
+    <line class="cls-17" x1="824.78" y1="144.45" x2="824.78" y2="494.45"/>
+    <path class="cls-17" d="M194.78,214.45h707M194.78,284.45h707M194.78,354.45h707M194.78,424.45h707M194.78,494.45h707"/>
+    <g>
+      <path class="cls-15" d="M194.78,494.45h710"/>
+      <path class="cls-15" d="M194.78,494.45V146.45"/>
+    </g>
+    <polygon class="cls-10" points="907.78 494.45 895.78 487.45 895.78 501.45 907.78 494.45"/>
+    <polygon class="cls-10" points="194.78 140.45 187.78 152.45 201.78 152.45 194.78 140.45"/>
+    <path class="cls-13" d="M194.78,464.45l110-30,110-30,110-30,110-30,110-30,110-30"/>
+    <path class="cls-12" d="M194.78,464.45c105-8,200-20,285-42,100-26,165-63,225-112s111-106,150-154"/>
+    <circle class="cls-11" cx="194.78" cy="464.45" r="9"/>
+    <text class="cls-7" transform="translate(222.78 484.45)"><tspan x="0" y="0">Initial amount</tspan></text>
+    <g>
+      <path class="cls-1" d="M673.46,189.45h203c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-203c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+      <text class="cls-4" transform="translate(687.44 217.45)"><tspan x="0" y="0">Compound in</tspan><tspan class="cls-25" x="121.52" y="0">t</tspan><tspan x="128.49" y="0">e</tspan><tspan class="cls-21" x="139.59" y="0">r</tspan><tspan x="146.52" y="0">est</tspan></text>
+    </g>
+    <g>
+      <path class="cls-27" d="M679.01,349.45h188c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-188c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+      <text class="cls-6" transform="translate(704.87 377.45)"><tspan x="0" y="0">Simple in</tspan><tspan class="cls-25" x="82.77" y="0">t</tspan><tspan x="89.74" y="0">e</tspan><tspan class="cls-21" x="100.84" y="0">r</tspan><tspan x="107.77" y="0">est</tspan></text>
+    </g>
+    <text class="cls-9" transform="translate(526.62 550.45)"><tspan class="cls-20" x="0" y="0">T</tspan><tspan x="11.43" y="0">ime</tspan></text>
+    <text class="cls-9" transform="translate(175.78 357.22) rotate(-90)"><tspan x="0" y="0">Amount</tspan></text>
+    <g>
+      <text class="cls-8" transform="translate(190.03 519.45)"><tspan x="0" y="0">0</tspan></text>
+      <text class="cls-8" transform="translate(300.03 519.45)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-8" transform="translate(410.03 519.45)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-8" transform="translate(520.03 519.45)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-8" transform="translate(630.03 519.45)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-8" transform="translate(740.03 519.45)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-8" transform="translate(850.03 519.45)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-14" x="200" y="593" width="700" height="58" rx="18" ry="18"/>
+    <text class="cls-5" transform="translate(261.6 630)"><tspan x="0" y="0">Compound in</tspan><tspan class="cls-25" x="121.52" y="0">t</tspan><tspan x="128.49" y="0">e</tspan><tspan class="cls-21" x="139.59" y="0">r</tspan><tspan x="146.52" y="0">est g</tspan><tspan class="cls-21" x="190.86" y="0">r</tspan><tspan class="cls-23" x="197.79" y="0">o</tspan><tspan class="cls-26" x="209.15" y="0">w</tspan><tspan x="224.9" y="0">s </tspan><tspan class="cls-19" x="239.16" y="0">f</tspan><tspan x="245.74" y="0">as</tspan><tspan class="cls-25" x="266.99" y="0">t</tspan><tspan x="273.96" y="0">er because in</tspan><tspan class="cls-25" x="394.38" y="0">t</tspan><tspan x="401.35" y="0">e</tspan><tspan class="cls-21" x="412.45" y="0">r</tspan><tspan x="419.38" y="0">est earns in</tspan><tspan class="cls-25" x="523.28" y="0">t</tspan><tspan x="530.24" y="0">e</tspan><tspan class="cls-21" x="541.35" y="0">r</tspan><tspan x="548.28" y="0">est</tspan></text>
+  </g>
+</svg>

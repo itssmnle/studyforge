@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1600 1000">
+  <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 23px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .st0, .st11, .st3, .st10 {
+        fill: #7048c8;
+      }
+
+      .st12 {
+        stroke: #e4def0;
+        stroke-width: 2px;
+      }
+
+      .st1 {
+        font-size: 22px;
+      }
+
+      .st1, .st8 {
+        fill: #272331;
+      }
+
+      .st2 {
+        fill: #a87500;
+      }
+
+      .st2, .st8, .st9 {
+        font-size: 24px;
+      }
+
+      .st13 {
+        fill: none;
+        stroke: #272331;
+        stroke-width: 7px;
+      }
+
+      .st14 {
+        fill: #f4f1fa;
+        stroke: #7048c8;
+        stroke-width: 4px;
+      }
+
+      .st3, .st4, .st6, .st7 {
+        font-size: 34px;
+      }
+
+      .st15 {
+        fill: #fff;
+      }
+
+      .st4 {
+        fill: #2aa6a3;
+      }
+
+      .st16 {
+        fill: #fbfafb;
+        fill-rule: evenodd;
+      }
+
+      .st5 {
+        fill: #171625;
+        font-size: 58px;
+      }
+
+      .st6 {
+        fill: #ef4552;
+      }
+
+      .st7 {
+        fill: #e0a800;
+      }
+
+      .st17 {
+        fill: #fbfaff;
+        stroke: #d8ccef;
+        stroke-width: 5px;
+      }
+
+      .st10 {
+        font-size: 30px;
+      }
+    </style>
+  </defs>
+  <rect class="st15" y="0" width="1600" height="1000"/>
+  <path class="st16" d="M317.9,487.7c21.8-5.9,47.2-4.2,69.9-7.3,47.9-6.6,95.5-16.5,140.4-32.6,55-19.7,106.1-47.8,145.9-85.9,79.4-76.1,116.4-194.6,112.7-294.9,6.9-2,13.1-2.2,20.4-1.6,6.7,110.4,32.9,235.7,134.1,313.9,38.6,29.8,82.7,51,130.8,67.6,47.6,16.5,98.9,26.7,149.4,34,14.5,2.1,51.5-1.5,61.7,6.1,1.1,4.9,4,13.2.9,17.6-114.9-.3-254.3,36.8-337.8,105.5-41.5,34.1-73.2,79-94.4,124.3-21.1,45.2-34.1,94.3-40.6,142.6-2.5,18.5,1.9,38.6-2.5,56.6-7,1.6-14.2-.4-20.2-3.4-5-13.6-2.2-29.2-3.4-43.3-1.9-23.5-6.8-47.2-12.3-70.3-22.7-95.9-73.8-179.2-167.9-237.3-62.3-38.5-141.3-56.6-216.2-67.3-19-2.7-38.2-4.7-57.4-6.3-2.6-.2-14,1-15.1-2-1.3-3.8,1-12,1.5-15.8h0v-.2h0Z"/>
+  <g>
+    <text class="st5" transform="translate(400.4 87)"><tspan x="0" y="0">Coordinates in Four Quadrants</tspan></text>
+    <text class="st10" transform="translate(390.9 142)"><tspan x="0" y="0">A coordinate pair (x,y) gives a point’s position from the origin</tspan></text>
+  </g>
+  <g>
+    <rect class="st17" x="363.7" y="256.3" width="800" height="700" rx="20" ry="20"/>
+    <g>
+      <path class="st12" d="M463.7,256.3v700M563.7,256.3v700M663.7,256.3v700M763.7,256.3v700M863.7,256.3v700M963.7,256.3v700M1063.7,256.3v700"/>
+      <path class="st12" d="M363.7,356.3h800M363.7,456.3h800M363.7,556.3h800M363.7,656.3h800M363.7,756.3h800M363.7,856.3h800"/>
+    </g>
+    <line class="st13" x1="363.7" y1="606.3" x2="1203.7" y2="606.3"/>
+    <line class="st13" x1="763.7" y1="956.3" x2="763.7" y2="226.3"/>
+    <g>
+      <text class="st3" transform="translate(958.9 336.3)"><tspan x="0" y="0">I</tspan></text>
+      <text class="st4" transform="translate(554.2 336.3)"><tspan x="0" y="0">II</tspan></text>
+      <text class="st7" transform="translate(549.5 886.3)"><tspan x="0" y="0">III</tspan></text>
+      <text class="st6" transform="translate(947.6 886.3)"><tspan x="0" y="0">IV</tspan></text>
+    </g>
+    <g>
+      <text class="st9" transform="translate(1223.7 614.3)"><tspan x="0" y="0">x</tspan></text>
+      <text class="st9" transform="translate(758.7 204.1)"><tspan x="0" y="0">y</tspan></text>
+    </g>
+    <text class="st2" transform="translate(783.7 636.3)"><tspan x="0" y="0">origin (0,0)</tspan></text>
+    <circle class="st11" cx="963.7" cy="456.3" r="13"/>
+    <text class="st0" transform="translate(988.7 446.3)"><tspan x="0" y="0">(2,3)</tspan></text>
+  </g>
+  <g>
+    <rect class="st14" x="1236.4" y="348.2" width="280" height="170" rx="24" ry="24"/>
+    <text class="st8" transform="translate(1316.6 398.2)"><tspan x="0" y="0">Remember</tspan></text>
+    <text class="st1" transform="translate(1325.7 443.2)"><tspan x="0" y="0">x = across</tspan></text>
+    <text class="st1" transform="translate(1303.7 478.2)"><tspan x="0" y="0">y = up or down</tspan></text>
+  </g>
+</svg>

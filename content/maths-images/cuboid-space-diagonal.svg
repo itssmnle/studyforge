@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 360" role="img" aria-labelledby="title desc">
+<title id="title">Cuboid and its base and space diagonals</title>
+<desc id="desc">A cuboid with base sides three and four centimetres and height twelve centimetres. Its base diagonal is five centimetres and space diagonal thirteen centimetres.</desc>
+<rect width="500" height="360" fill="#fff"/>
+<g fill="none" stroke="#6356c8" stroke-width="3">
+<path d="M90 300H300V88H90Z M90 88L180 36H390V248L300 300 M300 88L390 36 M300 300L390 248 M90 300L180 248V36 M180 248L390 248"/>
+<path d="M90 300L390 248" stroke="#2f8b68" stroke-dasharray="8 5"/>
+<path d="M90 300L390 36" stroke="#e57b34" stroke-width="4"/>
+</g>
+<g fill="#252936" font-family="Arial,sans-serif" font-size="18">
+<text x="186" y="328">3 cm</text><text x="398" y="151">4 cm</text><text x="38" y="190">12 cm</text>
+<text x="218" y="260" fill="#2f8b68">base diagonal 5 cm</text>
+<text x="318" y="106" fill="#bb5a24">space diagonal 13 cm</text>
+</g>
+</svg>

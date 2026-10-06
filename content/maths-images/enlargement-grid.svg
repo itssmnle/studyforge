@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 390" role="img" aria-labelledby="title description">
+  <title id="title">Triangle enlargement from the origin</title>
+  <desc id="description">A triangle with vertices at one one, two one and one two enlarges by scale factor two from the origin to vertices two two, four two and two four.</desc>
+  <rect width="540" height="390" fill="#fff"/>
+  <g stroke="#e1e4ec" stroke-width="1"><path d="M90 40V350M150 40V350M210 40V350M270 40V350M330 40V350M390 40V350M450 40V350M60 320H480M60 260H480M60 200H480M60 140H480M60 80H480"/></g>
+  <path d="M90 320H480M90 320V35" stroke="#27344a" stroke-width="3"/>
+  <path d="M150 260H210L150 200Z" fill="#eceaff" stroke="#5952c9" stroke-width="4"/>
+  <path d="M210 200H330L210 80Z" fill="#ffeedc" fill-opacity=".75" stroke="#cf7831" stroke-width="4"/>
+  <circle cx="90" cy="320" r="5" fill="#27344a"/>
+  <text x="63" y="350" font-family="Arial, sans-serif" font-size="19" fill="#27344a">O</text>
+  <text x="135" y="190" font-family="Arial, sans-serif" font-size="18" fill="#5952c9">original</text>
+  <text x="305" y="75" font-family="Arial, sans-serif" font-size="18" fill="#b46120">scale factor 2</text>
+</svg>

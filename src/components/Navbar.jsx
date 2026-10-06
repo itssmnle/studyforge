@@ -1,76 +1,113 @@
-import { useState, useEffect, useRef } from "react";
-import "../styles/Navbar.css";
-import logo from "../transparent-logo.svg";
-import {
-  FaBookOpen,
-  FaQuestionCircle,
-  FaRegClone,
-  FaFileAlt,
-  FaClipboardList
-} from "react-icons/fa";
-
-/* 🔹 NEW import */
+import { useEffect, useRef, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { FiBookOpen, FiChevronDown, FiInfo, FiLayers, FiLogOut, FiSearch, FiSettings, FiTarget, FiUser } from "react-icons/fi";
+import logoLight from "../logo-light.svg";
+import logoDark from "../logo-dark.svg";
+import teacherLogoLight from "../logo-teachers-light.svg";
+import teacherLogoDark from "../logo-teachers-dark.svg";
 import { useAuthModal } from "../context/AuthModalContext";
+import { noteSubjects } from "../data/noteSubjects";
+import { subjectIcons } from "../data/subjectVisuals";
+import "../styles/Navbar.css";
+
+const exploreSubjectIds = ["maths", "biology", "chemistry", "physics"];
+const searchIcons = { notes: FiBookOpen, flashcards: FiLayers, practice: FiTarget, info: FiInfo, account: FiUser };
 
 export default function Navbar() {
-  const [openMenu, setOpenMenu] = useState(null);
+  const navigate = useNavigate();
+  const location = useLocation();
   const navRef = useRef(null);
-
-  /* 🔹 Get login opener */
-  const { openLogin } = useAuthModal();
+  const exploreCloseTimer = useRef(null);
+  const [openMenu, setOpenMenu] = useState(null);
+  const [query, setQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const { openLogin, user, logout } = useAuthModal();
+  const isTeacherArea = user?.role === "teacher" || location.pathname.startsWith("/teacher-tools");
+  const searchTerm = query.trim();
 
   useEffect(() => {
-    const handleClick = () => setOpenMenu(null);
-    window.addEventListener("click", handleClick);
-    return () => window.removeEventListener("click", handleClick);
+    let active = true;
+    if (!searchTerm) { setSearchResults([]); return () => { active = false; }; }
+    import("../utils/searchLibrary").then(({ searchStudyForge }) => {
+      if (active) setSearchResults(searchStudyForge(searchTerm));
+    });
+    return () => { active = false; };
+  }, [searchTerm]);
+
+  useEffect(() => {
+    const close = () => {
+      window.clearTimeout(exploreCloseTimer.current);
+      setOpenMenu(null);
+    };
+    window.addEventListener("click", close);
+    return () => {
+      window.removeEventListener("click", close);
+      window.clearTimeout(exploreCloseTimer.current);
+    };
   }, []);
 
+  const search = (event) => {
+    event.preventDefault();
+    if (searchResults[0]) {
+      navigate(searchResults[0].to);
+      setQuery("");
+    }
+  };
+  const openExplore = () => {
+    window.clearTimeout(exploreCloseTimer.current);
+    setOpenMenu("explore");
+  };
+  const closeExplore = () => {
+    window.clearTimeout(exploreCloseTimer.current);
+    setOpenMenu((menu) => menu === "explore" ? null : menu);
+  };
+  const scheduleExploreClose = () => {
+    window.clearTimeout(exploreCloseTimer.current);
+    exploreCloseTimer.current = window.setTimeout(closeExplore, 220);
+  };
+  const studentFeatures = [
+    { to: "/notes", icon: FiBookOpen, label: "Revision notes" },
+    { to: "/flashcards", icon: FiLayers, label: "Flashcards" },
+    { to: "/examquestions", icon: FiTarget, label: "Practice questions" },
+  ];
+  const exploreFeatures = user?.role === "teacher" ? [{ to: "/notes", icon: FiBookOpen, label: "Revision notes" }] : studentFeatures;
+
   return (
-    <nav
-      className="navbar"
-      ref={navRef}
-      onClick={(e) => e.stopPropagation()}
-    >
-      <div className="nav-left">
-        <div className="logo">
-          <a href="/"><img src={logo} alt="logo" /></a>
-        </div>
-
-        <div
-          className={`nav-item dropdown ${openMenu === "study" ? "active" : ""}`}
-          onClick={(e) => {
-            e.stopPropagation();
-            setOpenMenu(openMenu === "study" ? null : "study");
-          }}
-        >
-          start studying <span className="arrow">▾</span>
-
-          <div className={`dropdown-menu ${openMenu === "study" ? "show" : ""}`}>
-            <a href="/notes"><FaBookOpen className="dd-icon" /> revision notes</a>
-            <a href="/examquestions"><FaQuestionCircle className="dd-icon" /> exam questions</a>
-            <a href="/flashcards"><FaRegClone className="dd-icon" /> flashcards</a>
-            <a href="/pastpapers"><FaFileAlt className="dd-icon" /> past papers</a>
-            <a href="/mockexams"><FaClipboardList className="dd-icon" /> mock exams</a>
+    <nav className="navbar academy-nav" ref={navRef} onClick={(event) => event.stopPropagation()}>
+      {openMenu === "explore" && <button className="explore-backdrop" aria-label="Close Explore menu" onClick={closeExplore} />}
+      <div className="nav-inner">
+        <div className="nav-zone nav-zone-left">
+          <div className="explore-wrap">
+            <button className={`explore-button ${openMenu === "explore" ? "active" : ""}`} aria-expanded={openMenu === "explore"} aria-controls="explore-menu" onMouseEnter={openExplore} onMouseLeave={scheduleExploreClose} onFocus={openExplore} onClick={() => openMenu === "explore" ? closeExplore() : openExplore()}>
+              Explore <FiChevronDown />
+            </button>
+            <div className={`explore-menu ${openMenu === "explore" ? "show" : ""}`} id="explore-menu" onMouseEnter={openExplore} onMouseLeave={scheduleExploreClose}>
+              <section className="explore-feature-column"><span>Features</span>{exploreFeatures.map((feature) => { const FeatureIcon = feature.icon; return <Link to={feature.to} key={feature.to} onClick={closeExplore}><FeatureIcon />{feature.label}</Link>; })}<Link to="/about" onClick={closeExplore}><FiInfo />About us</Link></section>
+              {user?.role !== "teacher" && <section className="explore-subject-column"><span>Subjects</span>{exploreSubjectIds.map((id) => noteSubjects.find((subject) => subject.id === id)).filter(Boolean).map((subject) => { const SubjectIcon = subjectIcons[subject.id]; return <Link to={`/subjects/${subject.id}`} key={subject.id} onClick={closeExplore} style={{ "--subject-color": subject.color, "--subject-secondary": subject.secondaryColor }}><SubjectIcon className="course-dot" /><span className="explore-subject-name">{subject.name}{subject.id === "maths" ? <span className="explore-new-badge">New</span> : null}</span></Link>; })}</section>}
+            </div>
           </div>
+          {user?.role !== "teacher" && <form className="nav-search" onSubmit={search}><FiSearch /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search everything" aria-label="Search all StudyForge resources" aria-expanded={Boolean(searchTerm)} aria-controls="course-search-results" />{searchTerm && <div className="nav-search-results" id="course-search-results" role="listbox">{searchResults.map((result) => { const Icon = searchIcons[result.icon] || FiSearch; return <Link role="option" to={result.to} key={result.id} onClick={() => setQuery("")}><Icon /><span><strong>{result.label}</strong><small>{result.detail}</small></span></Link>; })}{!searchResults.length && <p>No matching resources.</p>}</div>}</form>}
         </div>
-      </div>
 
-      <div className="nav-center">
-        <input
-          type="text"
-          className="search-box"
-          placeholder="search for a subject..."
-        />
-      </div>
+        <Link className={`nav-brand ${isTeacherArea ? "teacher-brand" : ""}`} to={isTeacherArea ? "/teacher-tools" : "/"} aria-label={isTeacherArea ? "StudyForge For Teachers" : "StudyForge home"}>
+          {isTeacherArea ? <><img className="nav-brand-light" src={teacherLogoLight} alt="StudyForge For Teachers" /><img className="nav-brand-dark" src={teacherLogoDark} alt="StudyForge For Teachers" /></> : <><img className="nav-brand-light" src={logoLight} alt="StudyForge" /><img className="nav-brand-dark" src={logoDark} alt="StudyForge" /></>}
+        </Link>
 
-      <div className="nav-right">
-        {/* 🔹 Login trigger */}
-        <button
-          className="nav-login"
-          onClick={openLogin}
-        >
-          my account
-        </button>
+        <div className="nav-zone nav-zone-right">
+          {!user && <Link className="workspace-switch" to={isTeacherArea ? "/" : "/teacher-tools"}>{isTeacherArea ? "For students" : "For teachers"}</Link>}
+          {user ? (
+            <div className="account-wrap">
+              <button className="account-button" onClick={() => setOpenMenu(openMenu === "account" ? null : "account")}>{user.username} <FiChevronDown /></button>
+              <div className={`account-menu ${openMenu === "account" ? "show" : ""}`}>
+                <Link to={user.role === "teacher" ? "/teachers" : "/launchpad"}><FiUser /> {user.role === "teacher" ? "Teacher dashboard" : "My courses"}</Link>
+                <Link to="/settings"><FiSettings /> Settings</Link>
+                <button onClick={() => { logout(); setOpenMenu(null); }}><FiLogOut /> Log out</button>
+              </div>
+            </div>
+          ) : (
+            <button className="nav-login" onClick={() => openLogin("login")}>Log in</button>
+          )}
+        </div>
       </div>
     </nav>
   );

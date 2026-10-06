@@ -1,0 +1,5 @@
+id,subtopic,difficulty,marks,type,prompt,optionA,optionB,optionC,optionD,answer,acceptableAnswers,tolerance,unit,explanation,provenance,specificationTags
+"phys-elec-001","Current and charge","Foundation",2,"numerical","A current of 2 A flows for 5 seconds. Calculate the charge transferred, in coulombs.",,,,,10,,0,"C","Use Q = I × t. Q = 2 × 5 = 10 C.","StudyForge original","charge|current|calculation"
+"phys-elec-002","Circuits","Foundation",1,"multiple-choice","In a series circuit, what happens to current at each component?","It decreases","It increases","It stays the same","It becomes zero","It stays the same",,,,"Current is the same at every point in a series circuit.","StudyForge original","series-circuit|current"
+"phys-elec-003","Circuits","Higher",2,"numerical","A 12 V supply produces a current of 3 A through a resistor. Calculate its resistance in ohms.",,,,,4,,0,"Ω","Use R = V ÷ I. R = 12 ÷ 3 = 4 Ω.","StudyForge original","resistance|potential-difference|calculation"
+

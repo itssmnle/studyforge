@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.firebase/
+.firebase-import/
+.DS_Store
+.obsidian/
+.brand-guide-build/
+.deck-build/
+*.local
+
+firebase-debug.log*

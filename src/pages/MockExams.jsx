@@ -8,7 +8,8 @@ import {
   FaBullseye
 } from "react-icons/fa";
 import exams from "../data/subjects.json";
-import "../Styles/MockExams.css";
+import pointingArt from "../assets/pointing.png";
+import "../styles/MockExams.css";
 
 export default function MockExamPage() {
   useEffect(() => {
@@ -81,7 +82,7 @@ export default function MockExamPage() {
 
           <div className="mock-intro-right">
             <img
-              src="src/assets/pointing.png"
+              src={pointingArt}
               alt="Mock exam preview"
               className="mock-intro-image"
             />

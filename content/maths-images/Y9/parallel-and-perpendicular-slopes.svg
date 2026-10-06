@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1072.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 52px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #272331;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-6, .cls-7, .cls-8, .cls-5, .cls-9, .cls-10 {
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-6, .cls-7, .cls-8, .cls-5, .cls-9 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+      }
+
+      .cls-11 {
+        stroke: #e0a800;
+      }
+
+      .cls-11, .cls-12, .cls-13 {
+        stroke-width: 5px;
+      }
+
+      .cls-11, .cls-14 {
+        fill: #fff0b8;
+      }
+
+      .cls-2 {
+        font-size: 17.98px;
+      }
+
+      .cls-2, .cls-3, .cls-10 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .cls-3 {
+        font-size: 17.83px;
+      }
+
+      .cls-15 {
+        stroke: #e4def0;
+        stroke-width: 2px;
+      }
+
+      .cls-15, .cls-16, .cls-17, .cls-18 {
+        fill: none;
+      }
+
+      .cls-19 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-20 {
+        fill: #f4f1fa;
+        stroke-width: 4px;
+      }
+
+      .cls-20, .cls-13 {
+        stroke: #d8ccef;
+      }
+
+      .cls-21, .cls-6, .cls-9 {
+        fill: #7048c8;
+      }
+
+      .cls-12 {
+        stroke: #272331;
+      }
+
+      .cls-12, .cls-22 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7, .cls-5 {
+        font-size: 25px;
+      }
+
+      .cls-16 {
+        stroke: #7048c8;
+      }
+
+      .cls-16, .cls-18 {
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-17 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 2.83px;
+      }
+
+      .cls-7 {
+        fill: #d94857;
+      }
+
+      .cls-8 {
+        fill: #a87500;
+        font-size: 23px;
+      }
+
+      .cls-9 {
+        font-size: 29px;
+      }
+
+      .cls-23 {
+        fill: #e7ddfb;
+      }
+
+      .cls-24 {
+        fill: #ef5b67;
+      }
+
+      .cls-25 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-26 {
+        fill: #ffe1e2;
+      }
+
+      .cls-27 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        fill: #fbfaff;
+      }
+
+      .cls-10 {
+        fill: #514a5f;
+        font-size: 17px;
+      }
+
+      .cls-29 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        stroke: #ef5b67;
+      }
+
+      .cls-32 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-22" width="1600" height="1072.3"/>
+  <path class="cls-19" d="M367.58,559.86c19.51-6.25,42.31-4.45,62.61-7.74,42.91-6.94,85.56-17.41,125.72-34.3,49.25-20.69,95.04-50.28,130.69-90.42,71.13-80.09,104.23-204.8,100.89-310.39,6.16-2.09,11.75-2.3,18.22-1.73,6.06,116.2,29.44,248.06,120.09,330.32,34.6,31.4,74.03,53.67,117.11,71.18,42.62,17.32,88.6,28.09,133.87,35.77,12.96,2.19,46.11-1.53,55.31,6.4.97,5.17,3.59,13.86.8,18.54-102.89-.27-227.79,38.76-302.57,111.06-37.15,35.93-65.59,83.12-84.53,130.81-18.89,47.57-30.52,99.29-36.33,150.08-2.23,19.42,1.69,40.62-2.25,59.53-6.26,1.67-12.76-.42-18.13-3.59-4.44-14.33-2-30.71-3-45.59-1.67-24.78-6.12-49.68-11.05-73.98-20.37-100.89-66.09-188.58-150.36-249.79-55.77-40.5-126.54-59.58-193.61-70.8-16.99-2.85-34.23-4.94-51.36-6.58-2.28-.22-12.55,1.01-13.49-2.16-1.17-3.95.92-12.6,1.35-16.62h.01v-.03Z"/>
+  <text class="cls-1" transform="translate(398.29 119.3)"><tspan class="cls-29" x="0" y="0">P</tspan><tspan x="30.34" y="0">a</tspan><tspan class="cls-30" x="58.8" y="0">r</tspan><tspan x="77.09" y="0">allel and </tspan><tspan class="cls-28" x="282.17" y="0">P</tspan><tspan x="313.4" y="0">erpendicular Lines</tspan></text>
+  <text class="cls-9" transform="translate(508.33 169.3)"><tspan x="0" y="0">Comparing g</tspan><tspan class="cls-30" x="169.74" y="0">r</tspan><tspan x="179.93" y="0">adients on a </tspan><tspan class="cls-32" x="344.49" y="0">C</tspan><tspan x="365.08" y="0">ar</tspan><tspan class="cls-31" x="391.5" y="0">t</tspan><tspan x="401.6" y="0">esian plane</tspan></text>
+  <g>
+    <rect class="cls-20" x="90" y="218.3" width="1420" height="86" rx="24" ry="24"/>
+    <circle class="cls-21" cx="140" cy="261.3" r="12"/>
+    <text class="cls-5" transform="translate(166 271.3)"><tspan class="cls-29" x="0" y="0">P</tspan><tspan x="14.59" y="0">a</tspan><tspan class="cls-30" x="28.27" y="0">r</tspan><tspan x="37.06" y="0">allel: same g</tspan><tspan class="cls-30" x="176.48" y="0">r</tspan><tspan x="185.27" y="0">adient</tspan><tspan class="cls-25" x="257.01" y="0">,</tspan><tspan x="262.49" y="0" xml:space="preserve"> m₁ = m₂ = 2</tspan></text>
+    <circle class="cls-24" cx="815" cy="261.3" r="12"/>
+    <text class="cls-5" transform="translate(841 271.3)"><tspan class="cls-28" x="0" y="0">P</tspan><tspan x="15.01" y="0">erpendicular: m₁ × m₂ = </tspan><tspan class="cls-27" x="281.62" y="0">−</tspan><tspan class="cls-30" x="297.24" y="0">1</tspan><tspan class="cls-25" x="308.94" y="0">,</tspan><tspan x="314.42" y="0" xml:space="preserve"> so m₂ = −½</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-13" x="472.5" y="355.3" width="655" height="622.46" rx="18" ry="18"/>
+    <g>
+      <line class="cls-15" x1="550" y1="365.3" x2="550" y2="965.3"/>
+      <line class="cls-15" x1="600" y1="365.3" x2="600" y2="965.3"/>
+      <line class="cls-15" x1="650" y1="365.3" x2="650" y2="965.3"/>
+      <line class="cls-15" x1="700" y1="365.3" x2="700" y2="965.3"/>
+      <line class="cls-15" x1="750" y1="365.3" x2="750" y2="965.3"/>
+      <line class="cls-15" x1="800" y1="365.3" x2="800" y2="965.3"/>
+      <line class="cls-15" x1="850" y1="365.3" x2="850" y2="965.3"/>
+      <line class="cls-15" x1="900" y1="365.3" x2="900" y2="965.3"/>
+      <line class="cls-15" x1="950" y1="365.3" x2="950" y2="965.3"/>
+      <line class="cls-15" x1="1000" y1="365.3" x2="1000" y2="965.3"/>
+      <line class="cls-15" x1="1050" y1="365.3" x2="1050" y2="965.3"/>
+      <line class="cls-15" x1="500" y1="415.3" x2="1100" y2="415.3"/>
+      <line class="cls-15" x1="500" y1="465.3" x2="1100" y2="465.3"/>
+      <line class="cls-15" x1="500" y1="515.3" x2="1100" y2="515.3"/>
+      <line class="cls-15" x1="500" y1="565.3" x2="1100" y2="565.3"/>
+      <line class="cls-15" x1="500" y1="615.3" x2="1100" y2="615.3"/>
+      <line class="cls-15" x1="500" y1="665.3" x2="1100" y2="665.3"/>
+      <line class="cls-15" x1="500" y1="715.3" x2="1100" y2="715.3"/>
+      <line class="cls-15" x1="500" y1="765.3" x2="1100" y2="765.3"/>
+      <line class="cls-15" x1="500" y1="815.3" x2="1100" y2="815.3"/>
+      <line class="cls-15" x1="500" y1="865.3" x2="1100" y2="865.3"/>
+      <line class="cls-15" x1="500" y1="915.3" x2="1100" y2="915.3"/>
+    </g>
+    <path class="cls-4" d="M1121.5,659.3l11.99,6-11.99,6v-11.99Z"/>
+    <path class="cls-4" d="M794.17,366.96l5.83-11.67,5.83,11.67h-11.67Z"/>
+    <text class="cls-3" transform="translate(1142.64 669.59)"><tspan x="0" y="0">x</tspan></text>
+    <text class="cls-2" transform="translate(795 344.62)"><tspan x="0" y="0">y</tspan></text>
+    <text class="cls-10" transform="translate(781.27 687.3)"><tspan x="0" y="0">0</tspan></text>
+    <g>
+      <text class="cls-10" transform="translate(489.31 687.3)"><tspan x="0" y="0">−6</tspan></text>
+      <text class="cls-10" transform="translate(539.31 687.3)"><tspan x="0" y="0">−5</tspan></text>
+      <text class="cls-10" transform="translate(589.31 687.3)"><tspan x="0" y="0">−4</tspan></text>
+      <text class="cls-10" transform="translate(639.31 687.3)"><tspan x="0" y="0">−3</tspan></text>
+      <text class="cls-10" transform="translate(689.31 687.3)"><tspan x="0" y="0">−2</tspan></text>
+      <text class="cls-10" transform="translate(739.31 687.3)"><tspan x="0" y="0">−1</tspan></text>
+      <text class="cls-10" transform="translate(844.27 687.3)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-10" transform="translate(894.27 687.3)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-10" transform="translate(944.27 687.3)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-10" transform="translate(994.27 687.3)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-10" transform="translate(1044.27 687.3)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-10" transform="translate(1094.27 687.3)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <line class="cls-17" x1="800" y1="365.3" x2="800" y2="965.3"/>
+    <line class="cls-17" x1="1124.16" y1="665.29" x2="500" y2="665.3"/>
+    <g>
+      <text class="cls-10" transform="translate(771.62 926.3)"><tspan x="0" y="0">−5</tspan></text>
+      <text class="cls-10" transform="translate(771.62 876.3)"><tspan x="0" y="0">−4</tspan></text>
+      <text class="cls-10" transform="translate(771.62 826.3)"><tspan x="0" y="0">−3</tspan></text>
+      <text class="cls-10" transform="translate(771.62 776.3)"><tspan x="0" y="0">−2</tspan></text>
+      <text class="cls-10" transform="translate(771.62 726.3)"><tspan x="0" y="0">−1</tspan></text>
+      <text class="cls-10" transform="translate(781.55 626.3)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-10" transform="translate(781.55 576.3)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-10" transform="translate(781.55 526.3)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-10" transform="translate(781.55 476.3)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-10" transform="translate(781.55 426.3)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <path class="cls-11" d="M850,515.3l25,12.5-12.5,25-25-12.5,12.5-25Z"/>
+    <line class="cls-16" x1="650" y1="915.3" x2="900" y2="415.3"/>
+    <line class="cls-16" x1="750" y1="915.3" x2="1000" y2="415.3"/>
+    <line class="cls-18" x1="550" y1="365.3" x2="1100" y2="640.3"/>
+    <circle class="cls-12" cx="850" cy="515.3" r="13"/>
+    <g>
+      <rect class="cls-23" x="1154.7" y="375.3" width="300" height="64" rx="20" ry="20"/>
+      <text class="cls-6" transform="translate(1196.92 417.3)"><tspan class="cls-29" x="0" y="0">P</tspan><tspan x="14.59" y="0">a</tspan><tspan class="cls-30" x="28.27" y="0">r</tspan><tspan x="37.06" y="0">allel lines: m = 2</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-26" x="1155.41" y="785.3" width="350" height="64" rx="20" ry="20"/>
+      <text class="cls-7" transform="translate(1203.51 827.3)"><tspan class="cls-28" x="0" y="0">P</tspan><tspan x="15.01" y="0">erpendicular: m = −½</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-14" x="519.62" y="499.3" width="240" height="60" rx="19" ry="19"/>
+      <text class="cls-8" transform="translate(554.63 538.3)"><tspan x="0" y="0">90° in</tspan><tspan class="cls-31" x="63.56" y="0">t</tspan><tspan x="71.57" y="0">ersection</tspan></text>
+    </g>
+  </g>
+  <text class="cls-6" transform="translate(436.46 1031.3)"><tspan x="0" y="0">Squa</tspan><tspan class="cls-28" x="58.7" y="0">r</tspan><tspan x="67.37" y="0">e grid: one s</tspan><tspan class="cls-31" x="203.32" y="0">t</tspan><tspan x="212.02" y="0">ep ac</tspan><tspan class="cls-28" x="272.99" y="0">r</tspan><tspan x="281.65" y="0">oss and one s</tspan><tspan class="cls-31" x="435.02" y="0">t</tspan><tspan x="443.73" y="0">ep up use the same scale</tspan></text>
+</svg>

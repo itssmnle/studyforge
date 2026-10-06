@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 52px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-11, .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-12, .cls-9 {
+        fill: #272331;
+      }
+
+      .cls-13 {
+        fill: #e0a800;
+        stroke: #fff;
+        stroke-width: 5px;
+      }
+
+      .cls-14 {
+        stroke-width: 6px;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-11 {
+        fill: none;
+      }
+
+      .cls-14, .cls-17 {
+        stroke: #e0a800;
+      }
+
+      .cls-2 {
+        font-size: 31px;
+      }
+
+      .cls-18 {
+        fill: #d7c9f2;
+        stroke-linejoin: round;
+      }
+
+      .cls-18, .cls-11, .cls-19 {
+        stroke: #272331;
+        stroke-width: 7px;
+      }
+
+      .cls-20 {
+        fill: #fbfafa;
+        fill-rule: evenodd;
+      }
+
+      .cls-21 {
+        fill: #f4f1fa;
+        stroke: #d8ccef;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #218d8a;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        font-size: 25px;
+      }
+
+      .cls-4 {
+        fill: #7046c7;
+        font-size: 32.43px;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #7048c8;
+      }
+
+      .cls-15 {
+        stroke: #7048c8;
+        stroke-width: 11px;
+      }
+
+      .cls-15, .cls-17 {
+        stroke-linecap: round;
+      }
+
+      .cls-22 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #d89f00;
+      }
+
+      .cls-6, .cls-10 {
+        font-size: 32.43px;
+      }
+
+      .cls-16 {
+        stroke: #2aa6a3;
+        stroke-dasharray: 16 12;
+      }
+
+      .cls-16, .cls-17 {
+        stroke-width: 9px;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        fill: #fff0b8;
+      }
+
+      .cls-7 {
+        fill: #a87500;
+      }
+
+      .cls-8 {
+        font-size: 29px;
+      }
+
+      .cls-25 {
+        fill: #e7ddfb;
+      }
+
+      .cls-9 {
+        font-size: 24px;
+      }
+
+      .cls-26 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-11 {
+        opacity: .65;
+        stroke-dasharray: 14 10;
+      }
+
+      .cls-29 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-33 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        fill: #eee8fb;
+      }
+
+      .cls-10 {
+        fill: #2b9f9a;
+      }
+
+      .cls-34 {
+        fill: #d9f1ef;
+      }
+    </style>
+  </defs>
+  <rect class="cls-22" width="1600" height="1000"/>
+  <path class="cls-20" d="M367.58,487.57c19.51-6.25,42.31-4.45,62.61-7.74,42.91-6.94,85.56-17.41,125.72-34.3,49.25-20.69,95.04-50.28,130.69-90.42,71.13-80.09,104.23-204.8,100.89-310.39,6.16-2.09,11.75-2.3,18.22-1.73,6.06,116.2,29.44,248.06,120.09,330.32,34.6,31.4,74.03,53.67,117.11,71.18,42.62,17.32,88.6,28.09,133.87,35.77,12.96,2.19,46.11-1.53,55.31,6.4.97,5.17,3.59,13.86.8,18.54-102.89-.27-227.79,38.76-302.57,111.06-37.15,35.93-65.59,83.12-84.53,130.81-18.89,47.57-30.52,99.29-36.33,150.08-2.23,19.42,1.69,40.62-2.25,59.53-6.26,1.67-12.76-.42-18.13-3.59-4.44-14.33-2-30.71-3-45.59-1.67-24.78-6.12-49.68-11.05-73.98-20.37-100.89-66.09-188.58-150.36-249.79-55.77-40.5-126.54-59.58-193.61-70.8-16.99-2.85-34.23-4.94-51.36-6.58-2.28-.22-12.55,1.01-13.49-2.16-1.17-3.95.92-12.6,1.35-16.62h.01v-.03Z"/>
+  <text class="cls-1" transform="translate(436.42 78)"><tspan x="0" y="0">The Measu</tspan><tspan class="cls-29" x="259.8" y="0">r</tspan><tspan x="277.82" y="0">ements of a Cone</tspan></text>
+  <text class="cls-8" transform="translate(450.29 128)"><tspan class="cls-29" x="0" y="0">P</tspan><tspan x="17.42" y="0">erpendicular height</tspan><tspan class="cls-27" x="274.47" y="0">,</tspan><tspan x="280.82" y="0" xml:space="preserve"> slant height</tspan><tspan class="cls-27" x="441.61" y="0">,</tspan><tspan x="447.97" y="0" xml:space="preserve"> and base </tspan><tspan class="cls-31" x="579.26" y="0">r</tspan><tspan x="589.46" y="0">adius</tspan></text>
+  <g>
+    <rect class="cls-21" x="120" y="183.83" width="1360" height="92" rx="25" ry="25"/>
+    <text class="cls-2" transform="translate(355.12 240.83)"><tspan x="0" y="0">l² = </tspan><tspan class="cls-28" x="50.47" y="0">h</tspan><tspan x="67.75" y="0">² + r² (Pythago</tspan><tspan class="cls-29" x="268.83" y="0">r</tspan><tspan x="279.58" y="0">ean Theo</tspan><tspan class="cls-29" x="409.48" y="0">r</tspan><tspan x="420.23" y="0" xml:space="preserve">em)                               </tspan><tspan class="cls-26" x="666.08" y="0">V</tspan><tspan x="684.98" y="0">olume = ⅓πr²h</tspan></text>
+  </g>
+  <g>
+    <g>
+      <rect class="cls-34" x="119.37" y="821" width="400" height="76" rx="22" ry="22"/>
+      <text class="cls-3" transform="translate(153.05 868)"><tspan x="0" y="0">h is perpendicular </tspan><tspan class="cls-33" x="206.98" y="0">t</tspan><tspan x="215.69" y="0">o the base</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-25" x="599.58" y="821" width="400" height="76" rx="22" ry="22"/>
+      <text class="cls-5" transform="translate(674.52 868)"><tspan x="0" y="0">l runs f</tspan><tspan class="cls-29" x="75.62" y="0">r</tspan><tspan x="84.29" y="0">om ap</tspan><tspan class="cls-33" x="153.65" y="0">e</tspan><tspan x="167.35" y="0">x </tspan><tspan class="cls-33" x="185.49" y="0">t</tspan><tspan x="194.19" y="0">o rim</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-24" x="1080.63" y="821" width="400" height="76" rx="22" ry="22"/>
+      <text class="cls-7" transform="translate(1174.29 868)"><tspan x="0" y="0">r runs cent</tspan><tspan class="cls-29" x="120.56" y="0">r</tspan><tspan x="129.22" y="0">e </tspan><tspan class="cls-33" x="148.05" y="0">t</tspan><tspan x="156.75" y="0">o rim</tspan></text>
+    </g>
+  </g>
+  <text class="cls-5" transform="translate(444.89 965)"><tspan x="0" y="0">The height</tspan><tspan class="cls-27" x="121.29" y="0">,</tspan><tspan x="126.77" y="0"> </tspan><tspan class="cls-31" x="131.71" y="0">r</tspan><tspan x="140.5" y="0">adius</tspan><tspan class="cls-27" x="202.36" y="0">,</tspan><tspan x="207.84" y="0" xml:space="preserve"> and slant height </tspan><tspan class="cls-30" x="399.32" y="0">f</tspan><tspan x="407.85" y="0">orm a righ</tspan><tspan class="cls-33" x="520.95" y="0">t</tspan><tspan x="529.65" y="0">-angled triangle</tspan></text>
+  <text class="cls-10" transform="translate(233.28 500)"><tspan x="0" y="0">perpendicular height h</tspan></text>
+  <text class="cls-6" transform="translate(1128.66 773.71)"><tspan class="cls-32" x="0" y="0">r</tspan><tspan class="cls-23" x="11.4" y="0">adius r</tspan></text>
+  <text class="cls-4" transform="translate(1027.86 506.72)"><tspan x="0" y="0">slant height l</tspan></text>
+  <g>
+    <path class="cls-18" d="M470,695.17c0,68.99,660,68.99,660,0l-330-330.17-330,330.17Z"/>
+    <path class="cls-19" d="M470,700c0-70,660-70,660,0s-660,70-660,0Z"/>
+    <path class="cls-11" d="M470,700c0,70,660,70,660,0"/>
+    <line class="cls-17" x1="800" y1="700" x2="1130" y2="700"/>
+    <path class="cls-14" d="M845.29,700v-45.29h-45.29"/>
+    <line class="cls-16" x1="800" y1="365" x2="800" y2="700"/>
+    <line class="cls-15" x1="800" y1="365" x2="1130" y2="694.83"/>
+    <circle class="cls-12" cx="800" cy="365" r="10"/>
+    <text class="cls-9" transform="translate(772.65 330)"><tspan x="0" y="0">ap</tspan><tspan class="cls-33" x="27.38" y="0">e</tspan><tspan x="40.52" y="0">x</tspan></text>
+    <circle class="cls-13" cx="800" cy="700" r="12"/>
+  </g>
+</svg>

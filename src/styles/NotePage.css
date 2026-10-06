@@ -152,7 +152,7 @@ body {
 
 .arrow {
   font-size: 1.2rem;
-  color: var(--primary);
+  color: var(--accent-text);
 }
 
 .more-btn {
@@ -271,7 +271,7 @@ body {
 
 .notes-love-icon svg {
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--accent-text);
 }
 
 .notes-love-card h3 {

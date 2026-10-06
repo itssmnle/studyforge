@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 649.79">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-7, .cls-4, .cls-5, .cls-6 {
+        fill: #272331;
+      }
+
+      .cls-2 {
+        fill: #7046c7;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 18px;
+      }
+
+      .cls-8 {
+        stroke: #7046c7;
+        stroke-linecap: round;
+        stroke-width: 7px;
+      }
+
+      .cls-8, .cls-3 {
+        fill: none;
+      }
+
+      .cls-9 {
+        fill: #ef5b62;
+      }
+
+      .cls-9, .cls-10 {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .cls-10 {
+        fill: #f0bd2f;
+      }
+
+      .cls-3 {
+        opacity: .8;
+        stroke: #f0bd2f;
+        stroke-dasharray: 8 8;
+      }
+
+      .cls-3, .cls-11 {
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        stroke: #272331;
+      }
+
+      .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        stroke: #e6e0f0;
+      }
+
+      .cls-14 {
+        fill: #f6f0ff;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        font-size: 16px;
+      }
+
+      .cls-4, .cls-6 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+      }
+
+      .cls-15 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-5 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        fill: #fbfaff;
+        stroke: #d9d1ea;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-12" width="900" height="649.79"/>
+  <rect class="cls-20" x="120" y="90" width="600" height="480" rx="8" ry="8"/>
+  <path class="cls-14" d="M203.07,329.76c9.78-3.13,21.23-2.24,31.41-3.88,21.53-3.48,42.92-8.74,63.07-17.21,24.71-10.38,47.68-25.22,65.56-45.36,35.68-40.18,52.29-102.74,50.62-155.71,3.09-1.05,5.9-1.15,9.14-.87,3.04,58.3,14.76,124.44,60.24,165.71,17.36,15.75,37.14,26.92,58.75,35.71,21.38,8.69,44.45,14.09,67.16,17.94,6.5,1.1,23.13-.76,27.75,3.21.49,2.59,1.8,6.95.4,9.3-51.62-.13-114.28,19.44-151.79,55.71-18.64,18.02-32.9,41.69-42.4,65.62-9.47,23.87-15.31,49.81-18.23,75.29-1.12,9.74.85,20.38-1.13,29.87-3.14.83-6.4-.21-9.1-1.8-2.23-7.19-1-15.4-1.51-22.87-.83-12.43-3.07-24.92-5.54-37.11-10.22-50.62-33.15-94.6-75.43-125.31-27.98-20.31-63.48-29.89-97.12-35.51-8.52-1.43-17.17-2.48-25.77-3.3-1.15-.11-6.29.51-6.77-1.08-.59-1.98.46-6.32.67-8.34h0Z"/>
+  <text class="cls-1" transform="translate(264.52 58)"><tspan x="0" y="0">Midpoint of a Line Segment</tspan></text>
+  <g>
+    <path class="cls-13" d="M180,90v480M240,90v480M300,90v480M360,90v480M420,90v480M480,90v480M540,90v480M600,90v480M660,90v480"/>
+    <path class="cls-13" d="M120,130h600M120,170h600M120,210h600M120,250h600M120,290h600M120,330h600M120,370h600M120,410h600M120,450h600M120,490h600M120,530h600"/>
+  </g>
+  <g>
+    <path class="cls-11" d="M120,570h620"/>
+    <path class="cls-11" d="M120,570V70"/>
+  </g>
+  <path class="cls-7" d="M740,570l-12-7v14l12-7ZM120,70l-7,12h14l-7-12Z"/>
+  <g>
+    <text class="cls-4" transform="translate(115.25 592)"><tspan x="0" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(175.25 592)"><tspan x="0" y="0">1</tspan></text>
+    <text class="cls-4" transform="translate(235.25 592)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-4" transform="translate(295.25 592)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-4" transform="translate(355.25 592)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-4" transform="translate(415.25 592)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-4" transform="translate(475.25 592)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-4" transform="translate(535.25 592)"><tspan x="0" y="0">7</tspan></text>
+    <text class="cls-4" transform="translate(595.25 592)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-4" transform="translate(655.25 592)"><tspan x="0" y="0">9</tspan></text>
+    <text class="cls-4" transform="translate(710.49 592)"><tspan x="0" y="0">10</tspan></text>
+    <text class="cls-4" transform="translate(93.25 576)"><tspan x="0" y="0">0</tspan></text>
+    <text class="cls-4" transform="translate(93.25 536)"><tspan x="0" y="0">1</tspan></text>
+    <text class="cls-4" transform="translate(93.25 496)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-4" transform="translate(93.25 456)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-4" transform="translate(93.25 416)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-4" transform="translate(93.25 376)"><tspan x="0" y="0">5</tspan></text>
+    <text class="cls-4" transform="translate(93.25 336)"><tspan x="0" y="0">6</tspan></text>
+    <text class="cls-4" transform="translate(93.25 296)"><tspan x="0" y="0">7</tspan></text>
+    <text class="cls-4" transform="translate(93.25 256)"><tspan x="0" y="0">8</tspan></text>
+    <text class="cls-4" transform="translate(93.25 216)"><tspan x="0" y="0">9</tspan></text>
+    <text class="cls-4" transform="translate(88.49 176)"><tspan x="0" y="0">10</tspan></text>
+    <text class="cls-4" transform="translate(88.49 136)"><tspan x="0" y="0">11</tspan></text>
+    <text class="cls-4" transform="translate(88.49 96)"><tspan x="0" y="0">12</tspan></text>
+  </g>
+  <text class="cls-6" transform="translate(755 576)"><tspan x="0" y="0">x</tspan></text>
+  <text class="cls-6" transform="translate(112 58)"><tspan x="0" y="0">y</tspan></text>
+  <line class="cls-8" x1="240" y1="410" x2="600" y2="170"/>
+  <line class="cls-3" x1="420" y1="290" x2="420" y2="570"/>
+  <line class="cls-3" x1="120" y1="290" x2="420" y2="290"/>
+  <g>
+    <circle class="cls-9" cx="240" cy="410" r="11"/>
+    <circle class="cls-10" cx="420" cy="290" r="12"/>
+    <circle class="cls-9" cx="600" cy="170" r="11"/>
+  </g>
+  <text class="cls-5" transform="translate(201.83 450)"><tspan x="0" y="0">A (2</tspan><tspan class="cls-15" x="36.37" y="0">,</tspan><tspan x="40.64" y="0" xml:space="preserve"> 4)</tspan></text>
+  <text class="cls-5" transform="translate(462.38 296.19)"><tspan x="0" y="0">M (</tspan><tspan class="cls-18" x="28.24" y="0">5</tspan><tspan class="cls-15" x="40.39" y="0">,</tspan><tspan x="44.67" y="0" xml:space="preserve"> 7)</tspan></text>
+  <text class="cls-5" transform="translate(620 162)"><tspan x="0" y="0">B (</tspan><tspan class="cls-17" x="23.75" y="0">8</tspan><tspan class="cls-15" x="36.21" y="0">,</tspan><tspan x="40.49" y="0" xml:space="preserve"> 10)</tspan></text>
+  <text class="cls-2" transform="translate(329.12 626.99)"><tspan x="0" y="0">M is half</tspan><tspan class="cls-16" x="67.39" y="0">w</tspan><tspan class="cls-19" x="81.47" y="0">a</tspan><tspan x="91.28" y="0">y bet</tspan><tspan class="cls-16" x="131.76" y="0">w</tspan><tspan x="145.85" y="0">een A and B</tspan></text>
+</svg>

@@ -1,0 +1,21 @@
+Question,Answer
+How do you expand \((x+3)(x+5)\)?,Multiply every term: \(x^2+8x+15\).
+How do you factorise \(x^2+8x+15\)?,Find two numbers that multiply to 15 and add to 8: \((x+3)(x+5)\).
+How do you solve \(3(x+2)=21\)?,Divide by 3 then subtract 2 so \(x=5\).
+How do you solve \(4x+3=2x+13\)?,Subtract \(2x\) then subtract 3 so \(x=5\).
+"What is the nth term of \(4,7,10,13,\ldots\)?",\(3n+1\).
+What is a geometric sequence?,A sequence where each term is made by multiplying or dividing by the same number.
+How do you add fractions?,Use a common denominator then add the numerators.
+How do you multiply fractions?,Multiply numerators together and denominators together then simplify.
+How do you divide by a fraction?,Multiply by its reciprocal.
+What is a reciprocal?,A number that multiplies with the original number to give 1.
+What is \(\frac{3}{5}\) as a decimal and percentage?,\(0.6 = 60\%\).
+How do you calculate a percentage of an amount?,Convert the percentage to a decimal then multiply by the amount.
+What multiplier gives a 15% increase?,1.15.
+What multiplier gives a 15% decrease?,0.85.
+How do you find percentage change?,\(\frac{\text{change}}{\text{original}} \times 100\%\).
+What does \(a^m \times a^n\) equal?,\(a^{m+n}\).
+What does \(a^m \div a^n\) equal?,\(a^{m-n}\).
+What does \((a^m)^n\) equal?,\(a^{mn}\).
+What does \(a^{-n}\) mean?,\(\frac{1}{a^n}\).
+What is standard form for 0.00056?,\(5.6 \times 10^{-4}\).

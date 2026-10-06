@@ -1,0 +1,21 @@
+Question,Answer
+What is a translation?,A movement that slides every point the same distance in the same direction.
+What is a vector?,A quantity with magnitude and direction often written as a column vector.
+What is a reflection?,A transformation that flips a shape over a mirror line.
+What is rotational symmetry?,A shape matching itself after a turn about a centre.
+What is enlargement?,A transformation that changes the size of a shape from a centre by a scale factor.
+What does a negative scale factor do in an enlargement?,It enlarges or reduces on the opposite side of the centre.
+What is the hypotenuse?,The longest side of a right-angled triangle opposite the right angle.
+What is Pythagoras' theorem?,For a right-angled triangle: \(a^2+b^2=c^2\) where \(c\) is the hypotenuse.
+How do you find the hypotenuse using Pythagoras?,Calculate \(c=\sqrt{a^2+b^2}\).
+What does SOH mean?,\(\sin\theta=\frac{\text{opposite}}{\text{hypotenuse}}\).
+What does CAH mean?,\(\cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}}\).
+What does TOA mean?,\(\tan\theta=\frac{\text{opposite}}{\text{adjacent}}\).
+How do you find an angle using sine?,Use \(\theta=\sin^{-1}(\frac{\text{opposite}}{\text{hypotenuse}})\).
+What is an angle of elevation?,The angle measured upwards from a horizontal line.
+What is an angle of depression?,The angle measured downwards from a horizontal line.
+What is the volume formula for a cylinder?,\(V=\pi r^2h\).
+What is the curved surface area of a cylinder?,\(2\pi rh\).
+What is the total surface area of a cylinder?,\(2\pi r^2+2\pi rh\).
+What is the volume formula for a cone?,\(V=\frac{1}{3}\pi r^2h\).
+What is the volume formula for a sphere?,\(V=\frac{4}{3}\pi r^3\).

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+<title id="title">Constructing a triangle from three side lengths</title>
+<desc id="desc">A seven centimetre base AB, five centimetre side AC and six centimetre side BC, with compass arcs meeting at C.</desc>
+<rect width="520" height="320" fill="#fff"/>
+<path d="M336 250 A250 250 0 0 0 222 40 M136 250 A300 300 0 0 1 222 40" fill="none" stroke="#bda8e7" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M86 250 L436 250 L222 40 Z" fill="#f4f0ff" stroke="#6356c8" stroke-width="4"/>
+<g fill="#252936" font-family="Arial,sans-serif" font-size="20">
+<text x="62" y="280">A</text><text x="438" y="280">B</text><text x="207" y="30">C</text>
+<text x="226" y="286">7 cm</text><text x="105" y="144">5 cm</text><text x="357" y="139">6 cm</text>
+</g>
+</svg>

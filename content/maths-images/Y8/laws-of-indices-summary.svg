@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 19px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: SFProRounded-Bold, 'SF Pro Rounded';
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-7, .cls-8, .cls-5, .cls-6 {
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-9 {
+        fill: #7046c7;
+      }
+
+      .cls-10 {
+        fill: #d89f00;
+      }
+
+      .cls-2 {
+        font-size: 38.23px;
+      }
+
+      .cls-2, .cls-4, .cls-8, .cls-5, .cls-6 {
+        fill: #272331;
+      }
+
+      .cls-11 {
+        fill: #eee8fa;
+        stroke: #7046c7;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-width: 3px;
+      }
+
+      .cls-12 {
+        fill: #ffe4e5;
+        stroke: #ef5b62;
+      }
+
+      .cls-15 {
+        fill: #2b9f9a;
+      }
+
+      .cls-4, .cls-8 {
+        font-size: 34px;
+      }
+
+      .cls-16, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-size: 22px;
+      }
+
+      .cls-7, .cls-17 {
+        font-family: Helvetica-Bold, Helvetica;
+      }
+
+      .cls-18 {
+        fill: #fbfafb;
+        fill-rule: evenodd;
+      }
+
+      .cls-19 {
+        fill: #ef5b62;
+      }
+
+      .cls-13 {
+        fill: #fff4c7;
+        stroke: #d89f00;
+      }
+
+      .cls-5 {
+        font-size: 24px;
+      }
+
+      .cls-20 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-14 {
+        fill: #dff4f1;
+        stroke: #2b9f9a;
+      }
+
+      .cls-21 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 17px;
+      }
+
+      .cls-28 {
+        letter-spacing: 0em;
+      }
+
+      .cls-29 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-16" width="1000" height="700"/>
+  <path class="cls-18" d="M242.34,342.15c11.61-3.72,25.19-2.66,37.28-4.6,25.55-4.13,50.93-10.37,74.85-20.42,29.32-12.32,56.58-29.93,77.8-53.83,42.35-47.68,62.05-121.93,60.07-184.79,3.67-1.24,7-1.37,10.85-1.03,3.6,69.18,17.52,147.68,71.49,196.65,20.6,18.69,44.07,31.95,69.72,42.38,25.37,10.32,52.75,16.72,79.7,21.29,7.71,1.31,27.45-.91,32.93,3.81.58,3.08,2.14,8.25.47,11.04-61.26-.16-135.61,23.07-180.13,66.12-22.12,21.39-39.05,49.48-50.32,77.87-11.24,28.32-18.16,59.11-21.63,89.35-1.33,11.56,1.01,24.18-1.34,35.44-3.73.99-7.6-.25-10.8-2.14-2.64-8.53-1.19-18.28-1.79-27.14-.99-14.75-3.65-29.58-6.57-44.04-12.13-60.07-39.34-112.27-89.52-148.71-33.2-24.11-75.34-35.48-115.26-42.15-10.12-1.7-20.38-2.94-30.58-3.92-1.36-.13-7.47.6-8.03-1.29-.7-2.35.55-7.5.8-9.89h.01Z"/>
+  <text class="cls-2" transform="translate(366.06 63.31)"><tspan x="0" y="0">L</tspan><tspan class="cls-28" x="20.76" y="0">aw</tspan><tspan x="71.71" y="0">s of Indices</tspan></text>
+  <text class="cls-1" transform="translate(387.92 97)"><tspan x="0" y="0">Same base</tspan><tspan class="cls-20" x="95.19" y="0">,</tspan><tspan x="99.35" y="0" xml:space="preserve"> dif</tspan><tspan class="cls-24" x="125.75" y="0">f</tspan><tspan x="132.23" y="0">e</tspan><tspan class="cls-22" x="142.78" y="0">r</tspan><tspan x="149.37" y="0">ent rules</tspan></text>
+  <rect class="cls-11" x="65" y="135" width="410" height="205" rx="18" ry="18"/>
+  <circle class="cls-9" cx="107" cy="177" r="24"/>
+  <text class="cls-7" transform="translate(100.88 185)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-5" transform="translate(147 185)"><tspan x="0" y="0">Multiplication Rule</tspan></text>
+  <text class="cls-8" transform="translate(166.07 247)"><tspan class="cls-3" x="0" y="0">a</tspan><tspan class="cls-17" x="18.61" y="0">ᵐ</tspan><tspan class="cls-3" x="40.08" y="0" xml:space="preserve"> × aⁿ = a</tspan><tspan class="cls-17" x="159.92" y="0">ᵐ</tspan><tspan class="cls-3" x="181.39" y="0">⁺ⁿ</tspan></text>
+  <text class="cls-6" transform="translate(133.79 295)"><tspan class="cls-23" x="0" y="0">A</tspan><tspan x="11.4" y="0">dd the p</tspan><tspan class="cls-25" x="73.88" y="0">o</tspan><tspan class="cls-27" x="83.53" y="0">w</tspan><tspan x="96.84" y="0">ers when multiplying</tspan></text>
+  <rect class="cls-14" x="525" y="135" width="410" height="205" rx="18" ry="18"/>
+  <circle class="cls-15" cx="567" cy="177" r="24"/>
+  <text class="cls-7" transform="translate(560.88 185)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-5" transform="translate(607 185)"><tspan x="0" y="0">Division Rule</tspan></text>
+  <text class="cls-8" transform="translate(628.8 247)"><tspan class="cls-3" x="0" y="0">a</tspan><tspan class="cls-17" x="18.61" y="0">ᵐ</tspan><tspan class="cls-3" x="40.08" y="0" xml:space="preserve"> ÷ aⁿ = a</tspan><tspan class="cls-17" x="159.92" y="0">ᵐ</tspan><tspan class="cls-3" x="181.39" y="0">⁻ⁿ</tspan></text>
+  <text class="cls-6" transform="translate(601.49 298.7)"><tspan x="0" y="0">Subt</tspan><tspan class="cls-26" x="36.72" y="0">r</tspan><tspan x="42.7" y="0">act the p</tspan><tspan class="cls-25" x="109.54" y="0">o</tspan><tspan class="cls-27" x="119.19" y="0">w</tspan><tspan x="132.5" y="0">ers when dividing</tspan></text>
+  <rect class="cls-13" x="65" y="390" width="410" height="205" rx="18" ry="18"/>
+  <circle class="cls-10" cx="107" cy="432" r="24"/>
+  <text class="cls-7" transform="translate(100.88 440)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-5" transform="translate(147 440)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan class="cls-25" x="14.41" y="0">o</tspan><tspan class="cls-27" x="28.04" y="0">w</tspan><tspan x="46.83" y="0">er of a </tspan><tspan class="cls-22" x="118.55" y="0">P</tspan><tspan class="cls-25" x="132.96" y="0">o</tspan><tspan class="cls-27" x="146.59" y="0">w</tspan><tspan x="165.38" y="0">er</tspan></text>
+  <text class="cls-8" transform="translate(188.54 502)"><tspan class="cls-3" x="0" y="0">(a</tspan><tspan class="cls-17" x="31.59" y="0">ᵐ</tspan><tspan class="cls-3" x="53.06" y="0">)ⁿ = a</tspan><tspan class="cls-17" x="131.83" y="0">ᵐ</tspan><tspan class="cls-3" x="153.3" y="0">ⁿ</tspan></text>
+  <text class="cls-6" transform="translate(190.09 550)"><tspan x="0" y="0">Multiply the p</tspan><tspan class="cls-25" x="104.37" y="0">o</tspan><tspan class="cls-27" x="114.02" y="0">w</tspan><tspan x="127.33" y="0">ers</tspan></text>
+  <rect class="cls-12" x="525" y="390" width="410" height="205" rx="18" ry="18"/>
+  <circle class="cls-19" cx="567" cy="432" r="24"/>
+  <text class="cls-7" transform="translate(560.88 440)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-5" transform="translate(607 440)"><tspan x="0" y="0">Negati</tspan><tspan class="cls-24" x="72.13" y="0">v</tspan><tspan x="84.45" y="0">e </tspan><tspan class="cls-22" x="102.52" y="0">P</tspan><tspan class="cls-25" x="116.93" y="0">o</tspan><tspan class="cls-27" x="130.56" y="0">w</tspan><tspan x="149.34" y="0">er Rule</tspan></text>
+  <text class="cls-4" transform="translate(666.2 502)"><tspan class="cls-21" x="0" y="0">a</tspan><tspan x="17.7" y="0">⁻ⁿ = 1 ⁄ aⁿ</tspan></text>
+  <text class="cls-6" transform="translate(577.92 550.35)"><tspan x="0" y="0">A negati</tspan><tspan class="cls-24" x="63.83" y="0">v</tspan><tspan x="72.56" y="0">e p</tspan><tspan class="cls-25" x="95.44" y="0">o</tspan><tspan class="cls-27" x="105.1" y="0">w</tspan><tspan x="118.4" y="0">er becomes a </tspan><tspan class="cls-22" x="224.88" y="0">r</tspan><tspan x="230.77" y="0">ecip</tspan><tspan class="cls-22" x="263.63" y="0">r</tspan><tspan x="269.53" y="0">ocal</tspan></text>
+  <text class="cls-1" transform="translate(344.13 655)"><tspan class="cls-25" x="0" y="0">R</tspan><tspan x="12.07" y="0">emember: the base s</tspan><tspan class="cls-25" x="191.6" y="0">t</tspan><tspan class="cls-29" x="198.27" y="0">ay</tspan><tspan x="218.89" y="0">s the same</tspan></text>
+</svg>
