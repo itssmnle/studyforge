@@ -1,19 +1,10 @@
 import SubjectCard from "../components/SubjectCard";
 import { scienceSubjects } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import "../styles/Launchpad.css";
 
-const maths = {
-  id: "maths",
-  name: "Maths",
-  qualification: "KS3",
-  description: "Complete Years 7 to 9 revision notes and maths flashcards.",
-  color: "#6f42c1",
-  secondaryColor: "#eee8fb",
-  to: "/subjects/maths",
-};
-
 export default function Launchpad() {
-  const courses = [maths, ...scienceSubjects.map((subject) => ({ ...subject, to: `/subjects/${subject.id}` }))];
+  const courses = [{ ...mathsSubject, to: "/subjects/maths" }, ...scienceSubjects.map((subject) => ({ ...subject, to: `/subjects/${subject.id}` }))];
 
   return (
     <main className="platform-shell course-catalogue">

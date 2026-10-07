@@ -2,20 +2,11 @@ import { useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { FiBookOpen, FiLayers, FiTarget } from "react-icons/fi";
 import { findSubject } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import verifiedBadge from "../assets/twitter-verified-badge.webp";
 import SubjectCourseSidebar from "../components/SubjectCourseSidebar";
 import "../styles/Platform.css";
 import "../styles/SubjectOverview.css";
-
-const mathsSubject = {
-  id: "maths",
-  name: "Maths",
-  qualification: "KS3",
-  color: "#7c3aed",
-  secondaryColor: "#f3efff",
-  description: "Number, algebra, geometry, data and probability for Years 7 to 9.",
-  topics: [],
-};
 
 export default function ScienceSubject() {
   const [menuCollapsed, setMenuCollapsed] = useState(false);

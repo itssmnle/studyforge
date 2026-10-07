@@ -1,13 +1,12 @@
 import SubjectCard from "../components/SubjectCard";
 import flashcardDecks from "../data/flashcardDecks";
 import { scienceSubjects } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import flashcardsArt from "../assets/page-heroes/flashcards.png";
 import "../styles/Flashcards.css";
 import "../styles/ResourcePageHero.css";
 
-const flashcardSubjectDetails = {
-  Maths: { id: "maths", qualification: "KS3", color: "#5d3eaa", secondaryColor: "#e5def9", description: "Number, algebra, geometry, data and probability for Years 7 to 9." },
-};
+const flashcardSubjectDetails = { Maths: mathsSubject };
 
 export default function FlashcardSubjects() {
   return (

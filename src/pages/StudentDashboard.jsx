@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FiBookOpen, FiCheck, FiClock, FiEdit2, FiLock, FiPlus, FiSettings, FiUser, FiUsers, FiX } from "react-icons/fi";
 import { scienceSubjects } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import { subjectIcons } from "../data/subjectVisuals";
 import { mathLessonsForYear } from "../utils/mathLessonLibrary";
 import { getHomeworkSubmissions } from "../utils/progressStorage";
@@ -17,10 +18,7 @@ import '../styles/StudyWorkspace.css';
 import '../styles/MyCourses.css';
 
 const mathsCourse = {
-  id: "maths",
-  name: "Maths",
-  qualification: "KS3",
-  color: "#7c3aed",
+  ...mathsSubject,
   topics: ["year-7", "year-8", "year-9"].map((year) => {
     const lessons = mathLessonsForYear(year);
     return {

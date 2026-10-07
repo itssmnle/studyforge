@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FiArrowRight, FiBookOpen, FiCheck, FiLock, FiStar } from "react-icons/fi";
 import { useAuthModal } from "../context/AuthModalContext";
 import { scienceSubjects } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import learnArt from "../assets/revision-loop/learn.svg";
 import practiseArt from "../assets/revision-loop/practice.svg";
 import testArt from "../assets/revision-loop/test.svg";
@@ -11,7 +12,7 @@ import "../styles/Hero.css";
 
 const biologyPreview = scienceSubjects.find((subject) => subject.id === "biology");
 const homeSubjects = [
-  { id: "maths", name: "Maths", qualification: "KS3", color: "#7c3aed", secondaryColor: "#f3efff", to: "/subjects/maths" },
+  { ...mathsSubject, to: "/subjects/maths" },
   ...scienceSubjects.map((subject) => ({ ...subject, to: `/subjects/${subject.id}` })),
 ];
 const methodSteps = [

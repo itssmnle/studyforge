@@ -2,13 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiBookOpen, FiChevronDown, FiLayers, FiSidebar, FiTarget } from "react-icons/fi";
 import { findSubject } from "../data/scienceCurriculum";
+import { mathsSubject } from "../data/subjectConfig";
 import { subjectIcons } from "../data/subjectVisuals";
 import "../styles/SubjectCourseSidebar.css";
 
 const subjectIds = ["maths", "biology", "chemistry", "physics"];
 
-const subjectName = (id) => id === "maths" ? "Maths" : findSubject(id)?.name;
-const subjectColor = (id) => id === "maths" ? "#7c3aed" : findSubject(id)?.color;
+const subjectName = (id) => id === "maths" ? mathsSubject.name : findSubject(id)?.name;
+const subjectColor = (id) => id === "maths" ? mathsSubject.color : findSubject(id)?.color;
 
 export default function SubjectCourseSidebar({ subject, activeResource, onCollapsedChange }) {
   const [collapsed, setCollapsed] = useState(false);
