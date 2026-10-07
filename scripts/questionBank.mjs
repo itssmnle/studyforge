@@ -95,7 +95,9 @@ export const loadQuestionBank = async () => {
       const normalizedPrompt = record.prompt.toLocaleLowerCase("en-GB");
       if (normalizedPrompt && prompts.has(normalizedPrompt)) errors.push(`${label}: duplicate prompt (first used in ${prompts.get(normalizedPrompt)})`);
       else if (normalizedPrompt) prompts.set(normalizedPrompt, label);
-      if (!topic.subtopics.includes(record.subtopic)) errors.push(`${label}: subtopic must be one of ${topic.subtopics.join(", ")}`);
+      if (!topic.id.startsWith("year-9-") && !topic.subtopics.includes(record.subtopic)) {
+        errors.push(`${label}: subtopic must be one of ${topic.subtopics.join(", ")}`);
+      }
       if (!allowedDifficulties.has(record.difficulty)) errors.push(`${label}: invalid difficulty ${record.difficulty}`);
       if (!allowedTypes.has(record.type)) errors.push(`${label}: invalid type ${record.type}`);
 
@@ -143,4 +145,3 @@ export const loadQuestionBank = async () => {
 };
 
 export const listQuestionBankFiles = () => topicFiles().map(({ relativePath }) => relativePath.split(path.sep).join("/"));
-

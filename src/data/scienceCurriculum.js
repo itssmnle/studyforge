@@ -2,53 +2,43 @@ export const scienceSubjects = [
   {
     id: "biology",
     name: "Biology",
-    qualification: "KS4",
+    qualification: "KS3",
     color: "#16805b",
     secondaryColor: "#cdeedd",
     description: "Living systems, from cells to ecosystems.",
     topics: [
-      { id: "cells-and-organisation", name: "Cells and Organisation", subtopics: ["Cell structure", "Transport and specialisation", "Levels of organisation"] },
-      { id: "body-systems-and-movement", name: "Body Systems and Movement", subtopics: ["The skeleton", "Joints", "Muscles and movement"] },
-      { id: "nutrition-digestion-and-health", name: "Nutrition, Digestion, and Health", subtopics: ["Balanced diet", "Digestion and enzymes", "Health and lifestyle"] },
-      { id: "gas-exchange-and-respiration", name: "Gas Exchange and Respiration", subtopics: ["Gas exchange", "Aerobic respiration", "Anaerobic respiration"] },
-      { id: "ecosystems-and-photosynthesis", name: "Ecosystems and Photosynthesis", subtopics: ["Ecosystems", "Photosynthesis", "Adaptations and interdependence"] },
-      { id: "reproduction", name: "Reproduction", subtopics: ["Human reproduction", "The menstrual cycle", "Plant reproduction"] },
-      { id: "genetics-evolution-and-variation", name: "Genetics, Evolution, and Variation", subtopics: ["DNA and inheritance", "Variation", "Evolution and biodiversity"] },
-    ],
+      { id: "year-9-chacteristics-of-living-beings", name: "Characteristics of Living Beings", subtopics: ["Seven life processes (MRS GREN)", "Respiration vs breathing", "Excretion vs egestion"] },
+      { id: "year-9-cells-and-organisation", name: "Cells and Organisation", subtopics: ["Cell structure and organelles", "Specialised cells and magnification", "Levels of organisation"] },
+      { id: "year-9-movement-into-and-out-of-cells", name: "Movement into and out of Cells", subtopics: ["Diffusion", "Osmosis and water potential", "Active transport"] },
+      { id: "year-9-biological-molecules", name: "Biological Molecules", subtopics: ["Elements in nutrients (C, H, O, N)", "Building blocks of large molecules", "Biochemical food tests"] },
+      { id: "year-9-enzymes", name: "Enzymes", subtopics: ["Lock and Key model", "Factors affecting activity (temperature and pH)", "Denaturation and digestive enzymes"] }
+    ]
   },
   {
     id: "chemistry",
     name: "Chemistry",
-    qualification: "KS4",
+    qualification: "KS3",
     color: "#1c6787",
     secondaryColor: "#d4edf5",
     description: "Matter, reactions, energy and the materials around us.",
     topics: [
-      { id: "particle-model", name: "The Particle Model", subtopics: ["Particle arrangement", "Changes of state", "Diffusion and density"] },
-      { id: "atoms-elements-and-compounds", name: "Atoms, Elements, and Compounds", subtopics: ["Atomic structure", "Elements and compounds", "Chemical formulae"] },
-      { id: "pure-and-impure-substances", name: "Pure and Impure Substances", subtopics: ["Pure substances", "Mixtures", "Separating mixtures"] },
-      { id: "periodic-table", name: "The Periodic Table", subtopics: ["Periodic table structure", "Groups and periods", "Metals and non-metals"] },
-      { id: "chemical-reactions", name: "Chemical Reactions", subtopics: ["Reactants and products", "Conservation of mass", "Reaction types"] },
-      { id: "chemical-energy", name: "Chemical Energy", subtopics: ["Exothermic reactions", "Endothermic reactions", "Energy changes"] },
-      { id: "materials-and-reactivity", name: "Materials and Reactivity", subtopics: ["The reactivity series", "Metal extraction", "Modern materials"] },
-      { id: "earth-and-atmosphere", name: "Earth and Atmosphere", subtopics: ["Earth structure", "The atmosphere", "Climate change"] },
-    ],
+      { id: "year-9-states-of-matter", name: "States of Matter", subtopics: ["Particle model and state changes", "Heating and cooling curves", "Gas pressure and diffusion rates"] },
+      { id: "year-9-atoms-and-isotopes", name: "Atoms and Isotopes", subtopics: ["Subatomic particles and atomic structure", "Electronic configurations (1–20)", "Isotopes and ions"] },
+      { id: "year-9-chemical-bonding", name: "Chemical Bonding", subtopics: ["Ionic bonding and giant lattices", "Covalent bonding and simple molecules", "Giant covalent structures and metallic bonding"] }
+    ]
   },
   {
     id: "physics",
     name: "Physics",
-    qualification: "KS4",
+    qualification: "KS3",
     color: "#bb5a1d",
     secondaryColor: "#f9dfcc",
     description: "Energy, forces, matter and how the universe behaves.",
     topics: [
-      { id: "forces-and-motion", name: "Forces and Motion", subtopics: ["Describing motion", "Forces", "Moments and pressure"] },
-      { id: "energy", name: "Energy", subtopics: ["Energy stores and transfers", "Work and power", "Heating and energy use"] },
-      { id: "waves", name: "Waves", subtopics: ["Wave properties", "Sound", "Light and colour"] },
-      { id: "electricity-and-electromagnetism", name: "Electricity and Electromagnetism", subtopics: ["Static electricity", "Circuits", "Electromagnets"] },
-      { id: "space-physics", name: "Space Physics", subtopics: ["Earth, Sun, and Moon", "Seasons", "Solar System and beyond"] },
-    ],
-  },
+      { id: "year-9-motion-and-forces", name: "Motion and Forces", subtopics: ["Speed, velocity and acceleration", "Distance–time and speed–time graphs", "Resultant forces and Newton's laws (F = ma)"] },
+      { id: "year-9-energy-and-work", name: "Energy and Work", subtopics: ["Energy stores and transfer pathways", "Kinetic and gravitational potential energy", "Work done and conservation of energy"] }
+    ]
+  }
 ];
 
 export const findSubject = (subjectId) =>
