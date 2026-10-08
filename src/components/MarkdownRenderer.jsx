@@ -12,6 +12,17 @@ const glossaries = { science: scienceGlossary, maths: mathsGlossary };
 const localMathImages = Object.fromEntries(Object.entries(import.meta.glob("../../content/maths-images/**/*.{svg,png,jpg,jpeg,webp}", { query: "?url", import: "default", eager: true })).map(([path, url]) => [`/maths-images/${path.split("/maths-images/")[1]}`, url]));
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+const positionGlossaryTooltip = event => {
+  const term = event.currentTarget;
+  const tooltip = term.querySelector(".glossary-tooltip");
+  const reader = term.closest(".note-reader");
+  if (!tooltip) return;
+  const termRect = term.getBoundingClientRect();
+  const tooltipWidth = tooltip.getBoundingClientRect().width;
+  const rightBoundary = Math.min(reader?.getBoundingClientRect().right ?? window.innerWidth, window.innerWidth) - 12;
+  term.classList.toggle("glossary-align-left", termRect.left + tooltipWidth > rightBoundary);
+};
+
 function MathExpression({ value, display = false }) {
   const html = katex.renderToString(value, {
     displayMode: display,
@@ -46,7 +57,7 @@ const renderGlossaryText = (text, keyPrefix, seenTerms, glossaryEntries) => {
     if (next.index > 0) rendered.push(remaining.slice(0, next.index));
     seenTerms.add(next.term);
     rendered.push(
-      <span className="glossary-term" tabIndex="0" key={`${keyPrefix}-term-${offset}`}>
+      <span className="glossary-term" tabIndex="0" onMouseEnter={positionGlossaryTooltip} onFocus={positionGlossaryTooltip} key={`${keyPrefix}-term-${offset}`}>
         {next.text}<span className="glossary-question" aria-hidden="true">?</span>
         <span className="glossary-tooltip" role="tooltip"><span className="glossary-tooltip-title">{next.text}</span>{next.definition}</span>
       </span>,

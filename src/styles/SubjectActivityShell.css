@@ -68,6 +68,7 @@
    Desktop keeps the locked viewport with independently scrolling topic and
    content panes. */
 @media(max-width:820px){
+  html:has(.reader-layout),body:has(.reader-layout),body:has(.reader-layout)>#root{height:auto;min-height:100%;overflow-y:visible}
   .reader-layout{height:auto;min-height:100dvh;overflow:visible}
   .reader-layout>.app-route-stage{flex:0 0 auto;overflow:visible}
   .reader-layout>.app-route-stage>.subject-activity-shell,
@@ -81,6 +82,25 @@
   .reader-layout .flashcard-reader-aside-content,
   .reader-layout .note-reader,
   .reader-layout .recall-page{height:auto;max-height:none;overflow:visible;overscroll-behavior:auto;-webkit-overflow-scrolling:auto}
+  .reader-layout .note-reader,
+  .reader-layout .recall-page{padding-bottom:max(80px,calc(60px + env(safe-area-inset-bottom)))}
+  .reader-layout .note-reader-aside,
+  .reader-layout .flashcard-reader-aside{box-sizing:border-box;padding-top:18px}
+  .reader-layout .subject-activity-content>.note-reader-shell,
+  .reader-layout .subject-activity-content>.flashcard-reader-shell{gap:24px}
+  .reader-layout .note-reader-aside-content,
+  .reader-layout .flashcard-reader-aside-content{align-items:stretch;width:100%;padding-right:0}
+  .reader-layout .flashcard-reader-aside-heading{justify-content:center;margin:0 0 14px;text-align:center}
+  .reader-layout .flashcard-reader-aside-heading>strong{width:100%;text-align:center}
+  .reader-layout .note-reader-aside-heading .note-topics-toggle,
+  .reader-layout .flashcard-reader-aside-heading .note-topics-toggle{display:none}
+  .reader-layout .note-reader-shell.topics-hidden .note-reader-aside-content,
+  .reader-layout .flashcard-reader-shell.topics-hidden .flashcard-reader-aside-content{visibility:visible;opacity:1;transform:none;pointer-events:auto}
+  .reader-layout .flashcard-topic-outline{box-sizing:border-box;width:100%;max-width:100%;padding-bottom:20px}
+  .reader-layout .note-reader-aside-content .math-reader-year-switcher,
+  .reader-layout .flashcard-reader-aside-content .math-reader-year-switcher{box-sizing:border-box;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;max-width:none;margin:10px 0 24px;gap:8px}
+  .reader-layout .note-reader-aside-content .math-reader-year-switcher a,
+  .reader-layout .flashcard-reader-aside-content .math-reader-year-switcher a{box-sizing:border-box;width:100%;min-width:0;min-height:44px;padding:10px 8px}
 }
 
 @media(prefers-reduced-motion:reduce){.note-topics-tooltip{transition:none}}
