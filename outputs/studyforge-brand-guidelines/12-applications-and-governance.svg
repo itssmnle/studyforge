@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      @font-face { font-family: 'Plus Jakarta Sans'; src: url('assets/PlusJakartaSans-VariableFont_wght.ttf'); font-weight: 200 800; }
+      text { font-family: 'Plus Jakarta Sans', Arial, sans-serif; }
+    </style>
+    <linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7042C5"/><stop offset="0.55" stop-color="#4277DC"/><stop offset="1" stop-color="#3EB7C4"/></linearGradient>
+    <radialGradient id="softViolet" cx="0.2" cy="0.1" r="1"><stop offset="0" stop-color="#F1EDFF"/><stop offset="1" stop-color="#FFFFFF"/></radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#261248" flood-opacity="0.10"/></filter>
+    
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" fill="#FFFFFF"/>
+  <text x="96" y="76" fill="#1F212A" font-size="17" font-weight="800" letter-spacing="3">STUDYFORGE</text><text x="96" y="111" fill="#696C7A" font-size="14" font-weight="700" letter-spacing="2">APPLICATIONS AND GOVERNANCE</text><text x="1822" y="88" fill="#696C7A" font-size="18" font-weight="700" text-anchor="end">12</text><line x1="96" y1="138" x2="1824" y2="138" stroke="#E8E8ED" stroke-width="2"/>
+  
+    <text x="96" y="224" fill="#1F212A" font-size="48" font-weight="760">Build consistently, then verify</text>
+    <text x="96" y="274" fill="#696C7A" font-size="23" font-weight="450"><tspan x="96" dy="0">The system is complete only when the final output remains readable, recognisable, and</tspan><tspan x="96" dy="33">useful in its real context.</tspan></text>
+    <text x="96" y="354" fill="#7042C5" font-size="16" font-weight="800" letter-spacing="2">APPLICATION CHECK</text>
+    <rect x="96" y="396" width="830" height="510" fill="#F5F5F7" rx="26" stroke="#E8E8ED" stroke-width="2"/>
+    <svg x="132" y="438" width="342" height="234" viewBox="0 195 200 105" preserveAspectRatio="xMidYMid meet"><image href="assets/assets.svg" x="0" y="0" width="1536" height="1024"/></svg>
+    <rect x="132" y="438" width="342" height="28" fill="#F5F5F7"/>
+    <image href="assets/logo-light.svg" x="512" y="458" width="342" height="78" preserveAspectRatio="xMidYMid meet"/>
+    <text x="512" y="581" fill="#1F212A" font-size="31" font-weight="760">Revision that knows</text>
+    <text x="512" y="621" fill="#1F212A" font-size="31" font-weight="760">what comes next.</text>
+    <rect x="512" y="675" width="234" height="54" fill="#7042C5" rx="12"/><text x="629" y="710" fill="#FFFFFF" font-size="18" font-weight="720" text-anchor="middle">Start revising</text>
+    <line x1="132" y1="770" x2="890" y2="770" stroke="#D1D2DA" stroke-width="2"/>
+    <text x="132" y="817" fill="#696C7A" font-size="20" font-weight="550">The same hierarchy should survive at every size.</text>
+    <text x="1000" y="354" fill="#7042C5" font-size="16" font-weight="800" letter-spacing="2">PRE-FLIGHT CHECKLIST</text>
+    <rect x="1000" y="403" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="416" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Use an approved logo file and keep clear space.</tspan></text>
+    <rect x="1000" y="465" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="478" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Check text contrast and keyboard focus states.</tspan></text>
+    <rect x="1000" y="527" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="540" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Use Plus Jakarta Sans with the documented hierarchy.</tspan></text>
+    <rect x="1000" y="589" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="602" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Confirm imagery belongs to the StudyForge library.</tspan></text>
+    <rect x="1000" y="651" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="664" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Test the real desktop and mobile layout.</tspan></text>
+    <rect x="1000" y="713" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="726" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Keep claims specific and privacy language accurate.</tspan></text>
+    <rect x="1000" y="775" width="9" height="9" fill="#7042C5" rx="4.5"/><text x="1025" y="788" fill="#696C7A" font-size="22" font-weight="450"><tspan x="1025" dy="0">Export vectors as SVG and raster assets as PNG.</tspan></text>
+    <text x="1000" y="879" fill="#7042C5" font-size="16" font-weight="800" letter-spacing="2">SOURCE OF TRUTH</text>
+    <text x="1000" y="922" fill="#1F212A" font-size="19" font-weight="700">Design tokens, logo masters, and illustration originals</text>
+    <text x="1000" y="950" fill="#696C7A" font-size="19" font-weight="500">live with the product repository and should be versioned.</text>
+  
+  <line x1="96" y1="1005" x2="1824" y2="1005" stroke="#E8E8ED" stroke-width="2"/><text x="96" y="1044" fill="#9A9CA8" font-size="15" font-weight="550">StudyForge brand guidelines</text><text x="1824" y="1044" fill="#9A9CA8" font-size="15" font-weight="550" text-anchor="end">Version 1.0 · October 2026</text>
+</svg>

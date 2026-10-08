@@ -22,6 +22,7 @@ export default function SubjectActivityShell({ children }) {
   const subjectId = subjectFromLocation(pathname, search);
   const subject = findSubject(subjectId) || (subjectId === "maths" ? mathsSubject : null);
   if (!subject) return children;
+  const isPracticeSession = pathname.startsWith("/practice/");
 
   const activeResource = pathname.startsWith(`/notes/${subject.id}`)
     ? "notes"
@@ -33,17 +34,16 @@ export default function SubjectActivityShell({ children }) {
 
   return (
     <main
-      className="academy-dashboard subject-activity-shell"
+      className={`academy-dashboard subject-activity-shell${isPracticeSession ? " practice-session-shell" : ""}`}
       style={{
         "--primary": subject.color,
         "--primary-dark": `color-mix(in srgb, ${subject.color} 84%, black)`,
-        "--secondary": subject.secondaryColor,
         "--subject-color": subject.color,
         "--subject-secondary": subject.secondaryColor,
       }}
     >
       <div className={`dashboard-layout subject-activity-layout${menuCollapsed ? " menu-collapsed" : ""}`}>
-        <SubjectCourseSidebar key={subject.id} subject={subject} activeResource={activeResource} onCollapsedChange={setMenuCollapsed} />
+        {!isPracticeSession && <SubjectCourseSidebar key={subject.id} subject={subject} activeResource={activeResource} onCollapsedChange={setMenuCollapsed} />}
         <section className="course-workspace subject-activity-content">{children}</section>
       </div>
     </main>

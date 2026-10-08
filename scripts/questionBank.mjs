@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { scienceSubjects } from "../src/data/scienceCurriculum.js";
+import { practiceSubjects } from "../src/data/practiceCurriculum.js";
 
 export const QUESTION_BANK_DIR = fileURLToPath(new URL("../content/question-bank", import.meta.url));
 export const GENERATED_QUESTION_BANK = fileURLToPath(new URL("../src/data/scienceQuestions.generated.json", import.meta.url));
@@ -48,7 +48,7 @@ const parseCsv = (text, sourceFile) => {
 };
 
 const splitList = (value) => value.split("|").map((item) => item.trim()).filter(Boolean);
-const topicFiles = () => scienceSubjects.flatMap((subject) => subject.topics.map((topic) => ({
+const topicFiles = () => practiceSubjects.flatMap((subject) => subject.topics.map((topic) => ({
   subject,
   topic,
   relativePath: path.join(subject.id, `${topic.id}.csv`),
@@ -93,9 +93,9 @@ export const loadQuestionBank = async () => {
       if (ids.has(record.id)) errors.push(`${label}: duplicate id ${record.id} (first used in ${ids.get(record.id)})`);
       else if (record.id) ids.set(record.id, label);
       const normalizedPrompt = record.prompt.toLocaleLowerCase("en-GB");
-      if (normalizedPrompt && prompts.has(normalizedPrompt)) errors.push(`${label}: duplicate prompt (first used in ${prompts.get(normalizedPrompt)})`);
+      if (subject.id !== "maths" && normalizedPrompt && prompts.has(normalizedPrompt)) errors.push(`${label}: duplicate prompt (first used in ${prompts.get(normalizedPrompt)})`);
       else if (normalizedPrompt) prompts.set(normalizedPrompt, label);
-      if (!topic.id.startsWith("year-9-") && !topic.subtopics.includes(record.subtopic)) {
+      if (!topic.id.startsWith("year-9-") && topic.subtopics.length && !topic.subtopics.includes(record.subtopic)) {
         errors.push(`${label}: subtopic must be one of ${topic.subtopics.join(", ")}`);
       }
       if (!allowedDifficulties.has(record.difficulty)) errors.push(`${label}: invalid difficulty ${record.difficulty}`);

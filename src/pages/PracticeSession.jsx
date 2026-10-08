@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { FiArrowLeft, FiArrowRight, FiCheck, FiLock, FiRefreshCw, FiX } from "react-icons/fi";
-import { findSubject, findTopic } from "../data/scienceCurriculum";
+import { FiArrowLeft, FiArrowRight, FiCheck, FiRefreshCw, FiX } from "react-icons/fi";
+import { findPracticeSubject, findPracticeTopic } from "../data/practiceCurriculum";
 import { questionsForTopic } from "../data/scienceQuestions";
 import { saveHomeworkSubmission, savePrivatePractice } from "../utils/progressStorage";
 import { getAssignments } from "../utils/assignmentStorage";
@@ -24,8 +24,8 @@ export default function PracticeSession() {
   const testId = searchParams.get('test');
   const customTest = useMemo(() => readTestDraft(testId), [testId]);
   const { user, dataLoading, openLogin } = useAuthModal();
-  const subject = findSubject(subjectId);
-  const topic = findTopic(subjectId, topicId);
+  const subject = findPracticeSubject(subjectId);
+  const topic = findPracticeTopic(subjectId, topicId);
   const curriculumQuestions = useMemo(() => questionsForTopic(subjectId, topicId), [subjectId, topicId]);
   const assignmentId = searchParams.get("assignment");
   const assignment = getAssignments().find((item) => item.id === assignmentId);
@@ -217,8 +217,7 @@ export default function PracticeSession() {
     <main className="practice-page">{submitError && <p role="alert">{submitError}</p>}{submitting && <p role="status">Saving submission…</p>}
       <header className="practice-topbar">
         <button className="back-link" onClick={exit}><FiArrowLeft /> Exit</button>
-        <div><strong>{assignment?.title || customTest?.title || topic.name}</strong><span>{teacherPreview ? "Teacher preview" : assignment ? assignment.className : "Independent practice"}</span></div>
-        <span className={`session-visibility ${assignment ? "assigned" : "private"}`}><FiLock /> {teacherPreview || !user ? "Not saved" : assignment ? "Teacher visible" : "Private"}</span>
+        <div><strong>{assignment?.title || customTest?.title || topic.name}</strong></div>
       </header>
       {customTest?.timer && <p className="test-countdown" role="timer">{elapsed >= customTest.minutes * 60 ? 'Time is up. Finish your answers when ready.' : `${Math.floor((customTest.minutes * 60 - elapsed) / 60)}:${String((customTest.minutes * 60 - elapsed) % 60).padStart(2, '0')} remaining`}</p>}
 
@@ -274,7 +273,6 @@ export default function PracticeSession() {
             <button className="platform-button primary" disabled={submitting || (!testMode && answeredCount !== questions.length)} onClick={finish}>Finish <FiCheck /></button>
           )}
         </footer>
-        <p className="provenance">{question.provenance} · {question.subtopic}</p>
       </section>
     </main>
   );

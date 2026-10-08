@@ -4,10 +4,11 @@ import "katex/contrib/mhchem";
 import "katex/dist/katex.min.css";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { scienceGlossary } from "../data/scienceGlossary";
+import { mathsGlossary } from "../data/mathsGlossary";
 
 const inlinePattern = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\)|\$(?:\\.|[^$\\\n])*\$)/g;
 const blockImagePattern = /^!\[([^\]]*)\]\(([^\s)]+)(?:\s+["']([^"']+)["'])?\)$/;
-const glossaryEntries = Object.entries(scienceGlossary).sort(([a], [b]) => b.length - a.length);
+const glossaries = { science: scienceGlossary, maths: mathsGlossary };
 const localMathImages = Object.fromEntries(Object.entries(import.meta.glob("../../content/maths-images/**/*.{svg,png,jpg,jpeg,webp}", { query: "?url", import: "default", eager: true })).map(([path, url]) => [`/maths-images/${path.split("/maths-images/")[1]}`, url]));
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
@@ -23,7 +24,7 @@ function MathExpression({ value, display = false }) {
   return <Element className={display ? "math-expression math-display" : "math-expression"} aria-label={value} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
-const renderGlossaryText = (text, keyPrefix, seenTerms) => {
+const renderGlossaryText = (text, keyPrefix, seenTerms, glossaryEntries) => {
   const rendered = [];
   let remaining = text;
   let offset = 0;
@@ -56,14 +57,14 @@ const renderGlossaryText = (text, keyPrefix, seenTerms) => {
   return rendered;
 };
 
-const renderInline = (text, keyPrefix, seenTerms, allowGlossary = true) => text.split(inlinePattern).filter(Boolean).map((part, index) => {
+const renderInline = (text, keyPrefix, seenTerms, glossaryEntries, allowGlossary = true) => text.split(inlinePattern).filter(Boolean).map((part, index) => {
   const key = `${keyPrefix}-${index}`;
-  if (part.startsWith("**") && part.endsWith("**")) return <strong key={key}>{renderInline(part.slice(2, -2), `${key}-strong`, seenTerms, allowGlossary)}</strong>;
+  if (part.startsWith("**") && part.endsWith("**")) return <strong key={key}>{renderInline(part.slice(2, -2), `${key}-strong`, seenTerms, glossaryEntries, allowGlossary)}</strong>;
   if (part.startsWith("`") && part.endsWith("`")) return <code key={key}>{part.slice(1, -1)}</code>;
   if (part.startsWith("$") && part.endsWith("$")) return <MathExpression key={key} value={part.slice(1, -1)} />;
   const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
   if (link) return <a key={key} href={link[2]} target={link[2].startsWith("http") ? "_blank" : undefined} rel="noreferrer">{link[1]}</a>;
-  return <span key={key}>{allowGlossary ? renderGlossaryText(part, key, seenTerms) : part}</span>;
+  return <span key={key}>{allowGlossary ? renderGlossaryText(part, key, seenTerms, glossaryEntries) : part}</span>;
 });
 
 const isDividerRow = (line) => /^\s*\|?(\s*:?-+:?\s*\|)+\s*:?-+:?\s*\|?\s*$/.test(line);
@@ -183,10 +184,11 @@ function ImageGallery({ images }) {
   </figure>;
 }
 
-export default function MarkdownRenderer({ source }) {
+export default function MarkdownRenderer({ source, glossary = "science" }) {
   const lines = source.replaceAll("\r\n", "\n").split("\n");
   const blocks = [];
   const seenTerms = new Set();
+  const glossaryEntries = Object.entries(glossaries[glossary] || {}).sort(([a], [b]) => b.length - a.length);
   let index = 0;
 
   while (index < lines.length) {
@@ -248,7 +250,7 @@ export default function MarkdownRenderer({ source }) {
     const heading = line.match(/^(#{1,6})\s+(.+)$/);
     if (heading) {
       const Level = `h${heading[1].length}`;
-      blocks.push(<Level id={headingId(heading[2])} key={`heading-${index}`}>{renderInline(heading[2], `heading-${index}`, seenTerms, false)}</Level>);
+      blocks.push(<Level id={headingId(heading[2])} key={`heading-${index}`}>{renderInline(heading[2], `heading-${index}`, seenTerms, glossaryEntries, false)}</Level>);
       index += 1;
       continue;
     }
@@ -258,7 +260,7 @@ export default function MarkdownRenderer({ source }) {
       const rows = [];
       index += 2;
       while (index < lines.length && lines[index].includes("|") && lines[index].trim()) { rows.push(tableCells(lines[index])); index += 1; }
-      blocks.push(<div className="markdown-table-wrap" key={`table-${index}`}><table><thead><tr>{headers.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell, `th-${index}-${cellIndex}`, seenTerms)}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell, `td-${rowIndex}-${cellIndex}`, seenTerms)}</td>)}</tr>)}</tbody></table></div>);
+      blocks.push(<div className="markdown-table-wrap" key={`table-${index}`}><table><thead><tr>{headers.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell, `th-${index}-${cellIndex}`, seenTerms, glossaryEntries)}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell, `td-${rowIndex}-${cellIndex}`, seenTerms, glossaryEntries)}</td>)}</tr>)}</tbody></table></div>);
       continue;
     }
 
@@ -268,7 +270,7 @@ export default function MarkdownRenderer({ source }) {
       const isChecklist = items.every((item) => /^\[[ xX]\]\s+/.test(item));
       blocks.push(<ul className={isChecklist ? "markdown-checklist" : undefined} key={`list-${index}`}>{items.map((item, itemIndex) => {
         const checkbox = item.match(/^\[([ xX])\]\s+(.+)$/);
-        return <li key={itemIndex}>{checkbox && <input type="checkbox" checked={checkbox[1].toLowerCase() === "x"} readOnly aria-label="Revision checklist item" />}{renderInline(checkbox ? checkbox[2] : item, `li-${index}-${itemIndex}`, seenTerms)}</li>;
+        return <li key={itemIndex}>{checkbox && <input type="checkbox" checked={checkbox[1].toLowerCase() === "x"} readOnly aria-label="Revision checklist item" />}{renderInline(checkbox ? checkbox[2] : item, `li-${index}-${itemIndex}`, seenTerms, glossaryEntries)}</li>;
       })}</ul>);
       continue;
     }
@@ -276,7 +278,7 @@ export default function MarkdownRenderer({ source }) {
     if (/^\d+\.\s+/.test(line)) {
       const items = [];
       while (index < lines.length && /^\d+\.\s+/.test(lines[index])) { items.push(lines[index].replace(/^\d+\.\s+/, "")); index += 1; }
-      blocks.push(<ol key={`ordered-${index}`}>{items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item, `oli-${index}-${itemIndex}`, seenTerms)}</li>)}</ol>);
+      blocks.push(<ol key={`ordered-${index}`}>{items.map((item, itemIndex) => <li key={itemIndex}>{renderInline(item, `oli-${index}-${itemIndex}`, seenTerms, glossaryEntries)}</li>)}</ol>);
       continue;
     }
 
@@ -286,8 +288,8 @@ export default function MarkdownRenderer({ source }) {
       const info = quote[0].match(/^\[!INFO\]\s*(?:\*\*)?(.+?)(?:\*\*)?$/i);
       if (info) {
         const body = quote.slice(1).join(" ").trim();
-        blocks.push(<aside className="markdown-callout markdown-callout-info" key={`callout-${index}`}><span className="markdown-callout-icon" aria-hidden="true">!</span><div><h3>{renderInline(info[1], `callout-title-${index}`, seenTerms, false)}</h3>{body && <p>{renderInline(body, `callout-body-${index}`, seenTerms)}</p>}</div></aside>);
-      } else blocks.push(<blockquote key={`quote-${index}`}>{renderInline(quote.join(" "), `quote-${index}`, seenTerms)}</blockquote>);
+        blocks.push(<aside className="markdown-callout markdown-callout-info" key={`callout-${index}`}><span className="markdown-callout-icon" aria-hidden="true">!</span><div><h3>{renderInline(info[1], `callout-title-${index}`, seenTerms, glossaryEntries, false)}</h3>{body && <p>{renderInline(body, `callout-body-${index}`, seenTerms, glossaryEntries)}</p>}</div></aside>);
+      } else blocks.push(<blockquote key={`quote-${index}`}>{renderInline(quote.join(" "), `quote-${index}`, seenTerms, glossaryEntries)}</blockquote>);
       continue;
     }
 
@@ -303,7 +305,7 @@ export default function MarkdownRenderer({ source }) {
       paragraph.push(lines[index].trim());
       index += 1;
     }
-    blocks.push(<p key={`paragraph-${index}`}>{paragraph.flatMap((paragraphLine, lineIndex) => [lineIndex > 0 && <br key={`break-${lineIndex}`} />, ...renderInline(paragraphLine, `p-${index}-${lineIndex}`, seenTerms)])}</p>);
+    blocks.push(<p key={`paragraph-${index}`}>{paragraph.flatMap((paragraphLine, lineIndex) => [lineIndex > 0 && <br key={`break-${lineIndex}`} />, ...renderInline(paragraphLine, `p-${index}-${lineIndex}`, seenTerms, glossaryEntries)])}</p>);
   }
 
   return <div className="markdown-content">{blocks}</div>;

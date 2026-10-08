@@ -109,7 +109,7 @@ export default function MarkdownNotePage() {
           <div className="note-metadata"><span><FiEdit3 /> {note.author}</span>{note.updated && <span><FiCalendar /> Updated {note.updated}</span>}</div>
         </header>
         {needsTopicImage && <TopicImage key={`${subjectId}-${section.id}`} query={`${section.title} ${subject?.name || subjectId}`} alt={`${section.title} revision illustration`} />}
-        <MarkdownRenderer source={source} />
+        <MarkdownRenderer source={source} glossary={subjectId === "maths" ? "maths" : "science"} />
         <NoteStudyFooter note={note} section={section} topic={curriculumTopic} flashcardDeck={flashcardDeck} previous={pages[pageIndex - 1]} next={pages[pageIndex + 1]} completeTopic={sectionIndex === note.sections.length - 1} />
       </article>
     </main>

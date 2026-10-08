@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiBookOpen, FiChevronDown, FiLayers, FiSidebar, FiTarget } from "react-icons/fi";
+import { FiBookOpen, FiChevronDown, FiHome, FiLayers, FiSidebar, FiTarget } from "react-icons/fi";
 import { findSubject } from "../data/scienceCurriculum";
 import { mathsSubject } from "../data/subjectConfig";
 import { subjectIcons } from "../data/subjectVisuals";
@@ -16,6 +16,7 @@ export default function SubjectCourseSidebar({ subject, activeResource, onCollap
   const isMaths = subject.id === "maths";
   const SubjectIcon = subjectIcons[subject.id] || FiBookOpen;
   const resources = [
+    { id: "overview", label: "Course Resources", icon: FiHome, to: `/subjects/${subject.id}` },
     { id: "notes", label: "Revision Notes", icon: FiBookOpen, to: isMaths ? "/notes/maths" : `/notes/${subject.id}` },
     { id: "flashcards", label: "Flashcards", icon: FiLayers, to: `/flashcards/${subject.name}` },
     { id: "practice", label: "Practice Questions", icon: FiTarget, to: `/examquestions?subject=${subject.id}` },
@@ -37,14 +38,14 @@ export default function SubjectCourseSidebar({ subject, activeResource, onCollap
       <span className="subject-sidebar-label">Course</span>
       <details className="subject-switcher">
         <summary aria-label={`Switch from ${subject.name}`} title={collapsed ? subject.name : undefined}>
-          <SubjectIcon />
+          <SubjectIcon className="subject-switcher-icon" />
           <span>{subject.name}</span>
           <FiChevronDown className="subject-switcher-chevron" />
         </summary>
         <div className="subject-switcher-options">
           {subjectIds.filter((id) => id !== subject.id).map((id) => {
             const Icon = subjectIcons[id] || FiBookOpen;
-            return <Link to={`/subjects/${id}`} style={{ "--switcher-subject-color": subjectColor(id) }} key={id}><Icon /><span>{subjectName(id)}</span></Link>;
+            return <Link to={`/subjects/${id}`} style={{ "--switcher-subject-color": subjectColor(id) }} key={id}><Icon className="subject-switcher-icon" /><span>{subjectName(id)}</span></Link>;
           })}
         </div>
       </details>

@@ -122,6 +122,9 @@ export default function Flashcards() {
   const subjectDecks = decks[resolvedSubject] || [];
   const showDeckSidebar = Boolean(deck && resolvedSubject);
   const cardPosition = review ? Math.min(review.learned.length + 1, cards.length) : 0;
+  const mathsYears = ['7', '8', '9'];
+  const deckYear = deck?.title?.match(/^Year (7|8|9):/)?.[1] || '';
+  const firstDeckForYear = year => subjectDecks.find(item => item.title.startsWith(`Year ${year}:`));
 
   function shuffleRemaining() {
     if (!review || review.queue.length < 2) return;
@@ -146,19 +149,33 @@ export default function Flashcards() {
   }
 
   useEffect(() => {
-    function flipWithSpace(event) {
-      if (event.code !== 'Space' || event.repeat || loading || done || resetOpen || !card) return;
+    function handleStudyKey(event) {
+      if (event.repeat || loading || done || resetOpen || !card) return;
       if (event.target.closest('button, input, textarea, select, a, [contenteditable="true"]')) return;
-      event.preventDefault();
-      setRevealed(current => !current);
+
+      if (event.code === 'Space') {
+        event.preventDefault();
+        setRevealed(current => !current);
+        return;
+      }
+
+      if (!revealed || !review) return;
+      if (event.code === 'Digit1' || event.code === 'Numpad1') {
+        event.preventDefault();
+        persist(rateReview(review, 'wrong'));
+      }
+      if (event.code === 'Digit2' || event.code === 'Numpad2') {
+        event.preventDefault();
+        persist(rateReview(review, 'right'));
+      }
     }
 
-    window.addEventListener('keydown', flipWithSpace);
-    return () => window.removeEventListener('keydown', flipWithSpace);
-  }, [loading, done, resetOpen, card]);
+    window.addEventListener('keydown', handleStudyKey);
+    return () => window.removeEventListener('keydown', handleStudyKey);
+  }, [loading, done, resetOpen, card, revealed, review]);
 
   return <main className={showDeckSidebar ? `flashcard-reader-shell${deckSidebarHidden ? ' topics-hidden' : ''}` : 'flashcard-standalone'}>
-    {showDeckSidebar && <aside className="flashcard-reader-aside"><div className="flashcard-reader-aside-heading"><strong>Flashcards</strong><NoteTopicsToggle hidden={deckSidebarHidden} onToggle={toggleDeckSidebar} /></div><div className="flashcard-reader-aside-content"><div className="flashcard-reader-title"><Link to={`/flashcards/${resolvedSubject}`}>View all topics <FiArrowRight /></Link></div><nav className="flashcard-topic-outline" aria-label={`${resolvedSubject} flashcard chapters`}>{subjectDecks.map((item, index) => { const active = item.id === chapter; const open = active && !collapsedDecks.has(item.id); const progress = active && cards.length ? `${Math.round((review?.learned.length || 0) / cards.length * 100)}%` : '0%'; const summary = <><span className="flashcard-topic-progress" style={{ '--deck-progress': progress }} aria-hidden="true" /><span><strong>{index + 1}. {item.title.replace(/^Year \d: /, '')}</strong><small>1 Topic</small></span><FiChevronDown /></>; return <section className={`flashcard-topic-card${open ? ' open' : ''}`} key={item.id}>{active ? <button type="button" className="flashcard-topic-summary" aria-expanded={open} onClick={() => toggleDeckOutline(item.id)}>{summary}</button> : <Link className="flashcard-topic-summary" to={`/flashcards/${resolvedSubject}/${item.id}`}>{summary}</Link>}<div className="flashcard-topic-collapse" aria-hidden={!open}><div><Link className="flashcard-topic-current" to={`/flashcards/${resolvedSubject}/${item.id}`} tabIndex={open ? undefined : -1}>{item.title.replace(/^Year \d: /, '')}</Link></div></div></section>; })}</nav></div></aside>}
+    {showDeckSidebar && <aside className="flashcard-reader-aside"><div className="flashcard-reader-aside-heading"><strong>Flashcards</strong><NoteTopicsToggle hidden={deckSidebarHidden} onToggle={toggleDeckSidebar} /></div><div className="flashcard-reader-aside-content"><div className="flashcard-reader-title"><Link to={`/flashcards/${resolvedSubject}`}>View all topics <FiArrowRight /></Link></div>{resolvedSubject === 'Maths' && <><span>Switch year</span><nav className="math-reader-year-switcher" aria-label="Switch maths year group">{mathsYears.map(year => { const firstDeck = firstDeckForYear(year); return firstDeck ? <Link className={deckYear === year ? 'active' : ''} aria-current={deckYear === year ? 'true' : undefined} to={deckYear === year ? `/flashcards/${resolvedSubject}/${chapter}` : `/flashcards/${resolvedSubject}/${firstDeck.id}`} key={year}>Y{year}</Link> : null; })}</nav></>}<nav className="flashcard-topic-outline" aria-label={`${resolvedSubject} flashcard chapters`}>{subjectDecks.map((item, index) => { const active = item.id === chapter; const open = active && !collapsedDecks.has(item.id); const progress = active && cards.length ? `${Math.round((review?.learned.length || 0) / cards.length * 100)}%` : '0%'; const summary = <><span className="flashcard-topic-progress" style={{ '--deck-progress': progress }} aria-hidden="true" /><span><strong>{index + 1}. {item.title.replace(/^Year \d: /, '')}</strong><small>1 Topic</small></span><FiChevronDown /></>; return <section className={`flashcard-topic-card${open ? ' open' : ''}`} key={item.id}>{active ? <button type="button" className="flashcard-topic-summary" aria-expanded={open} onClick={() => toggleDeckOutline(item.id)}>{summary}</button> : <Link className="flashcard-topic-summary" to={`/flashcards/${resolvedSubject}/${item.id}`}>{summary}</Link>}<div className="flashcard-topic-collapse" aria-hidden={!open}><div><Link className="flashcard-topic-current" to={`/flashcards/${resolvedSubject}/${item.id}`} tabIndex={open ? undefined : -1}>{item.title.replace(/^Year \d: /, '')}</Link></div></div></section>; })}</nav></div></aside>}
     <section className="recall-page">
     <header className="recall-header"><div><span>{resolvedSubject || 'Personal revision'}{deck ? ` · Chapter ${deck.chapter}` : ''}</span><strong>{cards.length ? `${cardPosition}/${cards.length}` : ''}</strong></div><h1>{deck?.title || customName}</h1><p>Click the card or press Space to flip it, then decide whether it still needs work.</p></header>
     {loading ? <p role="status">Loading your deck and progress…</p> : <>
@@ -168,7 +185,7 @@ export default function Flashcards() {
         <progress className="recall-progress" value={review.learned.length} max={cards.length} aria-label="Cards learned" />
         <div className="recall-status" aria-live="polite"><span className="still-learning"><b>{review.queue.length}</b> Still learning</span><button className="know" onClick={() => { setHistoryTab('learned'); document.getElementById('recall-history')?.scrollIntoView({ behavior: 'smooth' }); }}>Know <b>{review.learned.length}</b></button></div>
         <section className="recall-study-stage" ref={studyStageRef}>
-          {done ? <section className="recall-card recall-complete"><FiCheck /><h2>Deck learned</h2><p>You know all {cards.length} cards. Your review history is below.</p></section> : <div className="recall-card-scene"><button className={`recall-card ${revealed ? 'is-flipped' : ''}`} type="button" aria-label={revealed ? 'Showing answer. Click to show the question.' : 'Showing question. Click to reveal the answer.'} aria-pressed={revealed} onClick={() => setRevealed(!revealed)}><span className="recall-card-face recall-card-front"><span className="recall-card-toolbar"><b>Front</b><span>{deck?.title || customName}</span></span><span className="recall-card-copy"><InlineMath value={card.front} /></span><span className="recall-flip-hint">Click to reveal <FiRotateCcw /></span></span><span className="recall-card-face recall-card-back"><span className="recall-card-toolbar"><b>Back</b><span>{deck?.title || customName}</span></span><span className="recall-card-copy"><InlineMath value={card.back} /></span><span className="recall-flip-hint">Click to see question <FiRotateCcw /></span></span></button>{revealed && <div className="recall-rating-dock" aria-label="Rate your recall"><button className="rating-wrong" onClick={() => persist(rateReview(review, 'wrong'))} aria-label="Still learning">🤔</button><button className="rating-right" onClick={() => persist(rateReview(review, 'right'))} aria-label="I know this">😀</button></div>}</div>}
+          {done ? <section className="recall-card recall-complete"><FiCheck /><h2>Deck learned</h2><p>You know all {cards.length} cards. Your review history is below.</p></section> : <div className="recall-card-scene"><button className={`recall-card ${revealed ? 'is-flipped' : ''}`} type="button" aria-label={revealed ? 'Showing answer. Click to show the question.' : 'Showing question. Click to reveal the answer.'} aria-pressed={revealed} onClick={() => setRevealed(!revealed)}><span className="recall-card-face recall-card-front"><span className="recall-card-toolbar"><b>Front</b><span>{deck?.title || customName}</span></span><span className="recall-card-copy"><InlineMath value={card.front} /></span><span className="recall-flip-hint">Click to reveal <FiRotateCcw /></span></span><span className="recall-card-face recall-card-back"><span className="recall-card-toolbar"><b>Back</b><span>{deck?.title || customName}</span></span><span className="recall-card-copy"><InlineMath value={card.back} /></span><span className="recall-flip-hint">Click to see question <FiRotateCcw /></span></span></button>{revealed && <div className="recall-rating-dock" aria-label="Rate your recall"><button className="rating-wrong" onClick={() => persist(rateReview(review, 'wrong'))} aria-label="Still learning, keyboard shortcut 1"><span aria-hidden="true">🤔</span><span className="recall-rating-tooltip" role="tooltip"><span>Still learning</span><kbd>1</kbd></span></button><button className="rating-right" onClick={() => persist(rateReview(review, 'right'))} aria-label="I know this, keyboard shortcut 2"><span aria-hidden="true">😀</span><span className="recall-rating-tooltip" role="tooltip"><span>I know this</span><kbd>2</kbd></span></button></div>}</div>}
         </section>
         {!done && <div className="recall-study-tools"><button className="recall-help" onClick={() => setRevealed(true)}>Stuck? <span>Help with this card</span></button><div><button className="recall-tool-icon" onClick={shuffleRemaining} aria-label="Shuffle flashcards"><FiShuffle /></button><button className="recall-fullscreen" onClick={enterFullScreen}><FiMaximize /> Full screen</button></div></div>}
         <div className="recall-actions"><button onClick={() => navigate(showDeckSidebar ? `/subjects/${resolvedSubject.toLowerCase()}` : '/flashcards')}><FiArrowLeft /> {showDeckSidebar ? 'Course Resources' : 'All subjects'}</button><span role="status">{saveStatus}</span><button onClick={() => setResetOpen(true)}><FiRotateCcw /> Reset deck</button></div>

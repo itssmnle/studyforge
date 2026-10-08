@@ -71,9 +71,9 @@
 }
 
 :root.dark {
-  --forge-accent: #7c3aed;
-  --forge-accent-strong: #6d28d9;
-  --forge-accent-soft: #2f1b56;
-  --forge-accent-highlight: #7c3aed;
+  --forge-accent: #a276f2;
+  --forge-accent-strong: #8258d5;
+  --forge-accent-soft: #2d2145;
+  --forge-accent-highlight: #b596ff;
   --forge-success-soft: #173c2b;
 }

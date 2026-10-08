@@ -16,15 +16,21 @@
 /* Save My Exams-inspired study workspace, retaining StudyForge subject colours. */
 .flashcard-reader-title{margin-bottom:26px}.flashcard-reader-title a{display:flex;align-items:center;justify-content:space-between;min-height:42px;padding:0 12px;border:1px solid var(--border);border-radius:8px;color:var(--text);font:100 .61rem "JakartaSansBold"}.flashcard-reader-title a svg{transform:none}.flashcard-reader-title a:hover{border-color:var(--subject-color);color:var(--subject-color)}
 .flashcard-topic-outline{display:grid;gap:8px;padding:0 4px 52px}.flashcard-topic-card{overflow:hidden;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card)}.flashcard-topic-summary{display:grid;grid-template-columns:24px minmax(0,1fr) 26px;align-items:center;gap:10px;min-height:60px;padding:13px 14px;color:var(--text)}.flashcard-topic-summary:hover{background:color-mix(in srgb,var(--subject-secondary) 35%,var(--card))}.flashcard-topic-summary>span:nth-child(2){display:grid;gap:3px;min-width:0}.flashcard-topic-summary strong{display:-webkit-box;overflow:hidden;font:100 .72rem/1.35 "JakartaSansBold";-webkit-box-orient:vertical;-webkit-line-clamp:2}.flashcard-topic-summary small{color:var(--text-secondary);font-size:.54rem}.flashcard-topic-summary>svg{justify-self:end;transition:transform .2s ease}.flashcard-topic-card.open .flashcard-topic-summary>svg{transform:rotate(180deg)}.flashcard-topic-progress{--deck-progress:0%;position:relative;box-sizing:border-box;width:24px;height:24px;border-radius:50%;background:conic-gradient(var(--subject-color) 0 var(--deck-progress),color-mix(in srgb,var(--text-secondary) 22%,var(--card)) var(--deck-progress) 100%)}.flashcard-topic-progress:after{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--card)}.flashcard-topic-collapse{display:grid;grid-template-rows:0fr;overflow:hidden;opacity:0;border-top:0 solid transparent;transition:grid-template-rows .22s ease,opacity .14s ease,border-color .14s ease}.flashcard-topic-collapse>div{min-height:0;overflow:hidden}.flashcard-topic-card.open .flashcard-topic-collapse{grid-template-rows:1fr;opacity:1;border-top-width:1px;border-top-color:var(--border)}.flashcard-topic-current{display:block;margin:6px;padding:13px 14px;border-radius:6px;background:color-mix(in srgb,var(--subject-color) 12%,var(--card));color:var(--text);font:100 .65rem/1.45 "JakartaSansBold"}
-.flashcard-reader-shell .recall-page{padding:0 12px 80px 0}.recall-header{margin:0 0 18px;text-align:left}.recall-header>div{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:12px}.recall-header>div>span{color:var(--subject-color);font:100 .59rem "JakartaSansBold";text-transform:uppercase;letter-spacing:.09em}.recall-header>div>strong{color:var(--text);font:100 .72rem "JakartaSansBold"}.recall-header h1{margin:0 0 7px;font:100 1.35rem/1.25 "JakartaSansBold"}.recall-header p{margin:0;color:var(--text-secondary);font-size:.64rem}.recall-progress{display:block;width:100%;height:3px;margin:0 0 18px;border:0;background:color-mix(in srgb,var(--subject-color) 10%,var(--border));accent-color:var(--subject-color)}.recall-progress::-webkit-progress-bar{background:color-mix(in srgb,var(--subject-color) 10%,var(--border))}.recall-progress::-webkit-progress-value{background:var(--subject-color)}.recall-status{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px;font:100 .68rem "JakartaSansBold"}.recall-status>span,.recall-status>button{display:flex;align-items:center;gap:9px;border:0;background:transparent}.recall-status b{min-width:32px;padding:4px 10px;border:1px solid currentColor;border-radius:20px;text-align:center;font:100 .64rem "JakartaSansBold"}.recall-status .still-learning{color:#db5a2f}.recall-status .know{color:#1c8b45;cursor:pointer}.recall-study-stage{position:relative}.recall-card-scene{position:relative;min-height:460px;padding-top:12px;perspective:1600px}.recall-card-scene:before,.recall-card-scene:after{content:"";position:absolute;left:18px;right:18px;height:28px;border:1px solid var(--border);border-radius:14px 14px 0 0;background:var(--card);box-shadow:0 12px 28px rgba(30,28,50,.08)}.recall-card-scene:before{top:0;left:34px;right:34px;opacity:.55}.recall-card-scene:after{top:7px;opacity:.8}.recall-card{z-index:2;min-height:448px;border-radius:14px;box-shadow:0 18px 42px rgba(34,31,55,.14)}.recall-card-face{padding:80px 42px 82px;border-radius:14px}.recall-card-back{background:var(--card)}.recall-card-toolbar{position:absolute;top:0;left:28px;right:28px;min-height:58px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;border-bottom:1px solid var(--border);font-size:.69rem}.recall-card-toolbar b{justify-self:center;font:100 .7rem "JakartaSans"}.recall-card-toolbar span{max-width:340px;overflow:hidden;color:var(--text);text-decoration:underline;text-overflow:ellipsis;white-space:nowrap}.recall-card-copy{max-width:760px;font:100 1.35rem/1.55 "JakartaSans"}.recall-flip-hint{right:28px;bottom:24px;color:var(--subject-color)}.recall-rating-dock{position:absolute;z-index:5;left:50%;bottom:-30px;display:flex;gap:8px;padding:7px;border-radius:34px;background:var(--card);box-shadow:0 12px 30px rgba(34,31,55,.18);transform:translateX(-50%)}.recall-rating-dock button{width:64px;height:46px;border:1px solid currentColor;border-radius:25px;font-size:1.15rem;cursor:pointer}.recall-rating-dock .rating-wrong{background:#fac2ae;color:#ed6b3f}.recall-rating-dock .rating-right{background:#a9ecc5;color:#168844}.recall-study-tools{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:50px 0 24px}.recall-study-tools button{cursor:pointer}.recall-help{padding:0;border:0;background:transparent;color:var(--text);font:100 .7rem "JakartaSans"}.recall-help span{color:var(--subject-color)}.recall-study-tools>div{display:flex;align-items:center;gap:10px}.recall-tool-icon,.recall-fullscreen{min-height:42px;border:0;border-radius:24px;background:color-mix(in srgb,var(--subject-color) 9%,var(--card));color:var(--subject-color)}.recall-tool-icon{width:42px;display:grid;place-items:center;font-size:1rem}.recall-fullscreen{display:flex;align-items:center;gap:8px;padding:0 17px;font:100 .68rem "JakartaSansBold"}.recall-actions{margin:20px 0 34px;padding-top:20px;border-top:1px solid var(--border)}.recall-actions button{background:transparent}.recall-study-stage:fullscreen{display:grid;place-items:center;padding:40px;background:var(--bg-alt)}.recall-study-stage:fullscreen .recall-card-scene{width:min(1100px,90vw);min-height:min(700px,78vh)}.recall-study-stage:fullscreen .recall-card{min-height:min(688px,76vh)}
+.flashcard-reader-shell .recall-page{padding:40px 12px 80px 0}.recall-header{margin:0 0 18px;text-align:left}.recall-header>div{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:12px}.recall-header>div>span{color:var(--subject-color);font:100 .59rem "JakartaSansBold";text-transform:uppercase;letter-spacing:.09em}.recall-header>div>strong{color:var(--text);font:100 .72rem "JakartaSansBold"}.recall-header h1{margin:0 0 7px;font:100 1.35rem/1.25 "JakartaSansBold"}.recall-header p{margin:0;color:var(--text-secondary);font-size:.64rem}.recall-progress{display:block;width:100%;height:3px;margin:0 0 18px;border:0;background:color-mix(in srgb,var(--subject-color) 10%,var(--border));accent-color:var(--subject-color)}.recall-progress::-webkit-progress-bar{background:color-mix(in srgb,var(--subject-color) 10%,var(--border))}.recall-progress::-webkit-progress-value{background:var(--subject-color)}.recall-status{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px;font:100 .68rem "JakartaSansBold"}.recall-status>span,.recall-status>button{display:flex;align-items:center;gap:9px;border:0;background:transparent}.recall-status b{min-width:32px;padding:4px 10px;border:1px solid currentColor;border-radius:20px;text-align:center;font:100 .64rem "JakartaSansBold"}.recall-status .still-learning{color:#db5a2f}.recall-status .know{color:#1c8b45;cursor:pointer}.recall-study-stage{position:relative}.recall-card-scene{position:relative;min-height:460px;padding-top:12px;perspective:1600px}.recall-card-scene:before,.recall-card-scene:after{content:"";position:absolute;left:18px;right:18px;height:28px;border:1px solid var(--border);border-radius:14px 14px 0 0;background:var(--card);box-shadow:0 12px 28px rgba(30,28,50,.08)}.recall-card-scene:before{top:0;left:34px;right:34px;opacity:.55}.recall-card-scene:after{top:7px;opacity:.8}.recall-card{z-index:2;min-height:448px;border-radius:14px;box-shadow:0 18px 42px rgba(34,31,55,.14)}.recall-card-face{padding:80px 42px 82px;border-radius:14px}.recall-card-back{background:var(--card)}.recall-card-toolbar{position:absolute;top:0;left:28px;right:28px;min-height:58px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;border-bottom:1px solid var(--border);font-size:.69rem}.recall-card-toolbar b{justify-self:center;font:100 .7rem "JakartaSans"}.recall-card-toolbar span{max-width:340px;overflow:hidden;color:var(--text);text-decoration:underline;text-overflow:ellipsis;white-space:nowrap}.recall-card-copy{max-width:760px;font:100 1.35rem/1.55 "JakartaSans"}.recall-flip-hint{right:28px;bottom:24px;color:var(--subject-color)}.recall-rating-dock{position:absolute;z-index:5;left:50%;bottom:-30px;display:flex;gap:8px;padding:7px;border-radius:34px;background:var(--card);box-shadow:0 12px 30px rgba(34,31,55,.18);transform:translateX(-50%)}.recall-rating-dock button{position:relative;width:64px;height:46px;border:1px solid currentColor;border-radius:25px;font-size:1.15rem;cursor:pointer}.recall-rating-dock .rating-wrong{background:#fac2ae;color:#ed6b3f}.recall-rating-dock .rating-right{background:#a9ecc5;color:#168844}.recall-rating-tooltip{position:absolute;z-index:8;left:50%;bottom:calc(100% + 17px);min-width:max-content;display:grid;justify-items:center;gap:9px;padding:13px 15px;border-radius:10px;background:#303030;color:#fff;box-shadow:0 10px 25px rgba(20,20,24,.2);font:100 .72rem/1.25 "JakartaSans";opacity:0;pointer-events:none;transform:translate(-50%,7px);transition:opacity .14s ease,transform .14s ease}.recall-rating-tooltip::after{content:"";position:absolute;left:50%;bottom:-7px;width:14px;height:14px;border-radius:2px;background:#303030;transform:translateX(-50%) rotate(45deg)}.recall-rating-tooltip kbd{position:relative;z-index:1;min-width:30px;height:30px;display:grid;place-items:center;padding:0 8px;border:0;border-radius:9px;background:#606060;color:#fff;font:100 .66rem "JakartaSansBold";box-shadow:none}.recall-rating-dock button:hover .recall-rating-tooltip,.recall-rating-dock button:focus .recall-rating-tooltip{opacity:1;transform:translate(-50%,0)}.recall-study-tools{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:50px 0 24px}.recall-study-tools button{cursor:pointer}.recall-help{padding:0;border:0;background:transparent;color:var(--text);font:100 .7rem "JakartaSans"}.recall-help span{color:var(--subject-color)}.recall-study-tools>div{display:flex;align-items:center;gap:10px}.recall-tool-icon,.recall-fullscreen{min-height:42px;border:0;border-radius:24px;background:color-mix(in srgb,var(--subject-color) 9%,var(--card));color:var(--subject-color)}.recall-tool-icon{width:42px;display:grid;place-items:center;font-size:1rem}.recall-fullscreen{display:flex;align-items:center;gap:8px;padding:0 17px;font:100 .68rem "JakartaSansBold"}.recall-actions{margin:20px 0 34px;padding-top:20px;border-top:1px solid var(--border)}.recall-actions button{background:transparent}.recall-study-stage:fullscreen{display:grid;place-items:center;padding:40px;background:var(--bg-alt)}.recall-study-stage:fullscreen .recall-card-scene{width:min(1100px,90vw);min-height:min(700px,78vh)}.recall-study-stage:fullscreen .recall-card{min-height:min(688px,76vh)}
 @media(max-width:800px){.flashcard-topic-outline{display:flex;gap:8px;overflow-x:auto;padding:0 0 8px}.flashcard-topic-card{flex:0 0 220px}.flashcard-topic-collapse{display:none}.flashcard-reader-shell .recall-page{padding:0 0 60px}.recall-card-scene,.recall-card{min-height:390px}.recall-card-face{padding:76px 24px 75px}.recall-card-copy{font-size:1.05rem}}
 @media(max-width:560px){.recall-header h1{font-size:1.15rem}.recall-status{font-size:.6rem}.recall-card-scene,.recall-card{min-height:330px}.recall-card-toolbar{left:18px;right:18px;grid-template-columns:auto minmax(0,1fr)}.recall-card-toolbar span{font-size:.58rem}.recall-card-copy{font-size:.92rem}.recall-study-tools{align-items:flex-start;flex-direction:column}.recall-study-tools>div{align-self:flex-end}.recall-actions{flex-direction:column}.recall-actions>span{order:3}}
 @media(prefers-reduced-motion:reduce){.flashcard-topic-summary>svg,.flashcard-topic-collapse{transition:none}}
+
+@media(prefers-reduced-motion:reduce){.recall-rating-tooltip{transition:none}}
 
 /* Universal notes and flashcards topic sizing plus StudyForge interaction colour. */
 .flashcard-reader-title{margin-bottom:18px}
 .flashcard-reader-title a:hover{border-color:var(--forge-accent);color:var(--forge-accent)}
 .flashcard-topic-outline{gap:6px;padding-bottom:56px}
+
+/* Match the all-topics control to the inset chapter cards. */
+.flashcard-reader-title a{box-sizing:border-box;width:calc(100% - 8px);margin-inline:4px}
+.flashcard-topic-outline,.flashcard-topic-card{box-sizing:border-box;width:100%}
 .flashcard-topic-summary{width:100%;min-height:60px;border:0;background:transparent;text-align:left;cursor:pointer}
 .flashcard-topic-summary:hover{background:var(--bg-alt)}
 .flashcard-topic-summary strong{font-size:.74rem}
@@ -32,16 +38,71 @@
 .flashcard-topic-summary>svg{transition-duration:.16s}
 .flashcard-topic-card.open .flashcard-topic-summary>svg{transform:rotate(-180deg)}
 .flashcard-topic-progress{background:conic-gradient(var(--forge-accent) 0 var(--deck-progress),color-mix(in srgb,var(--text-secondary) 22%,var(--card)) var(--deck-progress) 100%)}
+
+/* Flashcards use the revision-notes rail and accordion behaviour verbatim. */
+.flashcard-reader-shell.topics-hidden{width:100%;grid-template-columns:44px minmax(0,1fr);gap:24px}
+.flashcard-reader-shell.topics-hidden .flashcard-reader-aside{min-height:100%}
+.flashcard-reader-shell.topics-hidden .flashcard-reader-aside-heading{position:relative;justify-content:center;min-height:44px;margin-right:0}
+.flashcard-reader-shell.topics-hidden .flashcard-reader-aside-heading>strong{display:none}
+.flashcard-reader-shell.topics-hidden .note-topics-toggle{position:absolute;top:0;right:0;width:44px;height:44px;transform:translateX(50%)}
+
+.flashcard-topic-collapse{display:grid;grid-template-rows:0fr;overflow:hidden;opacity:0;border-top:0 solid transparent;transition:grid-template-rows .18s ease,opacity .14s ease,border-color .14s ease}
+.flashcard-topic-collapse>div{display:grid;gap:7px;min-height:0;overflow:hidden;padding:0 8px;transition:padding .18s ease}
+.flashcard-topic-card.open .flashcard-topic-collapse{grid-template-rows:1fr;opacity:1;border-top-width:1px;border-top-color:var(--border)}
+.flashcard-topic-card.open .flashcard-topic-collapse>div{padding:8px}
+.flashcard-topic-current{margin:0;padding:13px 14px}
+
+@media(max-width:800px){
+  .flashcard-topic-collapse{display:none}
+}
 .flashcard-topic-collapse{transition-duration:.18s,.14s,.14s}
 .flashcard-topic-current{position:relative;display:grid;align-items:center;min-height:50px;margin:0;padding:5px 14px 5px 44px;border-radius:0;background:color-mix(in srgb,var(--forge-accent) 12%,var(--card));font:100 .72rem/1.45 "JakartaSans"}
 .flashcard-topic-current::before{content:"";position:absolute;left:20px;top:0;bottom:0;width:1px;background:var(--border)}
 .flashcard-topic-current::after{content:"";position:absolute;left:11px;width:20px;height:20px;box-sizing:border-box;border:2px solid var(--forge-accent);border-radius:50%;background:var(--forge-accent)}
+
+/* The selected deck fills the card edge, matching the active note treatment. */
+.flashcard-topic-collapse>div,.flashcard-topic-card.open .flashcard-topic-collapse>div{padding:0}
+.flashcard-topic-current{border-radius:0}
+.flashcard-topic-current::before{display:none}
+
+/* The current topic is an edge-to-edge row inside the rounded card. Remove
+   inner rounding and the seam above it so only the outer card is curved. */
+.flashcard-topic-card.open .flashcard-topic-collapse,
+.flashcard-topic-card.open .flashcard-topic-collapse>div,
+.flashcard-topic-card.open .flashcard-topic-current{
+  box-sizing:border-box;
+  border-radius:0;
+}
+.flashcard-topic-card.open .flashcard-topic-collapse{
+  border-top:0;
+}
+.flashcard-topic-card.open .flashcard-topic-current{
+  width:100%;
+}
 .recall-header>div>span,.recall-flip-hint,.recall-help span{color:var(--forge-accent)}
 .recall-progress{background:color-mix(in srgb,var(--forge-accent) 10%,var(--border));accent-color:var(--forge-accent)}
 .recall-progress::-webkit-progress-bar{background:color-mix(in srgb,var(--forge-accent) 10%,var(--border))}
 .recall-progress::-webkit-progress-value{background:var(--forge-accent)}
 .recall-tool-icon,.recall-fullscreen{border:1px solid transparent;background:color-mix(in srgb,var(--forge-accent) 9%,var(--card));color:var(--forge-accent)}
 .recall-tool-icon:hover,.recall-fullscreen:hover{border-color:var(--forge-accent);background:var(--card)}
+
+/* Keep the learning counters visually identical on both sides of the card. */
+.recall-status>span,
+.recall-status>button{
+  min-height:32px;
+  padding:0;
+  color:currentColor;
+  font:100 .68rem/1 "JakartaSansBold";
+}
+.recall-status b{
+  box-sizing:border-box;
+  min-width:42px;
+  height:28px;
+  display:grid;
+  place-items:center;
+  padding:0 12px;
+  line-height:1;
+}
 
 /* Learning history follows the same contained card system as the study area. */
 .recall-history{margin-top:8px;padding:24px;border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--card);box-shadow:none}
@@ -61,3 +122,45 @@
 .recall-card-scene::before,.recall-card-scene::after{height:auto;border-radius:14px}
 .recall-card-scene::before{bottom:12px}
 .recall-card-scene::after{bottom:5px}
+
+/* The study card is a contained reading surface. Keep the stack legible in light
+   mode, but do not make dark mode look like a glowing floating panel. */
+.recall-card-scene:before,
+.recall-card-scene:after {
+  box-shadow: none;
+}
+.recall-card-scene:before {
+  border-color: color-mix(in srgb, var(--border) 70%, transparent);
+  background: var(--bg-alt);
+}
+.recall-card-scene:after {
+  border-color: color-mix(in srgb, var(--border) 84%, transparent);
+  background: var(--card);
+}
+.recall-card {
+  box-shadow: 0 12px 28px rgb(34 31 55 / 10%);
+}
+.recall-card-face {
+  border-color: var(--border);
+  background: var(--card);
+}
+.recall-rating-dock {
+  box-shadow: 0 8px 22px rgb(34 31 55 / 12%);
+}
+
+:root.dark .recall-card-scene:before,
+:root.dark .recall-card-scene:after {
+  background: var(--bg);
+  border-color: var(--border);
+}
+:root.dark .recall-card {
+  box-shadow: none;
+}
+:root.dark .recall-card-face {
+  background: var(--card);
+  border-color: var(--border-2);
+}
+:root.dark .recall-rating-dock {
+  box-shadow: none;
+  border: 1px solid var(--border);
+}

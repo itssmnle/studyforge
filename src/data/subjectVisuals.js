@@ -1,8 +1,8 @@
-import { FiActivity, FiAperture, FiGrid, FiZap } from "react-icons/fi";
+import { FiDroplet, FiHeart, FiHash, FiZap } from "react-icons/fi";
 
 export const subjectIcons = {
-  biology: FiActivity,
-  chemistry: FiAperture,
+  biology: FiHeart,
+  chemistry: FiDroplet,
   physics: FiZap,
-  maths: FiGrid,
+  maths: FiHash,
 };

@@ -17,7 +17,6 @@ export default function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
   const navRef = useRef(null);
-  const exploreCloseTimer = useRef(null);
   const [openMenu, setOpenMenu] = useState(null);
   const [query, setQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -36,14 +35,10 @@ export default function Navbar() {
 
   useEffect(() => {
     const close = () => {
-      window.clearTimeout(exploreCloseTimer.current);
       setOpenMenu(null);
     };
     window.addEventListener("click", close);
-    return () => {
-      window.removeEventListener("click", close);
-      window.clearTimeout(exploreCloseTimer.current);
-    };
+    return () => window.removeEventListener("click", close);
   }, []);
 
   const search = (event) => {
@@ -53,17 +48,8 @@ export default function Navbar() {
       setQuery("");
     }
   };
-  const openExplore = () => {
-    window.clearTimeout(exploreCloseTimer.current);
-    setOpenMenu("explore");
-  };
   const closeExplore = () => {
-    window.clearTimeout(exploreCloseTimer.current);
     setOpenMenu((menu) => menu === "explore" ? null : menu);
-  };
-  const scheduleExploreClose = () => {
-    window.clearTimeout(exploreCloseTimer.current);
-    exploreCloseTimer.current = window.setTimeout(closeExplore, 220);
   };
   const studentFeatures = [
     { to: "/notes", icon: FiBookOpen, label: "Revision notes" },
@@ -78,10 +64,10 @@ export default function Navbar() {
       <div className="nav-inner">
         <div className="nav-zone nav-zone-left">
           <div className="explore-wrap">
-            <button className={`explore-button ${openMenu === "explore" ? "active" : ""}`} aria-expanded={openMenu === "explore"} aria-controls="explore-menu" onMouseEnter={openExplore} onMouseLeave={scheduleExploreClose} onFocus={openExplore} onClick={() => openMenu === "explore" ? closeExplore() : openExplore()}>
+            <button className={`explore-button ${openMenu === "explore" ? "active" : ""}`} aria-expanded={openMenu === "explore"} aria-controls="explore-menu" onClick={() => setOpenMenu(menu => menu === "explore" ? null : "explore")}>
               Explore <FiChevronDown />
             </button>
-            <div className={`explore-menu ${openMenu === "explore" ? "show" : ""}`} id="explore-menu" onMouseEnter={openExplore} onMouseLeave={scheduleExploreClose}>
+            <div className={`explore-menu ${openMenu === "explore" ? "show" : ""}`} id="explore-menu">
               <section className="explore-feature-column"><span>Features</span>{exploreFeatures.map((feature) => { const FeatureIcon = feature.icon; return <Link to={feature.to} key={feature.to} onClick={closeExplore}><FeatureIcon />{feature.label}</Link>; })}<Link to="/about" onClick={closeExplore}><FiInfo />About us</Link></section>
               {user?.role !== "teacher" && <section className="explore-subject-column"><span>Subjects</span>{exploreSubjectIds.map((id) => noteSubjects.find((subject) => subject.id === id)).filter(Boolean).map((subject) => { const SubjectIcon = subjectIcons[subject.id]; return <Link to={`/subjects/${subject.id}`} key={subject.id} onClick={closeExplore} style={{ "--subject-color": subject.color, "--subject-secondary": subject.secondaryColor }}><SubjectIcon className="course-dot" /><span className="explore-subject-name">{subject.name}{subject.id === "maths" ? <span className="explore-new-badge">New</span> : null}</span></Link>; })}</section>}
             </div>

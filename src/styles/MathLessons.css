@@ -1,61 +1,61 @@
-.math-lessons-index{max-width:1120px;padding-top:34px;padding-bottom:80px}
+.math-lessons-index{max-width:1120px;padding-top:40px;padding-bottom:80px}
 .math-index-hero{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:32px;padding:0 0 36px;border-bottom:1px solid var(--border)}
 .math-index-hero>.back-link{grid-column:1/-1;width:max-content}
-.math-index-hero header .eyebrow{color:var(--subject-color)}
+.math-index-hero header .eyebrow{color:var(--forge-accent)}
 .math-index-hero header h1{margin:8px 0 10px;color:var(--text);font:100 var(--type-page-title)/1.2 "JakartaSansBold";letter-spacing:-.035em}
 .math-index-hero header p{max-width:660px;margin:0;color:var(--text-secondary);font-size:.82rem;line-height:1.65}
-.math-index-stat{display:flex;align-items:center;gap:12px;padding:16px 18px;border-left:3px solid var(--subject-color);background:color-mix(in srgb,var(--subject-secondary) 40%,var(--card))}
-.math-index-stat strong{font:100 2rem/1 "JakartaSansBold";color:var(--subject-color)}
+.math-index-stat{display:flex;align-items:center;gap:12px;padding:16px 18px;border-left:3px solid var(--forge-accent);background:color-mix(in srgb,var(--forge-accent) 7%,var(--card))}
+.math-index-stat strong{font:100 2rem/1 "JakartaSansBold";color:var(--forge-accent)}
 .math-index-stat span{color:var(--text-secondary);font-size:.62rem;line-height:1.45}
-.math-year-switcher{display:grid;grid-template-columns:repeat(3,1fr);margin:28px 0 24px;border:1px solid var(--border);border-radius:14px;background:var(--card);overflow:hidden}
+.math-year-switcher{box-sizing:border-box;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;margin:28px 0 24px;border:1px solid var(--border);border-radius:14px;background:var(--card);overflow:hidden}
 .math-year-switcher button{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:74px;padding:15px 22px;border:0;border-right:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer;text-align:left}
 .math-year-switcher button:last-child{border-right:0}
 .math-year-switcher button::after{content:"";position:absolute;left:20px;right:20px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:transparent}
-.math-year-switcher button:hover{background:var(--bg-alt)}
-.math-year-switcher button.active{background:color-mix(in srgb,var(--subject-secondary) 32%,var(--card));color:var(--subject-color)}
-.math-year-switcher button.active::after{background:var(--subject-color)}
+.math-year-switcher button:hover{background:var(--surface-hover-subtle)}
+.math-year-switcher button.active{background:color-mix(in srgb,var(--forge-accent) 9%,var(--card));color:var(--forge-accent)}
+.math-year-switcher button.active::after{background:var(--forge-accent)}
 .math-year-switcher span{font:100 .9rem "JakartaSansBold"}
 .math-year-switcher small{color:var(--text-secondary);font-size:.6rem}
 .science-year-switcher{grid-template-columns:repeat(2,1fr)}
 .science-reader-year{grid-template-columns:1fr}
 .math-library-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:26px}
 .science-notes-toolbar{margin-top:28px}
-.math-lesson-search{display:flex;align-items:center;gap:12px;width:min(520px,100%);padding:0 16px;border:1px solid var(--border);border-radius:10px;background:var(--card);color:var(--subject-color)}
+.math-lesson-search{display:flex;align-items:center;gap:12px;width:min(520px,100%);padding:0 16px;border:1px solid var(--border);border-radius:10px;background:var(--card);color:var(--forge-accent)}
 .math-lesson-search input{width:100%;min-height:48px;border:0;outline:0;background:transparent;color:var(--text);font:100 .74rem "JakartaSans"}
 .math-lesson-search input::placeholder{color:var(--text-secondary)}
 .math-lesson-count{margin:0;color:var(--text-secondary);font-size:.64rem;white-space:nowrap}
 .math-topic-browser{padding:28px;border:1px solid var(--border);border-radius:16px;background:var(--card)}
 .math-topic-browser-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.math-topic-browser-heading .eyebrow{color:var(--subject-color)}
+.math-topic-browser-heading .eyebrow{color:var(--forge-accent)}
 .math-topic-browser-heading h2{margin:5px 0 0;font:100 1.45rem "JakartaSansBold"}
 .math-topic-browser-heading>span{color:var(--text-secondary);font-size:.62rem}
 .math-category-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:18px;margin-top:20px}
 .math-category-card{overflow:hidden;border:1px solid var(--border);border-radius:12px;background:var(--bg-alt)}
 .math-category-summary,.math-topic-accordion>button{display:grid;grid-template-columns:24px minmax(0,1fr) 32px;align-items:center;gap:12px;width:100%;border:0;background:transparent;color:var(--text);text-align:left;cursor:pointer}
 .math-category-summary{min-height:76px;padding:15px}
-.math-category-summary:hover,.math-topic-accordion>button:hover{background:color-mix(in srgb,var(--subject-secondary) 30%,transparent)}
+.math-category-summary:hover,.math-topic-accordion>button:hover{background:var(--surface-hover-subtle)}
 .math-category-summary>span:nth-child(2),.math-topic-accordion>button>span:nth-child(2){display:grid;gap:4px;min-width:0}
 .math-category-summary strong,.math-topic-accordion strong{font:100 .72rem/1.4 "JakartaSansBold"}
 .math-category-summary small,.math-topic-accordion small{color:var(--text-secondary);font-size:.54rem}
 .math-category-summary>svg,.math-topic-accordion>button>svg,.math-reader-category>button>svg,.math-reader-topic>button>svg{justify-self:end;transition:transform .16s ease}
 .math-category-card.open>.math-category-summary>svg,.math-topic-accordion.open>button>svg,.math-reader-category.open>button>svg,.math-reader-topic.open>button>svg{transform:rotate(-180deg)}
-.math-outline-marker{--topic-progress:0%;position:relative;box-sizing:border-box;width:24px;height:24px;border:0;border-radius:50%;background:conic-gradient(var(--subject-color) 0 var(--topic-progress),color-mix(in srgb,var(--text-secondary) 22%,var(--card)) var(--topic-progress) 100%)}
+.math-outline-marker{--topic-progress:0%;position:relative;box-sizing:border-box;width:24px;height:24px;border:0;border-radius:50%;background:conic-gradient(var(--forge-accent) 0 var(--topic-progress),color-mix(in srgb,var(--text-secondary) 22%,var(--card)) var(--topic-progress) 100%)}
 .math-outline-marker::after{content:"";position:absolute;inset:5px;border-radius:50%;background:var(--card)}
 .math-category-topics{display:grid;gap:10px;padding:12px;border-top:1px solid var(--border);background:var(--card)}
 .math-library-collapse,.math-library-topic-collapse{display:grid;grid-template-rows:0fr;overflow:hidden;opacity:0;transition:grid-template-rows .24s ease,opacity .16s ease}.math-category-card.open>.math-library-collapse,.math-topic-accordion.open>.math-library-topic-collapse{grid-template-rows:1fr;opacity:1}.math-library-collapse-inner{min-height:0;overflow:hidden}
 .math-topic-accordion{overflow:hidden;border:1px solid var(--border);border-radius:9px;background:var(--card)}
 .math-topic-accordion>button{min-height:58px;padding:10px 12px}
-.math-topic-accordion nav{position:relative;display:grid;padding:2px 12px 12px 42px;border-top:1px solid var(--border)}
-.math-topic-accordion nav::before,.math-reader-sections::before{content:"";position:absolute;left:21px;top:0;bottom:18px;width:1px;background:var(--border)}
+.math-topic-accordion nav{position:relative;display:grid;padding:2px 12px 12px;border-top:1px solid var(--border)}
+.math-topic-accordion nav::before,.math-reader-sections::before{display:none}
 .math-topic-accordion nav a{position:relative;display:grid;grid-template-columns:16px minmax(0,1fr) 16px;align-items:center;gap:10px;min-height:42px;color:var(--text-secondary);font-size:.61rem}
-.math-topic-accordion nav a:hover{color:var(--subject-color)}
+.math-topic-accordion nav a:hover{color:inherit}
 .math-note-node{position:relative;z-index:1;box-sizing:border-box;width:20px;height:20px;display:grid;place-items:center;border:2px solid color-mix(in srgb,var(--text-secondary) 42%,var(--card));border-radius:50%;background:var(--card);color:#fff}
 .math-note-node svg{width:12px;height:12px;stroke-width:3}
 .math-note-node.is-completed{border-color:#21a366;background:#21a366}
-.math-note-node.is-current{border-color:var(--forge-accent);background:var(--forge-accent)}
-.math-topic-accordion nav a>svg{color:var(--subject-color)}
+.math-note-node.is-completed.is-active,.math-note-node.is-current{border-color:var(--forge-accent);background:var(--forge-accent)}
+.math-topic-accordion nav a>svg{color:var(--forge-accent)}
 .math-topic-empty{grid-column:1/-1;display:grid;place-items:center;gap:8px;padding:54px;color:var(--text-secondary);text-align:center}
-.math-topic-empty>svg{font-size:1.4rem;color:var(--subject-color)}
+.math-topic-empty>svg{font-size:1.4rem;color:var(--forge-accent)}
 .math-topic-empty strong{font:100 .8rem "JakartaSansBold";color:var(--text)}
 .math-topic-empty span{font-size:.64rem}
 .math-lesson-reader{width:min(var(--layout-max),calc(100% - 40px));grid-template-columns:var(--topic-rail-width) minmax(0,var(--reading-width))}
@@ -65,12 +65,12 @@
 .math-lesson-reader .note-reader-aside-content::-webkit-scrollbar{display:none}
 .math-reader-title{display:grid;gap:12px;margin-bottom:18px}
 .math-reader-title>a{display:flex;align-items:center;justify-content:space-between;min-height:42px;padding:0 12px;border:1px solid var(--border);border-radius:8px;color:var(--text);font:100 .61rem "JakartaSansBold"}
-.math-reader-title>a:hover{border-color:var(--subject-color);color:var(--subject-color)}
+.math-reader-title>a:hover{border-color:var(--forge-accent);color:var(--forge-accent)}
 .math-lesson-reader .note-reader-aside-content>span{color:var(--text-secondary);font-size:.54rem;text-transform:uppercase;letter-spacing:.08em}
 .math-reader-year-switcher{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0 24px}
 .math-reader-year-switcher a{display:grid;place-items:center;min-height:34px;border:1px solid var(--border);border-radius:7px;color:var(--text-secondary);font:100 .62rem "JakartaSansBold"}
-.math-reader-year-switcher a:hover{border-color:var(--subject-color);color:var(--subject-color)}
-.math-reader-year-switcher a.active{border-color:var(--subject-color);background:var(--subject-color);color:#fff}
+.math-reader-year-switcher a:hover{border-color:var(--forge-accent);color:var(--forge-accent)}
+.math-reader-year-switcher a.active{border-color:var(--forge-accent);background:var(--forge-accent);color:#fff}
 .math-reader-outline{display:grid;gap:6px;padding:0 4px 56px;scroll-padding-bottom:56px}
 .math-reader-category{overflow:hidden;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card);box-shadow:none}
 .math-reader-category>button,.math-reader-topic>button{display:grid;grid-template-columns:24px minmax(0,1fr) 26px;align-items:center;gap:10px;width:100%;border:0;background:transparent;color:var(--text);text-align:left;cursor:pointer}
@@ -88,7 +88,7 @@
 .math-reader-sections a:hover:not(.active),.math-reader-sections a:focus:not(.active),.math-reader-sections a:active:not(.active){background:transparent;color:var(--text-secondary)}
 .math-reader-sections a:focus:not(:focus-visible){outline:0}
 .math-sidebar-title-formula .katex{font-size:1em}
-.math-reader-sections a.active{margin-left:-28px;margin-right:-8px;padding-left:28px;padding-right:8px;background:color-mix(in srgb,var(--subject-color) 14%,var(--card));color:var(--text)}
+.math-reader-sections a.active{margin-left:-28px;margin-right:-8px;padding-left:28px;padding-right:8px;background:color-mix(in srgb,var(--forge-accent) 12%,var(--card));color:var(--forge-accent)}
 .math-reader-sections a.active .math-note-node{border-color:var(--forge-accent);background:var(--forge-accent);color:#fff}
 .science-note-reader .math-reader-topic{border:0}
 .science-note-reader .math-reader-category>.math-reader-collapse>.math-reader-collapse-inner{gap:0;padding:0}
@@ -97,11 +97,55 @@
 @media(max-width:520px){.math-index-hero header h1{font-size:2.65rem}.math-topic-browser{padding:18px}.math-topic-browser-heading>span{display:none}.math-year-switcher button::after{left:12px;right:12px}}
 @media(prefers-reduced-motion:reduce){.math-category-summary>svg,.math-topic-accordion>button>svg,.math-reader-category>button>svg,.math-reader-topic>button>svg,.math-library-collapse,.math-library-topic-collapse{transition:none}}
 
+/* The topic index and its chapter cards share one border-box width. */
+.math-reader-title>a{box-sizing:border-box;width:calc(100% - 8px);margin-inline:4px}
+.math-reader-category,.math-reader-topic{box-sizing:border-box;width:100%}
+.math-reader-year-switcher{box-sizing:border-box;width:calc(100% - 8px);margin:8px 4px 24px}
+
 /* StudyForge purple is the interaction colour; subject colours identify courses only. */
 .math-outline-marker{background:conic-gradient(var(--forge-accent) 0 var(--topic-progress),color-mix(in srgb,var(--text-secondary) 22%,var(--card)) var(--topic-progress) 100%)}
 .math-reader-title>a:hover,.math-reader-year-switcher a:hover{border-color:var(--forge-accent);color:var(--forge-accent)}
 .math-reader-year-switcher a.active{border-color:var(--forge-accent);background:var(--forge-accent);color:#fff}
 .math-reader-sections a.active{background:color-mix(in srgb,var(--forge-accent) 12%,var(--card))}
 
+/* Active notes meet the container edge cleanly, without decorative guide rails. */
+.math-reader-category>.math-reader-collapse>.math-reader-collapse-inner,.science-note-reader .math-reader-category>.math-reader-collapse>.math-reader-collapse-inner{gap:0;padding:0}
+.math-reader-sections{padding:0}
+.math-reader-sections::before{display:none}
+.math-reader-sections a,.math-reader-sections a.active{margin:0;padding:5px 10px 5px 30px}
+
+/* Keep the selected topic flush with its parent instead of inheriting a
+   rounded/separated inner edge. The outer category card keeps its radius. */
+.math-reader-sections{
+  box-sizing:border-box;
+  width:100%;
+  border-top:0;
+}
+.math-reader-sections a.active{
+  box-sizing:border-box;
+  width:100%;
+  border-radius:0;
+}
+.math-lesson-reader .math-reader-topic{
+  border-radius:0;
+}
+
+/* Product-violet interactions stay legible against dark surfaces. */
+:root.dark .math-index-stat {
+  background: color-mix(in srgb, var(--forge-accent) 14%, var(--card));
+}
+:root.dark .math-year-switcher button.active {
+  background: color-mix(in srgb, var(--forge-accent) 14%, var(--card));
+  color: var(--forge-accent);
+}
+
 /* The reader layout owns the available viewport height. */
 .note-reader-layout .math-lesson-reader .note-reader-aside-content{height:calc(100% - 46px);max-height:none}
+
+/* Keep reader controls consistent with the platform interaction colour. */
+.math-reader-title>a:hover,.math-reader-year-switcher a:hover{border-color:var(--forge-accent);color:var(--forge-accent)}
+.math-reader-year-switcher a.active{border-color:var(--forge-accent);background:var(--forge-accent);color:#fff}
+.math-reader-sections a.active{background:color-mix(in srgb,var(--forge-accent) 12%,var(--card));color:var(--forge-accent)}
+.math-reader-sections a:not(.active):hover{background:var(--surface-hover-subtle);color:inherit}
+:root.dark .math-index-stat{background:color-mix(in srgb,var(--forge-accent) 14%,var(--card))}
+:root.dark .math-year-switcher button.active{background:color-mix(in srgb,var(--forge-accent) 14%,var(--card));color:var(--forge-accent)}

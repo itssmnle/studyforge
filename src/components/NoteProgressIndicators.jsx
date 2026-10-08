@@ -17,12 +17,8 @@ export function TopicProgressRing({ completed, total, label }) {
 }
 
 export function NoteProgressNode({ active = false, completed = false }) {
-  const state = active ? "current" : completed ? "completed" : "pending";
-  const label = active ? "Current note" : completed ? "Completed note" : "Not completed";
+  const state = completed ? "completed" : active ? "current" : "pending";
+  const label = completed ? "Completed note" : active ? "Current note" : "Not completed";
 
-  return (
-    <span className={`math-note-node is-${state}`} aria-label={label} title={label}>
-      {state === "pending" ? null : <FiCheck />}
-    </span>
-  );
+  return <span className={`math-note-node is-${state}${active ? " is-active" : ""}`} aria-label={label} title={label}>{state === "completed" ? <FiCheck /> : null}</span>;
 }

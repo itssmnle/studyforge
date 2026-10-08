@@ -122,6 +122,8 @@ export default function App() {
   const notePathParts = pathname.split("/").filter(Boolean);
   const isScienceLessonReader = /^\/learn\/[^/]+\/[^/]+\/notes(?:\/|$)/.test(pathname);
   const isNoteReader = (pathname.startsWith("/notes/") && pathname !== "/notes/maths" && notePathParts.length >= 3) || isScienceLessonReader;
+  const isFlashcardReader = /^\/flashcards\/[^/]+\/[^/]+$/.test(pathname);
+  const isReaderLayout = isNoteReader || isFlashcardReader;
   const showProgress = pathname === "/launchpad";
 
   return (
@@ -131,11 +133,11 @@ export default function App() {
         <div id="theme-fade" className="theme-fade" />
         <RouteAnalytics />
 
-        <div className={`min-h-screen bg-rose-50/30${isNoteReader ? " note-reader-layout" : ""}`}>
+        <div className={`min-h-screen bg-rose-50/30${isReaderLayout ? " reader-layout" : ""}${isNoteReader ? " note-reader-layout" : ""}${isFlashcardReader ? " flashcard-reader-layout" : ""}`}>
           {!isFocusedSession && <TopNav />}
           {!isFocusedSession && <AppNavigation />}
           {showProgress && <ProgressStrip />}
-          <StudentBreadcrumbs />
+          {!isFocusedSession && <StudentBreadcrumbs />}
 
           <div className={`app-route-stage${isFocusedSession || isFlushLanding ? " app-route-stage-flush" : ""}`}>
             <Suspense fallback={<main className="platform-shell"><LoadingState label="Loading StudyForge" detail="Preparing this page" /></main>}><Routes>
@@ -180,7 +182,7 @@ export default function App() {
           </div>
 
           <DarkModeToggle />
-          {!isFocusedSession && !isNoteReader && <Footer />}
+          {!isFocusedSession && !isNoteReader && !isFlashcardReader && <Footer />}
         </div>
 
         {/* 🔹 Global login dialog (renders above everything) */}

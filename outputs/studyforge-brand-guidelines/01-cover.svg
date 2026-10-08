@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>@font-face { font-family: 'Plus Jakarta Sans'; src: url('assets/PlusJakartaSans-VariableFont_wght.ttf'); font-weight: 200 800; } text { font-family: 'Plus Jakarta Sans', Arial, sans-serif; }</style>
+    <linearGradient id="coverFlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1EDFF"/><stop offset="0.48" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6F8FA"/></linearGradient>
+    <linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7042C5"/><stop offset="0.55" stop-color="#4277DC"/><stop offset="1" stop-color="#3EB7C4"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#coverFlow)"/>
+  <path d="M-100 830 C280 650 500 1020 880 770 C1240 530 1500 590 2040 370 L2040 1160 L-100 1160 Z" fill="#7042C5" opacity="0.08"/>
+  <path d="M-140 930 C310 730 620 1040 1020 840 C1410 645 1650 610 2060 520" fill="none" stroke="#3EB7C4" stroke-width="120" opacity="0.08" stroke-linecap="round"/>
+  <image href="assets/logo-light.svg" x="92" y="80" width="430" height="92" preserveAspectRatio="xMidYMid meet"/>
+  <text x="98" y="330" fill="#7042C5" font-size="18" font-weight="800" letter-spacing="4">BRAND GUIDELINES</text>
+  <text x="92" y="438" fill="#1F212A" font-size="80" font-weight="760"><tspan x="92" dy="0">Clear learning.</tspan><tspan x="92" dy="90">One connected route.</tspan></text>
+  <text x="98" y="660" fill="#696C7A" font-size="28" font-weight="450"><tspan x="98" dy="0">A practical system for building StudyForge experiences</tspan><tspan x="98" dy="42">that feel calm, connected, credible, and made for</tspan><tspan x="98" dy="42">students.</tspan></text>
+  <rect x="98" y="805" width="170" height="42" fill="#FFFFFF" rx="21"/><text x="117" y="834" fill="#7042C5" font-size="15" font-weight="750" letter-spacing="1.8">VERSION 1.0</text>
+  <text x="98" y="883" fill="#696C7A" font-size="17" font-weight="650">October 2026</text>
+  <path d="M1515 235 C1515 370 1615 470 1750 470 C1615 470 1515 570 1515 705 C1515 570 1415 470 1280 470 C1415 470 1515 370 1515 235 Z" fill="url(#brandGradient)" opacity="0.92"/>
+  <path d="M1715 655 C1715 720 1763 768 1828 768 C1763 768 1715 816 1715 881 C1715 816 1667 768 1602 768 C1667 768 1715 720 1715 655 Z" fill="#7042C5" opacity="0.28"/>
+  <text x="1824" y="1027" fill="#9A9CA8" font-size="18" font-weight="700" text-anchor="end">01</text>
+</svg>

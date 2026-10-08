@@ -22,7 +22,7 @@ export default function ScienceSubject() {
   ];
 
   return (
-    <main className="academy-dashboard subject-hub-page" style={{ "--primary": subject.color, "--primary-dark": `color-mix(in srgb, ${subject.color} 84%, black)`, "--secondary": subject.secondaryColor, "--subject-color": subject.color, "--subject-secondary": subject.secondaryColor }}>
+    <main className="academy-dashboard subject-hub-page" style={{ "--primary": subject.color, "--primary-dark": `color-mix(in srgb, ${subject.color} 84%, black)`, "--subject-color": subject.color, "--subject-secondary": subject.secondaryColor }}>
       <div className={`dashboard-layout subject-hub-layout${menuCollapsed ? " menu-collapsed" : ""}`}>
         <SubjectCourseSidebar key={subject.id} subject={subject} activeResource="overview" onCollapsedChange={setMenuCollapsed} />
         <section className="course-workspace subject-hub-workspace">

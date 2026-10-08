@@ -8,7 +8,7 @@
 .my-course-card.editing{border-color:color-mix(in srgb,var(--subject-color) 35%,var(--border))}
 .my-course-summary{display:grid;grid-template-columns:70px minmax(0,1fr) auto;align-items:center;gap:20px;padding:24px 28px;color:var(--text)}
 .my-course-summary:hover{background:var(--bg-alt)}
-.my-course-icon{width:64px;height:76px;display:grid;place-items:center;border-radius:10px;background:color-mix(in srgb,var(--subject-color) 13%,var(--card));color:var(--subject-color);font-size:1.45rem;box-shadow:inset 4px 0 0 var(--subject-color)}
+.my-course-icon{width:64px;height:64px;display:grid;place-items:center;border-radius:50%;background:var(--subject-color);color:#fff;font-size:1.45rem}
 .my-course-copy{display:flex;min-width:0;flex-direction:column;gap:5px}
 .my-course-copy small{color:var(--subject-color);font:100 .56rem "JakartaSansBold";text-transform:uppercase;letter-spacing:.08em}
 .my-course-copy strong{font:100 1.15rem "JakartaSansBold"}
@@ -29,5 +29,5 @@
 .course-remove-button:disabled{opacity:.55;cursor:wait}
 .my-course-card.editing .my-course-summary{padding-right:68px}
 :root.dark .my-course-card,:root.dark .course-edit-toggle,:root.dark .course-remove-button{background:var(--card)}
-@media(max-width:680px){.my-courses-heading{align-items:flex-start}.my-courses-heading .workspace-actions{width:100%;flex-direction:row}.my-courses-heading .blue-action{flex:1}.my-course-summary{grid-template-columns:54px minmax(0,1fr);gap:15px;padding:20px}.my-course-icon{width:50px;height:62px}.my-course-open{grid-column:2;justify-self:start}.course-revision-progress{padding:18px 20px 22px}.my-course-card.editing .my-course-summary{padding-right:62px}}
+@media(max-width:680px){.my-courses-heading{align-items:flex-start}.my-courses-heading .workspace-actions{width:100%;flex-direction:row}.my-courses-heading .blue-action{flex:1}.my-course-summary{grid-template-columns:54px minmax(0,1fr);gap:15px;padding:20px}.my-course-icon{width:50px;height:50px}.my-course-open{grid-column:2;justify-self:start}.course-revision-progress{padding:18px 20px 22px}.my-course-card.editing .my-course-summary{padding-right:62px}}
 @media(prefers-reduced-motion:reduce){.course-progress-track>span{transition:none}}

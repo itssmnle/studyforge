@@ -1,25 +1,101 @@
 .subject-activity-shell{min-height:650px;background:var(--card)}
+.reader-layout{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.reader-layout>.academy-nav,.reader-layout>.app-navigation,.reader-layout>.progress-strip,.reader-layout>.student-breadcrumbs{flex:0 0 auto}
+.reader-layout>.app-route-stage{box-sizing:border-box;flex:1 1 auto;min-height:0;overflow:hidden;padding-top:0}
+.reader-layout>.app-route-stage>.subject-activity-shell{box-sizing:border-box;height:100%;min-height:0;overflow:hidden}
 .subject-activity-layout{width:100%;grid-template-columns:var(--course-rail-width) minmax(0,1fr);margin:0;background:var(--card)}
 .subject-activity-layout.menu-collapsed{grid-template-columns:var(--course-rail-collapsed) minmax(0,1fr)}
-.subject-activity-content{min-width:0;width:calc(100% - var(--activity-content-gutter,var(--content-gutter)) - var(--activity-content-gutter,var(--content-gutter)));margin-left:var(--activity-content-gutter,var(--content-gutter));padding:20px 0 76px;transition:width .24s ease,margin-left .24s ease}
+.subject-activity-content{box-sizing:border-box;min-width:0;width:100%;margin-left:0;padding:0 var(--activity-content-gutter,var(--content-gutter)) 76px 0;transition:width .24s ease,margin-left .24s ease}
 .subject-activity-content:has(>.note-reader-shell),.subject-activity-content:has(>.flashcard-reader-shell),.subject-activity-content:has(>.platform-shell),.subject-activity-content:has(>.practice-page){--activity-content-gutter:24px}
 .subject-activity-layout.menu-collapsed .subject-activity-content{width:100%;margin-left:0}
-.subject-activity-content>.platform-shell{width:min(var(--layout-max),calc(100% - 48px));margin:0 auto;padding-top:40px}
+.subject-activity-content:has(>.platform-shell){padding-right:0}
+.subject-activity-content>.platform-shell{box-sizing:border-box;width:min(var(--layout-max),calc(100% - 102px));margin:0 auto;padding:40px 0 76px}
 .subject-activity-content>.note-reader-shell{width:100%;margin:0;padding:0;grid-template-columns:var(--topic-rail-width) minmax(0,1fr);gap:40px;transition:grid-template-columns .24s ease,gap .24s ease}
 .subject-activity-content>.note-reader-shell:not(.topics-hidden) .note-reader{width:min(100%,var(--reading-width));justify-self:center}
 .subject-activity-content>.note-reader-shell.topics-hidden{grid-template-columns:44px minmax(0,1fr);gap:24px}
 .subject-activity-content>.note-reader-shell.topics-hidden .note-reader{width:min(100%,1020px);justify-self:center}
-.subject-activity-content>.flashcard-reader-shell{width:100%;margin:0;grid-template-columns:var(--topic-rail-width) minmax(0,1fr);gap:40px}
+.subject-activity-content>.flashcard-reader-shell{width:100%;margin:0;padding:0;grid-template-columns:var(--topic-rail-width) minmax(0,1fr);gap:40px}
 .subject-activity-content>.flashcard-reader-shell:not(.topics-hidden) .recall-page{width:min(100%,var(--reading-width));justify-self:center}
-.subject-activity-content>.practice-page{min-height:650px;margin-right:0;border:1px solid var(--border);background:var(--bg-alt)}
+.subject-activity-content>.practice-page{box-sizing:border-box;width:min(var(--layout-max),calc(100% - 102px));min-height:650px;margin:0 auto;border:0;background:var(--bg-alt)}
 .subject-activity-content .practice-topbar{position:static}
+.subject-activity-content>.practice-page{padding:40px 0 60px}
+.practice-session-shell,.practice-session-shell .subject-activity-layout,.practice-session-shell .subject-activity-content,.practice-session-shell .practice-page{min-height:100dvh}
+.practice-session-shell .subject-activity-layout{display:block;width:100%;margin:0}
+.practice-session-shell .subject-activity-content{width:100%;margin:0;padding:0;background:var(--bg-alt)}
+.practice-session-shell .subject-activity-content>.practice-page{width:100%;margin:0;padding:0 0 60px}
+.practice-session-shell .practice-topbar{grid-template-columns:1fr auto 1fr}
+.practice-session-shell .practice-topbar>div{padding-left:0;text-align:center}
+.subject-activity-content .practice-library .workspace-heading .eyebrow,.subject-activity-content .practice-library .builder-heading .eyebrow{color:var(--forge-accent)}
+.subject-activity-content .practice-library .platform-button.primary{background:linear-gradient(135deg,var(--forge-accent),var(--forge-accent-strong));border-color:transparent}
+.subject-activity-content .eyebrow,.subject-activity-content .workspace-kicker{color:var(--forge-accent)}
+.subject-activity-content .math-index-hero header .eyebrow,.subject-activity-content .math-topic-browser-heading .eyebrow{color:var(--forge-accent)}
+.subject-activity-content .subject-notes-page>header{border-bottom-color:var(--forge-accent)}
 :root.dark .subject-activity-shell,:root.dark .subject-activity-layout{background:var(--card)}
-.note-reader-layout .subject-activity-shell{height:100%;min-height:0;overflow:hidden}
-.note-reader-layout .subject-activity-layout{height:100%;min-height:0}
-.note-reader-layout .subject-activity-content{position:relative;height:100%;min-height:0;overflow:hidden;padding-bottom:0}
-.note-reader-aside{margin-top:-20px;padding-top:20px}
+.reader-layout .subject-activity-shell{box-sizing:border-box;height:100%;min-height:0;overflow:hidden}
+.reader-layout .subject-activity-layout{box-sizing:border-box;height:100%;min-height:0;overflow:hidden}
+.reader-layout .subject-activity-content{box-sizing:border-box;position:relative;height:100%;min-height:0;overflow:hidden;padding-bottom:0}
+.note-reader-aside{margin-top:0;padding-top:20px}
 .flashcard-reader-aside{margin-top:-46px;padding-top:20px}
-.note-reader-layout .subject-activity-content>.note-reader-shell{height:100%;min-height:0;overflow:hidden}
-.note-reader-layout .subject-activity-content .note-reader-aside-content{height:calc(100% - 46px);max-height:none}
-@media(max-width:900px){.subject-activity-layout{grid-template-columns:188px minmax(0,1fr)}.subject-activity-content{width:calc(100% - 32px);margin-left:18px}.subject-activity-content>.note-reader-shell{grid-template-columns:200px minmax(0,1fr);gap:24px}}
-@media(max-width:820px){.subject-activity-layout,.subject-activity-layout.menu-collapsed{grid-template-columns:1fr}.subject-activity-content,.subject-activity-layout.menu-collapsed .subject-activity-content{width:calc(100% - 28px);margin:0 auto;padding-top:18px}.note-reader-layout .subject-activity-layout{height:100%}.note-reader-aside,.flashcard-reader-aside{margin-top:0;padding-top:0}.subject-activity-content>.note-reader-shell{display:flex;grid-template-columns:1fr;flex-direction:column}.subject-activity-content>.practice-page{margin-right:0}}
+.subject-activity-content>.note-reader-shell .note-reader{padding-top:20px}
+.reader-layout .subject-activity-content>.note-reader-shell,.reader-layout .subject-activity-content>.flashcard-reader-shell{box-sizing:border-box;height:100%;min-height:0;overflow:hidden}
+.reader-layout .subject-activity-content .note-reader-aside-content,.reader-layout .subject-activity-content .flashcard-reader-aside-content{height:calc(100% - 46px);max-height:none}
+.reader-layout .flashcard-reader-aside{top:0;min-height:0;overflow:visible}
+.reader-layout .flashcard-reader-aside-content{position:static;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.reader-layout .flashcard-reader-aside-content::-webkit-scrollbar,.reader-layout .recall-page::-webkit-scrollbar{display:none}
+.reader-layout .recall-page{box-sizing:border-box;height:100%;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding-bottom:80px;scrollbar-width:none}
+.reader-layout .note-reader-aside,.reader-layout .flashcard-reader-aside{z-index:2}
+.note-reader-shell:not(.topics-hidden) .note-topics-toggle,.flashcard-reader-shell:not(.topics-hidden) .note-topics-toggle{position:relative;z-index:5}
+.note-topics-tooltip{position:absolute;z-index:20;left:calc(100% + 13px);top:50%;min-width:max-content;padding:11px 14px;border-radius:9px;background:#303030;color:#fff;box-shadow:0 10px 25px rgba(20,20,24,.2);font:100 .68rem/1.25 "JakartaSans";opacity:0;pointer-events:none;transform:translate(7px,-50%);transition:opacity .14s ease,transform .14s ease}
+.note-topics-tooltip::before{content:"";position:absolute;left:-6px;top:50%;width:12px;height:12px;border-radius:2px;background:#303030;transform:translateY(-50%) rotate(45deg)}
+.note-topics-toggle:hover .note-topics-tooltip,.note-topics-toggle:focus-visible .note-topics-tooltip{opacity:1;transform:translate(0,-50%)}
+
+/* Notes and flashcards share the same inset rail, so every control begins and
+   ends on the chapter-card grid rather than on the divider. */
+@media(min-width:821px){
+  .subject-activity-content .note-reader-aside,.subject-activity-content .flashcard-reader-aside{box-sizing:border-box;margin-top:0;padding:20px 20px 0}
+  .subject-activity-content .note-reader-aside-heading,.subject-activity-content .flashcard-reader-aside-heading{margin:0 0 14px}
+  .subject-activity-content .note-reader-aside-content,.subject-activity-content .flashcard-reader-aside-content{width:100%;padding-right:0}
+}
+
+@media(max-width:820px){
+  .subject-activity-content>.platform-shell,.subject-activity-content>.practice-page{width:100%}
+}
+
+@media(max-width:900px){.subject-activity-layout{grid-template-columns:188px minmax(0,1fr)}.subject-activity-content{width:100%;margin-left:0;padding-right:18px}.subject-activity-content>.note-reader-shell{grid-template-columns:200px minmax(0,1fr);gap:24px}}
+@media(max-width:820px){.subject-activity-layout,.subject-activity-layout.menu-collapsed{grid-template-columns:1fr}.subject-activity-content,.subject-activity-layout.menu-collapsed .subject-activity-content{width:calc(100% - 28px);margin:0 auto;padding-top:0}.reader-layout .subject-activity-layout{height:100%}.note-reader-aside,.flashcard-reader-aside{margin-top:0;padding-top:18px}.subject-activity-content>.note-reader-shell,.subject-activity-content>.flashcard-reader-shell{display:flex;grid-template-columns:1fr;flex-direction:column}.reader-layout .flashcard-reader-aside{flex:0 0 auto;overflow:visible}.reader-layout .flashcard-reader-aside-content{height:auto;overflow:visible}.reader-layout .recall-page{flex:1 1 auto;height:auto;padding-right:0;padding-bottom:60px}.subject-activity-content>.practice-page{margin-right:0}}
+
+/* Mobile readers use the document as their only vertical scroll container.
+   Desktop keeps the locked viewport with independently scrolling topic and
+   content panes. */
+@media(max-width:820px){
+  .reader-layout{height:auto;min-height:100dvh;overflow:visible}
+  .reader-layout>.app-route-stage{flex:0 0 auto;overflow:visible}
+  .reader-layout>.app-route-stage>.subject-activity-shell,
+  .reader-layout .subject-activity-shell,
+  .reader-layout .subject-activity-layout,
+  .reader-layout .subject-activity-content,
+  .reader-layout .subject-activity-content>.note-reader-shell,
+  .reader-layout .subject-activity-content>.flashcard-reader-shell,
+  .reader-layout>.app-route-stage>.note-reader-shell{height:auto;min-height:0;overflow:visible}
+  .reader-layout .note-reader-aside-content,
+  .reader-layout .flashcard-reader-aside-content,
+  .reader-layout .note-reader,
+  .reader-layout .recall-page{height:auto;max-height:none;overflow:visible;overscroll-behavior:auto;-webkit-overflow-scrolling:auto}
+}
+
+@media(prefers-reduced-motion:reduce){.note-topics-tooltip{transition:none}}
+
+@media(min-width:821px){
+  /* Labels share the chapter-card edge instead of sitting four pixels left. */
+  .subject-activity-content .note-reader-aside-heading>strong,.subject-activity-content .flashcard-reader-aside-heading>strong,.subject-activity-content .note-reader-aside-content>span,.subject-activity-content .flashcard-reader-aside-content>span{margin-left:4px}
+
+  /* The rail snaps between widths. Content wipes away rather than being scaled. */
+  .subject-activity-content>.note-reader-shell,.subject-activity-content>.flashcard-reader-shell{transition:none}
+  .subject-activity-content .note-reader-aside-content,.subject-activity-content .flashcard-reader-aside-content{transition:none}
+  .subject-activity-content>.note-reader-shell.topics-hidden .note-reader-aside-content,.subject-activity-content>.flashcard-reader-shell.topics-hidden .flashcard-reader-aside-content{transform:none}
+
+  /* Keep one 32px control, centred on the divider in both states. */
+  .subject-activity-content>.note-reader-shell.topics-hidden .note-reader-aside,.subject-activity-content>.flashcard-reader-shell.topics-hidden .flashcard-reader-aside{position:relative;padding:0;overflow:visible}
+  .subject-activity-content>.note-reader-shell.topics-hidden .note-reader-aside-heading,.subject-activity-content>.flashcard-reader-shell.topics-hidden .flashcard-reader-aside-heading{position:absolute;top:20px;right:0;width:0;min-height:32px;margin:0}
+  .subject-activity-content>.note-reader-shell.topics-hidden .note-topics-toggle,.subject-activity-content>.flashcard-reader-shell.topics-hidden .note-topics-toggle{position:absolute;top:0;right:0;width:32px;height:32px;transform:translateX(50%)}
+}

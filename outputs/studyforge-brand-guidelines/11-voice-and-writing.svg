@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      @font-face { font-family: 'Plus Jakarta Sans'; src: url('assets/PlusJakartaSans-VariableFont_wght.ttf'); font-weight: 200 800; }
+      text { font-family: 'Plus Jakarta Sans', Arial, sans-serif; }
+    </style>
+    <linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7042C5"/><stop offset="0.55" stop-color="#4277DC"/><stop offset="1" stop-color="#3EB7C4"/></linearGradient>
+    <radialGradient id="softViolet" cx="0.2" cy="0.1" r="1"><stop offset="0" stop-color="#F1EDFF"/><stop offset="1" stop-color="#FFFFFF"/></radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#261248" flood-opacity="0.10"/></filter>
+    
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" fill="#FFFFFF"/>
+  <text x="96" y="76" fill="#1F212A" font-size="17" font-weight="800" letter-spacing="3">STUDYFORGE</text><text x="96" y="111" fill="#696C7A" font-size="14" font-weight="700" letter-spacing="2">VOICE AND WRITING</text><text x="1822" y="88" fill="#696C7A" font-size="18" font-weight="700" text-anchor="end">11</text><line x1="96" y1="138" x2="1824" y2="138" stroke="#E8E8ED" stroke-width="2"/>
+  
+    <text x="96" y="224" fill="#1F212A" font-size="48" font-weight="760">Direct, calm, and useful</text>
+    <text x="96" y="274" fill="#696C7A" font-size="23" font-weight="450"><tspan x="96" dy="0">StudyForge sounds like a clear guide. It respects students' time and does not</tspan><tspan x="96" dy="33">overstate what the product can do.</tspan></text>
+    <text x="96" y="356" fill="#7042C5" font-size="16" font-weight="800" letter-spacing="2">VOICE PRINCIPLES</text>
+    <rect x="96" y="398" width="528" height="222" fill="#F1EDFF" rx="22" stroke="#DED4FF" stroke-width="2"/>
+    <text x="130" y="451" fill="#7042C5" font-size="16" font-weight="800" letter-spacing="1.6">01 · CLEAR</text>
+    <text x="130" y="503" fill="#1F212A" font-size="27" font-weight="740">Say what happens next.</text>
+    <text x="130" y="546" fill="#696C7A" font-size="19" font-weight="450"><tspan x="130" dy="0">Use familiar words and concrete</tspan><tspan x="130" dy="28">actions.</tspan></text>
+    <rect x="648" y="398" width="528" height="222" fill="#EDF3FF" rx="22" stroke="#B9D0FF" stroke-width="2"/>
+    <text x="682" y="451" fill="#4277DC" font-size="16" font-weight="800" letter-spacing="1.6">02 · ENCOURAGING</text>
+    <text x="682" y="503" fill="#1F212A" font-size="27" font-weight="740">Support effort, not hype.</text>
+    <text x="682" y="546" fill="#696C7A" font-size="19" font-weight="450"><tspan x="682" dy="0">Acknowledge progress without talking</tspan><tspan x="682" dy="28">down.</tspan></text>
+    <rect x="1200" y="398" width="624" height="222" fill="#E6F8FA" rx="22" stroke="#B9E9ED" stroke-width="2"/>
+    <text x="1234" y="451" fill="#3EB7C4" font-size="16" font-weight="800" letter-spacing="1.6">03 · CREDIBLE</text>
+    <text x="1234" y="503" fill="#1F212A" font-size="27" font-weight="740">Be precise about claims.</text>
+    <text x="1234" y="546" fill="#696C7A" font-size="19" font-weight="450"><tspan x="1234" dy="0">Explain boundaries, evidence, and privacy</tspan><tspan x="1234" dy="28">plainly.</tspan></text>
+    <text x="96" y="701" fill="#2F9D72" font-size="16" font-weight="800" letter-spacing="2">WRITE THIS</text>
+    <rect x="96" y="740" width="816" height="188" fill="#F2FBF7" rx="22" stroke="#BFE4D4" stroke-width="2"/>
+    <text x="134" y="799" fill="#1F212A" font-size="26" font-weight="740">Continue with linear equations</text>
+    <text x="134" y="842" fill="#696C7A" font-size="20" font-weight="450"><tspan x="134" dy="0">You completed 8 of 10 questions. Review the two you missed.</tspan></text>
+    <text x="1008" y="701" fill="#D95656" font-size="16" font-weight="800" letter-spacing="2">NOT THIS</text>
+    <rect x="1008" y="740" width="816" height="188" fill="#FFF5F5" rx="22" stroke="#F1C7C7" stroke-width="2"/>
+    <text x="1046" y="799" fill="#1F212A" font-size="26" font-weight="740">Unlock your limitless potential!</text>
+    <text x="1046" y="842" fill="#696C7A" font-size="20" font-weight="450"><tspan x="1046" dy="0">Crush your goals with our revolutionary learning engine.</tspan></text>
+  
+  <line x1="96" y1="1005" x2="1824" y2="1005" stroke="#E8E8ED" stroke-width="2"/><text x="96" y="1044" fill="#9A9CA8" font-size="15" font-weight="550">StudyForge brand guidelines</text><text x="1824" y="1044" fill="#9A9CA8" font-size="15" font-weight="550" text-anchor="end">Version 1.0 · October 2026</text>
+</svg>
