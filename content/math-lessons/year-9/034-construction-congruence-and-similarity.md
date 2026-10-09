@@ -8,7 +8,7 @@ Two shapes are **congruent** if they are identical in both shape and size. For t
 3. **ASA:** Angle, Side, Angle (two angles and the included side equal).
 4. **RHS:** Right angle, Hypotenuse, Side.
 
-![Diagram: Four pairs of congruent triangles illustrating SSS, SAS, ASA, and RHS congruence rules](/maths-images/Y9/triangle-congruence-rules.png)
+![Diagram: Four pairs of congruent triangles illustrating SSS, SAS, ASA, and RHS congruence rules](/maths-images/Y9/triangle-congruence-rules.webp)
 
 ---
 
@@ -33,7 +33,7 @@ Two shapes are **similar** if they have the same shape but different sizes (corr
 * **Area Scale Factor ($k^2$):** Area increases by $k^2$
 * **Volume Scale Factor ($k^3$):** Volume increases by $k^3$
 
-![Diagram: Two similar 3D prisms showing linear scale factor k = 2, area scale factor k^2 = 4, and volume scale factor k^3 = 8](/maths-images/Y9/prism-scale-factors.png)
+![Diagram: Two similar 3D prisms showing linear scale factor k = 2, area scale factor k^2 = 4, and volume scale factor k^3 = 8](/maths-images/Y9/prism-scale-factors.webp)
 
 ---
 

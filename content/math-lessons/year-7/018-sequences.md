@@ -3,7 +3,7 @@
 ### What does this mean?
 A **linear sequence** is a list of numbers that increases or decreases by the same amount each step. The **term-to-term rule** describes how to get from one number to the next.
 
-![Diagram: Linear sequence 5, 9, 13, 17 with curved arrows between numbers showing '+4'](/maths-images/Y7/04-linear-sequences-term-to-term.png)
+![Diagram: Linear sequence 5, 9, 13, 17 with curved arrows between numbers showing '+4'](/maths-images/Y7/04-linear-sequences-term-to-term.webp)
 
 ---
 
@@ -33,7 +33,7 @@ Answer: **Next terms are $27, 32$**
 ### What does this mean?
 The **$n^{\text{th}}$ term** rule is an algebraic formula that connects a term's position ($n$) to its value.
 
-![Diagram: Position-to-term rule for a linear sequence](/maths-images/Y7/01-position-to-term-rule.png)
+![Diagram: Position-to-term rule for a linear sequence](/maths-images/Y7/01-position-to-term-rule.webp)
 
 ---
 

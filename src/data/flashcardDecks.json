@@ -1,5 +1,11 @@
 {
   "Biology": [
+    { "id": "year-7-cells-and-organisation", "chapter": 1, "title": "Year 7: Cells and Organisation", "file": "/flashcards/Biology_Year_7_Cells_And_Organisation.csv", "cards": 56 },
+    { "id": "year-7-skeletal-and-muscular-systems", "chapter": 2, "title": "Year 7: Skeletal and Muscular Systems", "file": "/flashcards/Biology_Year_7_Skeletal_And_Muscular_Systems.csv", "cards": 52 },
+    { "id": "year-8-nutrition-and-digestion", "chapter": 3, "title": "Year 8: Nutrition and Digestion", "file": "/flashcards/Biology_Year_8_Nutrition_And_Digestion.csv", "cards": 52 },
+    { "id": "year-8-gas-exchange-systems", "chapter": 4, "title": "Year 8: Gas Exchange Systems", "file": "/flashcards/Biology_Year_8_Gas_Exchange_Systems.csv", "cards": 52 },
+    { "id": "year-8-photosynthesis", "chapter": 5, "title": "Year 8: Photosynthesis", "file": "/flashcards/Biology_Year_8_Photosynthesis.csv", "cards": 52 },
+    { "id": "year-8-respiration", "chapter": 6, "title": "Year 8: Respiration", "file": "/flashcards/Biology_Year_8_Respiration.csv", "cards": 52 },
     { "id": "year-9-characteristics-of-living-organisms", "chapter": 1, "title": "Characteristics of Living Organisms", "file": "/flashcards/b1-characteristics-of-living-organisms.csv", "cards": 11 },
     { "id": "year-9-cells-and-organisation", "chapter": 2, "title": "Cells and Organisation", "file": "/flashcards/b2-cells-and-organisation.csv", "cards": 10 },
     { "id": "year-9-movement-into-and-out-of-cells", "chapter": 3, "title": "Movement into and out of Cells", "file": "/flashcards/b3-movement-into-and-out-of-cells.csv", "cards": 9 },
@@ -7,11 +13,21 @@
     { "id": "year-9-enzymes", "chapter": 5, "title": "Enzymes", "file": "/flashcards/b5-enzymes.csv", "cards": 7 }
   ],
   "Chemistry": [
+    { "id": "year-7-particle-model", "chapter": 1, "title": "Year 7: Particle Model", "file": "/flashcards/Chemistry_Year_7_Particle_Model.csv", "cards": 52 },
+    { "id": "year-7-atoms-elements-and-compounds", "chapter": 2, "title": "Year 7: Atoms Elements and Compounds", "file": "/flashcards/Chemistry_Year_7_Atoms_Elements_And_Compounds.csv", "cards": 52 },
+    { "id": "year-7-pure-and-impure-substances", "chapter": 3, "title": "Year 7: Pure and Impure Substances", "file": "/flashcards/Chemistry_Year_7_Pure_And_Impure_Substances.csv", "cards": 52 },
+    { "id": "year-8-chemical-reactions", "chapter": 4, "title": "Year 8: Chemical Reactions", "file": "/flashcards/Chemistry_Year_8_Chemical_Reactions.csv", "cards": 64 },
+    { "id": "year-8-periodic-table", "chapter": 5, "title": "Year 8: Periodic Table", "file": "/flashcards/Chemistry_Year_8_Periodic_Table.csv", "cards": 52 },
     { "id": "year-9-states-of-matter", "chapter": 1, "title": "States of Matter", "file": "/flashcards/c1-states-of-matter.csv", "cards": 7 },
     { "id": "year-9-atoms-and-isotopes", "chapter": 2, "title": "Atoms and Isotopes", "file": "/flashcards/c2-atoms-and-isotopes.csv", "cards": 10 },
     { "id": "year-9-chemical-bonding", "chapter": 3, "title": "Chemical Bonding", "file": "/flashcards/c2b-chemical-bonding.csv", "cards": 7 }
   ],
   "Physics": [
+    { "id": "year-7-energy", "chapter": 1, "title": "Year 7: Energy", "file": "/flashcards/Physics_Year_7_Energy.csv", "cards": 52 },
+    { "id": "year-7-speed", "chapter": 2, "title": "Year 7: Speed", "file": "/flashcards/Physics_Year_7_Speed.csv", "cards": 52 },
+    { "id": "year-7-forces", "chapter": 3, "title": "Year 7: Forces", "file": "/flashcards/Physics_Year_7_Forces.csv", "cards": 52 },
+    { "id": "year-8-electricity-in-circuits", "chapter": 4, "title": "Year 8: Electricity in Circuits", "file": "/flashcards/Physics_Year_8_Electricity_In_Circuits.csv", "cards": 52 },
+    { "id": "year-8-sound-and-light", "chapter": 5, "title": "Year 8: Sound and Light", "file": "/flashcards/Physics_Year_8_Sound_And_Light.csv", "cards": 52 },
     { "id": "year-9-energy-and-work", "chapter": 1, "title": "Energy and Work", "file": "/flashcards/p1-energy-and-work.csv", "cards": 7 },
     { "id": "year-9-motion-and-forces", "chapter": 2, "title": "Motion and Forces", "file": "/flashcards/p2-motion-and-forces.csv", "cards": 10 }
   ],

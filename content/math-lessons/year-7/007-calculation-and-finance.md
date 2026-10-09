@@ -3,7 +3,7 @@
 ### What does this mean?
 Performing addition, subtraction, multiplication, and division with decimal numbers while maintaining place value accuracy.
 
-![Diagram: Decimal addition grid aligning 12.45 and 3.80 vertically at the decimal point](/maths-images/Y7/11-operations-with-decimals.png)
+![Diagram: Decimal addition grid aligning 12.45 and 3.80 vertically at the decimal point](/maths-images/Y7/11-operations-with-decimals.webp)
 
 ---
 
@@ -39,7 +39,7 @@ Answer: **$0.128$**
 ### What does this mean?
 Financial maths involves calculating total costs, itemised bills, change, running balances on bank statements, and savings.
 
-![Diagram: Bank statement table showing columns for Date, Description, Credit, Debit, and Balance](/maths-images/Y7/12-financial-maths-bank-statement.png)
+![Diagram: Bank statement table showing columns for Date, Description, Credit, Debit, and Balance](/maths-images/Y7/12-financial-maths-bank-statement.webp)
 
 ---
 

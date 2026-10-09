@@ -3,7 +3,7 @@
 ### What does this mean?
 A **surd** is an irrational number expressed as a square root that cannot be simplified into a whole number or exact fraction (e.g., $\sqrt{2}, \sqrt{3}, \sqrt{5}$). Leaving answers in surd form preserves exact mathematical values without rounding errors.
 
-![Diagram: Square root simplification tree showing sqrt(12) split into sqrt(4) x sqrt(3) simplifying to 2*sqrt(3)](/maths-images/Y9/square-root-simplification-tree.png)
+![Diagram: Square root simplification tree showing sqrt(12) split into sqrt(4) x sqrt(3) simplifying to 2*sqrt(3)](/maths-images/Y9/square-root-simplification-tree.webp)
 
 ---
 
@@ -38,7 +38,7 @@ When a number is rounded, its exact value lies within an **error interval** boun
 * **Lower Bound (LB):** The smallest possible value before rounding up.
 * **Upper Bound (UB):** The smallest value that would round up to the next number.
 
-![Diagram: Number line showing rounded value 5.6 rounded to 1 dp with Lower Bound 5.55 and Upper Bound 5.65 highlighted](/maths-images/Y9/rounding-bounds-number-line.png)
+![Diagram: Number line showing rounded value 5.6 rounded to 1 dp with Lower Bound 5.55 and Upper Bound 5.65 highlighted](/maths-images/Y9/rounding-bounds-number-line.webp)
 
 ---
 

@@ -3,7 +3,7 @@
 ### What does this mean?
 Rules used to simplify expressions involving powers (indices) with the same base.
 
-![Diagram: Summary chart of Index Laws showing Multiplication Rule, Division Rule, Power of Power Rule, and Negative Power Rule](/maths-images/Y8/laws-of-indices-summary.png)
+![Diagram: Summary chart of Index Laws showing Multiplication Rule, Division Rule, Power of Power Rule, and Negative Power Rule](/maths-images/Y8/laws-of-indices-summary.webp)
 
 ---
 

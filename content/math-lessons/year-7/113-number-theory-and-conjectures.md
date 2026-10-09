@@ -3,7 +3,7 @@
 ### What does this mean?
 Breaking numbers down into their prime factors to calculate the **Highest Common Factor (HCF)** and **Lowest Common Multiple (LCM)** using Venn diagrams.
 
-![Diagram: Venn diagram showing prime factors of 12 (2, 2, 3) and 18 (2, 3, 3) with intersection containing shared prime factors 2 and 3](/maths-images/Y7/20-prime-factor-trees-hcf-lcm.png)
+![Diagram: Venn diagram showing prime factors of 12 (2, 2, 3) and 18 (2, 3, 3) with intersection containing shared prime factors 2 and 3](/maths-images/Y7/20-prime-factor-trees-hcf-lcm.webp)
 
 ---
 

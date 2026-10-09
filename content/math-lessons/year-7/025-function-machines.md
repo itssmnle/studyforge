@@ -3,7 +3,7 @@
 ### What does this mean?
 A **function machine** takes an input number, applies one or more mathematical operations in order, and gives an output.
 
-![Diagram: Function machine taking input x, multiplying by 3, then adding 4 to give output y](/maths-images/Y7/02-function-machine.png)
+![Diagram: Function machine taking input x, multiplying by 3, then adding 4 to give output y](/maths-images/Y7/02-function-machine.webp)
 
 ---
 

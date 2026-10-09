@@ -5,7 +5,7 @@
 * **Multiple:** A number in another number's times table.
 * **Prime Number:** A whole number greater than $1$ with exactly two factors: $1$ and itself ($2, 3, 5, 7, 11, 13, \dots$).
 
-![Diagram: Factor rainbow diagram connecting pairs of factors for the number 24 (1x24, 2x12, 3x8, 4x6)](/maths-images/Y7/13-factors-multiples-primes.png)
+![Diagram: Factor rainbow diagram connecting pairs of factors for the number 24 (1x24, 2x12, 3x8, 4x6)](/maths-images/Y7/13-factors-multiples-primes.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Answer: **$1, 2, 3, 4, 6, 8, 12, 24$**
 * **Square Numbers:** The result of multiplying an integer by itself ($1, 4, 9, 16, 25, 36, 49, 64, 81, 100, \dots$).
 * **Triangular Numbers:** Numbers formed by adding consecutive integers ($1, 3, 6, 10, 15, 21, \dots$).
 
-![Diagram: Visual dot patterns showing square numbers 1, 4, 9, 16 as square grids and triangular numbers 1, 3, 6, 10 arranged in triangles](/maths-images/Y7/14-square-and-triangular-numbers.png)
+![Diagram: Visual dot patterns showing square numbers 1, 4, 9, 16 as square grids and triangular numbers 1, 3, 6, 10 arranged in triangles](/maths-images/Y7/14-square-and-triangular-numbers.webp)
 
 ---
 

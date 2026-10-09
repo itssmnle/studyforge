@@ -3,7 +3,7 @@
 ### What does this mean?
 **Simplifying** an algebraic expression by grouping terms that have the exact same variable parts.
 
-![Diagram: Collecting like terms](/maths-images/Y7/10-collecting-like-terms.png)
+![Diagram: Collecting like terms](/maths-images/Y7/10-collecting-like-terms.webp)
 
 ---
 
@@ -30,7 +30,7 @@ Answer: **$6a - 2b$**
 ### What does this mean?
 Multiplying the term outside the bracket by every term inside the bracket to remove the parentheses.
 
-![Diagram: Area model showing single bracket expansion 3(2x + 4) split into rectangles 3*2x = 6x and 3*4 = 12](/maths-images/Y7/03-expanding-single-brackets.png)
+![Diagram: Area model showing single bracket expansion 3(2x + 4) split into rectangles 3*2x = 6x and 3*4 = 12](/maths-images/Y7/03-expanding-single-brackets.webp)
 
 ---
 

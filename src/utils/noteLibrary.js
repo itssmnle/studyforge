@@ -83,6 +83,7 @@ const sourceNotes = Object.entries(markdownFiles)
   .sort((a, b) => subjectRank(a.subject) - subjectRank(b.subject) || noteOrder(a) - noteOrder(b) || a.title.localeCompare(b.title));
 
 const titleFromLessonSlug = (slug) => slug
+  .replace(/^year-\d+-/i, "")
   .replace(/^[a-z]+\d+[a-z]?-/i, "")
   .split("-")
   .map((word) => word.charAt(0).toUpperCase() + word.slice(1))

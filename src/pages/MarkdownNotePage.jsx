@@ -61,6 +61,12 @@ export default function MarkdownNotePage() {
   const sameCourse = (item) => note.year ? item.year === note.year : !item.year;
   const pages = notes.filter((item) => item.subject === subjectId && sameCourse(item)).flatMap((subjectNote) => subjectNote.sections.map((subjectSection) => ({ note: subjectNote, section: subjectSection })));
   const subjectNotes = notes.filter((item) => item.subject === subjectId && sameCourse(item));
+  const scienceYears = ["year-7", "year-8", "year-9"];
+  const firstSciencePageForYear = (year) => {
+    const yearNote = notes.find((item) => item.subject === subjectId && item.year === year);
+    const yearSection = yearNote?.sections[0];
+    return yearNote && yearSection ? `/notes/${subjectId}/${yearNote.topic}/${yearSection.id}` : null;
+  };
   const pageIndex = pages.findIndex((page) => page.note.topic === note.topic && page.section.id === section.id);
   const sectionBody = section.source.replace(/^##\s+.*(?:\n|$)/, "").trim();
   const source = [sectionIndex === 0 ? note.intro : "", sectionBody].filter(Boolean).join("\n\n");
@@ -77,7 +83,7 @@ export default function MarkdownNotePage() {
         <div className="note-reader-aside-heading"><strong>Revision Notes</strong><NoteTopicsToggle hidden={topicsHidden} onToggle={toggleTopicsHidden} /></div>
         <div className="note-reader-aside-content">
           <div className="math-reader-title"><Link to={`/notes/${subjectId}`}>View all topics <FiArrowRight /></Link></div>
-          {note.year ? <><span>Course</span><nav className="math-reader-year-switcher science-reader-year" aria-label={`${subject?.name || subjectId} course level`}><Link className="active" aria-current="true" to={`/notes/${subjectId}`}>Y9</Link></nav></> : null}
+          {note.year ? <><span>Switch year</span><nav className="math-reader-year-switcher science-reader-year" aria-label={`${subject?.name || subjectId} year group`}>{scienceYears.map((year) => { const target = firstSciencePageForYear(year); return target ? <Link className={note.year === year ? "active" : ""} aria-current={note.year === year ? "true" : undefined} to={target} key={year}>Y{year.slice(-1)}</Link> : null; })}</nav></> : null}
           <nav className="math-reader-outline" aria-label={`${subject?.name || subjectId} revision notes`}>
             {subjectNotes.map((chapter, chapterIndex) => {
               const chapterOpen = readerChapterVisibility[chapter.topic] ?? chapter.topic === note.topic;

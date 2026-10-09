@@ -7,7 +7,7 @@ Matter exists in three states: **Solid**, **Liquid**, and **Gas**. Particle arra
 * **Liquid:** Particles close together, random arrangement, slide past each other.
 * **Gas:** Particles far apart, random arrangement, move rapidly in all directions.
 
-![Diagram: Particle arrangement diagrams for Solid, Liquid, and Gas alongside a Heating Curve graph showing melting and boiling plateaus]
+![Particle arrangement diagrams for Solid, Liquid, and Gas alongside a Heating Curve graph showing melting and boiling plateaus](/science-images/Y9/particle%20theory.webp "Particle theory and changes of state")
 
 ---
 

@@ -10,7 +10,7 @@ export default function NotePage() {
   const { notes } = usePublishedNotes();
   return (
     <main className="platform-shell notes-library">
-      <header className="notes-library-header resource-page-hero"><div className="resource-page-hero-copy"><span className="eyebrow">Study smarter</span><h1>Revision notes</h1><p>Focused KS3 Maths and KS4 Science notes, organised by subject and chapter.</p><div className="resource-hero-checks" aria-label="Revision note verification"><span><FiCheckCircle /> Verified Maths source</span><span><FiCheckCircle /> Curriculum linked</span><span><FiCheckCircle /> Worked examples included</span></div></div><img className="resource-page-hero-art" src={notesArt} alt="Preview of StudyForge revision notes" /></header>
+      <header className="notes-library-header resource-page-hero"><div className="resource-page-hero-copy"><span className="eyebrow">Study smarter</span><h1>Revision notes</h1><p>Focused KS3 Maths and Science notes, organised by subject, year, and chapter.</p><div className="resource-hero-checks" aria-label="Revision note verification"><span><FiCheckCircle /> Verified Maths source</span><span><FiCheckCircle /> Curriculum linked</span><span><FiCheckCircle /> Worked examples included</span></div></div><img className="resource-page-hero-art" src={notesArt} alt="Preview of StudyForge revision notes" /></header>
       <section className="subject-card-grid" aria-label="Revision note subjects">
         {noteSubjects.filter((subject) => ["maths", "biology", "chemistry", "physics"].includes(subject.id)).sort((a, b) => (a.id === "maths" ? -1 : b.id === "maths" ? 1 : 0)).map((subject) => {
           const isMaths = subject.id === "maths";

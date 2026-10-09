@@ -3,6 +3,12 @@ import { loadDeckCards } from "./studyResources";
 
 const topicDeckIds = {
   biology: {
+    "year-7-cells-and-organisation": "year-7-cells-and-organisation",
+    "year-7-skeletal-and-muscular-systems": "year-7-skeletal-and-muscular-systems",
+    "year-8-nutrition-and-digestion": "year-8-nutrition-and-digestion",
+    "year-8-gas-exchange-systems": "year-8-gas-exchange-systems",
+    "year-8-photosynthesis": "year-8-photosynthesis",
+    "year-8-respiration": "year-8-respiration",
     "cells-and-organisation": "chapter-1-cells-and-organisms",
     "body-systems-and-movement": "chapter-1-cells-and-organisms",
     "nutrition-digestion-and-health": "chapter-2-nutrition-and-digestion",
@@ -12,6 +18,11 @@ const topicDeckIds = {
     "genetics-evolution-and-variation": "chapter-6-genetics-evolution-and-variation",
   },
   chemistry: {
+    "year-7-particle-model": "year-7-particle-model",
+    "year-7-atoms-elements-and-compounds": "year-7-atoms-elements-and-compounds",
+    "year-7-pure-and-impure-substances": "year-7-pure-and-impure-substances",
+    "year-8-chemical-reactions": "year-8-chemical-reactions",
+    "year-8-periodic-table": "year-8-periodic-table",
     "particle-model": "chapter-1-the-particle-model",
     "atoms-elements-and-compounds": "chapter-2-atoms-elements-and-compounds",
     "pure-and-impure-substances": "chapter-3-pure-and-impure-substances",
@@ -22,6 +33,11 @@ const topicDeckIds = {
     "earth-and-atmosphere": "chapter-5-earth-and-atmosphere",
   },
   physics: {
+    "year-7-energy": "year-7-energy",
+    "year-7-speed": "year-7-speed",
+    "year-7-forces": "year-7-forces",
+    "year-8-electricity-in-circuits": "year-8-electricity-in-circuits",
+    "year-8-sound-and-light": "year-8-sound-and-light",
     "forces-and-motion": "chapter-1-forces-and-motion",
     energy: "chapter-2-energy",
     waves: "chapter-3-waves",

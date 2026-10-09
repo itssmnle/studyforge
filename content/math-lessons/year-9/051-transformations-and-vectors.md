@@ -4,7 +4,7 @@
 * **Rotation:** Turning a shape around a **centre of rotation** $(x,y)$ by a given angle ($90^\circ, 180^\circ, 270^\circ$) clockwise or anti-clockwise.
 * **Enlargement:** Scaling a shape larger or smaller from a **centre of enlargement** using a **scale factor** $k$ (including negative and fractional scale factors).
 
-![Diagram: Grid showing enlargement of a triangle from center (0,0) with scale factor -2 flipping the shape into the opposite quadrant](/maths-images/Y9/negative-enlargement-scale-factor.png)
+![Diagram: Grid showing enlargement of a triangle from center (0,0) with scale factor -2 flipping the shape into the opposite quadrant](/maths-images/Y9/negative-enlargement-scale-factor.webp)
 
 ---
 

@@ -4,7 +4,7 @@
 An **enzyme** is a biological catalyst that speeds up metabolic reactions without being used up.
 * Enzymes have a uniquely shaped **active site** that complements a specific **substrate** (Lock and Key Hypothesis).
 
-![Diagram: Lock and Key model showing enzyme active site binding with complementary substrate, forming enzyme-substrate complex]
+![Lock and Key model showing enzyme active site binding with complementary substrate, forming enzyme-substrate complex](/science-images/Y9/enzyme%20action.webp "Enzyme action")
 
 ---
 

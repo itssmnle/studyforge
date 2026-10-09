@@ -4,7 +4,7 @@
 ### What does this mean?
 Calculating the **mean**, **modal class**, and **median** from grouped or ungrouped frequency tables.
 
-![Diagram: Grouped frequency table showing columns: Class Interval, Frequency, Midpoint (x), and Frequency x Midpoint (fx)](/maths-images/Y8/grouped-frequency-table.png)
+![Diagram: Grouped frequency table showing columns: Class Interval, Frequency, Midpoint (x), and Frequency x Midpoint (fx)](/maths-images/Y8/grouped-frequency-table.webp)
 
 ---
 

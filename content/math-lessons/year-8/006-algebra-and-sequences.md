@@ -3,7 +3,7 @@
 ### What does this mean?
 Multiplying every term in the first bracket by every term in the second bracket to produce a quadratic expression.
 
-![Diagram: FOIL method diagram expanding (x + 2)(x + 3) with curved arrows showing First, Outside, Inside, Last multiplications](/maths-images/Y8/foil-double-brackets.png)
+![Diagram: FOIL method diagram expanding (x + 2)(x + 3) with curved arrows showing First, Outside, Inside, Last multiplications](/maths-images/Y8/foil-double-brackets.webp)
 
 ---
 

@@ -5,7 +5,7 @@ A coordinate pair $(x, y)$ gives the position of a point on a grid relative to t
 * $x$: Horizontal distance (along the corridor).
 * $y$: Vertical distance (up the stairs).
 
-![Diagram: Four quadrant Cartesian graph showing axes x and y crossing at origin (0,0) with labeled Quadrants I, II, III, IV](/maths-images/Y7/15-coordinates-four-quadrants.png)
+![Diagram: Four quadrant Cartesian graph showing axes x and y crossing at origin (0,0) with labeled Quadrants I, II, III, IV](/maths-images/Y7/15-coordinates-four-quadrants.webp)
 
 ---
 

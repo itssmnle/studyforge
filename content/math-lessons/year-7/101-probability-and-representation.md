@@ -3,7 +3,7 @@
 ### What does this mean?
 The mathematical likelihood of an event occurring, expressed as a number between $0$ (impossible) and $1$ (certain).
 
-![Diagram: Probability scale from 0 to 1 marking Impossible, Unlikely, Even Chance, Likely, Certain with fractions 0, 1/4, 1/2, 3/4, 1](/maths-images/Y7/19-probability-single-events.png)
+![Diagram: Probability scale from 0 to 1 marking Impossible, Unlikely, Even Chance, Likely, Certain with fractions 0, 1/4, 1/2, 3/4, 1](/maths-images/Y7/19-probability-single-events.webp)
 
 ---
 

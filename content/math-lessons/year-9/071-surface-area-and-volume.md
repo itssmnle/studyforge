@@ -5,7 +5,7 @@
 * **Volume:** Space occupied inside the 3D shape.
 * **Surface Area:** Total area of all 2D outer faces combined.
 
-![Diagram: Cylinder showing circular cross-sectional base area pi*r^2 and height h, alongside triangular prism](/maths-images/Y9/cylinder-and-triangular-prism-cross-sections.png)
+![Diagram: Cylinder showing circular cross-sectional base area pi*r^2 and height h, alongside triangular prism](/maths-images/Y9/cylinder-and-triangular-prism-cross-sections.webp)
 
 ---
 
@@ -47,8 +47,8 @@ $$\text{Volume} = \frac{1}{3} \times \text{Base Area} \times h$$
 
 $$\text{Volume} = \frac{4}{3}\pi r^3$$
 
-![Diagram: 3D Cone showing perpendicular height h, slant height l, and base radius r](/maths-images/Y9/cone-height-slant-radius.png "Cone dimensions: labelled side view")
-![Diagram: Alternate 3D cone showing perpendicular height h, slant height l, and base radius r](/maths-images/Y9/cone-height-slant-radius2.png "Cone dimensions: alternate view")
+![Diagram: 3D Cone showing perpendicular height h, slant height l, and base radius r](/maths-images/Y9/cone-height-slant-radius.webp "Cone dimensions: labelled side view")
+![Diagram: Alternate 3D cone showing perpendicular height h, slant height l, and base radius r](/maths-images/Y9/cone-height-slant-radius2.webp "Cone dimensions: alternate view")
 
 ---
 

@@ -3,7 +3,7 @@
 ### What does this mean?
 Fundamental geometric properties used to calculate missing angles without measuring.
 
-![Diagram: Diagrams demonstrating 1) Straight line angle sum = 180, 2) Angles around a point = 360, 3) Vertically opposite angles equal](/maths-images/Y7/17-angle-rules.png)
+![Diagram: Diagrams demonstrating 1) Straight line angle sum = 180, 2) Angles around a point = 360, 3) Vertically opposite angles equal](/maths-images/Y7/17-angle-rules.webp)
 
 ---
 
@@ -32,7 +32,7 @@ Answer: **$x = 115^\circ$**
 ### What does this mean?
 Calculating the 2D surface space enclosed within 2D shapes.
 
-![Diagram: Parallelogram and Triangle showing perpendicular height (h) perpendicular to base (b)](/maths-images/Y7/18-area-triangles-parallelograms.png)
+![Diagram: Parallelogram and Triangle showing perpendicular height (h) perpendicular to base (b)](/maths-images/Y7/18-area-triangles-parallelograms.webp)
 
 ---
 

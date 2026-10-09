@@ -7,7 +7,7 @@ $$\text{Final Amount} = \text{Initial Amount} \times (\text{Multiplier})^n$$
 
 * $n$ = number of years / time periods
 
-![Diagram: Exponential growth curve showing compound interest vs linear growth curve showing simple interest over time](/maths-images/Y9/compound-vs-simple-interest.png)
+![Diagram: Exponential growth curve showing compound interest vs linear growth curve showing simple interest over time](/maths-images/Y9/compound-vs-simple-interest.webp)
 
 ---
 

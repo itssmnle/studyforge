@@ -5,7 +5,7 @@ Extending Pythagoras' theorem ($a^2 + b^2 = c^2$) into three dimensions to calcu
 
 $$d^2 = x^2 + y^2 + z^2 \quad \implies \quad d = \sqrt{x^2 + y^2 + z^2}$$
 
-![Diagram: 3D cuboid with length x, width y, and height z showing space diagonal d passing through the center](/maths-images/Y9/cuboid-space-diagonal.png)
+![Diagram: 3D cuboid with length x, width y, and height z showing space diagonal d passing through the center](/maths-images/Y9/cuboid-space-diagonal.webp)
 
 ---
 
@@ -36,7 +36,7 @@ Trigonometric ratios connect side lengths and acute angles in right-angled trian
 
 $$\sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}} \quad \Big| \quad \cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}} \quad \Big| \quad \tan(\theta) = \frac{\text{Opposite}}{\text{Adjacent}}$$
 
-![Diagram: Right-angled triangle showing Hypotenuse (opposite 90 angle), Opposite side (opposite angle theta), and Adjacent side (next to theta)](/maths-images/Y9/trigonometry-triangle-sides.png)
+![Diagram: Right-angled triangle showing Hypotenuse (opposite 90 angle), Opposite side (opposite angle theta), and Adjacent side (next to theta)](/maths-images/Y9/trigonometry-triangle-sides.webp)
 
 ---
 

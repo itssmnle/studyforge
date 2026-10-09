@@ -3,7 +3,7 @@
 ### What does this mean?
 A **two-way table** categorises data under two different variables simultaneously using rows and columns.
 
-![Diagram: 2x2 Two-way table showing Boys/Girls vs Spanish/French with total rows and columns](/maths-images/Y8/two-way-table-boys-girls-languages.png)
+![Diagram: 2x2 Two-way table showing Boys/Girls vs Spanish/French with total rows and columns](/maths-images/Y8/two-way-table-boys-girls-languages.webp)
 
 ---
 
@@ -36,7 +36,7 @@ A **Venn diagram** represents sets of data visually using overlapping circles in
 * **Union ($A \cup B$):** Items in set $A$ OR set $B$ OR both (everything inside circles).
 * **Complement ($A'$):** Items **NOT** in set $A$ (everything outside set $A$).
 
-![Diagram: Venn diagram showing Set A and Set B intersecting inside universal set square, highlighting intersection A n B](/maths-images/Y8/venn-diagram-intersection.png)
+![Diagram: Venn diagram showing Set A and Set B intersecting inside universal set square, highlighting intersection A n B](/maths-images/Y8/venn-diagram-intersection.webp)
 
 ---
 

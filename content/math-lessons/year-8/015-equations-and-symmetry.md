@@ -6,7 +6,7 @@ Representing a 3D object using 2D drawings from three distinct viewpoints:
 * **Front Elevation:** View looking directly from the **front**.
 * **Side Elevation:** View looking directly from the **side**.
 
-![Diagram: 3D block model alongside its 2D Plan view (top), Front elevation, and Side elevation grid drawings](/maths-images/Y8/plan-front-side-elevations.png)
+![Diagram: 3D block model alongside its 2D Plan view (top), Front elevation, and Side elevation grid drawings](/maths-images/Y8/plan-front-side-elevations.webp)
 
 ---
 
@@ -34,7 +34,7 @@ Answer: **A circle**
 ### What does this mean?
 Flipping a shape across a **mirror line** ($x=a$, $y=b$, or $y=x$) so every point stays equidistant from the line.
 
-![Diagram: Grid showing shape A reflected across mirror line x = 1 to form shape B](/maths-images/Y8/reflection-across-x-equals-1.png)
+![Diagram: Grid showing shape A reflected across mirror line x = 1 to form shape B](/maths-images/Y8/reflection-across-x-equals-1.webp)
 
 ---
 

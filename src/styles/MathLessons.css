@@ -16,7 +16,7 @@
 .math-year-switcher button.active::after{background:var(--forge-accent)}
 .math-year-switcher span{font:100 .9rem "JakartaSansBold"}
 .math-year-switcher small{color:var(--text-secondary);font-size:.6rem}
-.science-year-switcher{grid-template-columns:repeat(2,1fr)}
+.science-year-switcher{grid-template-columns:repeat(3,minmax(0,1fr))}
 .science-reader-year{grid-template-columns:1fr}
 .math-library-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:26px}
 .science-notes-toolbar{margin-top:28px}

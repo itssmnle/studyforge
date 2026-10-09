@@ -8,7 +8,7 @@ Cells are the basic structural and functional units of all living organisms.
 
 Key functions include: nucleus controls cell activities and contains DNA; cytoplasm is where reactions occur; cell membrane controls entry and exit; mitochondria carry out aerobic respiration; ribosomes make proteins; cell wall supports the cell; chloroplasts absorb light; and the vacuole contains cell sap and helps keep plant cells turgid.
 
-![Diagram: Labeled diagrams comparing Animal Cell, Plant Cell, and Bacterial Cell side by side]
+![Labeled diagrams comparing Animal Cell, Plant Cell, and Bacterial Cell side by side](/science-images/Y9/cell%20structure.webp "Cell structure comparison")
 
 ---
 

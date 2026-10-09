@@ -14,13 +14,15 @@ export default function SubjectNotesContent() {
   const { notes } = usePublishedNotes();
   const completedNotes = useCompletedNotes();
   const [search, setSearch] = useState("");
-  const [activeLevel, setActiveLevel] = useState("year-9");
+  const scienceSubject = ["biology", "chemistry", "physics"].includes(id);
+  const availableLevels = scienceSubject ? ["year-7", "year-8", "year-9"] : [];
+  const [activeLevel, setActiveLevel] = useState(scienceSubject ? "year-7" : "ks4");
   const [expandedChapters, setExpandedChapters] = useState(() => new Set());
   const query = search.trim().toLocaleLowerCase("en-GB");
   const allSubjectNotes = useMemo(() => notes.filter((note) => note.subject === id), [id, notes]);
-  const hasYear9 = allSubjectNotes.some((note) => note.year === "year-9");
-  const effectiveLevel = hasYear9 ? activeLevel : "ks4";
-  const subjectNotes = useMemo(() => allSubjectNotes.filter((note) => effectiveLevel === "year-9" ? note.year === "year-9" : !note.year), [effectiveLevel, allSubjectNotes]);
+  const hasScienceYears = scienceSubject && availableLevels.some((year) => allSubjectNotes.some((note) => note.year === year));
+  const effectiveLevel = hasScienceYears ? (availableLevels.includes(activeLevel) ? activeLevel : availableLevels[0]) : "ks4";
+  const subjectNotes = useMemo(() => allSubjectNotes.filter((note) => scienceSubject && hasScienceYears ? note.year === effectiveLevel : !note.year), [effectiveLevel, allSubjectNotes, scienceSubject, hasScienceYears]);
   const visibleNotes = useMemo(() => query
     ? subjectNotes.filter((note) => `${note.title} ${note.summary} ${note.sections.map((section) => section.title).join(" ")}`.toLocaleLowerCase("en-GB").includes(query))
     : subjectNotes, [query, subjectNotes]);
@@ -39,16 +41,15 @@ export default function SubjectNotesContent() {
     <main className="platform-shell subject-notes-page math-lessons-index science-notes-index" style={subjectStyle}>
       <div className="math-index-hero">
         <header>
-          <span className="eyebrow">{effectiveLevel === "year-9" ? "Year 9" : subject.qualification}{["biology", "chemistry", "physics"].includes(subject.id) ? " Science" : ""}</span>
+          <span className="eyebrow">{scienceSubject && hasScienceYears ? `Year ${effectiveLevel.slice(-1)}` : subject.qualification}{scienceSubject ? " Science" : ""}</span>
           <h1>{subject.name} revision notes</h1>
           <p>Choose a chapter, then open a focused subchapter with clear explanations and examples.</p>
         </header>
         <div className="math-index-stat"><strong>{subchapterCount}</strong><span>revision notes<br />across {subjectNotes.length} chapters</span></div>
       </div>
 
-      {hasYear9 ? <nav className="math-year-switcher science-year-switcher" aria-label={`Choose ${subject.name} course level`}>
-        <button type="button" className={activeLevel === "year-9" ? "active" : ""} aria-pressed={activeLevel === "year-9"} onClick={() => { setActiveLevel("year-9"); setExpandedChapters(new Set()); }}><span>Year 9</span><small>{allSubjectNotes.filter((note) => note.year === "year-9").length} topics</small></button>
-        <button type="button" className={activeLevel === "ks4" ? "active" : ""} aria-pressed={activeLevel === "ks4"} onClick={() => { setActiveLevel("ks4"); setExpandedChapters(new Set()); }}><span>KS4</span><small>{allSubjectNotes.filter((note) => !note.year).length} topics</small></button>
+      {hasScienceYears ? <nav className="math-year-switcher science-year-switcher" aria-label={`Choose ${subject.name} year group`}>
+        {availableLevels.map((year) => <button type="button" className={activeLevel === year ? "active" : ""} aria-pressed={activeLevel === year} onClick={() => { setActiveLevel(year); setExpandedChapters(new Set()); }} key={year}><span>Year {year.slice(-1)}</span><small>{allSubjectNotes.filter((note) => note.year === year).length} topics</small></button>)}
       </nav> : null}
 
       <div className="math-library-toolbar science-notes-toolbar">
@@ -58,7 +59,7 @@ export default function SubjectNotesContent() {
 
       <section className="math-topic-browser" aria-label={`${subject.name} revision topics`}>
         <div className="math-topic-browser-heading">
-          <div><span className="eyebrow">{effectiveLevel === "year-9" ? "Year 9" : subject.name}</span><h2>Revision topics</h2></div>
+          <div><span className="eyebrow">{scienceSubject && hasScienceYears ? `Year ${effectiveLevel.slice(-1)}` : subject.name}</span><h2>Revision topics</h2></div>
           <span>{subchapterCount} notes in {subjectNotes.length} chapters</span>
         </div>
         <div className="math-category-grid">

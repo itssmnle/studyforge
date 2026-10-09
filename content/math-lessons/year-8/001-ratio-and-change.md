@@ -3,7 +3,7 @@
 ### What does this mean?
 A **ratio** compares the relative sizes of two or more quantities. Ratios are written using the colon symbol ($:$), for example $a : b$. Simplifying a ratio means dividing all parts by their **highest common factor (HCF)** until no further whole-number division is possible.
 
-![Diagram: Visual bar model showing 6 red blocks and 4 blue blocks simplified into 3 red blocks and 2 blue blocks representing 6:4 = 3:2](/maths-images/Y8/simplifying-ratios.png)
+![Diagram: Visual bar model showing 6 red blocks and 4 blue blocks simplified into 3 red blocks and 2 blue blocks representing 6:4 = 3:2](/maths-images/Y8/simplifying-ratios.webp)
 
 ---
 
@@ -39,7 +39,7 @@ Answer: **$2 : 3 : 4$**
 ### What does this mean?
 Sharing a total quantity into proportional parts specified by a ratio $a : b$.
 
-![Diagram: Bar model showing total amount divided into equal blocks/parts corresponding to ratio parts](/maths-images/Y8/dividing-in-a-ratio.png)
+![Diagram: Bar model showing total amount divided into equal blocks/parts corresponding to ratio parts](/maths-images/Y8/dividing-in-a-ratio.webp)
 
 ---
 
@@ -73,7 +73,7 @@ Answer: **$\$60 : \$90$**
 ### What does this mean?
 Two quantities are in **direct proportion** if increasing one causes the other to increase at the exact same rate. A **scale drawing** uses direct proportion to represent real-life distances using a scale factor (e.g., $1\text{ cm} : 5\text{ m}$).
 
-![Diagram: Map scale visual showing 1cm on map representing 5m in real life with a measurement line of 4cm](/maths-images/Y8/direct-proportion-and-scale-drawings.png)
+![Diagram: Map scale visual showing 1cm on map representing 5m in real life with a measurement line of 4cm](/maths-images/Y8/direct-proportion-and-scale-drawings.webp)
 
 ---
 

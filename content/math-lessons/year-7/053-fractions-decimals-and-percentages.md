@@ -3,7 +3,7 @@
 ### What does this mean?
 Fractions, decimals, and percentages are different ways of expressing the same proportional value.
 
-![Diagram: Equivalence table showing standard FDP conversions like 1/2 = 0.5 = 50%, 1/4 = 0.25 = 25%, 3/4 = 0.75 = 75%](/maths-images/Y7/16-converting-between-fdp.png)
+![Diagram: Equivalence table showing standard FDP conversions like 1/2 = 0.5 = 50%, 1/4 = 0.25 = 25%, 3/4 = 0.75 = 75%](/maths-images/Y7/16-converting-between-fdp.webp)
 
 ---
 

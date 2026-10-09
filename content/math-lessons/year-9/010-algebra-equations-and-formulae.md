@@ -3,7 +3,7 @@
 ### What does this mean?
 Putting a quadratic expression with $a > 1$ into two brackets $(px + q)(rx + s)$.
 
-![Diagram: Grid method diagram showing 2x^2 + 7x + 3 split into 2x^2, 6x, 1x, 3 to factorise as (2x + 1)(x + 3)](/maths-images/Y9/grid-method-factorisation.png)
+![Diagram: Grid method diagram showing 2x^2 + 7x + 3 split into 2x^2, 6x, 1x, 3 to factorise as (2x + 1)(x + 3)](/maths-images/Y9/grid-method-factorisation.webp)
 
 ---
 

@@ -9,7 +9,7 @@ Atoms consist of a central nucleus containing **protons** and **neutrons**, surr
 | **Neutron** | $1$ | $0$ |
 | **Electron** | $\frac{1}{1840}$ (negligible) | $-1$ |
 
-![Diagram: Atomic notation diagram showing Mass Number A (top) and Atomic Number Z (bottom) next to chemical symbol X]
+![Atomic notation diagram showing Mass Number A (top) and Atomic Number Z (bottom) next to chemical symbol X](/science-images/Y9/atomic%20structure%20and%20notation.webp "Atomic structure and notation")
 
 ---
 

@@ -3,7 +3,7 @@
 ### What does this mean?
 Determining the exact algebraic equation of a straight line given its gradient $m$ and any point $(x_1, y_1)$ through which it passes.
 
-![Diagram: Line graph passing through point (2, 5) with slope rise over run equal to 3](/maths-images/Y9/line-gradient-rise-over-run.png)
+![Diagram: Line graph passing through point (2, 5) with slope rise over run equal to 3](/maths-images/Y9/line-gradient-rise-over-run.webp)
 
 ---
 
@@ -42,7 +42,7 @@ Answer: **$y = 3x - 1$**
 
 $$m_1 \times m_2 = -1 \quad \implies \quad m_2 = -\frac{1}{m_1}$$
 
-![Diagram: Cartesian plane showing parallel lines with equal slopes m = 2, and a perpendicular line with slope m = -1/2](/maths-images/Y9/parallel-and-perpendicular-slopes.png)
+![Diagram: Cartesian plane showing parallel lines with equal slopes m = 2, and a perpendicular line with slope m = -1/2](/maths-images/Y9/parallel-and-perpendicular-slopes.webp)
 
 ---
 

@@ -3,7 +3,7 @@
 ### What does this mean?
 When a line (transversal) crosses two parallel lines, specific equal or supplementary angle relationships are formed.
 
-![Diagram: Parallel lines cut by a transversal showing alternate 'Z' angles equal, corresponding 'F' angles equal, and co-interior 'C' angles summing to 180](/maths-images/Y8/angles-in-parallel-lines.png)
+![Diagram: Parallel lines cut by a transversal showing alternate 'Z' angles equal, corresponding 'F' angles equal, and co-interior 'C' angles summing to 180](/maths-images/Y8/angles-in-parallel-lines.webp)
 
 ---
 
@@ -32,7 +32,7 @@ Answer: **$x = 70^\circ$** *(Reason: Co-interior angles sum to $180^\circ$)*
 ### What does this mean?
 Calculating the area of trapezia and circles using standard geometric formulas.
 
-![Diagram: Trapezium with parallel sides a and b and height h, next to a Circle with radius r and diameter d labeled](/maths-images/Y8/trapezium-and-circle-formulas.png)
+![Diagram: Trapezium with parallel sides a and b and height h, next to a Circle with radius r and diameter d labeled](/maths-images/Y8/trapezium-and-circle-formulas.webp)
 
 ---
 

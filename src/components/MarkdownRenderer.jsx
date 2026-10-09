@@ -6,10 +6,11 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { scienceGlossary } from "../data/scienceGlossary";
 import { mathsGlossary } from "../data/mathsGlossary";
 
-const inlinePattern = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\)|\$(?:\\.|[^$\\\n])*\$)/g;
+const inlinePattern = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\([^)]+\)|\$(?:\\.|[^$\\\n])*\$)/g;
 const blockImagePattern = /^!\[([^\]]*)\]\(([^\s)]+)(?:\s+["']([^"']+)["'])?\)$/;
 const glossaries = { science: scienceGlossary, maths: mathsGlossary };
 const localMathImages = Object.fromEntries(Object.entries(import.meta.glob("../../content/maths-images/**/*.{svg,png,jpg,jpeg,webp}", { query: "?url", import: "default", eager: true })).map(([path, url]) => [`/maths-images/${path.split("/maths-images/")[1]}`, url]));
+const scienceImageAssets = Object.fromEntries(Object.entries(import.meta.glob("../../content/science-images/**/*.{svg,png,jpg,jpeg,webp}", { query: "?url", import: "default", eager: true })).map(([path, url]) => [`/science-images/${path.split("/science-images/")[1]}`, url]));
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const positionGlossaryTooltip = event => {
@@ -71,6 +72,7 @@ const renderGlossaryText = (text, keyPrefix, seenTerms, glossaryEntries) => {
 const renderInline = (text, keyPrefix, seenTerms, glossaryEntries, allowGlossary = true) => text.split(inlinePattern).filter(Boolean).map((part, index) => {
   const key = `${keyPrefix}-${index}`;
   if (part.startsWith("**") && part.endsWith("**")) return <strong key={key}>{renderInline(part.slice(2, -2), `${key}-strong`, seenTerms, glossaryEntries, allowGlossary)}</strong>;
+  if (part.startsWith("*") && part.endsWith("*")) return <em key={key}>{renderInline(part.slice(1, -1), `${key}-em`, seenTerms, glossaryEntries, allowGlossary)}</em>;
   if (part.startsWith("`") && part.endsWith("`")) return <code key={key}>{part.slice(1, -1)}</code>;
   if (part.startsWith("$") && part.endsWith("$")) return <MathExpression key={key} value={part.slice(1, -1)} />;
   const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
@@ -149,7 +151,7 @@ const onlinePlaceholderImages = {
 
 const resolveImageSource = (source) => {
   const decodedSource = decodeURIComponent(source);
-  return localMathImages[source] || localMathImages[decodedSource] || onlinePlaceholderImages[source] || source;
+  return localMathImages[source] || localMathImages[decodedSource] || scienceImageAssets[source] || scienceImageAssets[decodedSource] || onlinePlaceholderImages[source] || source;
 };
 
 const isSubchapterPlaceholder = (source) => source.startsWith("/note-images/");

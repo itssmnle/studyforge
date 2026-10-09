@@ -3,7 +3,7 @@
 ### What does this mean?
 Writing a number in **figures** means writing it using digits ($0$–$9$) instead of words. A digit's **place value** depends on its position within the number. Numbers are grouped into sets of three digits from right to left: **millions**, **thousands**, and **units**.
 
-![Diagram: Place value chart showing Millions (Hundred thousands, Ten thousands, Thousands) and Units (Hundreds, Tens, Units) with an example number 5,321,565 split across columns](/maths-images/Y7/07-writing-large-numbers-in-figures.png)
+![Diagram: Place value chart showing Millions (Hundred thousands, Ten thousands, Thousands) and Units (Hundreds, Tens, Units) with an example number 5,321,565 split across columns](/maths-images/Y7/07-writing-large-numbers-in-figures.webp)
 
 ---
 
@@ -37,7 +37,7 @@ Combined result: **$5,082,019$**
 ### What does this mean?
 Writing a number in **words** means translating digits into spoken English using place value names (**million**, **thousand**).
 
-![Diagram: Writing large numbers in words](/maths-images/Y7/06-writing-large-numbers-in-words.png)
+![Diagram: Writing large numbers in words](/maths-images/Y7/06-writing-large-numbers-in-words.webp)
 
 ---
 
@@ -67,7 +67,7 @@ Combined result: **Six million, four hundred and three thousand and twenty-one**
 ### What does this mean?
 Rounding a number to a power of $10$ ($10$, $100$, $1000$, etc.) means finding the closest multiple of that power of $10$.
 
-![Diagram: Rounding to powers of ten](/maths-images/Y7/05-rounding-powers-of-ten.png)
+![Diagram: Rounding to powers of ten](/maths-images/Y7/05-rounding-powers-of-ten.webp)
 
 ---
 
@@ -106,7 +106,7 @@ Comparing numbers involves determining which value is larger or smaller using ma
 * $\le$ (less than or equal to)
 * $\ge$ (greater than or equal to)
 
-![Diagram: Vertical comparison of 4.307 and 4.370 with decimal points aligned and an arrow highlighting the hundredths column where 0 is less than 7](/maths-images/Y7/09-comparing-decimals.png)
+![Diagram: Vertical comparison of 4.307 and 4.370 with decimal points aligned and an arrow highlighting the hundredths column where 0 is less than 7](/maths-images/Y7/09-comparing-decimals.webp)
 
 ---
 
@@ -146,7 +146,7 @@ $$a \times 10^n$$
 * $a$ must be between $1$ and $10$ ($1 \le a < 10$).
 * $n$ must be an integer (whole number).
 
-![Diagram: Standard form layout breaking down 'a' (must be between 1 and 10) and 'n' (integer power showing decimal places moved)](/maths-images/Y7/08-standard-form.png)
+![Diagram: Standard form layout breaking down 'a' (must be between 1 and 10) and 'n' (integer power showing decimal places moved)](/maths-images/Y7/08-standard-form.webp)
 
 ---
 

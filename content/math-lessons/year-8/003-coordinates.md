@@ -3,7 +3,7 @@
 ### What does this mean?
 The **midpoint** is the point directly in the middle of a line segment connecting two coordinates $(x_1, y_1)$ and $(x_2, y_2)$.
 
-![Diagram: Coordinate grid showing line segment between points A(2,4) and B(8,10) with midpoint M(5,7) marked](/maths-images/Y8/midpoint-line-segment.png)
+![Diagram: Coordinate grid showing line segment between points A(2,4) and B(8,10) with midpoint M(5,7) marked](/maths-images/Y8/midpoint-line-segment.webp)
 
 ---
 
@@ -35,7 +35,7 @@ A **scatter graph** shows the relationship between two continuous variables.
 * **Negative Correlation:** As $x$ increases, $y$ decreases.
 * **No Correlation:** Points are scattered randomly with no clear trend.
 
-![Diagram: Scatter plot showing points clustered along an upward trend line labeled 'Line of Best Fit' with Positive Correlation](/maths-images/Y8/positive-correlation-scatter-plot.png)
+![Diagram: Scatter plot showing points clustered along an upward trend line labeled 'Line of Best Fit' with Positive Correlation](/maths-images/Y8/positive-correlation-scatter-plot.webp)
 
 ---
 

@@ -9,7 +9,7 @@ Substances move into and out of cells across the cell membrane via three main pr
 
 Diffusion becomes faster when the concentration gradient is steeper, temperature is higher, surface area is larger, or diffusion distance is shorter. It supplies cells with oxygen and removes carbon dioxide. Osmosis allows roots to absorb water and controls water movement between cells.
 
-![Diagram: Three-part diagram showing Diffusion down gradient, Osmosis across membrane, and Active Transport using carrier protein and ATP energy]
+![Three-part diagram showing Diffusion down gradient, Osmosis across membrane, and Active Transport using carrier protein and ATP energy](/science-images/Y9/diffusion.webp "Diffusion, osmosis, and active transport")
 
 ---
 
