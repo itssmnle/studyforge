@@ -17,7 +17,29 @@
 .subject-resource-card strong{display:flex;align-items:center;gap:7px;margin-top:auto;padding-top:28px;color:var(--forge-accent);font:100 .64rem "JakartaSansBold"}
 .subject-resource-card:hover strong{color:var(--forge-accent)}
 .subject-hub-note{margin:34px 0 0;padding-top:18px;border-top:1px solid var(--border);color:var(--text-secondary);font-size:.6rem;line-height:1.6}
+.syllabus-map{margin-top:54px;padding-top:38px;border-top:1px solid var(--border)}
+.syllabus-map-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.syllabus-map-heading h2{margin:5px 0 8px;font:100 1.35rem "JakartaSansBold"}
+.syllabus-map-heading p{max-width:500px;margin:0;color:var(--text-secondary);font-size:.66rem;line-height:1.65}
+.syllabus-year-switcher{display:flex;gap:6px;flex:none}
+.syllabus-year-switcher button{min-width:66px;padding:10px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text-secondary);font:100 .6rem "JakartaSansBold";cursor:pointer}
+.syllabus-year-switcher button:hover{border-color:color-mix(in srgb,var(--subject-color) 42%,var(--border));color:var(--subject-color)}
+.syllabus-year-switcher button.active{border-color:var(--subject-color);background:var(--subject-color);color:#fff}
+.syllabus-map-intro{display:grid;grid-template-columns:88px minmax(0,1fr) auto;align-items:center;gap:18px;margin:25px 0 12px;padding:16px 18px;border:1px solid color-mix(in srgb,var(--subject-color) 20%,var(--border));border-radius:12px;background:color-mix(in srgb,var(--subject-secondary) 38%,var(--card))}
+.syllabus-map-intro span{font:100 .66rem "JakartaSansBold";color:var(--subject-color)}
+.syllabus-map-intro strong{font:100 .78rem "JakartaSansBold"}
+.syllabus-map-intro small{color:var(--text-secondary);font-size:.6rem}
+.syllabus-unit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.syllabus-unit{position:relative;display:flex;min-height:176px;flex-direction:column;padding:22px;border:1px solid var(--border);border-radius:12px;background:var(--card);overflow:hidden}
+.syllabus-unit::before{position:absolute;top:0;left:0;width:100%;height:3px;background:var(--subject-color);content:""}
+.syllabus-unit-number{margin-bottom:21px;color:var(--subject-color);font:100 .59rem "JakartaSansBold";letter-spacing:.08em}
+.syllabus-unit h3{margin:0 0 7px;overflow-wrap:anywhere;font:100 .83rem "JakartaSansBold"}
+.syllabus-unit p{margin:0;color:var(--text-secondary);font-size:.62rem;line-height:1.55}
+.syllabus-topic-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto;padding-top:18px}
+.syllabus-topic-links a{display:inline-flex;align-items:center;gap:6px;max-width:100%;min-width:0;padding:7px 9px;border-radius:6px;background:color-mix(in srgb,var(--subject-color) 9%,var(--card));color:var(--subject-color);font:100 .57rem "JakartaSansBold";line-height:1.25;overflow-wrap:anywhere}
+.syllabus-topic-links a:hover{background:var(--subject-color);color:#fff}
+.syllabus-topic-links svg{flex:none;font-size:.7rem}
 :root.dark .subject-hub-page,:root.dark .subject-hub-layout,:root.dark .subject-resource-card{background:var(--card)}
 :root.dark .subject-resource-card:hover{background:var(--bg-alt)}
 @media(max-width:820px){.subject-hub-layout,.subject-hub-layout.menu-collapsed{grid-template-columns:1fr}.subject-hub-workspace{width:calc(100% - 28px);margin:0 auto;padding-top:40px}}
-@media(max-width:620px){.subject-resource-grid{grid-template-columns:1fr}.subject-resource-card{min-height:190px;padding:24px}.subject-course-heading h1{font-size:2rem}}
+@media(max-width:620px){.subject-resource-grid,.syllabus-unit-grid{grid-template-columns:1fr}.subject-resource-card{min-height:190px;padding:24px}.subject-course-heading h1{font-size:2rem}.syllabus-map-heading{align-items:flex-start;flex-direction:column}.syllabus-year-switcher{width:100%}.syllabus-year-switcher button{flex:1}.syllabus-map-intro{grid-template-columns:1fr;gap:5px}.syllabus-unit{min-height:152px}}

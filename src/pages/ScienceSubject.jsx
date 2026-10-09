@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
-import { FiBookOpen, FiLayers, FiTarget } from "react-icons/fi";
+import { FiArrowRight, FiBookOpen, FiLayers, FiTarget } from "react-icons/fi";
 import { findSubject } from "../data/scienceCurriculum";
 import { mathsSubject } from "../data/subjectConfig";
+import { syllabusForSubject, syllabusYears } from "../data/courseSyllabus";
 import verifiedBadge from "../assets/twitter-verified-badge.webp";
 import SubjectCourseSidebar from "../components/SubjectCourseSidebar";
 import "../styles/Platform.css";
@@ -15,6 +16,8 @@ export default function ScienceSubject() {
   if (!subject) return <Navigate to="/subjects/maths" replace />;
 
   const isMaths = subject.id === "maths";
+  const [activeYear, setActiveYear] = useState("year-7");
+  const syllabus = syllabusForSubject(subject.id, activeYear);
   const resources = [
     { label: "Revision Notes", description: `Read structured ${subject.name} notes by chapter and topic.`, icon: FiBookOpen, to: isMaths ? "/notes/maths" : `/notes/${subject.id}`, action: "Open revision notes" },
     { label: "Flashcards", description: `Recall key ${subject.name} terms and ideas one deck at a time.`, icon: FiLayers, to: `/flashcards/${subject.name}`, action: "Open flashcards" },
@@ -47,6 +50,33 @@ export default function ScienceSubject() {
               );
             })}
           </div>
+          <section className="syllabus-map" aria-labelledby="syllabus-map-title">
+            <header className="syllabus-map-heading">
+              <div>
+                <span className="workspace-kicker">Course map</span>
+                <h2 id="syllabus-map-title">Syllabus by year</h2>
+                <p>See the connected areas of learning, then open the revision notes for a focused topic.</p>
+              </div>
+              <nav className="syllabus-year-switcher" aria-label={`Choose ${subject.name} year group`}>
+                {syllabusYears.map((year) => <button key={year} type="button" className={activeYear === year ? "active" : ""} aria-pressed={activeYear === year} onClick={() => setActiveYear(year)}>Year {year.slice(-1)}</button>)}
+              </nav>
+            </header>
+            <div className="syllabus-map-intro">
+              <span>Year {activeYear.slice(-1)}</span>
+              <strong>{syllabus.focus}</strong>
+              <small>{syllabus.units.length} syllabus areas</small>
+            </div>
+            <div className="syllabus-unit-grid">
+              {syllabus.units.map((unit, index) => <article className="syllabus-unit" key={unit.id}>
+                <span className="syllabus-unit-number">{String(index + 1).padStart(2, "0")}</span>
+                <h3>{unit.title}</h3>
+                <p>{unit.detail}</p>
+                <div className="syllabus-topic-links">
+                  {unit.topics.map((topic) => <Link to={topic.to} key={topic.id}>{topic.title}<FiArrowRight /></Link>)}
+                </div>
+              </article>)}
+            </div>
+          </section>
           <p className="subject-hub-note">Open resources without an account. Create one only when you want to save progress across devices.</p>
         </section>
       </div>
