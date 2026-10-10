@@ -2,7 +2,7 @@
 title: Ecosystems and Photosynthesis
 summary: Revision notes covering how plants make food through photosynthesis, how energy flows through food chains and webs, and how organisms interact with and affect their environment.
 qualification: KS4
-author: StudyForge Science Team
+author: kojonote Science Team
 updated: 2026-09-09
 ---
 

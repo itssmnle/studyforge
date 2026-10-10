@@ -24,6 +24,9 @@ export const markNotePageComplete = (subject, topic, section) => {
   window.dispatchEvent(new CustomEvent(NOTE_PROGRESS_EVENT));
 };
 
+export const isTopicComplete = (subject, topic, sections, completed = readCompletedNotes()) =>
+  Array.isArray(sections) && sections.length > 0 && sections.every((section) => completed.has(noteProgressId(subject, topic, section.id)));
+
 export const completedCount = (completed, subject, topic, sections) => sections.reduce(
   (total, section) => total + (completed.has(noteProgressId(subject, topic, section.id)) ? 1 : 0),
   0,
@@ -44,4 +47,3 @@ export function useCompletedNotes() {
 
   return completed;
 }
-

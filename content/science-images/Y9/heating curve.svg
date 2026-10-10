@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 694.3">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-7 {
+        stroke-width: 2.8px;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 12.6 12.6;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke-width: 1.4px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 11.8 11.8;
+      }
+
+      .cls-8 {
+        fill: #f7f7f7;
+        fill-rule: evenodd;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        stroke: #02c;
+        stroke-width: 1.6px;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-size: 33.9px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        font-family: SFProRounded-Semibold, 'SF Pro Rounded';
+        font-weight: 600;
+      }
+
+      .cls-6 {
+        stroke: #b21;
+      }
+
+      .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-17, .cls-14 {
+        fill: #b21;
+      }
+
+      .cls-11 {
+        font-size: 27.8px;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12, .cls-19 {
+        fill: #02c;
+      }
+
+      .cls-12, .cls-14 {
+        font-size: 26.2px;
+      }
+
+      .cls-20 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-28 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        font-size: 18.5px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-16" width="1080" height="694.3"/>
+  <path class="cls-8" d="M291,339.9c11.2-3.6,24.4-2.6,36.1-4.4,24.7-4,49.3-10,72.4-19.8,28.3-11.9,54.7-29,75.2-52.1,41-46.1,60-117.9,58.1-178.7,3.5-1.2,6.8-1.3,10.5-1,3.5,66.9,17,142.8,69.1,190.2,19.9,18.1,42.6,30.9,67.4,41,24.5,10,51,16.2,77.1,20.6,7.5,1.3,26.5-.9,31.8,3.7.5,3,2.1,8,.5,10.7-59.3-.2-131.2,22.3-174.2,64-21.4,20.7-37.8,47.8-48.7,75.3-10.9,27.4-17.6,57.2-20.9,86.4-1.3,11.2,1,23.4-1.3,34.3-3.6,1-7.3-.3-10.5-2.1-2.5-8.3-1.2-17.7-1.7-26.3-1-14.3-3.5-28.6-6.4-42.6-11.7-58.1-38.1-108.6-86.6-143.8-32.1-23.3-72.9-34.3-111.5-40.8-9.8-1.6-19.7-2.8-29.6-3.8-1.3-.1-7.2.6-7.8-1.3-.7-2.3.5-7.3.8-9.6h0l.2.1Z"/>
+  <path d="M115.1,54.6l6.7-16.7,6.7,16.7h-13.4Z"/>
+  <path d="M1039.1,595l16.7,6.7-16.7,6.7v-13.4Z"/>
+  <g class="cls-9">
+    <text class="cls-10" transform="translate(53 419.3) rotate(-90)"><tspan class="cls-20" x="0" y="0">T</tspan><tspan x="16.04" y="0">empe</tspan><tspan class="cls-25" x="100.71" y="0">r</tspan><tspan x="111.98" y="0">atu</tspan><tspan class="cls-24" x="160.26" y="0">r</tspan><tspan x="171.25" y="0">e</tspan></text>
+  </g>
+  <g class="cls-9">
+    <text class="cls-10" transform="translate(550.4 655.7)"><tspan x="0" y="0">Heat</tspan></text>
+  </g>
+  <path d="M272.5,419.8l11.1,4.4-11.1,4.4v-8.9.1Z"/>
+  <g class="cls-9">
+    <text class="cls-13" transform="translate(104.9 477.8) rotate(-90)"><tspan x="0" y="0">Melting </tspan><tspan class="cls-21" x="65.07" y="0">P</tspan><tspan x="75.86" y="0">oint</tspan></text>
+  </g>
+  <path d="M641.3,227l11.1,4.4-11.1,4.4v-8.9.1Z"/>
+  <g class="cls-9">
+    <text class="cls-13" transform="translate(104.9 282.9) rotate(-90)"><tspan x="0" y="0">Boiling </tspan><tspan class="cls-23" x="59.23" y="0">P</tspan><tspan x="70.03" y="0">oint</tspan></text>
+  </g>
+  <polyline class="cls-1" points="123.4 601.7 300.9 424.3 501.4 424.3 671.1 231.4 871.7 231.4 1002.9 100.3"/>
+  <g class="cls-9">
+    <text class="cls-11" transform="translate(176.9 525.5) rotate(-43)"><tspan x="0" y="0">Solid</tspan></text>
+  </g>
+  <g class="cls-9">
+    <text class="cls-11" transform="translate(546.3 350.6) rotate(-48.7)"><tspan x="0" y="0">Liquid</tspan></text>
+  </g>
+  <g class="cls-9">
+    <text class="cls-11" transform="translate(907.1 174.7) rotate(-43)"><tspan class="cls-28" x="0" y="0">G</tspan><tspan class="cls-15" x="19.91" y="0">as</tspan></text>
+  </g>
+  <g class="cls-9">
+    <text class="cls-12" transform="translate(293.4 391.9)"><tspan x="0" y="0">Melting</tspan></text>
+  </g>
+  <path class="cls-19" d="M420.6,378.6l13.9,5.6-13.9,5.6v-11.2Z"/>
+  <path class="cls-17" d="M317.2,465.3l-13.9-5.6,13.9-5.6v11.2Z"/>
+  <g class="cls-9">
+    <text class="cls-14" transform="translate(350.2 467.5)"><tspan x="0" y="0">F</tspan><tspan class="cls-22" x="14.16" y="0">r</tspan><tspan x="22.66" y="0">eezing</tspan></text>
+  </g>
+  <g class="cls-9">
+    <text class="cls-12" transform="translate(621.1 199)"><tspan x="0" y="0">E</tspan><tspan class="cls-26" x="14.81" y="0">v</tspan><tspan class="cls-18" x="27.91" y="0">apo</tspan><tspan class="cls-27" x="71.55" y="0">r</tspan><tspan x="80.26" y="0">ating</tspan></text>
+  </g>
+  <path class="cls-19" d="M801.7,185.8l13.9,5.6-13.9,5.6v-11.2Z"/>
+  <path class="cls-17" d="M672.1,272.5l-13.9-5.6,13.9-5.6v11.2Z"/>
+  <g class="cls-9">
+    <text class="cls-14" transform="translate(705.1 274.6)"><tspan x="0" y="0">Condensing</tspan></text>
+  </g>
+  <line class="cls-7" x1="121.8" y1="54.6" x2="121.8" y2="601.7"/>
+  <line class="cls-7" x1="121.8" y1="601.7" x2="1039.1" y2="601.7"/>
+  <g>
+    <line class="cls-4" x1="641.3" y1="231.4" x2="635.3" y2="231.4"/>
+    <line class="cls-3" x1="623.5" y1="231.4" x2="133.7" y2="231.4"/>
+    <line class="cls-4" x1="127.8" y1="231.4" x2="121.8" y2="231.4"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="272.5" y1="424.3" x2="266.5" y2="424.3"/>
+    <line class="cls-2" x1="253.9" y1="424.3" x2="134.1" y2="424.3"/>
+    <line class="cls-4" x1="127.8" y1="424.3" x2="121.8" y2="424.3"/>
+  </g>
+  <line class="cls-5" x1="420.6" y1="384.2" x2="395.6" y2="384.2"/>
+  <line class="cls-5" x1="801.7" y1="191.3" x2="776.7" y2="191.3"/>
+  <line class="cls-6" x1="672.1" y1="266.9" x2="692.4" y2="266.9"/>
+  <line class="cls-6" x1="317.2" y1="459.8" x2="337.6" y2="459.8"/>
+</svg>

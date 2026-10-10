@@ -223,7 +223,7 @@ function MathLessonGroupContent({ group, groups, year, revisionNote }) {
         </div>
       </aside>
       <article className="note-reader">
-        <header><span className="eyebrow">KS3 · Maths · {group.yearLabel}</span><p className="note-chapter-name">{group.title}</p><MathLessonTitle title={revisionNote.title} /><p>A focused revision note with methods and worked examples.</p><div className="note-metadata"><span><FiEdit3 /> StudyForge Maths Team</span></div></header>
+        <header><span className="eyebrow">KS3 · Maths · {group.yearLabel}</span><p className="note-chapter-name">{group.title}</p><MathLessonTitle title={revisionNote.title} /><p>A focused revision note with methods and worked examples.</p><div className="note-metadata"><span><FiEdit3 /> kojonote Maths Team</span></div></header>
         <MarkdownRenderer source={revisionNote.body} glossary="maths" />
         <NoteStudyFooter note={note} section={{ ...section, id: revisionNote.id }} topic={{ id: group.id }} previous={page(previous)} next={page(next)} completeTopic={revisionNote.id === group.sections[group.sections.length - 1]?.id} />
       </article>

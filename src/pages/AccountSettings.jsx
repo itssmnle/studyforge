@@ -39,7 +39,7 @@ export default function AccountSettings() {
       <header className="settings-header"><span className="eyebrow">Account settings</span><h1>Settings</h1><p>Review your account and update your sign-in password.</p></header>
       <div className="settings-grid">
         <section className="settings-card account-summary-card">
-          <div className="settings-card-title"><FiUser /><div><h2>Account</h2><p>Your StudyForge identity</p></div></div>
+          <div className="settings-card-title"><FiUser /><div><h2>Account</h2><p>Your kojonote identity</p></div></div>
           <dl><div><dt>Full name</dt><dd>{user.fullName}</dd></div><div><dt>Username</dt><dd>@{user.username}</dd></div><div><dt>Account type</dt><dd>{user.role === "teacher" ? "Teacher" : "Student"}</dd></div>{user.profession && <div><dt>{user.role === "student" ? "Year group" : "Profession"}</dt><dd>{user.profession.replace(/^Year\s*/i, "Year ")}</dd></div>}</dl>
         </section>
         <section className="settings-card">

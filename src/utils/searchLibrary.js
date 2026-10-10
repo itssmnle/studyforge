@@ -12,8 +12,8 @@ const pages = [
   ["Past papers", "Exam papers and answer files", "/pastpapers", "notes"],
   ["Mock exams", "Timed examination practice", "/mockexams", "practice"],
   ["My courses", "Student dashboard and saved progress", "/launchpad", "notes"],
-  ["About StudyForge", "About the platform", "/about", "info"],
-  ["Join StudyForge", "Development, design and student ambassador roles", "/join", "account"],
+  ["About kojonote", "About the platform", "/about", "info"],
+  ["Join kojonote", "Development, design and student ambassador roles", "/join", "account"],
 ];
 
 const items = [

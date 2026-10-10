@@ -1,4 +1,4 @@
-# Adding StudyForge revision notes
+# Adding kojonote revision notes
 
 Create one Markdown file per curriculum topic:
 

@@ -5,8 +5,10 @@ import { scienceSubjects } from "../data/scienceCurriculum";
 import { mathsSubject } from "../data/subjectConfig";
 import { subjectIcons } from "../data/subjectVisuals";
 import { mathLessonsForYear } from "../utils/mathLessonLibrary";
+import { isTopicComplete, useCompletedNotes } from "../utils/noteProgress";
 import { getHomeworkSubmissions } from "../utils/progressStorage";
 import { masteryKey, useCourseMastery } from '../utils/courseMastery';
+import { usePublishedNotes } from "../utils/teacherNotes";
 import { getAssignments } from "../utils/assignmentStorage";
 import { classesForStudent } from "../utils/classStorage";
 import { useAuthModal } from "../context/AuthModalContext";
@@ -33,11 +35,22 @@ const mathsCourse = {
 };
 
 const dashboardCourses = [mathsCourse, ...scienceSubjects];
+const normaliseTopicName = (value = "") => value.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+const noteForScienceTopic = (subject, topic, notes) => notes.find((note) =>
+  note.subject === subject.id && (
+    note.topic === topic.id ||
+    note.topic === topic.noteTopic ||
+    normaliseTopicName(note.title) === normaliseTopicName(topic.name)
+  )
+);
 
 export default function StudentDashboard() {
   const navigate = useNavigate();
   const { user, openLogin, updateCourseSelection, dataLoading, dataError, retryData } = useAuthModal();
   const mastery = useCourseMastery(user?.uid);
+  const completedNotes = useCompletedNotes();
+  const { notes: publishedNotes } = usePublishedNotes();
   const defaultSubjectIds = dashboardCourses.map((subject) => subject.id);
   const selectedSubjectIds = user?.selectedSubjectIds?.length ? user.selectedSubjectIds : defaultSubjectIds;
   const [courseEditorOpen, setCourseEditorOpen] = useState(false);
@@ -138,11 +151,14 @@ export default function StudentDashboard() {
   };
 
   const revisionProgress = (subject) => {
-    const topicIds = subject.id === "maths"
-      ? subject.topics.flatMap((topic) => topic.groupIds)
-      : subject.topics.map((topic) => topic.id);
-    const completed = topicIds.filter((topicId) => mastery.records[masteryKey(subject.id, topicId)]?.notesRead).length;
-    return { completed, total: topicIds.length, percentage: topicIds.length ? Math.round((completed / topicIds.length) * 100) : 0 };
+    const topics = subject.id === "maths"
+      ? subject.topics.flatMap((year) => mathLessonsForYear(year.id).map((lesson) => ({ note: lesson, topicId: lesson.id })))
+      : subject.topics.map((topic) => ({ note: noteForScienceTopic(subject, topic, publishedNotes), topicId: topic.id }));
+    const completed = topics.filter(({ note, topicId }) => note
+      ? isTopicComplete(subject.id, note.topic, note.sections, completedNotes)
+      : mastery.records[masteryKey(subject.id, topicId)]?.notesRead
+    ).length;
+    return { completed, total: topics.length, percentage: topics.length ? Math.round((completed / topics.length) * 100) : 0 };
   };
 
   return (
@@ -150,7 +166,7 @@ export default function StudentDashboard() {
       <section className="profile-band">
         <div className="profile-band-inner">
           <div className="profile-avatar">{displayName.slice(0, 1).toUpperCase()}</div>
-          <div className="profile-copy"><h1>{displayName}</h1><p>@{user?.username || "guest"} · StudyForge learner</p></div>
+          <div className="profile-copy"><h1>{displayName}</h1><p>@{user?.username || "guest"} · kojonote learner</p></div>
           {!user && <button className="outline-action" onClick={() => openLogin("register")}>Create account</button>}
           {user && <span className="account-status"><FiSettings /> Synced account</span>}
         </div>
@@ -185,7 +201,7 @@ export default function StudentDashboard() {
             })}
           </section>
 
-          <header className="workspace-heading my-courses-heading"><div><span className="workspace-kicker">Your StudyForge</span><h2>My courses</h2></div><div className="workspace-actions"><button className={`course-edit-toggle${courseEditMode ? " active" : ""}`} type="button" onClick={() => { setCourseEditMode((current) => !current); setCourseError(""); }} aria-label={courseEditMode ? "Finish editing courses" : "Edit courses"}>{courseEditMode ? <FiX /> : <FiEdit2 />}</button><button className="blue-action" type="button" onClick={openCourseEditor}><FiPlus /> Add course</button></div></header>
+          <header className="workspace-heading my-courses-heading"><div><span className="workspace-kicker">Your kojonote</span><h2>My courses</h2></div><div className="workspace-actions"><button className={`course-edit-toggle${courseEditMode ? " active" : ""}`} type="button" onClick={() => { setCourseEditMode((current) => !current); setCourseError(""); }} aria-label={courseEditMode ? "Finish editing courses" : "Edit courses"}>{courseEditMode ? <FiX /> : <FiEdit2 />}</button><button className="blue-action" type="button" onClick={openCourseEditor}><FiPlus /> Add course</button></div></header>
 
           {courseError ? <p className="my-courses-error" role="alert">{courseError}</p> : null}
           <section className="my-courses-list" id="progress">

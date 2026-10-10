@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FiBookOpen, FiChevronDown, FiInfo, FiLayers, FiLogOut, FiSearch, FiSettings, FiTarget, FiUser } from "react-icons/fi";
-import logoLight from "../logo-light.svg";
-import logoDark from "../logo-dark.svg";
-import teacherLogoLight from "../logo-teachers-light.svg";
-import teacherLogoDark from "../logo-teachers-dark.svg";
+import logoLight from "../logo-light.webp";
+import logoDark from "../logo-dark.webp";
+import teacherLogoLight from "../logo-teachers-light.webp";
+import teacherLogoDark from "../logo-teachers-dark.webp";
 import { useAuthModal } from "../context/AuthModalContext";
 import { noteSubjects } from "../data/noteSubjects";
 import { subjectIcons } from "../data/subjectVisuals";
@@ -72,11 +72,11 @@ export default function Navbar() {
               {user?.role !== "teacher" && <section className="explore-subject-column"><span>Subjects</span>{exploreSubjectIds.map((id) => noteSubjects.find((subject) => subject.id === id)).filter(Boolean).map((subject) => { const SubjectIcon = subjectIcons[subject.id]; return <Link to={`/subjects/${subject.id}`} key={subject.id} onClick={closeExplore} style={{ "--subject-color": subject.color, "--subject-secondary": subject.secondaryColor }}><SubjectIcon className="course-dot" /><span className="explore-subject-name">{subject.name}{subject.id === "maths" ? <span className="explore-new-badge">New</span> : null}</span></Link>; })}</section>}
             </div>
           </div>
-          {user?.role !== "teacher" && <form className="nav-search" onSubmit={search}><FiSearch /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search everything" aria-label="Search all StudyForge resources" aria-expanded={Boolean(searchTerm)} aria-controls="course-search-results" />{searchTerm && <div className="nav-search-results" id="course-search-results" role="listbox">{searchResults.map((result) => { const Icon = searchIcons[result.icon] || FiSearch; return <Link role="option" to={result.to} key={result.id} onClick={() => setQuery("")}><Icon /><span><strong>{result.label}</strong><small>{result.detail}</small></span></Link>; })}{!searchResults.length && <p>No matching resources.</p>}</div>}</form>}
+          {user?.role !== "teacher" && <form className="nav-search" onSubmit={search}><FiSearch /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search everything" aria-label="Search all kojonote resources" aria-expanded={Boolean(searchTerm)} aria-controls="course-search-results" />{searchTerm && <div className="nav-search-results" id="course-search-results" role="listbox">{searchResults.map((result) => { const Icon = searchIcons[result.icon] || FiSearch; return <Link role="option" to={result.to} key={result.id} onClick={() => setQuery("")}><Icon /><span><strong>{result.label}</strong><small>{result.detail}</small></span></Link>; })}{!searchResults.length && <p>No matching resources.</p>}</div>}</form>}
         </div>
 
-        <Link className={`nav-brand ${isTeacherArea ? "teacher-brand" : ""}`} to={isTeacherArea ? "/teacher-tools" : "/"} aria-label={isTeacherArea ? "StudyForge For Teachers" : "StudyForge home"}>
-          {isTeacherArea ? <><img className="nav-brand-light" src={teacherLogoLight} alt="StudyForge For Teachers" /><img className="nav-brand-dark" src={teacherLogoDark} alt="StudyForge For Teachers" /></> : <><img className="nav-brand-light" src={logoLight} alt="StudyForge" /><img className="nav-brand-dark" src={logoDark} alt="StudyForge" /></>}
+        <Link className={`nav-brand ${isTeacherArea ? "teacher-brand" : ""}`} to={isTeacherArea ? "/teacher-tools" : "/"} aria-label={isTeacherArea ? "kojonote For Teachers" : "kojonote home"}>
+          {isTeacherArea ? <><img className="nav-brand-light" src={teacherLogoLight} alt="kojonote For Teachers" /><img className="nav-brand-dark" src={teacherLogoDark} alt="kojonote For Teachers" /></> : <><img className="nav-brand-light" src={logoLight} alt="kojonote" /><img className="nav-brand-dark" src={logoDark} alt="kojonote" /></>}
         </Link>
 
         <div className="nav-zone nav-zone-right">

@@ -1,8 +1,8 @@
 import "../styles/Footer.css";
 import { Link } from "react-router-dom";
 import { useAuthModal } from "../context/AuthModalContext";
-import logoLight from "../logo-light.svg";
-import logoDark from "../logo-dark.svg";
+import logoLight from "../logo-light.webp";
+import logoDark from "../logo-dark.webp";
 
 export default function Footer() {
   const { user } = useAuthModal();
@@ -12,9 +12,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand-column">
-          <Link className="footer-brand" to="/" aria-label="StudyForge home">
-            <img className="footer-brand-light" src={logoLight} alt="StudyForge" />
-            <img className="footer-brand-dark" src={logoDark} alt="StudyForge" />
+          <Link className="footer-brand" to="/" aria-label="kojonote home">
+            <img className="footer-brand-light" src={logoLight} alt="kojonote" />
+            <img className="footer-brand-dark" src={logoDark} alt="kojonote" />
           </Link>
           <p>Clear revision notes, flashcards, and short practice sets for focused study.</p>
         </div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>}
 
         <div className="footer-col">
-          <h4>StudyForge</h4>
+          <h4>kojonote</h4>
           <Link to="/about">About us</Link>
           <Link to="/join">Join the team</Link>
           {!user && <Link to="/teacher-tools">For teachers</Link>}
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} StudyForge. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} kojonote. All rights reserved.</p>
         <p>Designed for calm, focused revision.</p>
       </div>
     </footer>

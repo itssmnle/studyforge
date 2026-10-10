@@ -67,7 +67,7 @@ export default function Join() {
         </div>
         <div className="join-ambassador-copy">
           <header className="community-section-heading">
-            <span className="community-kicker">Student voice at StudyForge</span>
+            <span className="community-kicker">Student voice at kojonote</span>
             <h2>Read it. Question it. Improve it.</h2>
             <p>You do not need to be a subject expert. You need to notice where a student could lose the thread and explain what would make the material more useful.</p>
           </header>
@@ -94,8 +94,8 @@ export default function Join() {
       </section>
 
       <section className="community-cta community-cta-panel">
-        <div><span className="community-kicker">Shape the next version</span><h2>There is more than one way to make learning clearer.</h2><p>Bring student perspective, visual thinking, or technical skill to the team building StudyForge.</p></div>
-        <a className="community-primary" href="mailto:s01752@bvisvietnam.com?subject=Contributing%20to%20StudyForge">Find your place <FiArrowRight /></a>
+        <div><span className="community-kicker">Shape the next version</span><h2>There is more than one way to make learning clearer.</h2><p>Bring student perspective, visual thinking, or technical skill to the team building kojonote.</p></div>
+        <a className="community-primary" href="mailto:s01752@bvisvietnam.com?subject=Contributing%20to%20kojonote">Find your place <FiArrowRight /></a>
       </section>
     </main>
   );

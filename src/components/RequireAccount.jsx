@@ -12,7 +12,7 @@ export default function RequireAccount({ children, description = "Your courses, 
   const [pending, setPending] = useState(false);
   const [error, setError] = useState("");
 
-  if (!authReady) return <main className="platform-shell access-page"><LoadingState label="Loading your account!" detail="Checking your secure StudyForge session" /></main>;
+  if (!authReady) return <main className="platform-shell access-page"><LoadingState label="Loading your account!" detail="Checking your secure kojonote session" /></main>;
   if (user) return children;
 
   const submit = async (event) => {

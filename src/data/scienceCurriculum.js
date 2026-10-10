@@ -13,11 +13,11 @@ export const scienceSubjects = [
       { id: "year-8-gas-exchange-systems", name: "Gas Exchange Systems", description: "Ventilation, alveoli adaptations, gas exchange, and the effects of smoking.", subtopics: [] },
       { id: "year-8-photosynthesis", name: "Photosynthesis", description: "The photosynthesis equation, leaf structure, gas exchange, and starch testing.", subtopics: [] },
       { id: "year-8-respiration", name: "Respiration", description: "Aerobic and anaerobic respiration, energy release, fermentation, and carbon dioxide testing.", subtopics: [] },
-      { id: "year-9-chacteristics-of-living-beings", name: "Characteristics of Living Beings", subtopics: ["Seven life processes (MRS GREN)", "Respiration vs breathing", "Excretion vs egestion"] },
-      { id: "year-9-cells-and-organisation", name: "Cells and Organisation", subtopics: ["Cell structure and organelles", "Specialised cells and magnification", "Levels of organisation"] },
-      { id: "year-9-movement-into-and-out-of-cells", name: "Movement into and out of Cells", subtopics: ["Diffusion", "Osmosis and water potential", "Active transport"] },
-      { id: "year-9-biological-molecules", name: "Biological Molecules", subtopics: ["Elements in nutrients (C, H, O, N)", "Building blocks of large molecules", "Biochemical food tests"] },
-      { id: "year-9-enzymes", name: "Enzymes", subtopics: ["Lock and Key model", "Factors affecting activity (temperature and pH)", "Denaturation and digestive enzymes"] }
+      { id: "year-9-chacteristics-of-living-beings", noteTopic: "b1-characteristics-of-living-organisms", name: "Characteristics of Living Beings", subtopics: ["Seven life processes (MRS GREN)", "Respiration vs breathing", "Excretion vs egestion"] },
+      { id: "year-9-cells-and-organisation", noteTopic: "b2-cells-and-organisation", name: "Cells and Organisation", subtopics: ["Cell structure and organelles", "Specialised cells and magnification", "Levels of organisation"] },
+      { id: "year-9-movement-into-and-out-of-cells", noteTopic: "b3-movement-into-and-out-of-cells", name: "Movement into and out of Cells", subtopics: ["Diffusion", "Osmosis and water potential", "Active transport"] },
+      { id: "year-9-biological-molecules", noteTopic: "b4-biological-molecules", name: "Biological Molecules", subtopics: ["Elements in nutrients (C, H, O, N)", "Building blocks of large molecules", "Biochemical food tests"] },
+      { id: "year-9-enzymes", noteTopic: "b5-enzymes", name: "Enzymes", subtopics: ["Lock and Key model", "Factors affecting activity (temperature and pH)", "Denaturation and digestive enzymes"] }
     ]
   },
   {
@@ -33,9 +33,9 @@ export const scienceSubjects = [
       { id: "year-7-pure-and-impure-substances", name: "Pure and Impure Substances", description: "Pure substances, mixtures, filtration, crystallisation, distillation, and chromatography.", subtopics: [] },
       { id: "year-8-chemical-reactions", name: "Chemical Reactions", description: "Reaction evidence, combustion, decomposition, acids, alkalis, and conservation of mass.", subtopics: [] },
       { id: "year-8-periodic-table", name: "Periodic Table", description: "Groups, periods, Group 1 metals, Group 7 halogens, and Group 0 noble gases.", subtopics: [] },
-      { id: "year-9-states-of-matter", name: "States of Matter", subtopics: ["Particle model and state changes", "Heating and cooling curves", "Gas pressure and diffusion rates"] },
-      { id: "year-9-atoms-and-isotopes", name: "Atoms and Isotopes", subtopics: ["Subatomic particles and atomic structure", "Electronic configurations (1–20)", "Isotopes and ions"] },
-      { id: "year-9-chemical-bonding", name: "Chemical Bonding", subtopics: ["Ionic bonding and giant lattices", "Covalent bonding and simple molecules", "Giant covalent structures and metallic bonding"] }
+      { id: "year-9-states-of-matter", noteTopic: "c1-states-of-matter", name: "States of Matter", subtopics: ["Particle model and state changes", "Heating and cooling curves", "Gas pressure and diffusion rates"] },
+      { id: "year-9-atoms-and-isotopes", noteTopic: "c2-atoms-and-isotopes", name: "Atoms and Isotopes", subtopics: ["Subatomic particles and atomic structure", "Electronic configurations (1–20)", "Isotopes and ions"] },
+      { id: "year-9-chemical-bonding", noteTopic: "c2b-chemical-bonding", name: "Chemical Bonding", subtopics: ["Ionic bonding and giant lattices", "Covalent bonding and simple molecules", "Giant covalent structures and metallic bonding"] }
     ]
   },
   {
@@ -51,8 +51,8 @@ export const scienceSubjects = [
       { id: "year-7-forces", name: "Forces", description: "Balanced forces, resultant motion, Hooke's law, and work done.", subtopics: [] },
       { id: "year-8-electricity-in-circuits", name: "Electricity in Circuits", description: "Current, voltage, resistance, series circuits, parallel circuits, and circuit measurements.", subtopics: [] },
       { id: "year-8-sound-and-light", name: "Sound and Light", description: "Transverse and longitudinal waves, sound, reflection, refraction, and light speed.", subtopics: [] },
-      { id: "year-9-motion-and-forces", name: "Motion and Forces", subtopics: ["Speed, velocity and acceleration", "Distance–time and speed–time graphs", "Resultant forces and Newton's laws (F = ma)"] },
-      { id: "year-9-energy-and-work", name: "Energy and Work", subtopics: ["Energy stores and transfer pathways", "Kinetic and gravitational potential energy", "Work done and conservation of energy"] }
+      { id: "year-9-motion-and-forces", noteTopic: "p1-motion-and-forces", name: "Motion and Forces", subtopics: ["Speed, velocity and acceleration", "Distance–time and speed–time graphs", "Resultant forces and Newton's laws (F = ma)"] },
+      { id: "year-9-energy-and-work", noteTopic: "p1-energy-and-work", name: "Energy and Work", subtopics: ["Energy stores and transfer pathways", "Kinetic and gravitational potential energy", "Work done and conservation of energy"] }
     ]
   }
 ];

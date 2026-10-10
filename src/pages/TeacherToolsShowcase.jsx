@@ -20,7 +20,7 @@ export default function TeacherToolsShowcase() {
     <main className="teacher-showcase">
       <section className="teacher-showcase-hero">
         <div className="teacher-showcase-copy">
-          <span className="eyebrow">StudyForge for teachers</span>
+          <span className="eyebrow">kojonote for teachers</span>
           <h1>Assign work, understand answers, and act on the gaps.</h1>
           <p>A focused teacher workspace for organising classes, building science homework, and seeing exactly where students need support.</p>
           <div className="teacher-showcase-actions">

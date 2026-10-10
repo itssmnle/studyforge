@@ -10,7 +10,7 @@ const blankSource = (title, qualification = "KS4") => `---
 title: ${title}
 summary: A concise summary of this topic.
 qualification: ${qualification}
-author: StudyForge Teaching Team
+author: kojonote Teaching Team
 updated: ${new Date().toISOString().slice(0, 10)}
 ---
 

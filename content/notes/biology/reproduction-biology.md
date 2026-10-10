@@ -2,7 +2,7 @@
 title: Reproduction
 summary: Revision notes covering the human reproductive systems, the menstrual cycle, fertilisation, gestation, birth, and plant reproduction including flowers, pollination, and seed dispersal.
 qualification: KS4
-author: StudyForge Science Team
+author: kojonote Science Team
 updated: 2026-09-09
 ---
 

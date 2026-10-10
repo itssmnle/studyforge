@@ -56,7 +56,7 @@ export default function MarkdownNotePage() {
   if (sectionIndex === -1) return <Navigate to={`/notes/${subjectId}/${topicId}/${note.sections[0]?.id || ""}`} replace />;
 
   const section = note.sections[sectionIndex];
-  const curriculumTopic = scienceSubject?.topics.find((item) => normalise(item.name) === normalise(note.title));
+  const curriculumTopic = scienceSubject?.topics.find((item) => item.id === note.topic || item.noteTopic === note.topic || normalise(item.name) === normalise(note.title));
   const flashcardDeck = curriculumTopic ? flashcardDeckForTopic(subjectId, curriculumTopic.id) : null;
   const sameCourse = (item) => note.year ? item.year === note.year : !item.year;
   const pages = notes.filter((item) => item.subject === subjectId && sameCourse(item)).flatMap((subjectNote) => subjectNote.sections.map((subjectSection) => ({ note: subjectNote, section: subjectSection })));

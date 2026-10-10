@@ -78,7 +78,7 @@ export default function QuestionBankEditor() {
       prompt: form.prompt.trim(),
       answer: form.type === "numerical" ? Number(form.answer) : form.answer.trim(),
       explanation: form.explanation.trim(),
-      provenance: "StudyForge teacher authored",
+      provenance: "kojonote teacher authored",
       specificationTags: [],
       ...(form.type === "multiple-choice" ? { options } : {}),
       ...(form.type === "short-answer" ? { acceptableAnswers: [form.answer.trim()] } : {}),

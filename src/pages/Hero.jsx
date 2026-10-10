@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="home-hero-copy">
           <span className="home-proof"><FiStar /> Focused KS3 maths and KS4 science</span>
           <h1>Revision that keeps every next step clear.</h1>
-          <p>StudyForge brings curriculum-linked notes, flashcards, original questions, and teacher-assigned homework into <strong className="hero-highlight">one focused revision platform</strong>.</p>
+          <p>kojonote brings curriculum-linked notes, flashcards, original questions, and teacher-assigned homework into <strong className="hero-highlight">one focused revision platform</strong>.</p>
           <div className="home-actions">
             {user ? <Link className="home-primary" to={user.role === "teacher" ? "/teachers" : "/launchpad"}>{user.role === "teacher" ? "Open teacher dashboard" : "Continue learning"} <FiArrowRight /></Link> : <Link className="home-primary" to="/subjects/maths">Start learning free <FiArrowRight /></Link>}
           </div>
@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="method-steps">
           {methodSteps.map(({ title, subtitle, copy, benefit, art }, index) => <article key={title}><div className="method-art" aria-hidden="true"><img src={art} alt="" /></div><div className="method-copy"><header><span>{index + 1}</span><div><h3>{title}</h3><small>{subtitle}</small></div></header><hr /><p>{copy}</p><strong className="method-benefit">{benefit}</strong></div></article>)}
         </div>
-        <Link className="home-secondary home-method-link" to="/about">About StudyForge <FiArrowRight /></Link>
+        <Link className="home-secondary home-method-link" to="/about">About kojonote <FiArrowRight /></Link>
       </section>
 
       <section className="home-get-started">

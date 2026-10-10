@@ -30,8 +30,8 @@ export default function LoginModal() {
           <button className="login-close" onClick={closeLogin} aria-label="Close password help"><IoClose /></button>
           <span className="auth-kicker">Password help</span>
           <h2 id="recovery-title">Reset your password</h2>
-          <p className="auth-intro">StudyForge accounts use usernames, so Firebase cannot send these accounts an email reset link.</p>
-          <div className="password-recovery-card"><FiKey /><div><strong>Ask your teacher or StudyForge administrator</strong><p>They can issue a temporary password. Log in with it, then choose Settings and create a private password you will remember.</p></div></div>
+          <p className="auth-intro">kojonote accounts use usernames, so Firebase cannot send these accounts an email reset link.</p>
+          <div className="password-recovery-card"><FiKey /><div><strong>Ask your teacher or kojonote administrator</strong><p>They can issue a temporary password. Log in with it, then choose Settings and create a private password you will remember.</p></div></div>
           <button className="login-secondary" type="button" onClick={() => setAuthMode("login")}><FiArrowLeft /> Back to log in</button>
         </section>
       </div>
@@ -57,9 +57,9 @@ export default function LoginModal() {
     <div className="login-backdrop" onMouseDown={closeLogin}>
       <section className="login-modal academy-login" onMouseDown={(event) => event.stopPropagation()} aria-modal="true" role="dialog" aria-labelledby="auth-title">
         <button className="login-close" onClick={closeLogin} aria-label="Close sign in"><IoClose /></button>
-        <span className="auth-kicker">StudyForge account</span>
+        <span className="auth-kicker">kojonote account</span>
         <h2 id="auth-title">{authMode === "register" ? "Create your account" : "Welcome back"}</h2>
-        <p className="auth-intro">{authMode === "register" ? "Create a student account and keep your progress securely synced." : "Sign in with your StudyForge username and password."}</p>
+        <p className="auth-intro">{authMode === "register" ? "Create a student account and keep your progress securely synced." : "Sign in with your kojonote username and password."}</p>
 
         <div className="auth-tabs" role="tablist">
           <button className={authMode === "login" ? "active" : ""} onClick={() => setAuthMode("login")} type="button">Log in</button>
