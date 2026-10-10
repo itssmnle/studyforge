@@ -53,23 +53,23 @@ function LegacySubjectRedirect() {
 }
 
 function getPageTitle(pathname) {
-  if (pathname === "/") return "kojonote";
-  if (pathname.startsWith("/practice/") || pathname === "/examquestions") return "kojonote | Practice";
-  if (pathname.startsWith("/mockexams")) return "kojonote | Mock Exams";
-  if (pathname.startsWith("/notes")) return "kojonote | Notes";
-  if (pathname === "/my-notes") return "kojonote | My Notes";
-  if (pathname.startsWith("/flashcards")) return "kojonote | Flashcards";
-  if (pathname.startsWith("/pastpapers")) return "kojonote | Past Papers";
-  if (pathname.startsWith("/science/")) return "kojonote | Science";
-  if (pathname.startsWith("/subjects/")) return "kojonote | Subject";
-  if (pathname.startsWith("/learn/")) return "kojonote | Learning";
-  if (pathname === "/launchpad") return "kojonote | Dashboard";
-  if (pathname === "/ambassadors") return "kojonote | Ambassadors";
-  if (pathname === "/join") return "kojonote | Join";
-  if (pathname === "/about") return "kojonote | About";
-  if (pathname === "/teacher-tools" || pathname.startsWith("/teachers")) return "kojonote | Teachers";
-  if (pathname === "/settings") return "kojonote | Settings";
-  return "kojonote";
+  if (pathname === "/") return "Kojonote";
+  if (pathname.startsWith("/practice/") || pathname === "/examquestions") return "Kojonote | Practice";
+  if (pathname.startsWith("/mockexams")) return "Kojonote | Mock Exams";
+  if (pathname.startsWith("/notes")) return "Kojonote | Notes";
+  if (pathname === "/my-notes") return "Kojonote | My Notes";
+  if (pathname.startsWith("/flashcards")) return "Kojonote | Flashcards";
+  if (pathname.startsWith("/pastpapers")) return "Kojonote | Past Papers";
+  if (pathname.startsWith("/science/")) return "Kojonote | Science";
+  if (pathname.startsWith("/subjects/")) return "Kojonote | Subject";
+  if (pathname.startsWith("/learn/")) return "Kojonote | Learning";
+  if (pathname === "/launchpad") return "Kojonote | Dashboard";
+  if (pathname === "/ambassadors") return "Kojonote | Ambassadors";
+  if (pathname === "/join") return "Kojonote | Join";
+  if (pathname === "/about") return "Kojonote | About";
+  if (pathname === "/teacher-tools" || pathname.startsWith("/teachers")) return "Kojonote | Teachers";
+  if (pathname === "/settings") return "Kojonote | Settings";
+  return "Kojonote";
 }
 
 export default function App() {
@@ -140,7 +140,7 @@ export default function App() {
           {!isFocusedSession && <StudentBreadcrumbs />}
 
           <div className={`app-route-stage${isFocusedSession || isFlushLanding ? " app-route-stage-flush" : ""}`}>
-            <Suspense fallback={<main className="platform-shell"><LoadingState label="Loading kojonote" detail="Preparing this page" /></main>}><Routes>
+            <Suspense fallback={<main className="platform-shell"><LoadingState label="Loading Kojonote" detail="Preparing this page" /></main>}><Routes>
             <Route path="/learn/:subject/:topic" element={<HideFromTeachers><CourseUnit /></HideFromTeachers>} />
             <Route path="/learn/:subject/:topic/notes" element={<HideFromTeachers><ScienceLessonReader /></HideFromTeachers>} />
             <Route path="/learn/:subject/:topic/notes/:section" element={<HideFromTeachers><ScienceLessonReader /></HideFromTeachers>} />

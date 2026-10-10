@@ -7,8 +7,12 @@
       "hosting": {
         "studyforge": [
           "studyforge"
+        ],
+        "kojonote": [
+          "kojonote"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }

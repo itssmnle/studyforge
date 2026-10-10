@@ -2,7 +2,7 @@
 title: Cells and Organisation
 summary: Revision notes covering cell structure, organelles, diffusion, specialised cells, and the levels of organisation in multicellular organisms.
 qualification: KS4
-author: kojonote Science Team
+author: Kojonote Science Team
 updated: 2026-09-09
 ---
 

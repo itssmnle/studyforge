@@ -12,9 +12,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand-column">
-          <Link className="footer-brand" to="/" aria-label="kojonote home">
-            <img className="footer-brand-light" src={logoLight} alt="kojonote" />
-            <img className="footer-brand-dark" src={logoDark} alt="kojonote" />
+          <Link className="footer-brand" to="/" aria-label="Kojonote home">
+            <img className="footer-brand-light" src={logoLight} alt="Kojonote" />
+            <img className="footer-brand-dark" src={logoDark} alt="Kojonote" />
           </Link>
           <p>Clear revision notes, flashcards, and short practice sets for focused study.</p>
         </div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>}
 
         <div className="footer-col">
-          <h4>kojonote</h4>
+          <h4>Kojonote</h4>
           <Link to="/about">About us</Link>
           <Link to="/join">Join the team</Link>
           {!user && <Link to="/teacher-tools">For teachers</Link>}
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} kojonote. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Kojonote. All rights reserved.</p>
         <p>Designed for calm, focused revision.</p>
       </div>
     </footer>

@@ -2,7 +2,7 @@
 title: Nutrition, Digestion, and Health
 summary: Revision notes covering the components of a balanced diet, dietary imbalances, the digestive system, enzymes, and the effects of lifestyle choices on health.
 qualification: KS4
-author: kojonote Science Team
+author: Kojonote Science Team
 updated: 2026-09-09
 ---
 

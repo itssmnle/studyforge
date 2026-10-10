@@ -68,6 +68,6 @@ export const loadFlashcardQuestionsForTopic = async (subjectId, topicId) => {
     difficulty: "Recall",
     marks: 1,
     subtopic: deck.title,
-    provenance: "kojonote flashcards",
+    provenance: "Kojonote flashcards",
   }));
 };

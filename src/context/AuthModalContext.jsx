@@ -62,7 +62,7 @@ export function AuthModalProvider({ children }) {
     if (sessionLoad.current?.uid === firebaseUser.uid) return sessionLoad.current.promise;
     setUser(current => current?.uid === firebaseUser.uid ? current : null);
     const promise = getProfile(firebaseUser.uid).then(profile => {
-      if (!profile) throw new Error('This account has no kojonote profile.');
+      if (!profile) throw new Error('This account has no Kojonote profile.');
       if (firebaseAuth.currentUser?.uid !== firebaseUser.uid) throw new Error('Sign-in was cancelled.');
       let previous;
       try { previous = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null'); } catch { /* Invalid cached session. */ }

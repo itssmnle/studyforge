@@ -2,7 +2,7 @@
 title: Body Systems and Movement
 summary: Revision notes covering the structure and functions of the human skeleton, muscles, joints, and how antagonistic muscle pairs work together to create movement.
 qualification: KS4
-author: kojonote Science Team
+author: Kojonote Science Team
 updated: 2026-09-09
 ---
 

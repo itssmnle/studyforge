@@ -12,7 +12,7 @@ const flashcardSubjectOrder = ["Maths", "Biology", "Chemistry", "Physics"];
 export default function FlashcardSubjects() {
   return (
     <main className="flash-library-page flash-library-landing">
-      <header className="flash-library-header resource-page-hero"><div className="resource-page-hero-copy"><span className="eyebrow">Recall practice</span><h1>Flashcards</h1><p>Select a subject, then use the chapter sidebar to move through its revision decks.</p></div><img className="resource-page-hero-art" src={flashcardsArt} alt="Preview of kojonote flashcards" /></header>
+      <header className="flash-library-header resource-page-hero"><div className="resource-page-hero-copy"><span className="eyebrow">Recall practice</span><h1>Flashcards</h1><p>Select a subject, then use the chapter sidebar to move through its revision decks.</p></div><img className="resource-page-hero-art" src={flashcardsArt} alt="Preview of Kojonote flashcards" /></header>
       <section className="subject-card-grid" aria-label="Flashcard subjects">
         {flashcardSubjectOrder.filter((subject) => flashcardDecks[subject]).map((subject) => {
           const chapters = flashcardDecks[subject];

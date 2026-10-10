@@ -2,7 +2,7 @@
 title: Genetics, Evolution, and Variation
 summary: Revision notes covering heredity and DNA, variation within species, natural selection and evolution, and the importance of biodiversity.
 qualification: KS4
-author: kojonote Science Team
+author: Kojonote Science Team
 updated: 2026-09-09
 ---
 

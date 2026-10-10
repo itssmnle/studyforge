@@ -1,4 +1,4 @@
-# Adding kojonote revision notes
+# Adding Kojonote revision notes
 
 Create one Markdown file per curriculum topic:
 

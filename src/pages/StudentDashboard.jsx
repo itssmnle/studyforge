@@ -166,7 +166,7 @@ export default function StudentDashboard() {
       <section className="profile-band">
         <div className="profile-band-inner">
           <div className="profile-avatar">{displayName.slice(0, 1).toUpperCase()}</div>
-          <div className="profile-copy"><h1>{displayName}</h1><p>@{user?.username || "guest"} · kojonote learner</p></div>
+          <div className="profile-copy"><h1>{displayName}</h1><p>@{user?.username || "guest"} · Kojonote learner</p></div>
           {!user && <button className="outline-action" onClick={() => openLogin("register")}>Create account</button>}
           {user && <span className="account-status"><FiSettings /> Synced account</span>}
         </div>
@@ -201,7 +201,7 @@ export default function StudentDashboard() {
             })}
           </section>
 
-          <header className="workspace-heading my-courses-heading"><div><span className="workspace-kicker">Your kojonote</span><h2>My courses</h2></div><div className="workspace-actions"><button className={`course-edit-toggle${courseEditMode ? " active" : ""}`} type="button" onClick={() => { setCourseEditMode((current) => !current); setCourseError(""); }} aria-label={courseEditMode ? "Finish editing courses" : "Edit courses"}>{courseEditMode ? <FiX /> : <FiEdit2 />}</button><button className="blue-action" type="button" onClick={openCourseEditor}><FiPlus /> Add course</button></div></header>
+          <header className="workspace-heading my-courses-heading"><div><span className="workspace-kicker">Your Kojonote</span><h2>My courses</h2></div><div className="workspace-actions"><button className={`course-edit-toggle${courseEditMode ? " active" : ""}`} type="button" onClick={() => { setCourseEditMode((current) => !current); setCourseError(""); }} aria-label={courseEditMode ? "Finish editing courses" : "Edit courses"}>{courseEditMode ? <FiX /> : <FiEdit2 />}</button><button className="blue-action" type="button" onClick={openCourseEditor}><FiPlus /> Add course</button></div></header>
 
           {courseError ? <p className="my-courses-error" role="alert">{courseError}</p> : null}
           <section className="my-courses-list" id="progress">

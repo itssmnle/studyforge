@@ -2,7 +2,7 @@
 title: Gas Exchange and Respiration
 summary: Revision notes covering the structure of the human breathing system, the mechanism of breathing, lung volume, and the chemical reactions of aerobic and anaerobic respiration.
 qualification: KS4
-author: kojonote Science Team
+author: Kojonote Science Team
 updated: 2026-09-09
 ---
 

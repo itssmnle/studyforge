@@ -58,18 +58,18 @@ export default function About() {
   return (
     <main className="community-page about-page">
       <section className="about-intro" aria-labelledby="about-title">
-        <span className="community-kicker">About kojonote</span>
+        <span className="community-kicker">About Kojonote</span>
         <h1 id="about-title">Revision with a clear next step.</h1>
         <p>
-          kojonote is a revision workspace that brings <mark>learning, recall, and practice</mark> into one connected route. Students spend less time organising resources and more time working on what they need to understand.
+          Kojonote is a revision workspace that brings <mark>learning, recall, and practice</mark> into one connected route. Students spend less time organising resources and more time working on what they need to understand.
         </p>
         <div className="about-intro-actions">
-          <Link className="community-primary" to="/join">Help shape kojonote <FiArrowRight /></Link>
+          <Link className="community-primary" to="/join">Help shape Kojonote <FiArrowRight /></Link>
         </div>
       </section>
 
       <nav className="about-index" aria-label="About page sections">
-        <div role="tablist" aria-label="About kojonote">
+        <div role="tablist" aria-label="About Kojonote">
           {aboutSections.map(([id, label]) => (
             <button
               aria-controls="about-tab-panel"
@@ -103,7 +103,7 @@ export default function About() {
 
             <div className="about-loop-panel">
               <div className="about-loop-visual">
-                <span>The kojonote revision loop</span>
+                <span>The Kojonote revision loop</span>
                 <img src={revisionLoop} alt="Learn, practise, improve, and repeat" />
               </div>
               <div className="about-route-grid">
@@ -130,7 +130,7 @@ export default function About() {
                 <img src={rememberIllustration} alt="" />
               </div>
             </div>
-            <div className="about-principles" aria-label="kojonote principles">
+            <div className="about-principles" aria-label="Kojonote principles">
               <article><FiBookOpen /><strong>Clear by design</strong><span>Focused pages, readable explanations, and fewer distractions.</span></article>
               <article><FiRepeat /><strong>Connected by default</strong><span>Each activity leads naturally to the next useful step.</span></article>
               <article><FiCheckCircle /><strong>Precise about progress</strong><span>Results show what happened without pretending a score tells the whole story.</span></article>
@@ -143,7 +143,7 @@ export default function About() {
             <div className="about-mission-copy">
               <span className="community-kicker">Our mission</span>
               <h2>Make effective revision easier to begin and easier to continue.</h2>
-              <p>Students should be able to open a topic, understand the key idea, practise it, and know what to do next. kojonote is being built around that practical loop.</p>
+              <p>Students should be able to open a topic, understand the key idea, practise it, and know what to do next. Kojonote is being built around that practical loop.</p>
               <div className="about-boundary-points">
                 <span><FiUsers /> Useful classroom evidence</span>
                 <span><FiLock /> Private independent revision</span>
@@ -174,8 +174,8 @@ export default function About() {
                 <figure><img src={ambassadorIllustration} alt="" /><figcaption>Review</figcaption></figure>
               </div>
               <div className="about-join-actions">
-                <Link className="community-primary" to="/join">Help shape kojonote <FiArrowRight /></Link>
-                <Link className="community-secondary" to="/subjects/maths">Explore kojonote</Link>
+                <Link className="community-primary" to="/join">Help shape Kojonote <FiArrowRight /></Link>
+                <Link className="community-secondary" to="/subjects/maths">Explore Kojonote</Link>
               </div>
             </div>
           </section>

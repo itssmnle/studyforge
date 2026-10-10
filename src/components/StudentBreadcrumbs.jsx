@@ -72,7 +72,7 @@ function breadcrumbsFor(pathname, search) {
     pastpapers: "Past papers",
     settings: "Account settings",
     ambassadors: "Ambassadors",
-    join: "Join kojonote",
+    join: "Join Kojonote",
     about: "About us",
   };
   trails.push(crumb(labels[parts[0]] || titleFromSlug(parts[0])));
