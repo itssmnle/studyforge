@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { FiArrowRight, FiChevronDown, FiSearch } from "react-icons/fi";
 import { NoteProgressNode, TopicProgressRing } from "../components/NoteProgressIndicators";
@@ -19,13 +19,13 @@ export default function SubjectNotesContent() {
   const [activeLevel, setActiveLevel] = useState(scienceSubject ? "year-7" : "ks4");
   const [expandedChapters, setExpandedChapters] = useState(() => new Set());
   const query = search.trim().toLocaleLowerCase("en-GB");
-  const allSubjectNotes = useMemo(() => notes.filter((note) => note.subject === id), [id, notes]);
+  const allSubjectNotes = notes.filter((note) => note.subject === id);
   const hasScienceYears = scienceSubject && availableLevels.some((year) => allSubjectNotes.some((note) => note.year === year));
   const effectiveLevel = hasScienceYears ? (availableLevels.includes(activeLevel) ? activeLevel : availableLevels[0]) : "ks4";
-  const subjectNotes = useMemo(() => allSubjectNotes.filter((note) => scienceSubject && hasScienceYears ? note.year === effectiveLevel : !note.year), [effectiveLevel, allSubjectNotes, scienceSubject, hasScienceYears]);
-  const visibleNotes = useMemo(() => query
+  const subjectNotes = allSubjectNotes.filter((note) => scienceSubject && hasScienceYears ? note.year === effectiveLevel : !note.year);
+  const visibleNotes = query
     ? subjectNotes.filter((note) => `${note.title} ${note.summary} ${note.sections.map((section) => section.title).join(" ")}`.toLocaleLowerCase("en-GB").includes(query))
-    : subjectNotes, [query, subjectNotes]);
+    : subjectNotes;
 
   if (!subject) return <Navigate to="/notes" replace />;
 

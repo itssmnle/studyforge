@@ -11,12 +11,12 @@ import "../styles/SubjectOverview.css";
 
 export default function ScienceSubject() {
   const [menuCollapsed, setMenuCollapsed] = useState(false);
+  const [activeYear, setActiveYear] = useState("year-7");
   const { subject: subjectId } = useParams();
   const subject = findSubject(subjectId) || (subjectId === "maths" ? mathsSubject : null);
   if (!subject) return <Navigate to="/subjects/maths" replace />;
 
   const isMaths = subject.id === "maths";
-  const [activeYear, setActiveYear] = useState("year-7");
   const syllabus = syllabusForSubject(subject.id, activeYear);
   const resources = [
     { label: "Revision Notes", description: `Read structured ${subject.name} notes by chapter and topic.`, icon: FiBookOpen, to: isMaths ? "/notes/maths" : `/notes/${subject.id}`, action: "Open revision notes" },

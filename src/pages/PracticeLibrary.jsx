@@ -17,7 +17,7 @@ export default function PracticeLibrary() {
   const subject = practiceSubjects.find(item => item.id === params.get('subject'));
   const stage = params.get('step');
   const navigate = useNavigate();
-  const { user, openLogin } = useAuthModal();
+  const { user } = useAuthModal();
   const [selected, setSelected] = useState([]);
   const [types, setTypes] = useState(Object.keys(typeLabels));
   const [difficulties, setDifficulties] = useState(['Easy', 'Medium', 'Hard']);
